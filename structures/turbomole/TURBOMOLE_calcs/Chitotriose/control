@@ -1,0 +1,85 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+$optimize
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+c  1-6,9-10,12-14,18-20,23-25,29                                               \
+   basis =c def2-TZVP                                                          \
+   jbas  =c def2-TZVP
+o  7-8,11,15,17,21-22,26,28,30,32-34                                           \
+   basis =o def2-TZVP                                                          \
+   jbas  =o def2-TZVP
+n  16,27,31                                                                    \
+   basis =n def2-TZVP                                                          \
+   jbas  =n def2-TZVP
+h  35-69                                                                       \
+   basis =h def2-TZVP                                                          \
+   jbas  =h def2-TZVP
+$basis    file=basis
+$scfmo    file=mos
+$closed shells
+ a       1-134                                  ( 2 )
+$scfiterlimit       30
+$thize     0.10000000E-04
+$thime        5
+$scfdamp   start=0.300  step=0.050  min=0.100
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$dft
+    functional   b3-lyp
+    gridsize   m4
+$scfconv   7
+$ricore     8000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=69
+   nbf(CAO)=1434
+   nbf(AO)=1264
+$last step     tm2molden
+$cosmo_out file=Chitotriose.cosmo
+$moldenfile file=Chitotriose.molden
+$xctype hybrid-GGA X= 0.20000 (not to be modified here)
+$last SCF energy change = -.56837644E-06
+$charge from ridft
+          0.000 (not to be modified here)
+$dipole from ridft
+  x     0.50823439630645    y     0.13281810557806    z    -1.73631495821296    a.u.
+   | dipole | =    4.6108585634  debye
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$orbital_max_rnorm 0.66472352822992E-04
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-1848.836380146    -10953.70983697     5071.964207394    -185.2783876632    -10.96517422499     4229.152811316
+$end

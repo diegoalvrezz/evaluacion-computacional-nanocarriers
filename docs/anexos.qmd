@@ -1,0 +1,71 @@
+---
+title: " "
+author: " "
+
+format:
+  pdf:
+    documentclass: memoir
+    classoption: [a4paper, 12pt, twoside, openany]
+    pdf-engine: pdflatex
+    include-in-header: preambulo_anexos.tex
+    maketitle: false
+    keep-tex: false
+    number-sections: true
+    toc: false
+    toc-depth: 3
+    lof: false
+    lot: false
+    cite-method: natbib
+    biblio-style: apalike
+    bibliography: bibliografiaAnexos.bib
+    lang: es
+
+knitr:
+  opts_chunk:
+    echo: true
+    warning: false
+    message: false
+    fig.pos: "!h"
+    out.width: "90%"
+    fig.align: "center"
+---
+
+```{=latex}
+\title{Evaluación computacional de nanopartículas poliméricas y
+dendrímeros como sistemas de liberación de fármacos:
+acoplamiento molecular con proteínas de barrera biológica
+y modelos predictivos de eficiencia de transporte}
+\author{\nombre}
+\date{Curso académico 2025--2026}
+
+\maketitle
+```
+
+```{=latex}
+\frontmatter
+\clearpage
+\mainmatter
+\pagestyle{chapterfirst}
+\appendix
+
+\renewcommand{\contentsname}{Índice general}
+\renewcommand{\listfigurename}{Índice de figuras}
+\renewcommand{\listtablename}{Índice de tablas}
+
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+\clearpage
+\pagestyle{mipc}
+```
+
+{{< include qmd/A_planificacion.qmd >}}
+{{< include qmd/B_base_datos.qmd >}}
+{{< include qmd/C_dft_detalle.qmd >}}
+{{< include qmd/D_docking_completo.qmd >}}
+{{< include qmd/E_descriptores_ML.qmd >}}
+{{< include qmd/F_codigo.qmd >}}
+{{< include qmd/G_streamlit.qmd >}}
+{{< include qmd/H_ODS.qmd >}}

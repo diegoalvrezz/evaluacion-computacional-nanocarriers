@@ -1,0 +1,123 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+c  1,3-5,7-8,10,12,16-22,25-28,31                                              \
+   basis =c def2-TZVP                                                          \
+   jbas  =c def2-TZVP
+n  2,6,9,11,13-15,24                                                           \
+   basis =n def2-TZVP                                                          \
+   jbas  =n def2-TZVP
+o  23,29-30,32-33                                                              \
+   basis =o def2-TZVP                                                          \
+   jbas  =o def2-TZVP
+h  34-55                                                                       \
+   basis =h def2-TZVP                                                          \
+   jbas  =h def2-TZVP
+$basis    file=basis
+$scfmo    file=mos
+$closed shells
+ a       1-119                                  ( 2 )
+$scfiterlimit       30
+$thize     0.10000000E-04
+$thime        5
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$dft
+    functional   b3-lyp
+    gridsize   m4
+$scfconv   7
+$ricore     8000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=55
+   nbf(CAO)=1320
+   nbf(AO)=1155
+$last step     force
+$cosmo_out file=Methotrexate.cosmo
+$moldenfile file=Methotrexate.molden
+$scfiterlimit 500
+$xctype hybrid-GGA X= 0.20000 (not to be modified here)
+$last SCF energy change = -1589.3346
+$charge from ridft
+          0.000 (not to be modified here)
+$dipole from force
+  x     2.72283823721311    y    -0.00638723441467    z    -1.91864687380252    a.u.
+   | dipole | =    8.4664435657  debye
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$orbital_max_rnorm 0.11503339613246E-04
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-1589.334565212    -8241.138329610     3769.633650666    -163.7523606310    -9.708015482478     3055.630489845
+$dipgrad    file=dipgrad
+$hessian (projected)    file=hessian
+$vibrational normal modes    file=vib_normal_modes
+$vibrational reduced masses
+   5.7772048492   6.6283810226   8.3391312343   8.3229625194   7.6897641084
+   8.2711420632   8.0462371475   6.9440129511   6.4865998167   7.4432404230
+   5.4433876225   4.8586784129   9.0603142534   8.1132279243   4.7759542657
+   6.9081547893   6.1078782541   5.8270412770   5.7698155478   5.0586041719
+   6.6894765070   2.3140922415   2.1699030254   1.5699085234   4.7432301943
+   4.2872308296   4.9973089445   2.7202358380   2.9409376118   4.2449049633
+   1.2829869468   3.6744135359   3.2413824684   3.8762801035   4.4492692013
+   2.7775878039   4.6553466647   3.3562769785   4.4535686888   4.2071238133
+   3.9160603099   3.2070028808   2.5320948872   2.5917524673   2.0033381334
+   5.4128907639   4.7789177826   3.4847195778   3.4673507232   2.7940303462
+   5.9905939234   1.1628254549   3.5894657547   4.1778625676   2.4646674244
+   1.6564478720   2.1891218702   2.3367372731   2.1020409930   1.3889360450
+   6.7771098766   4.4443724694   6.9387101354   3.3448463552   6.8699647593
+   3.5626281042   3.7426801983   3.0111616932   7.0770086110   4.5571275520
+   5.3307059161   4.1345080127   1.3625668096   4.4079083845   1.9645556453
+   6.1541273248  10.7570591525   3.0848441613   2.7694293862   2.3600105165
+   1.4110536819   3.6879578763   1.6469502113   2.3408187087   1.3592860099
+   2.7411934496   2.5467777960   2.6244919619   2.4078995229   4.3115023043
+   2.6261868713   3.4894581045   2.0282638815   1.3694562899   3.1068252757
+   1.6857108259   1.5809201374   2.1004236797   2.7936646452   3.0088959413
+   2.1412966750   1.3317566892   1.4184001177   3.2581834343   1.3065648454
+   1.8271971602   1.6384513709   2.8437177713   1.9258761383   1.7081214199
+   3.3692093151   3.0471018135   1.8450762731   1.5863880443   1.5522504604
+   1.7331065040   1.7172972081   2.5039410291   2.9286605731   1.5299277020
+   3.4294677041   2.6256734743   1.2771217298   3.4875997040   1.0899364523
+   1.1093675738   1.1163873641   1.0700703955   4.0263281380   1.7735556822
+   2.6003710941   1.0929111344   4.8815026997   2.9058127203   5.7781930897
+   2.3922943278   2.8694240605   2.4262737425   5.3932728951   3.0361410808
+   9.4562327595   9.3613936259  10.0662674055   1.0707513893   1.0790999052
+   1.0471038141   1.0989531218   1.0640744265   1.0620844308   1.0878936862
+   1.1023760692   1.0956513019   1.1005784436   1.0908839639   1.0883683785
+   1.0886872391   1.0895700348   1.0912838830   1.0435118297   1.0440645309
+   1.0767519330   1.0640692032   1.0645272987   1.1063849243   1.1064205458
+$nvibro      165
+$vibrational spectrum    file=vibspectrum
+$end

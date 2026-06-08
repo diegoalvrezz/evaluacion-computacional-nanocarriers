@@ -1,0 +1,29 @@
+```{=latex}
+\capitulo{6}{Líneas de trabajo futuro}
+```
+
+El trabajo más evidente es ampliar el dataset. Con 200 a 500 moléculas,
+incluyendo generaciones superiores de PAMAM (G3-G5) y más variedad de
+ligandos de targeting, los modelos de regresión mejorarían notablemente.
+Con ese volumen de datos también sería posible probar arquitecturas de
+aprendizaje profundo como redes neuronales de grafos (GNN), que trabajan
+directamente con la estructura molecular en lugar de con descriptores
+numéricos calculados a mano.
+
+La validación experimental es el paso que más valor daría a las predicciones.
+Ensayos de inhibición de P-gp, estudios de captación celular mediada por TfR1
+o experimentos de biodistribución en animales permitirían comparar las
+energías de unión predichas con datos reales. Con esos datos también se
+podrían ajustar los pesos del ITI de forma empírica, en lugar de definirlos
+con criterio experto.
+
+En cuanto al docking, aplicar métodos más precisos como FEP o MM-GBSA a los
+candidatos top del ITI daría una caracterización energética más fiable. Estos
+métodos son mucho más lentos que AutoDock Vina, pero para un conjunto reducido
+de candidatos son abordables.
+
+La herramienta Streamlit tiene margen de mejora. Añadir un módulo de dibujo
+de estructuras moleculares directamente en el navegador, exportación de
+informes en PDF y conexión con bases de datos como PubChem o ChEMBL haría
+que fuera más útil para investigadores que no quieren trabajar con SMILES
+a mano.

@@ -1,0 +1,828 @@
+MODEL 1
+REMARK VINA RESULT:    -8.128      0.000      0.000
+REMARK INTER + INTRA:         -14.146
+REMARK INTER:                 -13.117
+REMARK INTRA:                  -1.029
+REMARK UNBOUND:                -1.029
+REMARK  Name = Methotrexate
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_16
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_10  and  N_15
+REMARK    6  A    between atoms: C_19  and  C_22
+REMARK    7  A    between atoms: N_24  and  CA_25
+REMARK    8  A    between atoms: CA_25  and  CB_26
+REMARK    9  A    between atoms: CA_25  and  C_31
+REMARK   10  A    between atoms: CB_26  and  CG_27
+REMARK   11  A    between atoms: CG_27  and  CD_28
+REMARK   12  A    between atoms: CD_28  and  OE1_30
+REMARK   13  A    between atoms: C_31  and  O_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   0     164.991 152.664 149.871  0.00  0.00    +0.030 A 
+ATOM      2  C   UNK A   0     166.160 153.440 149.803  0.00  0.00    +0.024 A 
+ATOM      3  C   UNK A   0     166.348 154.553 150.629  0.00  0.00    +0.015 A 
+ATOM      4  C   UNK A   0     165.367 154.911 151.555  0.00  0.00    +0.037 A 
+ATOM      5  C   UNK A   0     164.190 154.161 151.630  0.00  0.00    +0.015 A 
+ATOM      6  C   UNK A   0     164.009 153.048 150.796  0.00  0.00    +0.024 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNK A   0     165.603 156.104 152.414  0.00  0.00    +0.245 C 
+ATOM      8  O   UNK A   0     166.423 156.062 153.324  0.00  0.00    -0.270 OA
+ATOM      9  N   GLU A   1     164.837 157.216 152.143  0.00  0.00    -0.298 N 
+ATOM     10  H   GLU A   1     164.001 157.121 151.575  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  GLU A   1     164.869 158.390 153.022  0.00  0.00    +0.182 C 
+BRANCH  11  12
+ATOM     12  C   GLU A   1     163.818 158.230 154.128  0.00  0.00    +0.325 C 
+ATOM     13  OXT GLU A   1     162.942 157.383 154.187  0.00  0.00    -0.249 OA
+BRANCH  12  14
+ATOM     14  O   GLU A   1     163.919 159.160 155.111  0.00  0.00    -0.479 OA
+ATOM     15  H   GLU A   1     163.406 158.761 155.849  0.00  0.00    +0.295 HD
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+BRANCH  11  16
+ATOM     16  CB  GLU A   1     164.606 159.676 152.219  0.00  0.00    +0.045 C 
+BRANCH  16  17
+ATOM     17  CG  GLU A   1     164.328 159.411 150.741  0.00  0.00    +0.123 C 
+BRANCH  17  18
+ATOM     18  CD  GLU A   1     165.266 160.190 149.863  0.00  0.00    +0.305 C 
+ATOM     19  OE2 GLU A   1     166.279 160.760 150.229  0.00  0.00    -0.251 OA
+BRANCH  18  20
+ATOM     20  OE1 GLU A   1     164.899 160.175 148.569  0.00  0.00    -0.481 OA
+ATOM     21  HE1 GLU A   1     165.545 159.574 148.142  0.00  0.00    +0.295 HD
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+ENDBRANCH   9  11
+ENDBRANCH   4   7
+BRANCH   1  23
+ATOM     22  C   UNK A   0     163.512 151.500 148.421  0.00  0.00    +0.129 C 
+ATOM     23  N   UNK A   0     164.861 151.557 149.008  0.00  0.00    -0.327 N 
+BRANCH  23  24
+ATOM     24  C   UNK A   0     165.370 150.265 149.507  0.00  0.00    +0.157 C 
+BRANCH  24  25
+ATOM     25  C   UNK A   0     166.336 149.633 148.527  0.00  0.00    +0.064 C 
+ATOM     26  C   UNK A   0     166.018 148.444 147.892  0.00  0.00    +0.183 C 
+ATOM     27  N   UNK A   0     166.842 147.845 146.999  0.00  0.00    -0.254 NA
+ATOM     28  C   UNK A   0     168.014 148.431 146.730  0.00  0.00    +0.170 C 
+ATOM     29  C   UNK A   0     168.342 149.629 147.377  0.00  0.00    +0.145 C 
+ATOM     30  N   UNK A   0     167.517 150.247 148.278  0.00  0.00    -0.246 NA
+ATOM     31  C   UNK A   0     169.590 150.131 147.026  0.00  0.00    +0.149 C 
+ATOM     32  N   UNK A   0     170.409 149.543 146.143  0.00  0.00    -0.200 NA
+ATOM     33  C   UNK A   0     169.974 148.421 145.580  0.00  0.00    +0.205 C 
+ATOM     34  N   UNK A   0     168.815 147.834 145.855  0.00  0.00    -0.161 NA
+ATOM     35  N   UNK A   0     170.805 147.803 144.672  0.00  0.00    -0.329 N 
+ATOM     36  H   UNK A   0     170.604 146.813 144.618  0.00  0.00    +0.145 HD
+ATOM     37  H   UNK A   0     171.764 148.081 144.827  0.00  0.00    +0.145 HD
+BRANCH  31  38
+ATOM     38  N   UNK A   0     170.050 151.340 147.614  0.00  0.00    -0.341 N 
+ATOM     39  H   UNK A   0     171.069 151.321 147.598  0.00  0.00    +0.144 HD
+ATOM     40  H   UNK A   0     169.800 151.313 148.601  0.00  0.00    +0.144 HD
+ENDBRANCH  31  38
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -8.022      4.688     11.761
+REMARK INTER + INTRA:         -13.975
+REMARK INTER:                 -12.635
+REMARK INTRA:                  -1.339
+REMARK UNBOUND:                -1.029
+REMARK  Name = Methotrexate
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_16
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_10  and  N_15
+REMARK    6  A    between atoms: C_19  and  C_22
+REMARK    7  A    between atoms: N_24  and  CA_25
+REMARK    8  A    between atoms: CA_25  and  CB_26
+REMARK    9  A    between atoms: CA_25  and  C_31
+REMARK   10  A    between atoms: CB_26  and  CG_27
+REMARK   11  A    between atoms: CG_27  and  CD_28
+REMARK   12  A    between atoms: CD_28  and  OE1_30
+REMARK   13  A    between atoms: C_31  and  O_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   0     164.881 156.979 152.198  0.00  0.00    +0.030 A 
+ATOM      2  C   UNK A   0     165.610 156.605 151.057  0.00  0.00    +0.024 A 
+ATOM      3  C   UNK A   0     165.664 155.275 150.628  0.00  0.00    +0.015 A 
+ATOM      4  C   UNK A   0     164.978 154.284 151.331  0.00  0.00    +0.037 A 
+ATOM      5  C   UNK A   0     164.258 154.632 152.478  0.00  0.00    +0.015 A 
+ATOM      6  C   UNK A   0     164.211 155.968 152.902  0.00  0.00    +0.024 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNK A   0     165.064 152.879 150.844  0.00  0.00    +0.245 C 
+ATOM      8  O   UNK A   0     164.551 151.967 151.484  0.00  0.00    -0.270 OA
+ATOM      9  N   GLU A   1     165.765 152.675 149.677  0.00  0.00    -0.298 N 
+ATOM     10  H   GLU A   1     166.389 153.400 149.336  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  GLU A   1     166.051 151.321 149.191  0.00  0.00    +0.182 C 
+BRANCH  11  12
+ATOM     12  C   GLU A   1     167.424 151.302 148.507  0.00  0.00    +0.325 C 
+ATOM     13  OXT GLU A   1     168.329 152.106 148.661  0.00  0.00    -0.249 OA
+BRANCH  12  14
+ATOM     14  O   GLU A   1     167.589 150.264 147.650  0.00  0.00    -0.479 OA
+ATOM     15  H   GLU A   1     166.866 150.396 146.997  0.00  0.00    +0.295 HD
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+BRANCH  11  16
+ATOM     16  CB  GLU A   1     164.961 150.855 148.210  0.00  0.00    +0.045 C 
+BRANCH  16  17
+ATOM     17  CG  GLU A   1     164.498 151.960 147.263  0.00  0.00    +0.123 C 
+BRANCH  17  18
+ATOM     18  CD  GLU A   1     164.771 151.598 145.830  0.00  0.00    +0.305 C 
+ATOM     19  OE2 GLU A   1     165.705 150.924 145.429  0.00  0.00    -0.251 OA
+BRANCH  18  20
+ATOM     20  OE1 GLU A   1     163.835 152.070 144.987  0.00  0.00    -0.481 OA
+ATOM     21  HE1 GLU A   1     162.995 151.979 145.486  0.00  0.00    +0.295 HD
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+ENDBRANCH   9  11
+ENDBRANCH   4   7
+BRANCH   1  23
+ATOM     22  C   UNK A   0     165.536 159.175 151.570  0.00  0.00    +0.129 C 
+ATOM     23  N   UNK A   0     164.870 158.335 152.579  0.00  0.00    -0.327 N 
+BRANCH  23  24
+ATOM     24  C   UNK A   0     165.246 158.635 153.974  0.00  0.00    +0.157 C 
+BRANCH  24  25
+ATOM     25  C   UNK A   0     164.172 159.435 154.681  0.00  0.00    +0.064 C 
+ATOM     26  C   UNK A   0     162.886 158.935 154.799  0.00  0.00    +0.183 C 
+ATOM     27  N   UNK A   0     161.893 159.605 155.433  0.00  0.00    -0.254 NA
+ATOM     28  C   UNK A   0     162.175 160.802 155.958  0.00  0.00    +0.170 C 
+ATOM     29  C   UNK A   0     163.473 161.314 155.832  0.00  0.00    +0.145 C 
+ATOM     30  N   UNK A   0     164.486 160.646 155.199  0.00  0.00    -0.246 NA
+ATOM     31  C   UNK A   0     163.637 162.571 156.405  0.00  0.00    +0.149 C 
+ATOM     32  N   UNK A   0     162.659 163.237 157.032  0.00  0.00    -0.200 NA
+ATOM     33  C   UNK A   0     161.477 162.636 157.105  0.00  0.00    +0.205 C 
+ATOM     34  N   UNK A   0     161.194 161.451 156.575  0.00  0.00    -0.161 NA
+ATOM     35  N   UNK A   0     160.460 163.309 157.746  0.00  0.00    -0.329 N 
+ATOM     36  H   UNK A   0     159.558 163.000 157.409  0.00  0.00    +0.145 HD
+ATOM     37  H   UNK A   0     160.646 164.302 157.752  0.00  0.00    +0.145 HD
+BRANCH  31  38
+ATOM     38  N   UNK A   0     164.906 163.208 156.343  0.00  0.00    -0.341 N 
+ATOM     39  H   UNK A   0     165.052 163.685 157.232  0.00  0.00    +0.144 HD
+ATOM     40  H   UNK A   0     164.839 163.953 155.651  0.00  0.00    +0.144 HD
+ENDBRANCH  31  38
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -7.940      1.511      2.087
+REMARK INTER + INTRA:         -13.843
+REMARK INTER:                 -13.050
+REMARK INTRA:                  -0.794
+REMARK UNBOUND:                -1.029
+REMARK  Name = Methotrexate
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_16
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_10  and  N_15
+REMARK    6  A    between atoms: C_19  and  C_22
+REMARK    7  A    between atoms: N_24  and  CA_25
+REMARK    8  A    between atoms: CA_25  and  CB_26
+REMARK    9  A    between atoms: CA_25  and  C_31
+REMARK   10  A    between atoms: CB_26  and  CG_27
+REMARK   11  A    between atoms: CG_27  and  CD_28
+REMARK   12  A    between atoms: CD_28  and  OE1_30
+REMARK   13  A    between atoms: C_31  and  O_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   0     164.781 152.968 150.892  0.00  0.00    +0.030 A 
+ATOM      2  C   UNK A   0     163.952 153.525 151.880  0.00  0.00    +0.024 A 
+ATOM      3  C   UNK A   0     164.164 154.818 152.367  0.00  0.00    +0.015 A 
+ATOM      4  C   UNK A   0     165.212 155.593 151.867  0.00  0.00    +0.037 A 
+ATOM      5  C   UNK A   0     166.057 155.052 150.893  0.00  0.00    +0.015 A 
+ATOM      6  C   UNK A   0     165.839 153.753 150.412  0.00  0.00    +0.024 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNK A   0     165.407 156.963 152.415  0.00  0.00    +0.245 C 
+ATOM      8  O   UNK A   0     166.266 157.177 153.263  0.00  0.00    -0.270 OA
+ATOM      9  N   GLU A   1     164.560 157.940 151.941  0.00  0.00    -0.298 N 
+ATOM     10  H   GLU A   1     163.708 157.672 151.458  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  GLU A   1     164.553 159.286 152.525  0.00  0.00    +0.182 C 
+BRANCH  11  12
+ATOM     12  C   GLU A   1     163.961 159.227 153.939  0.00  0.00    +0.325 C 
+ATOM     13  OXT GLU A   1     162.781 159.126 154.234  0.00  0.00    -0.249 OA
+BRANCH  12  14
+ATOM     14  O   GLU A   1     164.892 159.308 154.922  0.00  0.00    -0.479 OA
+ATOM     15  H   GLU A   1     165.730 159.440 154.425  0.00  0.00    +0.295 HD
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+BRANCH  11  16
+ATOM     16  CB  GLU A   1     163.742 160.254 151.647  0.00  0.00    +0.045 C 
+BRANCH  16  17
+ATOM     17  CG  GLU A   1     163.495 159.720 150.238  0.00  0.00    +0.123 C 
+BRANCH  17  18
+ATOM     18  CD  GLU A   1     164.635 160.060 149.320  0.00  0.00    +0.305 C 
+ATOM     19  OE2 GLU A   1     165.107 159.328 148.466  0.00  0.00    -0.251 OA
+BRANCH  18  20
+ATOM     20  OE1 GLU A   1     165.091 161.312 149.499  0.00  0.00    -0.481 OA
+ATOM     21  HE1 GLU A   1     164.458 161.872 149.002  0.00  0.00    +0.295 HD
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+ENDBRANCH   9  11
+ENDBRANCH   4   7
+BRANCH   1  23
+ATOM     22  C   UNK A   0     163.306 151.115 151.085  0.00  0.00    +0.129 C 
+ATOM     23  N   UNK A   0     164.516 151.658 150.445  0.00  0.00    -0.327 N 
+BRANCH  23  24
+ATOM     24  C   UNK A   0     165.660 150.728 150.405  0.00  0.00    +0.157 C 
+BRANCH  24  25
+ATOM     25  C   UNK A   0     165.671 149.914 149.127  0.00  0.00    +0.064 C 
+ATOM     26  C   UNK A   0     164.696 148.960 148.892  0.00  0.00    +0.183 C 
+ATOM     27  N   UNK A   0     164.654 148.215 147.761  0.00  0.00    -0.254 NA
+ATOM     28  C   UNK A   0     165.604 148.414 146.840  0.00  0.00    +0.170 C 
+ATOM     29  C   UNK A   0     166.596 149.373 147.078  0.00  0.00    +0.145 C 
+ATOM     30  N   UNK A   0     166.647 150.135 148.215  0.00  0.00    -0.246 NA
+ATOM     31  C   UNK A   0     167.533 149.476 146.056  0.00  0.00    +0.149 C 
+ATOM     32  N   UNK A   0     167.496 148.743 144.935  0.00  0.00    -0.200 NA
+ATOM     33  C   UNK A   0     166.492 147.881 144.817  0.00  0.00    +0.205 C 
+ATOM     34  N   UNK A   0     165.555 147.677 145.736  0.00  0.00    -0.161 NA
+ATOM     35  N   UNK A   0     166.441 147.119 143.671  0.00  0.00    -0.329 N 
+ATOM     36  H   UNK A   0     165.938 146.258 143.836  0.00  0.00    +0.145 HD
+ATOM     37  H   UNK A   0     167.357 147.056 143.250  0.00  0.00    +0.145 HD
+BRANCH  31  38
+ATOM     38  N   UNK A   0     168.598 150.409 146.173  0.00  0.00    -0.341 N 
+ATOM     39  H   UNK A   0     168.574 151.007 145.348  0.00  0.00    +0.144 HD
+ATOM     40  H   UNK A   0     169.470 149.887 146.095  0.00  0.00    +0.144 HD
+ENDBRANCH  31  38
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -7.863      1.458      1.846
+REMARK INTER + INTRA:         -13.718
+REMARK INTER:                 -12.503
+REMARK INTRA:                  -1.215
+REMARK UNBOUND:                -1.029
+REMARK  Name = Methotrexate
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_16
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_10  and  N_15
+REMARK    6  A    between atoms: C_19  and  C_22
+REMARK    7  A    between atoms: N_24  and  CA_25
+REMARK    8  A    between atoms: CA_25  and  CB_26
+REMARK    9  A    between atoms: CA_25  and  C_31
+REMARK   10  A    between atoms: CB_26  and  CG_27
+REMARK   11  A    between atoms: CG_27  and  CD_28
+REMARK   12  A    between atoms: CD_28  and  OE1_30
+REMARK   13  A    between atoms: C_31  and  O_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   0     164.937 153.059 151.073  0.00  0.00    +0.030 A 
+ATOM      2  C   UNK A   0     164.002 153.515 152.017  0.00  0.00    +0.024 A 
+ATOM      3  C   UNK A   0     164.130 154.766 152.628  0.00  0.00    +0.015 A 
+ATOM      4  C   UNK A   0     165.199 155.600 152.298  0.00  0.00    +0.037 A 
+ATOM      5  C   UNK A   0     166.149 155.161 151.372  0.00  0.00    +0.015 A 
+ATOM      6  C   UNK A   0     166.014 153.903 150.766  0.00  0.00    +0.024 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNK A   0     165.302 156.923 152.974  0.00  0.00    +0.245 C 
+ATOM      8  O   UNK A   0     166.373 157.303 153.435  0.00  0.00    -0.270 OA
+ATOM      9  N   GLU A   1     164.140 157.655 153.071  0.00  0.00    -0.298 N 
+ATOM     10  H   GLU A   1     163.246 157.196 152.924  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  GLU A   1     164.088 158.894 153.854  0.00  0.00    +0.182 C 
+BRANCH  11  12
+ATOM     12  C   GLU A   1     162.852 158.875 154.763  0.00  0.00    +0.325 C 
+ATOM     13  OXT GLU A   1     162.327 157.893 155.262  0.00  0.00    -0.249 OA
+BRANCH  12  14
+ATOM     14  O   GLU A   1     162.329 160.105 154.994  0.00  0.00    -0.479 OA
+ATOM     15  H   GLU A   1     163.123 160.682 155.026  0.00  0.00    +0.295 HD
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+BRANCH  11  16
+ATOM     16  CB  GLU A   1     164.047 160.121 152.926  0.00  0.00    +0.045 C 
+BRANCH  16  17
+ATOM     17  CG  GLU A   1     164.237 159.763 151.454  0.00  0.00    +0.123 C 
+BRANCH  17  18
+ATOM     18  CD  GLU A   1     165.534 160.306 150.924  0.00  0.00    +0.305 C 
+ATOM     19  OE2 GLU A   1     165.651 161.190 150.091  0.00  0.00    -0.251 OA
+BRANCH  18  20
+ATOM     20  OE1 GLU A   1     166.609 159.737 151.497  0.00  0.00    -0.481 OA
+ATOM     21  HE1 GLU A   1     167.340 160.363 151.312  0.00  0.00    +0.295 HD
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+ENDBRANCH   9  11
+ENDBRANCH   4   7
+BRANCH   1  23
+ATOM     22  C   UNK A   0     163.385 151.293 150.730  0.00  0.00    +0.129 C 
+ATOM     23  N   UNK A   0     164.753 151.787 150.496  0.00  0.00    -0.327 N 
+BRANCH  23  24
+ATOM     24  C   UNK A   0     165.815 150.791 150.733  0.00  0.00    +0.157 C 
+BRANCH  24  25
+ATOM     25  C   UNK A   0     166.628 150.536 149.482  0.00  0.00    +0.064 C 
+ATOM     26  C   UNK A   0     166.117 150.851 148.234  0.00  0.00    +0.183 C 
+ATOM     27  N   UNK A   0     166.809 150.654 147.086  0.00  0.00    -0.254 NA
+ATOM     28  C   UNK A   0     168.035 150.126 147.171  0.00  0.00    +0.170 C 
+ATOM     29  C   UNK A   0     168.552 149.799 148.431  0.00  0.00    +0.145 C 
+ATOM     30  N   UNK A   0     167.865 149.997 149.599  0.00  0.00    -0.246 NA
+ATOM     31  C   UNK A   0     169.826 149.246 148.387  0.00  0.00    +0.149 C 
+ATOM     32  N   UNK A   0     170.515 149.049 147.255  0.00  0.00    -0.200 NA
+ATOM     33  C   UNK A   0     169.925 149.421 146.124  0.00  0.00    +0.205 C 
+ATOM     34  N   UNK A   0     168.703 149.935 146.039  0.00  0.00    -0.161 NA
+ATOM     35  N   UNK A   0     170.619 149.224 144.951  0.00  0.00    -0.329 N 
+ATOM     36  H   UNK A   0     169.984 149.140 144.169  0.00  0.00    +0.145 HD
+ATOM     37  H   UNK A   0     171.316 148.502 145.072  0.00  0.00    +0.145 HD
+BRANCH  31  38
+ATOM     38  N   UNK A   0     170.466 148.863 149.597  0.00  0.00    -0.341 N 
+ATOM     39  H   UNK A   0     169.742 148.545 150.239  0.00  0.00    +0.144 HD
+ATOM     40  H   UNK A   0     170.845 149.708 150.022  0.00  0.00    +0.144 HD
+ENDBRANCH  31  38
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -7.767     36.670     39.935
+REMARK INTER + INTRA:         -13.564
+REMARK INTER:                 -12.172
+REMARK INTRA:                  -1.391
+REMARK UNBOUND:                -1.029
+REMARK  Name = Methotrexate
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_16
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_10  and  N_15
+REMARK    6  A    between atoms: C_19  and  C_22
+REMARK    7  A    between atoms: N_24  and  CA_25
+REMARK    8  A    between atoms: CA_25  and  CB_26
+REMARK    9  A    between atoms: CA_25  and  C_31
+REMARK   10  A    between atoms: CB_26  and  CG_27
+REMARK   11  A    between atoms: CG_27  and  CD_28
+REMARK   12  A    between atoms: CD_28  and  OE1_30
+REMARK   13  A    between atoms: C_31  and  O_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   0     166.302 190.940 159.391  0.00  0.00    +0.030 A 
+ATOM      2  C   UNK A   0     165.712 192.204 159.554  0.00  0.00    +0.024 A 
+ATOM      3  C   UNK A   0     166.126 193.307 158.800  0.00  0.00    +0.015 A 
+ATOM      4  C   UNK A   0     167.140 193.166 157.851  0.00  0.00    +0.037 A 
+ATOM      5  C   UNK A   0     167.750 191.920 157.683  0.00  0.00    +0.015 A 
+ATOM      6  C   UNK A   0     167.331 190.820 158.445  0.00  0.00    +0.024 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNK A   0     167.554 194.365 157.071  0.00  0.00    +0.245 C 
+ATOM      8  O   UNK A   0     168.380 195.148 157.528  0.00  0.00    -0.270 OA
+ATOM      9  N   GLU A   1     166.942 194.545 155.851  0.00  0.00    -0.298 N 
+ATOM     10  H   GLU A   1     166.090 194.036 155.640  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  GLU A   1     167.152 195.770 155.071  0.00  0.00    +0.182 C 
+BRANCH  11  12
+ATOM     12  C   GLU A   1     165.846 196.573 155.018  0.00  0.00    +0.325 C 
+ATOM     13  OXT GLU A   1     165.619 197.636 155.572  0.00  0.00    -0.249 OA
+BRANCH  12  14
+ATOM     14  O   GLU A   1     164.879 195.987 154.269  0.00  0.00    -0.479 OA
+ATOM     15  H   GLU A   1     164.982 195.032 154.478  0.00  0.00    +0.295 HD
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+BRANCH  11  16
+ATOM     16  CB  GLU A   1     167.628 195.431 153.648  0.00  0.00    +0.045 C 
+BRANCH  16  17
+ATOM     17  CG  GLU A   1     167.904 193.943 153.448  0.00  0.00    +0.123 C 
+BRANCH  17  18
+ATOM     18  CD  GLU A   1     166.892 193.320 152.528  0.00  0.00    +0.305 C 
+ATOM     19  OE2 GLU A   1     167.132 192.521 151.639  0.00  0.00    -0.251 OA
+BRANCH  18  20
+ATOM     20  OE1 GLU A   1     165.633 193.706 152.804  0.00  0.00    -0.481 OA
+ATOM     21  HE1 GLU A   1     165.723 194.269 153.601  0.00  0.00    +0.295 HD
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+ENDBRANCH   9  11
+ENDBRANCH   4   7
+BRANCH   1  23
+ATOM     22  C   UNK A   0     166.878 189.436 161.138  0.00  0.00    +0.129 C 
+ATOM     23  N   UNK A   0     165.843 189.870 160.185  0.00  0.00    -0.327 N 
+BRANCH  23  24
+ATOM     24  C   UNK A   0     165.154 188.771 159.482  0.00  0.00    +0.157 C 
+BRANCH  24  25
+ATOM     25  C   UNK A   0     163.675 188.744 159.806  0.00  0.00    +0.064 C 
+ATOM     26  C   UNK A   0     163.041 187.549 160.100  0.00  0.00    +0.183 C 
+ATOM     27  N   UNK A   0     161.724 187.472 160.409  0.00  0.00    -0.254 NA
+ATOM     28  C   UNK A   0     161.012 188.604 160.421  0.00  0.00    +0.170 C 
+ATOM     29  C   UNK A   0     161.649 189.814 160.115  0.00  0.00    +0.145 C 
+ATOM     30  N   UNK A   0     162.979 189.906 159.807  0.00  0.00    -0.246 NA
+ATOM     31  C   UNK A   0     160.802 190.916 160.146  0.00  0.00    +0.149 C 
+ATOM     32  N   UNK A   0     159.499 190.846 160.451  0.00  0.00    -0.200 NA
+ATOM     33  C   UNK A   0     159.017 189.643 160.744  0.00  0.00    +0.205 C 
+ATOM     34  N   UNK A   0     159.722 188.517 160.722  0.00  0.00    -0.161 NA
+ATOM     35  N   UNK A   0     157.679 189.554 161.058  0.00  0.00    -0.329 N 
+ATOM     36  H   UNK A   0     157.326 188.627 160.862  0.00  0.00    +0.145 HD
+ATOM     37  H   UNK A   0     157.175 190.341 160.673  0.00  0.00    +0.145 HD
+BRANCH  31  38
+ATOM     38  N   UNK A   0     161.318 192.206 159.850  0.00  0.00    -0.341 N 
+ATOM     39  H   UNK A   0     161.603 192.632 160.731  0.00  0.00    +0.144 HD
+ATOM     40  H   UNK A   0     160.542 192.776 159.519  0.00  0.00    +0.144 HD
+ENDBRANCH  31  38
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -7.745     36.591     39.885
+REMARK INTER + INTRA:         -13.528
+REMARK INTER:                 -12.310
+REMARK INTRA:                  -1.218
+REMARK UNBOUND:                -1.029
+REMARK  Name = Methotrexate
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_16
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_10  and  N_15
+REMARK    6  A    between atoms: C_19  and  C_22
+REMARK    7  A    between atoms: N_24  and  CA_25
+REMARK    8  A    between atoms: CA_25  and  CB_26
+REMARK    9  A    between atoms: CA_25  and  C_31
+REMARK   10  A    between atoms: CB_26  and  CG_27
+REMARK   11  A    between atoms: CG_27  and  CD_28
+REMARK   12  A    between atoms: CD_28  and  OE1_30
+REMARK   13  A    between atoms: C_31  and  O_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   0     166.537 190.597 157.976  0.00  0.00    +0.030 A 
+ATOM      2  C   UNK A   0     166.532 190.664 159.379  0.00  0.00    +0.024 A 
+ATOM      3  C   UNK A   0     165.344 190.566 160.112  0.00  0.00    +0.015 A 
+ATOM      4  C   UNK A   0     164.128 190.388 159.452  0.00  0.00    +0.037 A 
+ATOM      5  C   UNK A   0     164.108 190.333 158.055  0.00  0.00    +0.015 A 
+ATOM      6  C   UNK A   0     165.304 190.435 157.329  0.00  0.00    +0.024 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNK A   0     162.885 190.292 160.268  0.00  0.00    +0.245 C 
+ATOM      8  O   UNK A   0     162.207 191.290 160.486  0.00  0.00    -0.270 OA
+ATOM      9  N   GLU A   1     162.576 189.048 160.771  0.00  0.00    -0.298 N 
+ATOM     10  H   GLU A   1     163.290 188.327 160.794  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  GLU A   1     161.469 188.867 161.716  0.00  0.00    +0.182 C 
+BRANCH  11  12
+ATOM     12  C   GLU A   1     161.844 187.791 162.744  0.00  0.00    +0.325 C 
+ATOM     13  OXT GLU A   1     162.885 187.156 162.790  0.00  0.00    -0.249 OA
+BRANCH  12  14
+ATOM     14  O   GLU A   1     160.877 187.562 163.667  0.00  0.00    -0.479 OA
+ATOM     15  H   GLU A   1     161.200 186.759 164.134  0.00  0.00    +0.295 HD
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+BRANCH  11  16
+ATOM     16  CB  GLU A   1     160.181 188.469 160.974  0.00  0.00    +0.045 C 
+BRANCH  16  17
+ATOM     17  CG  GLU A   1     160.430 187.486 159.832  0.00  0.00    +0.123 C 
+BRANCH  17  18
+ATOM     18  CD  GLU A   1     159.776 187.952 158.561  0.00  0.00    +0.305 C 
+ATOM     19  OE2 GLU A   1     159.985 187.506 157.446  0.00  0.00    -0.251 OA
+BRANCH  18  20
+ATOM     20  OE1 GLU A   1     158.870 188.924 158.769  0.00  0.00    -0.481 OA
+ATOM     21  HE1 GLU A   1     159.172 189.660 158.195  0.00  0.00    +0.295 HD
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+ENDBRANCH   9  11
+ENDBRANCH   4   7
+BRANCH   1  23
+ATOM     22  C   UNK A   0     168.590 189.502 157.497  0.00  0.00    +0.129 C 
+ATOM     23  N   UNK A   0     167.767 190.706 157.297  0.00  0.00    -0.327 N 
+BRANCH  23  24
+ATOM     24  C   UNK A   0     168.495 191.981 157.445  0.00  0.00    +0.157 C 
+BRANCH  24  25
+ATOM     25  C   UNK A   0     167.767 193.120 156.761  0.00  0.00    +0.064 C 
+ATOM     26  C   UNK A   0     167.380 193.013 155.436  0.00  0.00    +0.183 C 
+ATOM     27  N   UNK A   0     166.717 193.997 154.782  0.00  0.00    -0.254 NA
+ATOM     28  C   UNK A   0     166.434 195.119 155.453  0.00  0.00    +0.170 C 
+ATOM     29  C   UNK A   0     166.831 195.234 156.791  0.00  0.00    +0.145 C 
+ATOM     30  N   UNK A   0     167.498 194.245 157.464  0.00  0.00    -0.246 NA
+ATOM     31  C   UNK A   0     166.493 196.450 157.373  0.00  0.00    +0.149 C 
+ATOM     32  N   UNK A   0     165.837 197.426 156.732  0.00  0.00    -0.200 NA
+ATOM     33  C   UNK A   0     165.495 197.189 155.471  0.00  0.00    +0.205 C 
+ATOM     34  N   UNK A   0     165.785 196.078 154.802  0.00  0.00    -0.161 NA
+ATOM     35  N   UNK A   0     164.821 198.183 154.797  0.00  0.00    -0.329 N 
+ATOM     36  H   UNK A   0     164.966 198.102 153.800  0.00  0.00    +0.145 HD
+ATOM     37  H   UNK A   0     164.998 199.081 155.227  0.00  0.00    +0.145 HD
+BRANCH  31  38
+ATOM     38  N   UNK A   0     166.843 196.700 158.728  0.00  0.00    -0.341 N 
+ATOM     39  H   UNK A   0     166.945 195.797 159.189  0.00  0.00    +0.144 HD
+ATOM     40  H   UNK A   0     166.038 197.136 159.175  0.00  0.00    +0.144 HD
+ENDBRANCH  31  38
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -7.718     37.123     40.084
+REMARK INTER + INTRA:         -13.485
+REMARK INTER:                 -12.067
+REMARK INTRA:                  -1.418
+REMARK UNBOUND:                -1.029
+REMARK  Name = Methotrexate
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_16
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_10  and  N_15
+REMARK    6  A    between atoms: C_19  and  C_22
+REMARK    7  A    between atoms: N_24  and  CA_25
+REMARK    8  A    between atoms: CA_25  and  CB_26
+REMARK    9  A    between atoms: CA_25  and  C_31
+REMARK   10  A    between atoms: CB_26  and  CG_27
+REMARK   11  A    between atoms: CG_27  and  CD_28
+REMARK   12  A    between atoms: CD_28  and  OE1_30
+REMARK   13  A    between atoms: C_31  and  O_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   0     166.954 190.178 157.917  0.00  0.00    +0.030 A 
+ATOM      2  C   UNK A   0     165.649 190.321 157.418  0.00  0.00    +0.024 A 
+ATOM      3  C   UNK A   0     164.535 189.914 158.158  0.00  0.00    +0.015 A 
+ATOM      4  C   UNK A   0     164.702 189.361 159.428  0.00  0.00    +0.037 A 
+ATOM      5  C   UNK A   0     165.993 189.197 159.939  0.00  0.00    +0.015 A 
+ATOM      6  C   UNK A   0     167.105 189.605 159.188  0.00  0.00    +0.024 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNK A   0     163.490 188.937 160.183  0.00  0.00    +0.245 C 
+ATOM      8  O   UNK A   0     163.593 188.215 161.168  0.00  0.00    -0.270 OA
+ATOM      9  N   GLU A   1     162.279 189.373 159.695  0.00  0.00    -0.298 N 
+ATOM     10  H   GLU A   1     162.222 189.732 158.747  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  GLU A   1     161.015 188.888 160.261  0.00  0.00    +0.182 C 
+BRANCH  11  12
+ATOM     12  C   GLU A   1     160.018 188.617 159.126  0.00  0.00    +0.325 C 
+ATOM     13  OXT GLU A   1     160.248 188.050 158.071  0.00  0.00    -0.249 OA
+BRANCH  12  14
+ATOM     14  O   GLU A   1     158.770 189.085 159.378  0.00  0.00    -0.479 OA
+ATOM     15  H   GLU A   1     158.356 188.354 159.889  0.00  0.00    +0.295 HD
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+BRANCH  11  16
+ATOM     16  CB  GLU A   1     160.433 189.915 161.247  0.00  0.00    +0.045 C 
+BRANCH  16  17
+ATOM     17  CG  GLU A   1     160.923 191.338 160.987  0.00  0.00    +0.123 C 
+BRANCH  17  18
+ATOM     18  CD  GLU A   1     159.779 192.256 160.660  0.00  0.00    +0.305 C 
+ATOM     19  OE2 GLU A   1     159.876 193.385 160.208  0.00  0.00    -0.251 OA
+BRANCH  18  20
+ATOM     20  OE1 GLU A   1     158.579 191.690 160.881  0.00  0.00    -0.481 OA
+ATOM     21  HE1 GLU A   1     158.632 190.826 160.421  0.00  0.00    +0.295 HD
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+ENDBRANCH   9  11
+ENDBRANCH   4   7
+BRANCH   1  23
+ATOM     22  C   UNK A   0     169.022 189.525 156.945  0.00  0.00    +0.129 C 
+ATOM     23  N   UNK A   0     168.035 190.604 157.120  0.00  0.00    -0.327 N 
+BRANCH  23  24
+ATOM     24  C   UNK A   0     168.616 191.922 157.439  0.00  0.00    +0.157 C 
+BRANCH  24  25
+ATOM     25  C   UNK A   0     167.871 193.042 156.744  0.00  0.00    +0.064 C 
+ATOM     26  C   UNK A   0     167.541 192.942 155.403  0.00  0.00    +0.183 C 
+ATOM     27  N   UNK A   0     166.864 193.909 154.739  0.00  0.00    -0.254 NA
+ATOM     28  C   UNK A   0     166.510 195.008 155.414  0.00  0.00    +0.170 C 
+ATOM     29  C   UNK A   0     166.850 195.116 156.769  0.00  0.00    +0.145 C 
+ATOM     30  N   UNK A   0     167.529 194.144 157.453  0.00  0.00    -0.246 NA
+ATOM     31  C   UNK A   0     166.440 196.308 157.355  0.00  0.00    +0.149 C 
+ATOM     32  N   UNK A   0     165.771 197.268 156.703  0.00  0.00    -0.200 NA
+ATOM     33  C   UNK A   0     165.488 197.038 155.426  0.00  0.00    +0.205 C 
+ATOM     34  N   UNK A   0     165.849 195.952 154.753  0.00  0.00    -0.161 NA
+ATOM     35  N   UNK A   0     164.802 198.016 154.741  0.00  0.00    -0.329 N 
+ATOM     36  H   UNK A   0     164.989 197.958 153.749  0.00  0.00    +0.145 HD
+ATOM     37  H   UNK A   0     164.925 198.913 155.191  0.00  0.00    +0.145 HD
+BRANCH  31  38
+ATOM     38  N   UNK A   0     166.726 196.550 158.726  0.00  0.00    -0.341 N 
+ATOM     39  H   UNK A   0     165.880 196.920 159.155  0.00  0.00    +0.144 HD
+ATOM     40  H   UNK A   0     167.400 197.313 158.767  0.00  0.00    +0.144 HD
+ENDBRANCH  31  38
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -7.660      0.999      2.588
+REMARK INTER + INTRA:         -13.391
+REMARK INTER:                 -12.341
+REMARK INTRA:                  -1.050
+REMARK UNBOUND:                -1.029
+REMARK  Name = Methotrexate
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_16
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_10  and  N_15
+REMARK    6  A    between atoms: C_19  and  C_22
+REMARK    7  A    between atoms: N_24  and  CA_25
+REMARK    8  A    between atoms: CA_25  and  CB_26
+REMARK    9  A    between atoms: CA_25  and  C_31
+REMARK   10  A    between atoms: CB_26  and  CG_27
+REMARK   11  A    between atoms: CG_27  and  CD_28
+REMARK   12  A    between atoms: CD_28  and  OE1_30
+REMARK   13  A    between atoms: C_31  and  O_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   0     164.929 152.254 149.597  0.00  0.00    +0.030 A 
+ATOM      2  C   UNK A   0     163.773 152.514 150.351  0.00  0.00    +0.024 A 
+ATOM      3  C   UNK A   0     163.649 153.672 151.125  0.00  0.00    +0.015 A 
+ATOM      4  C   UNK A   0     164.683 154.609 151.153  0.00  0.00    +0.037 A 
+ATOM      5  C   UNK A   0     165.848 154.364 150.421  0.00  0.00    +0.015 A 
+ATOM      6  C   UNK A   0     165.965 153.198 149.650  0.00  0.00    +0.024 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNK A   0     164.514 155.828 151.992  0.00  0.00    +0.245 C 
+ATOM      8  O   UNK A   0     163.840 155.789 153.015  0.00  0.00    -0.270 OA
+ATOM      9  N   GLU A   1     165.123 156.976 151.536  0.00  0.00    -0.298 N 
+ATOM     10  H   GLU A   1     165.433 157.027 150.571  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  GLU A   1     164.892 158.267 152.192  0.00  0.00    +0.182 C 
+BRANCH  11  12
+ATOM     12  C   GLU A   1     165.424 159.396 151.300  0.00  0.00    +0.325 C 
+ATOM     13  OXT GLU A   1     164.809 159.994 150.432  0.00  0.00    -0.249 OA
+BRANCH  12  14
+ATOM     14  O   GLU A   1     166.720 159.716 151.542  0.00  0.00    -0.479 OA
+ATOM     15  H   GLU A   1     166.975 159.087 152.253  0.00  0.00    +0.295 HD
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+BRANCH  11  16
+ATOM     16  CB  GLU A   1     165.580 158.307 153.568  0.00  0.00    +0.045 C 
+BRANCH  16  17
+ATOM     17  CG  GLU A   1     164.899 159.259 154.549  0.00  0.00    +0.123 C 
+BRANCH  17  18
+ATOM     18  CD  GLU A   1     163.405 159.099 154.514  0.00  0.00    +0.305 C 
+ATOM     19  OE2 GLU A   1     162.607 159.934 154.123  0.00  0.00    -0.251 OA
+BRANCH  18  20
+ATOM     20  OE1 GLU A   1     163.002 157.887 154.936  0.00  0.00    -0.481 OA
+ATOM     21  HE1 GLU A   1     163.343 157.270 154.255  0.00  0.00    +0.295 HD
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+ENDBRANCH   9  11
+ENDBRANCH   4   7
+BRANCH   1  23
+ATOM     22  C   UNK A   0     163.678 150.732 148.270  0.00  0.00    +0.129 C 
+ATOM     23  N   UNK A   0     164.993 151.066 148.842  0.00  0.00    -0.327 N 
+BRANCH  23  24
+ATOM     24  C   UNK A   0     165.704 149.929 149.454  0.00  0.00    +0.157 C 
+BRANCH  24  25
+ATOM     25  C   UNK A   0     166.642 149.263 148.469  0.00  0.00    +0.064 C 
+ATOM     26  C   UNK A   0     166.354 148.007 147.962  0.00  0.00    +0.183 C 
+ATOM     27  N   UNK A   0     167.153 147.374 147.070  0.00  0.00    -0.254 NA
+ATOM     28  C   UNK A   0     168.269 147.994 146.671  0.00  0.00    +0.170 C 
+ATOM     29  C   UNK A   0     168.567 149.262 147.188  0.00  0.00    +0.145 C 
+ATOM     30  N   UNK A   0     167.766 149.914 148.086  0.00  0.00    -0.246 NA
+ATOM     31  C   UNK A   0     169.758 149.796 146.709  0.00  0.00    +0.149 C 
+ATOM     32  N   UNK A   0     170.551 149.174 145.826  0.00  0.00    -0.200 NA
+ATOM     33  C   UNK A   0     170.148 147.985 145.394  0.00  0.00    +0.205 C 
+ATOM     34  N   UNK A   0     169.046 147.364 145.797  0.00  0.00    -0.161 NA
+ATOM     35  N   UNK A   0     170.954 147.332 144.487  0.00  0.00    -0.329 N 
+ATOM     36  H   UNK A   0     170.809 146.333 144.533  0.00  0.00    +0.145 HD
+ATOM     37  H   UNK A   0     171.903 147.674 144.550  0.00  0.00    +0.145 HD
+BRANCH  31  38
+ATOM     38  N   UNK A   0     170.182 151.076 147.157  0.00  0.00    -0.341 N 
+ATOM     39  H   UNK A   0     169.852 151.762 146.480  0.00  0.00    +0.144 HD
+ATOM     40  H   UNK A   0     171.198 151.101 147.086  0.00  0.00    +0.144 HD
+ENDBRANCH  31  38
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -7.550      4.169      7.211
+REMARK INTER + INTRA:         -13.213
+REMARK INTER:                 -11.983
+REMARK INTRA:                  -1.230
+REMARK UNBOUND:                -1.029
+REMARK  Name = Methotrexate
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_16
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_10  and  N_15
+REMARK    6  A    between atoms: C_19  and  C_22
+REMARK    7  A    between atoms: N_24  and  CA_25
+REMARK    8  A    between atoms: CA_25  and  CB_26
+REMARK    9  A    between atoms: CA_25  and  C_31
+REMARK   10  A    between atoms: CB_26  and  CG_27
+REMARK   11  A    between atoms: CG_27  and  CD_28
+REMARK   12  A    between atoms: CD_28  and  OE1_30
+REMARK   13  A    between atoms: C_31  and  O_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   0     164.232 158.248 154.080  0.00  0.00    +0.030 A 
+ATOM      2  C   UNK A   0     164.830 159.472 154.421  0.00  0.00    +0.024 A 
+ATOM      3  C   UNK A   0     164.144 160.440 155.161  0.00  0.00    +0.015 A 
+ATOM      4  C   UNK A   0     162.837 160.199 155.588  0.00  0.00    +0.037 A 
+ATOM      5  C   UNK A   0     162.218 158.993 155.247  0.00  0.00    +0.015 A 
+ATOM      6  C   UNK A   0     162.913 158.029 154.503  0.00  0.00    +0.024 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNK A   0     162.139 161.256 156.370  0.00  0.00    +0.245 C 
+ATOM      8  O   UNK A   0     162.618 161.672 157.419  0.00  0.00    -0.270 OA
+ATOM      9  N   GLU A   1     160.937 161.700 155.866  0.00  0.00    -0.298 N 
+ATOM     10  H   GLU A   1     160.457 161.150 155.160  0.00  0.00    +0.150 HD
+BRANCH   9  11
+ATOM     11  CA  GLU A   1     160.087 162.619 156.631  0.00  0.00    +0.182 C 
+BRANCH  11  12
+ATOM     12  C   GLU A   1     158.771 161.917 156.993  0.00  0.00    +0.325 C 
+ATOM     13  OXT GLU A   1     158.480 160.752 156.776  0.00  0.00    -0.249 OA
+BRANCH  12  14
+ATOM     14  O   GLU A   1     157.875 162.729 157.609  0.00  0.00    -0.479 OA
+ATOM     15  H   GLU A   1     157.871 162.395 158.533  0.00  0.00    +0.295 HD
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+BRANCH  11  16
+ATOM     16  CB  GLU A   1     159.805 163.897 155.823  0.00  0.00    +0.045 C 
+BRANCH  16  17
+ATOM     17  CG  GLU A   1     161.076 164.615 155.377  0.00  0.00    +0.123 C 
+BRANCH  17  18
+ATOM     18  CD  GLU A   1     161.932 164.987 156.555  0.00  0.00    +0.305 C 
+ATOM     19  OE2 GLU A   1     161.563 165.603 157.540  0.00  0.00    -0.251 OA
+BRANCH  18  20
+ATOM     20  OE1 GLU A   1     163.193 164.531 156.445  0.00  0.00    -0.481 OA
+ATOM     21  HE1 GLU A   1     163.699 165.302 156.111  0.00  0.00    +0.295 HD
+ENDBRANCH  18  20
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  11  16
+ENDBRANCH   9  11
+ENDBRANCH   4   7
+BRANCH   1  23
+ATOM     22  C   UNK A   0     166.414 157.634 153.367  0.00  0.00    +0.129 C 
+ATOM     23  N   UNK A   0     164.977 157.316 153.330  0.00  0.00    -0.327 N 
+BRANCH  23  24
+ATOM     24  C   UNK A   0     164.457 156.976 151.992  0.00  0.00    +0.157 C 
+BRANCH  24  25
+ATOM     25  C   UNK A   0     164.654 155.509 151.675  0.00  0.00    +0.064 C 
+ATOM     26  C   UNK A   0     163.758 154.561 152.140  0.00  0.00    +0.183 C 
+ATOM     27  N   UNK A   0     163.882 153.239 151.874  0.00  0.00    -0.254 NA
+ATOM     28  C   UNK A   0     164.922 152.839 151.134  0.00  0.00    +0.170 C 
+ATOM     29  C   UNK A   0     165.835 153.794 150.668  0.00  0.00    +0.145 C 
+ATOM     30  N   UNK A   0     165.719 155.134 150.926  0.00  0.00    -0.246 NA
+ATOM     31  C   UNK A   0     166.879 153.255 149.924  0.00  0.00    +0.149 C 
+ATOM     32  N   UNK A   0     167.007 151.948 149.658  0.00  0.00    -0.200 NA
+ATOM     33  C   UNK A   0     166.063 151.145 150.138  0.00  0.00    +0.205 C 
+ATOM     34  N   UNK A   0     165.036 151.541 150.881  0.00  0.00    -0.161 NA
+ATOM     35  N   UNK A   0     166.181 149.799 149.874  0.00  0.00    -0.329 N 
+ATOM     36  H   UNK A   0     165.702 149.253 150.577  0.00  0.00    +0.145 HD
+ATOM     37  H   UNK A   0     167.142 149.563 149.669  0.00  0.00    +0.145 HD
+BRANCH  31  38
+ATOM     38  N   UNK A   0     167.880 154.114 149.396  0.00  0.00    -0.341 N 
+ATOM     39  H   UNK A   0     167.648 155.065 149.679  0.00  0.00    +0.144 HD
+ATOM     40  H   UNK A   0     167.782 154.108 148.382  0.00  0.00    +0.144 HD
+ENDBRANCH  31  38
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH   1  23
+TORSDOF 12
+ENDMDL

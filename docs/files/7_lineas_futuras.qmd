@@ -1,0 +1,46 @@
+```{=latex}
+\capitulo{7}{Líneas de trabajo futuro}
+```
+
+El trabajo desarrollado abre múltiples direcciones de extensión y mejora:
+
+**Ampliación del dataset.** Incrementar la biblioteca molecular a 200--500
+compuestos, incorporando generaciones superiores de PAMAM (G3--G5), variantes
+de PLGA con diferentes ratios ácido láctico/glicólico, y una mayor
+diversidad de ligandos de targeting. Un dataset más amplio mejoraría
+sustancialmente el poder predictivo de los modelos de ML y permitiría
+explorar arquitecturas más complejas como redes neuronales profundas o
+modelos de tipo transformer aplicados a SMILES.
+
+**Validación experimental.** Contrastar las predicciones del modelo con datos
+experimentales de inhibición de P-gp (ensayos de calcein-AM), captación
+celular mediada por TfR1 (citometría de flujo) o biodistribución in vivo
+(modelos murinos). Esta validación permitiría calibrar empíricamente las
+ponderaciones del ITI.
+
+**Docking de alta precisión.** Aplicar métodos de docking más sofisticados
+como FEP (*Free Energy Perturbation*) o MM-GBSA para la refinación de las
+poses de mayor afinidad, especialmente para los candidatos top identificados
+por el ITI.
+
+**Análisis de interacciones proteína-ligando.** Implementar el análisis de
+interacciones específicas (puentes de hidrógeno, interacciones hidrofóbicas,
+contactos $\pi$-$\pi$) mediante PLIP y PyMOL para los mejores candidatos de
+cada proteína, identificando farmacóforos relevantes.
+
+**Incorporación de descriptores ADMET.** Añadir propiedades
+farmacocinéticas in silico calculadas con pkCSM o SwissADME (permeabilidad
+Caco-2, biodisponibilidad oral, toxicidad predicha) para enriquecer el
+perfil de cada molécula con información de seguridad y eficacia sistémica.
+
+**Mejora de la herramienta Streamlit.** Extender la aplicación con módulos
+de dibujo de estructuras moleculares (integración con Ketcher o Sketcher),
+exportación de resultados en formato PDF, y conexión con bases de datos
+públicas (PubChem, ChEMBL) para recuperar datos experimentales de
+referencia.
+
+**Modelos de aprendizaje profundo.** Explorar arquitecturas de redes
+neuronales de grafos (GNN) que operen directamente sobre la estructura
+molecular representada como grafo, eliminando la necesidad de calcular
+descriptores explícitos y capturando relaciones estructura-actividad de
+forma más general.

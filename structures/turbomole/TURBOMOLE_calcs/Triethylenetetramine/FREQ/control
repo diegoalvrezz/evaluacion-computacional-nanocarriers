@@ -1,0 +1,105 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+c  1-2,4-5,7-8                                                                 \
+   basis =c def2-TZVP                                                          \
+   jbas  =c def2-TZVP
+n  3,6,9-10                                                                    \
+   basis =n def2-TZVP                                                          \
+   jbas  =n def2-TZVP
+h  11-28                                                                       \
+   basis =h def2-TZVP                                                          \
+   jbas  =h def2-TZVP
+$basis    file=basis
+$scfmo   file=mos
+$closed shells
+ a       1-41                                   ( 2 )
+$scfiterlimit       30
+$thize     0.10000000E-04
+$thime        5
+$scfdamp   start=0.300  step=0.050  min=0.100
+$scfdump
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$dft
+    functional   b3-lyp
+    gridsize   m3
+$scfconv   7
+$ricore     5000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=28
+   nbf(CAO)=468
+   nbf(AO)=418
+$last step     force
+$cosmo_out file=Triethylenetetramine.cosmo
+$moldenfile file=Triethylenetetramine.molden
+$xctype hybrid-GGA X= 0.20000 (not to be modified here)
+$last SCF energy change = -458.33812
+$charge from ridft
+          0.000 (not to be modified here)
+$dipole from force
+  x    -0.85766387690396    y     0.13423581336840    z    -0.12189281062429    a.u.
+   | dipole | =    2.2281652577  debye
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$orbital_max_rnorm 0.45335436641932E-05
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-458.3381231147    -1695.845434865     748.8531579599    -50.82850395090    -3.188049205877     542.6707069475
+$dipgrad    file=dipgrad
+$hessian (projected)    file=hessian
+$vibrational normal modes    file=vib_normal_modes
+$vibrational reduced masses
+   4.9174415803   4.4118261701   3.8338673417   4.6743824821   4.8927104624
+   3.5797125384   4.2011722325   1.8133342227   3.5636386605   3.7361704745
+   1.7704291560   2.6013030863   2.4317698783   2.4727429527   2.7222319221
+   1.1426624758   3.4553157661   1.0939199021   3.2210859135   2.4582220227
+   2.4541721121   3.4743697723   2.3817392032   1.2544572379   1.3206769605
+   1.1181880417   1.3447144496   1.2227502744   1.4672225128   2.2720585854
+   1.7855978122   1.3115270918   1.5155504734   2.7355207907   2.7439716399
+   2.2316757562   2.6504148907   2.7829645454   2.0891641034   1.8433018275
+   2.7658210244   2.2586950191   1.6751806518   1.6826637748   1.4143846794
+   1.2102941556   1.2037785484   1.2340027759   1.1305536756   1.2343125735
+   1.2810898748   1.1890908353   1.2576605748   1.3779053869   1.3821957389
+   1.4804457557   1.0866689748   1.1184883873   1.1827243783   1.0933662554
+   1.0890402795   1.0878753254   1.1980379192   1.0954735298   1.0899391247
+   1.0882332335   1.0735925362   1.0718554600   1.0726741235   1.0696779218
+   1.0685095195   1.0845390378   1.0760500906   1.0749383508   1.0919681457
+   1.0916314978   1.0917681106   1.0990786757   1.0512612572   1.0699428330
+   1.0725764843   1.0499151379   1.0936142449   1.0927391202
+$nvibro       84
+$vibrational spectrum    file=vibspectrum
+$end

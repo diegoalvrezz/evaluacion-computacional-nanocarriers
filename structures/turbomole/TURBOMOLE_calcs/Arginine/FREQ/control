@@ -1,0 +1,107 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+c  1-4,8,10                                                                    \
+   basis =c def2-TZVP                                                          \
+   jbas  =c def2-TZVP
+o  5-6                                                                         \
+   basis =o def2-TZVP                                                          \
+   jbas  =o def2-TZVP
+n  7,9,11-12                                                                   \
+   basis =n def2-TZVP                                                          \
+   jbas  =n def2-TZVP
+h  13-26                                                                       \
+   basis =h def2-TZVP                                                          \
+   jbas  =h def2-TZVP
+$basis    file=basis
+$scfmo   file=mos
+$closed shells
+ a       1-47                                   ( 2 )
+$scfiterlimit       30
+$thize     0.10000000E-04
+$thime        5
+$scfdamp   start=0.300  step=0.050  min=0.100
+$scfdump
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$dft
+    functional   b3-lyp
+    gridsize   m3
+$scfconv   7
+$ricore     5000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=26
+   nbf(CAO)=516
+   nbf(AO)=456
+$last step     force
+$cosmo_out file=Arginine.cosmo
+$moldenfile file=Arginine.molden
+$xctype hybrid-GGA X= 0.20000 (not to be modified here)
+$last SCF energy change = -606.44887
+$charge from ridft
+          0.000 (not to be modified here)
+$dipole from force
+  x     1.10857138809803    y     0.05056339031205    z     0.27400273753234    a.u.
+   | dipole | =    2.9053667911  debye
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$orbital_max_rnorm 0.13088652610987E-05
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-606.4488701758    -2234.094044562     984.4341890970    -62.87867527869    -3.773853924430     709.8635144923
+$dipgrad    file=dipgrad
+$hessian (projected)    file=hessian
+$vibrational normal modes    file=vib_normal_modes
+$vibrational reduced masses
+   5.0190672948   6.2088953938   6.1799924601   5.9270709940   6.2710621200
+   7.1049826075   5.1333364252   4.5306902691   5.0753111816   6.3002878457
+   2.5849766694   3.9390429799   3.1154759060   1.2976729774   2.7028875988
+   3.5101647043   2.1081144860   3.1777583720   1.1672828148   2.6877154679
+   1.3099228543   2.2841387977   2.7143384828   2.9655974484   1.2386557425
+   3.0126857057   1.2719973541   3.6840570002   1.7289989037   3.5277282784
+   2.1172344490   1.6415190871   2.3869690230   2.7331839122   2.0185357871
+   2.2139749642   2.6198343137   2.6564198385   1.4984856638   2.1782327162
+   2.0767972623   1.6363241796   3.1225296798   2.1831229230   1.4816421541
+   1.7972114841   1.2784515437   1.2749541172   1.4125879129   1.4713483589
+   1.1662651959   1.5392489788   1.4727417480   1.5577170133   3.1018296404
+   1.4396599855   1.0786586662   1.0917833154   1.0953326314   1.1930486607
+   1.1883899102   1.0896568646   5.1663698074   9.7366179734   1.0578288497
+   1.1002466405   1.0698975357   1.0665257118   1.0830151881   1.0933191216
+   1.0955909715   1.0495764273   1.0476029037   1.0918974646   1.0473335150
+   1.0971344111   1.0988916061   1.0641934623
+$nvibro       78
+$vibrational spectrum    file=vibspectrum
+$end

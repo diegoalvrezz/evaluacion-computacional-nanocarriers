@@ -1,0 +1,128 @@
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+\addto\captionsspanish{\renewcommand{\listtablename}{Índice de tablas}}
+\addto\captionsspanish{\renewcommand{\contentsname}{Índice general}}
+\addto\captionsspanish{\renewcommand{\listfigurename}{Índice de figuras}}
+
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{placeins}
+\RequirePackage{booktabs}
+\PassOptionsToPackage{table}{xcolor}
+\RequirePackage{xtab}
+\RequirePackage{multirow}
+\RequirePackage{tabularx}
+\PassOptionsToPackage{hyphens}{url}
+\usepackage[colorlinks]{hyperref}
+\hypersetup{allcolors={red}}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\nonzeroparskip
+\widowpenalty100000
+\clubpenalty100000
+\nouppercaseheads
+\let\tmp\oddsidemargin
+\let\oddsidemargin\evensidemargin
+\let\evensidemargin\tmp
+\reversemarginpar
+\usepackage{graphicx}
+\graphicspath{{./img/}}
+\usepackage{xcolor}
+
+\newcommand{\imagen}[3]{%
+  \begin{figure}[!h]
+    \centering
+    \includegraphics[width=#3\textwidth]{#1}
+    \caption{#2}\label{fig:#1}
+  \end{figure}
+  \FloatBarrier
+}
+\newcommand{\ruta}[1]{{\sffamily #1}}
+\chapterstyle{bianchi}
+
+\newcommand{\capitulo}[2]{%
+  \setcounter{chapter}{#1}%
+  \setcounter{section}{0}%
+  \setcounter{figure}{0}%
+  \setcounter{table}{0}%
+  \chapter*{#2}%
+  \addcontentsline{toc}{chapter}{#2}%
+  \markboth{#2}{#2}%
+}
+
+\renewcommand{\appendixname}{Apéndice}
+\renewcommand*\cftappendixname{\appendixname}
+\newcommand{\apendice}[1]{\chapter{#1}}
+\renewcommand*\cftappendixname{\appendixname\ }
+
+\makepagestyle{mipc}
+\makepsmarks{mipc}{\nouppercaseheads\createmark{chapter}{both}{nonumber}{}{}}
+\makeevenhead{mipc}{\leftmark}{}{}
+\makeoddhead{mipc}{}{}{\leftmark}
+\makeevenfoot{mipc}{}{\thepage}{}
+\makeoddfoot{mipc}{}{\thepage}{}
+\makeheadrule{mipc}{\textwidth}{\normalrulethickness}
+
+\makepagestyle{chapterfirst}
+\makeevenhead{chapterfirst}{}{}{}
+\makeoddhead{chapterfirst}{}{}{}
+\makeevenfoot{chapterfirst}{}{\thepage}{}
+\makeoddfoot{chapterfirst}{}{\thepage}{}
+\aliaspagestyle{chapter}{chapterfirst}
+
+\makeatletter
+\newcommand{\tutor}[1]{\def\@tutor{#1}}
+\newcommand{\tutorb}[1]{\def\@tutorb{#1}}
+
+\newcommand{\nombre}{Diego Vallina Álvarez}
+\newcommand{\nombreTutor}{Santiago Aparicio Martínez}
+\newcommand{\nombreTutorb}{Pedro Ángel Marcos Villa}
+\newcommand{\dni}{58441105Z}
+
+\tutor{\nombreTutor}
+\tutorb{\nombreTutorb}
+
+\def\maketitle{%
+  \thispagestyle{empty}%
+  \pagestyle{mipc}%
+  \setlength{\parindent}{0pt}%
+
+  \vspace*{-2cm}
+  \begin{center}
+    \includegraphics[width=\textwidth]{CabeceraEPS.png}
+  \end{center}
+
+  \vspace{1.2cm}
+
+  \begin{center}
+    {\large\bfseries Trabajo Fin de Máster}\\[0.3cm]
+    {\large Máster Universitario en Ingeniería Biomédica}
+  \end{center}
+
+  \vspace{0.6cm}
+  \noindent\rule{\textwidth}{1pt}
+  \vspace{0.4cm}
+
+  \begin{center}
+    \begin{minipage}{0.9\textwidth}
+      \centering
+      {\Large\bfseries\@title}
+    \end{minipage}
+  \end{center}
+
+  \vspace{0.4cm}
+  \noindent\rule{\textwidth}{1pt}
+  \vspace{0.8cm}
+
+  \begin{center}
+    {\large Presentado por \textbf{\nombre}}\\[0.4cm]
+    {\normalsize Universidad de Burgos \quad·\quad Curso académico 2025--2026}\\[0.6cm]
+    {\normalsize\bfseries Directores:}\\[0.2cm]
+    {\normalsize \nombreTutor}\\[0.1cm]
+    {\normalsize \nombreTutorb}
+  \end{center}
+
+  \cleardoublepage
+}
+\makeatother
+
+\renewcommand{\cleardoublepage}{\clearpage}

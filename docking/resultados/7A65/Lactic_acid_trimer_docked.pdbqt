@@ -1,0 +1,567 @@
+MODEL 1
+REMARK VINA RESULT:    -6.003      0.000      0.000
+REMARK INTER + INTRA:          -9.428
+REMARK INTER:                  -8.810
+REMARK INTRA:                  -0.617
+REMARK UNBOUND:                -0.617
+REMARK  Name = Lactic acid trimer
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_16
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK    9  A    between atoms: O_10  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_12
+REMARK   11  A    between atoms: C_11  and  C_13
+REMARK   12  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     159.821 188.698 159.868  0.00  0.00    +0.281 C 
+ATOM      2  C   UNL     1     159.588 188.260 158.429  0.00  0.00    +0.064 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     159.095 190.022 160.130  0.00  0.00    +0.349 C 
+ATOM      4  O   UNL     1     158.030 190.351 159.622  0.00  0.00    -0.247 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     159.807 190.789 161.006  0.00  0.00    -0.448 OA
+BRANCH   5   6
+ATOM      6  C   UNL     1     160.426 191.940 160.416  0.00  0.00    +0.281 C 
+ATOM      7  C   UNL     1     161.866 191.981 160.907  0.00  0.00    +0.064 C 
+BRANCH   6   8
+ATOM      8  C   UNL     1     159.749 193.264 160.771  0.00  0.00    +0.346 C 
+ATOM      9  O   UNL     1     160.274 194.367 160.744  0.00  0.00    -0.247 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     158.476 193.124 161.195  0.00  0.00    -0.478 OA
+ATOM     11  H   UNL     1     158.023 193.941 160.897  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   6   8
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   1  12
+ATOM     12  O   UNL     1     159.332 187.641 160.709  0.00  0.00    -0.448 OA
+BRANCH  12  13
+ATOM     13  C   UNL     1     160.310 186.920 161.335  0.00  0.00    +0.336 C 
+ATOM     14  O   UNL     1     160.623 185.772 161.050  0.00  0.00    -0.248 OA
+BRANCH  13  16
+ATOM     15  C   UNL     1     162.348 187.299 162.724  0.00  0.00    +0.049 C 
+ATOM     16  C   UNL     1     160.908 187.728 162.494  0.00  0.00    +0.220 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     160.201 187.607 163.725  0.00  0.00    -0.381 OA
+ATOM     18  H   UNL     1     160.298 186.681 164.014  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 9
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -5.625      3.554      5.023
+REMARK INTER + INTRA:          -8.872
+REMARK INTER:                  -8.294
+REMARK INTRA:                  -0.579
+REMARK UNBOUND:                -0.617
+REMARK  Name = Lactic acid trimer
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_16
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK    9  A    between atoms: O_10  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_12
+REMARK   11  A    between atoms: C_11  and  C_13
+REMARK   12  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.443 188.150 159.376  0.00  0.00    +0.281 C 
+ATOM      2  C   UNL     1     162.937 188.402 159.224  0.00  0.00    +0.064 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     160.821 187.881 158.002  0.00  0.00    +0.349 C 
+ATOM      4  O   UNL     1     159.641 187.619 157.804  0.00  0.00    -0.247 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     161.770 187.966 157.026  0.00  0.00    -0.448 OA
+BRANCH   5   6
+ATOM      6  C   UNL     1     161.342 187.492 155.741  0.00  0.00    +0.281 C 
+ATOM      7  C   UNL     1     162.060 186.175 155.482  0.00  0.00    +0.064 C 
+BRANCH   6   8
+ATOM      8  C   UNL     1     161.644 188.451 154.589  0.00  0.00    +0.346 C 
+ATOM      9  O   UNL     1     161.684 188.156 153.405  0.00  0.00    -0.247 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     161.936 189.705 154.992  0.00  0.00    -0.478 OA
+ATOM     11  H   UNL     1     162.226 190.167 154.177  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   6   8
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   1  12
+ATOM     12  O   UNL     1     161.299 187.027 160.261  0.00  0.00    -0.448 OA
+BRANCH  12  13
+ATOM     13  C   UNL     1     160.384 187.210 161.260  0.00  0.00    +0.336 C 
+ATOM     14  O   UNL     1     159.177 187.048 161.141  0.00  0.00    -0.248 OA
+BRANCH  13  16
+ATOM     15  C   UNL     1     162.388 186.980 162.727  0.00  0.00    +0.049 C 
+ATOM     16  C   UNL     1     161.077 187.722 162.529  0.00  0.00    +0.220 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     160.303 187.593 163.718  0.00  0.00    -0.381 OA
+ATOM     18  H   UNL     1     159.512 187.074 163.482  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 9
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -5.515      1.792      5.701
+REMARK INTER + INTRA:          -8.712
+REMARK INTER:                  -8.209
+REMARK INTRA:                  -0.503
+REMARK UNBOUND:                -0.617
+REMARK  Name = Lactic acid trimer
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_16
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK    9  A    between atoms: O_10  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_12
+REMARK   11  A    between atoms: C_11  and  C_13
+REMARK   12  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.777 191.023 160.863  0.00  0.00    +0.281 C 
+ATOM      2  C   UNL     1     159.363 190.695 160.406  0.00  0.00    +0.064 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     161.761 190.007 160.274  0.00  0.00    +0.349 C 
+ATOM      4  O   UNL     1     162.783 190.291 159.662  0.00  0.00    -0.247 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     161.334 188.735 160.522  0.00  0.00    -0.448 OA
+BRANCH   5   6
+ATOM      6  C   UNL     1     161.544 188.292 161.870  0.00  0.00    +0.281 C 
+ATOM      7  C   UNL     1     162.847 187.505 161.891  0.00  0.00    +0.064 C 
+BRANCH   6   8
+ATOM      8  C   UNL     1     160.426 187.404 162.417  0.00  0.00    +0.346 C 
+ATOM      9  O   UNL     1     159.788 186.581 161.778  0.00  0.00    -0.247 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     160.132 187.641 163.712  0.00  0.00    -0.478 OA
+ATOM     11  H   UNL     1     160.304 188.598 163.836  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   6   8
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   1  12
+ATOM     12  O   UNL     1     161.058 192.361 160.420  0.00  0.00    -0.448 OA
+BRANCH  12  13
+ATOM     13  C   UNL     1     161.217 193.268 161.429  0.00  0.00    +0.336 C 
+ATOM     14  O   UNL     1     162.078 193.206 162.296  0.00  0.00    -0.248 OA
+BRANCH  13  16
+ATOM     15  C   UNL     1     160.628 195.632 161.966  0.00  0.00    +0.049 C 
+ATOM     16  C   UNL     1     160.115 194.334 161.366  0.00  0.00    +0.220 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     158.908 193.977 162.032  0.00  0.00    -0.381 OA
+ATOM     18  H   UNL     1     158.230 193.863 161.340  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 9
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -5.364      2.134      5.455
+REMARK INTER + INTRA:          -8.489
+REMARK INTER:                  -7.610
+REMARK INTRA:                  -0.880
+REMARK UNBOUND:                -0.617
+REMARK  Name = Lactic acid trimer
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_16
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK    9  A    between atoms: O_10  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_12
+REMARK   11  A    between atoms: C_11  and  C_13
+REMARK   12  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.873 188.109 161.294  0.00  0.00    +0.281 C 
+ATOM      2  C   UNL     1     162.478 187.403 162.499  0.00  0.00    +0.064 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     160.535 187.456 160.931  0.00  0.00    +0.349 C 
+ATOM      4  O   UNL     1     159.475 187.655 161.511  0.00  0.00    -0.247 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     160.691 186.612 159.870  0.00  0.00    -0.448 OA
+BRANCH   5   6
+ATOM      6  C   UNL     1     161.046 187.264 158.642  0.00  0.00    +0.281 C 
+ATOM      7  C   UNL     1     159.772 187.864 158.063  0.00  0.00    +0.064 C 
+BRANCH   6   8
+ATOM      8  C   UNL     1     161.669 186.336 157.599  0.00  0.00    +0.346 C 
+ATOM      9  O   UNL     1     161.637 186.495 156.389  0.00  0.00    -0.247 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     162.241 185.234 158.128  0.00  0.00    -0.478 OA
+ATOM     11  H   UNL     1     161.584 184.520 157.985  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   6   8
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   1  12
+ATOM     12  O   UNL     1     161.715 189.490 161.656  0.00  0.00    -0.448 OA
+BRANCH  12  13
+ATOM     13  C   UNL     1     161.724 190.355 160.597  0.00  0.00    +0.336 C 
+ATOM     14  O   UNL     1     162.640 190.469 159.795  0.00  0.00    -0.248 OA
+BRANCH  13  16
+ATOM     15  C   UNL     1     160.793 192.620 161.077  0.00  0.00    +0.049 C 
+ATOM     16  C   UNL     1     160.454 191.216 160.603  0.00  0.00    +0.220 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     159.400 190.709 161.417  0.00  0.00    -0.381 OA
+ATOM     18  H   UNL     1     159.357 191.279 162.207  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 9
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -5.352      1.756      2.757
+REMARK INTER + INTRA:          -8.471
+REMARK INTER:                  -7.567
+REMARK INTRA:                  -0.904
+REMARK UNBOUND:                -0.617
+REMARK  Name = Lactic acid trimer
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_16
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK    9  A    between atoms: O_10  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_12
+REMARK   11  A    between atoms: C_11  and  C_13
+REMARK   12  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.780 189.554 160.605  0.00  0.00    +0.281 C 
+ATOM      2  C   UNL     1     163.060 188.781 160.317  0.00  0.00    +0.064 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     162.077 191.057 160.623  0.00  0.00    +0.349 C 
+ATOM      4  O   UNL     1     163.048 191.589 160.100  0.00  0.00    -0.247 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     161.107 191.724 161.314  0.00  0.00    -0.448 OA
+BRANCH   5   6
+ATOM      6  C   UNL     1     160.182 192.446 160.488  0.00  0.00    +0.281 C 
+ATOM      7  C   UNL     1     160.329 193.922 160.827  0.00  0.00    +0.064 C 
+BRANCH   6   8
+ATOM      8  C   UNL     1     158.721 192.040 160.685  0.00  0.00    +0.346 C 
+ATOM      9  O   UNL     1     158.190 191.036 160.235  0.00  0.00    -0.247 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     157.998 192.942 161.379  0.00  0.00    -0.478 OA
+ATOM     11  H   UNL     1     158.179 192.734 162.321  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   6   8
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   1  12
+ATOM     12  O   UNL     1     160.842 189.204 159.574  0.00  0.00    -0.448 OA
+BRANCH  12  13
+ATOM     13  C   UNL     1     160.172 188.034 159.795  0.00  0.00    +0.336 C 
+ATOM     14  O   UNL     1     159.914 187.203 158.935  0.00  0.00    -0.248 OA
+BRANCH  13  16
+ATOM     15  C   UNL     1     159.945 186.535 161.777  0.00  0.00    +0.049 C 
+ATOM     16  C   UNL     1     159.722 187.946 161.259  0.00  0.00    +0.220 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     158.359 188.296 161.481  0.00  0.00    -0.381 OA
+ATOM     18  H   UNL     1     158.340 188.852 162.282  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 9
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -5.347      2.339      2.941
+REMARK INTER + INTRA:          -8.464
+REMARK INTER:                  -7.848
+REMARK INTRA:                  -0.616
+REMARK UNBOUND:                -0.617
+REMARK  Name = Lactic acid trimer
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_16
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK    9  A    between atoms: O_10  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_12
+REMARK   11  A    between atoms: C_11  and  C_13
+REMARK   12  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.883 186.875 159.504  0.00  0.00    +0.281 C 
+ATOM      2  C   UNL     1     161.501 185.859 158.437  0.00  0.00    +0.064 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     162.512 188.107 158.844  0.00  0.00    +0.349 C 
+ATOM      4  O   UNL     1     162.528 188.328 157.640  0.00  0.00    -0.247 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     163.060 188.924 159.790  0.00  0.00    -0.448 OA
+BRANCH   5   6
+ATOM      6  C   UNL     1     162.958 190.324 159.492  0.00  0.00    +0.281 C 
+ATOM      7  C   UNL     1     164.312 190.951 159.795  0.00  0.00    +0.064 C 
+BRANCH   6   8
+ATOM      8  C   UNL     1     161.886 191.057 160.300  0.00  0.00    +0.346 C 
+ATOM      9  O   UNL     1     160.770 190.634 160.558  0.00  0.00    -0.247 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     162.252 192.297 160.685  0.00  0.00    -0.478 OA
+ATOM     11  H   UNL     1     162.160 192.292 161.661  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   6   8
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   1  12
+ATOM     12  O   UNL     1     160.679 187.204 160.216  0.00  0.00    -0.448 OA
+BRANCH  12  13
+ATOM     13  C   UNL     1     160.582 186.633 161.454  0.00  0.00    +0.336 C 
+ATOM     14  O   UNL     1     160.129 185.518 161.677  0.00  0.00    -0.248 OA
+BRANCH  13  16
+ATOM     15  C   UNL     1     162.467 187.267 162.960  0.00  0.00    +0.049 C 
+ATOM     16  C   UNL     1     161.053 187.618 162.533  0.00  0.00    +0.220 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     160.229 187.660 163.694  0.00  0.00    -0.381 OA
+ATOM     18  H   UNL     1     160.582 188.370 164.262  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 9
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -5.312      2.705      4.929
+REMARK INTER + INTRA:          -8.413
+REMARK INTER:                  -7.288
+REMARK INTRA:                  -1.126
+REMARK UNBOUND:                -0.617
+REMARK  Name = Lactic acid trimer
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_16
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK    9  A    between atoms: O_10  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_12
+REMARK   11  A    between atoms: C_11  and  C_13
+REMARK   12  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     162.119 190.174 160.785  0.00  0.00    +0.281 C 
+ATOM      2  C   UNL     1     162.070 191.688 160.938  0.00  0.00    +0.064 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     160.777 189.568 161.210  0.00  0.00    +0.349 C 
+ATOM      4  O   UNL     1     159.710 190.169 161.234  0.00  0.00    -0.247 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     160.939 188.260 161.567  0.00  0.00    -0.448 OA
+BRANCH   5   6
+ATOM      6  C   UNL     1     160.033 187.355 160.921  0.00  0.00    +0.281 C 
+ATOM      7  C   UNL     1     160.143 186.016 161.636  0.00  0.00    +0.064 C 
+BRANCH   6   8
+ATOM      8  C   UNL     1     160.319 187.142 159.434  0.00  0.00    +0.346 C 
+ATOM      9  O   UNL     1     159.681 187.617 158.507  0.00  0.00    -0.247 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     161.345 186.300 159.195  0.00  0.00    -0.478 OA
+ATOM     11  H   UNL     1     161.029 185.426 159.510  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   6   8
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   1  12
+ATOM     12  O   UNL     1     162.417 189.905 159.406  0.00  0.00    -0.448 OA
+BRANCH  12  13
+ATOM     13  C   UNL     1     163.647 189.349 159.193  0.00  0.00    +0.336 C 
+ATOM     14  O   UNL     1     164.266 189.402 158.139  0.00  0.00    -0.248 OA
+BRANCH  13  16
+ATOM     15  C   UNL     1     165.619 188.685 160.571  0.00  0.00    +0.049 C 
+ATOM     16  C   UNL     1     164.109 188.583 160.441  0.00  0.00    +0.220 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     163.747 187.205 160.456  0.00  0.00    -0.381 OA
+ATOM     18  H   UNL     1     163.276 187.049 161.295  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 9
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -5.273      2.512      5.035
+REMARK INTER + INTRA:          -8.357
+REMARK INTER:                  -7.072
+REMARK INTRA:                  -1.285
+REMARK UNBOUND:                -0.617
+REMARK  Name = Lactic acid trimer
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_16
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK    9  A    between atoms: O_10  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_12
+REMARK   11  A    between atoms: C_11  and  C_13
+REMARK   12  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     162.205 190.083 159.660  0.00  0.00    +0.281 C 
+ATOM      2  C   UNL     1     163.185 191.175 160.066  0.00  0.00    +0.064 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     162.970 188.902 159.052  0.00  0.00    +0.349 C 
+ATOM      4  O   UNL     1     163.911 188.326 159.583  0.00  0.00    -0.247 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     162.458 188.585 157.827  0.00  0.00    -0.448 OA
+BRANCH   5   6
+ATOM      6  C   UNL     1     162.114 187.201 157.670  0.00  0.00    +0.281 C 
+ATOM      7  C   UNL     1     161.705 186.998 156.218  0.00  0.00    +0.064 C 
+BRANCH   6   8
+ATOM      8  C   UNL     1     160.969 186.738 158.572  0.00  0.00    +0.346 C 
+ATOM      9  O   UNL     1     161.073 186.002 159.541  0.00  0.00    -0.247 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     159.755 187.172 158.172  0.00  0.00    -0.478 OA
+ATOM     11  H   UNL     1     159.911 187.568 157.288  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   6   8
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   1  12
+ATOM     12  O   UNL     1     161.488 189.704 160.846  0.00  0.00    -0.448 OA
+BRANCH  12  13
+ATOM     13  C   UNL     1     160.170 189.407 160.638  0.00  0.00    +0.336 C 
+ATOM     14  O   UNL     1     159.479 189.880 159.746  0.00  0.00    -0.248 OA
+BRANCH  13  16
+ATOM     15  C   UNL     1     160.842 187.858 162.475  0.00  0.00    +0.049 C 
+ATOM     16  C   UNL     1     159.661 188.454 161.727  0.00  0.00    +0.220 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     158.848 187.387 161.246  0.00  0.00    -0.381 OA
+ATOM     18  H   UNL     1     158.432 186.979 162.028  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 9
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -5.134      2.508      4.300
+REMARK INTER + INTRA:          -8.152
+REMARK INTER:                  -7.604
+REMARK INTRA:                  -0.547
+REMARK UNBOUND:                -0.617
+REMARK  Name = Lactic acid trimer
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_16
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK    9  A    between atoms: O_10  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_12
+REMARK   11  A    between atoms: C_11  and  C_13
+REMARK   12  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.007 187.170 160.238  0.00  0.00    +0.281 C 
+ATOM      2  C   UNL     1     160.453 186.153 161.227  0.00  0.00    +0.064 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     162.161 187.944 160.884  0.00  0.00    +0.349 C 
+ATOM      4  O   UNL     1     163.307 187.529 161.002  0.00  0.00    -0.247 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     161.730 189.164 161.318  0.00  0.00    -0.448 OA
+BRANCH   5   6
+ATOM      6  C   UNL     1     161.283 190.039 160.273  0.00  0.00    +0.281 C 
+ATOM      7  C   UNL     1     162.297 191.169 160.164  0.00  0.00    +0.064 C 
+BRANCH   6   8
+ATOM      8  C   UNL     1     159.899 190.644 160.515  0.00  0.00    +0.346 C 
+ATOM      9  O   UNL     1     158.839 190.190 160.113  0.00  0.00    -0.247 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     159.930 191.811 161.191  0.00  0.00    -0.478 OA
+ATOM     11  H   UNL     1     160.417 192.427 160.604  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   6   8
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+ENDBRANCH   1   3
+BRANCH   1  12
+ATOM     12  O   UNL     1     161.435 186.434 159.081  0.00  0.00    -0.448 OA
+BRANCH  12  13
+ATOM     13  C   UNL     1     160.770 186.754 157.931  0.00  0.00    +0.336 C 
+ATOM     14  O   UNL     1     159.807 187.506 157.866  0.00  0.00    -0.248 OA
+BRANCH  13  16
+ATOM     15  C   UNL     1     162.054 186.939 155.800  0.00  0.00    +0.049 C 
+ATOM     16  C   UNL     1     161.354 185.976 156.744  0.00  0.00    +0.220 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     160.397 185.230 155.998  0.00  0.00    -0.381 OA
+ATOM     18  H   UNL     1     160.033 185.836 155.325  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 9
+ENDMDL

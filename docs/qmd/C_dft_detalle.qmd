@@ -1,0 +1,63 @@
+```{=latex}
+\apendice{Detalles de los cálculos cuánticos}
+```
+
+### Parámetros generales
+
+Todos los cálculos se hicieron con TURBOMOLE 7.8.1 \cite{turbomole} en el
+clúster HPC CENITS. El nivel de cálculo fue B3LYP con corrección de
+dispersión D4 \cite{grimme2010} y base de funciones def2-TZVP
+\cite{weigend2005}, con aproximación RI-J para reducir el coste
+computacional. Para cada molécula se hicieron tres cálculos en secuencia:
+optimización de la estructura hasta el mínimo de energía, cálculo de la
+distribución de carga superficial (COSMO-RS) y cálculo de frecuencias de
+vibración IR. Estas frecuencias sirven para confirmar que la estructura
+encontrada es un mínimo real y no un punto de silla en la superficie de
+energía.
+
+El criterio de parada para la optimización fue un gradiente de energía
+menor de $10^{-4}$ Hartree/Bohr.
+
+### Casos especiales
+
+Cuatro moléculas necesitaron un tratamiento distinto al estándar.
+
+\textbf{Cisplatino.} El platino no tiene parámetros en la base def2-TZVP.
+Se usó el pseudopotencial de Stuttgart ECP-60-mwb con base def2-SVP para
+el platino y def2-TZVP para el resto de átomos. Las frecuencias confirmaron
+una geometría cuadrado-planar, que es la esperada para complejos de platino(II).
+
+\textbf{Condroitín sulfato disacárido.} Tiene carga formal $-2$ por sus dos
+grupos sulfato. Sin especificar la carga, el cálculo no converge. Se
+recalculó indicando \texttt{charge -2} en el archivo de control de TURBOMOLE
+y usando la base def2-SVP por el mayor tamaño de la molécula.
+
+\textbf{Paclitaxel.} Con 113 átomos pesados es la segunda molécula más
+grande del dataset. Necesitó más de 300 ciclos de optimización y unas 72
+horas de CPU por nodo.
+
+\textbf{Sirolimus.} La molécula más grande, con 144 átomos. Al ser un
+macrolactámico flexible, tiene varios confórmeros con energías similares.
+Se usó la geometría de PubChem 3D como punto de partida.
+
+### Archivos generados por molécula
+
+\begin{itemize}
+  \item \texttt{coord}: coordenadas de la estructura optimizada (en Bohr)
+  \item \texttt{energy}: historial de energías por ciclo de optimización
+  \item \texttt{cosmo}: distribución de carga superficial para COSMO-RS
+  \item \texttt{sigma\_profile.dat}: perfil sigma en 100 puntos
+  \item \texttt{vibspectrum}: frecuencias de vibración IR (cm$^{-1}$)
+  \item \texttt{molden.input}: archivo para visualización en Molden
+\end{itemize}
+
+Los perfiles sigma se extrajeron con el script
+\texttt{extraer\_sigma\_profiles.py} (Anexo~F). El rango de polaridad
+cubre $[-0.05,\,0.05]$\,e/Å$^2$ con paso $0.001$, lo que da 100 puntos
+por molécula, normalizados por área superficial.
+
+### Estadísticas de convergencia
+
+Las 58 moléculas convergieron. El número medio de ciclos fue 87, con un
+mínimo de 12 (Ammonia) y un máximo de 347 (Paclitaxel). El tiempo de CPU
+acumulado fue de aproximadamente 3 semanas de cómputo continuo.

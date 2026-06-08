@@ -1,0 +1,133 @@
+```{=latex}
+\apendice{Herramienta web Streamlit}
+```
+
+La aplicación Streamlit permite evaluar una molécula nueva sin ejecutar
+ningún script. Introduce el SMILES, calcula descriptores 2D y fingerprints,
+carga los modelos RF entrenados, predice el perfil de afinidad frente a las
+seis proteínas y estima el ITI. Los resultados se presentan como radar chart,
+tabla de afinidades, barra de progreso del ITI y recomendación del carrier
+más adecuado.
+
+\subsubsection*{Instalación}
+
+Requiere Python 3.9 o superior y el entorno conda \texttt{streamlit-env}:
+
+\begin{verbatim}
+conda activate streamlit-env
+cd /ruta/al/proyecto
+streamlit run app.py
+\end{verbatim}
+
+La app se abre en \texttt{http://localhost:8501}.
+
+\subsubsection*{Pantalla de inicio}
+
+```{=latex}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\textwidth]{streamlit_inicio.png}
+\caption{Pantalla de inicio. El usuario puede introducir el SMILES
+directamente o seleccionar una molécula del dataset del TFM filtrando
+por grupo molecular.}
+\end{figure}
+\clearpage
+```
+
+\subsubsection*{Visualización 3D interactiva}
+
+Al introducir un SMILES válido, la app muestra la estructura 2D y la
+estructura 3D interactiva con py3Dmol, que permite rotar la molécula y
+cambiar entre estilos de representación (stick, sphere, surface). También
+calcula las propiedades básicas (MW, LogP, TPSA, HBD/HBA), la solubilidad
+estimada por ESOL y el cumplimiento de la regla de Lipinski.
+
+```{=latex}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\textwidth]{streamlit_3d.png}
+\caption{Visualización 3D interactiva con py3Dmol y propiedades
+moleculares calculadas automáticamente.}
+\end{figure}
+\clearpage
+```
+
+\subsubsection*{Resultados del análisis}
+
+Al pulsar ``Analizar'', la app calcula los descriptores, predice los seis
+$\Delta G$ con los modelos RF, calcula el ITI y clasifica la molécula como
+favorable, moderada o desfavorable. Los resultados incluyen radar chart,
+tabla de afinidades y barra de progreso del ITI coloreada según la
+clasificación.
+
+```{=latex}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\textwidth]{streamlit_analisis.png}
+\caption{Resultados del análisis: métricas ITI, radar chart del perfil
+de afinidad, tabla de $\Delta G$ predichos y recomendación de carrier.}
+\end{figure}
+\clearpage
+```
+
+\subsubsection*{Ranking ITI del dataset}
+
+La segunda pestaña muestra el ranking ITI de todas las moléculas del TFM,
+con filtro por grupo molecular y selector de número de moléculas a mostrar.
+
+```{=latex}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\textwidth]{streamlit_ranking.png}
+\caption{Pestaña de ranking ITI. Las líneas discontinuas marcan los
+umbrales favorable ($>$66) y moderado ($>$33).}
+\end{figure}
+\clearpage
+```
+
+\subsubsection*{Comparador}
+
+La tercera pestaña permite comparar hasta 4 moléculas lado a lado.
+
+```{=latex}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\textwidth]{streamlit_comparador_1.png}
+\caption{Comparador: gráfico de barras agrupadas con los $\Delta G$
+predichos para las moléculas seleccionadas.}
+\end{figure}
+\clearpage
+```
+
+```{=latex}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\textwidth]{streamlit_comparador_2.png}
+\caption{Comparador: radar charts individuales de cada molécula.}
+\end{figure}
+\clearpage
+```
+
+\subsubsection*{Historial de sesión}
+
+La cuarta pestaña guarda todas las moléculas analizadas en la sesión actual
+y genera un mapa de calor de $\Delta G$ cuando hay dos o más moléculas.
+
+```{=latex}
+\begin{figure}[!h]
+\centering
+\includegraphics[width=\textwidth]{streamlit_historial.png}
+\caption{Pestaña de historial: mapa de calor de $\Delta G$ para todas
+las moléculas analizadas en la sesión actual.}
+\end{figure}
+\clearpage
+```
+
+\subsubsection*{Archivos del proyecto}
+
+\begin{itemize}
+  \item \texttt{app.py}: código principal de la aplicación
+  \item \texttt{resultados\_ML/models/}: modelos RF serializados con joblib
+  \item \texttt{dataset\_ML.csv}: dataset de entrenamiento
+  \item \texttt{base\_molecular\_pubchem.csv}: base de datos con SMILES
+\end{itemize}

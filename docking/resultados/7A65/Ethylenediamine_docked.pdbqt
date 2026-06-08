@@ -1,0 +1,288 @@
+MODEL 1
+REMARK VINA RESULT:    -2.873      0.000      0.000
+REMARK INTER + INTRA:          -3.208
+REMARK INTER:                  -3.208
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = Ethylenediamine
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.433 150.143 167.225  0.00  0.00    +0.092 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     160.359 149.240 167.648  0.00  0.00    -0.329 NA
+ATOM      3  H   UNL     1     160.426 148.371 167.122  0.00  0.00    +0.118 HD
+ATOM      4  H   UNL     1     160.497 148.992 168.627  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1     162.154 149.667 165.949  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     162.918 150.730 165.291  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     162.322 151.546 165.173  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     163.681 151.020 165.901  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -2.871      0.078      2.889
+REMARK INTER + INTRA:          -3.207
+REMARK INTER:                  -3.207
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = Ethylenediamine
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     162.178 149.621 166.030  0.00  0.00    +0.092 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     162.893 150.694 165.334  0.00  0.00    -0.329 NA
+ATOM      3  H   UNL     1     163.690 150.985 165.897  0.00  0.00    +0.118 HD
+ATOM      4  H   UNL     1     163.277 150.330 164.463  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1     161.358 150.124 167.233  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     160.324 149.178 167.660  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     159.907 149.506 168.529  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     159.574 149.168 166.970  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -2.794     47.151     47.729
+REMARK INTER + INTRA:          -3.121
+REMARK INTER:                  -3.121
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = Ethylenediamine
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     165.760 195.097 154.138  0.00  0.00    +0.092 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     164.481 195.000 153.430  0.00  0.00    -0.329 NA
+ATOM      3  H   UNL     1     164.638 195.138 152.434  0.00  0.00    +0.118 HD
+ATOM      4  H   UNL     1     164.113 194.055 153.533  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1     165.798 196.251 155.159  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     164.908 197.360 154.805  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     164.039 197.272 155.329  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     165.331 198.238 155.103  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -2.793     47.149     47.724
+REMARK INTER + INTRA:          -3.120
+REMARK INTER:                  -3.120
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = Ethylenediamine
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     165.853 196.277 155.101  0.00  0.00    +0.092 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     164.892 197.334 154.779  0.00  0.00    -0.329 NA
+ATOM      3  H   UNL     1     164.061 196.916 154.365  0.00  0.00    +0.118 HD
+ATOM      4  H   UNL     1     164.586 197.783 155.641  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1     165.762 195.068 154.149  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     164.486 194.998 153.431  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     164.645 195.201 152.446  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     164.131 194.043 153.471  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -2.703     42.582     42.749
+REMARK INTER + INTRA:          -3.019
+REMARK INTER:                  -3.019
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = Ethylenediamine
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     149.474 190.146 159.557  0.00  0.00    +0.092 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     150.229 190.046 158.306  0.00  0.00    -0.329 NA
+ATOM      3  H   UNL     1     151.211 189.885 158.520  0.00  0.00    +0.118 HD
+ATOM      4  H   UNL     1     149.912 189.228 157.788  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1     147.994 189.743 159.403  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     147.569 189.646 158.004  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     146.595 189.352 157.969  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     147.602 190.572 157.579  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -2.697     42.558     42.690
+REMARK INTER + INTRA:          -3.013
+REMARK INTER:                  -3.013
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = Ethylenediamine
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     148.008 189.717 159.435  0.00  0.00    +0.092 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     147.574 189.676 158.037  0.00  0.00    -0.329 NA
+ATOM      3  H   UNL     1     146.562 189.779 157.996  0.00  0.00    +0.118 HD
+ATOM      4  H   UNL     1     147.963 190.477 157.542  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1     149.490 190.109 159.596  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     150.238 190.053 158.338  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     150.997 190.730 158.369  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     150.677 189.137 158.250  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -2.693     37.711     37.938
+REMARK INTER + INTRA:          -3.008
+REMARK INTER:                  -3.008
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = Ethylenediamine
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     159.596 187.261 161.142  0.00  0.00    +0.092 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     158.394 187.975 161.580  0.00  0.00    -0.329 NA
+ATOM      3  H   UNL     1     157.598 187.657 161.032  0.00  0.00    +0.118 HD
+ATOM      4  H   UNL     1     158.191 187.727 162.547  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1     160.702 187.228 162.215  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     160.224 187.618 163.544  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     160.729 188.447 163.852  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     159.244 187.889 163.481  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -2.683     38.182     38.661
+REMARK INTER + INTRA:          -2.996
+REMARK INTER:                  -2.996
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = Ethylenediamine
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.438 187.954 162.188  0.00  0.00    +0.092 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     160.319 187.567 163.595  0.00  0.00    -0.329 NA
+ATOM      3  H   UNL     1     160.222 188.404 164.166  0.00  0.00    +0.118 HD
+ATOM      4  H   UNL     1     159.461 187.033 163.724  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1     159.409 189.022 161.767  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     158.045 188.497 161.666  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     157.385 189.227 161.926  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     157.846 188.266 160.693  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -2.662     38.267     38.706
+REMARK INTER + INTRA:          -2.974
+REMARK INTER:                  -2.974
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = Ethylenediamine
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     153.269 188.300 161.731  0.00  0.00    +0.092 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     153.309 187.641 160.423  0.00  0.00    -0.329 NA
+ATOM      3  H   UNL     1     152.746 186.794 160.458  0.00  0.00    +0.118 HD
+ATOM      4  H   UNL     1     152.872 188.246 159.729  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1     154.125 187.584 162.794  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     154.912 186.476 162.246  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     154.283 185.729 161.958  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     155.388 186.789 161.401  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL

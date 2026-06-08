@@ -1,0 +1,51 @@
+```{=latex}
+\capitulo{2}{Objetivos}
+```
+
+## Objetivo general
+
+Desarrollar una plataforma computacional integrada para la evaluación
+sistemática de la interacción de los componentes moleculares de
+nanopartículas poliméricas y dendrímeros con las principales proteínas de
+barrera biológica, y construir modelos de aprendizaje automático capaces de
+predecir la eficiencia de transporte de nuevas formulaciones de drug
+delivery.
+
+## Objetivos específicos
+
+1. **Construir una base de datos molecular** de 58 moléculas representativas
+   de cuatro categorías funcionales: monómeros y productos de degradación de
+   polímeros biodegradables, oligómeros y unidades de dendrímero, fármacos
+   modelo de alta relevancia clínica, y ligandos de targeting activo.
+
+2. **Obtener geometrías moleculares optimizadas** mediante cálculos DFT al
+   nivel B3LYP-D4/def2-TZVP en el clúster HPC CENITS, incluyendo cálculos
+   de punto singular COSMO-RS para la obtención de perfiles sigma de
+   polaridad superficial y frecuencias vibracionales IR.
+
+3. **Realizar docking molecular sistemático** con AutoDock Vina~1.2.5 de
+   las 58 moléculas frente a seis proteínas de barrera biológica
+   (P-gp/MDR1, CYP3A4, TfR1, FR$\alpha$, lisozima y HSA), generando una
+   matriz de afinidad de más de 340 dockings.
+
+4. **Calcular un conjunto exhaustivo de descriptores moleculares** que
+   incluya descriptores clásicos 2D (RDKit), descriptores 3D (Mordred),
+   fingerprints moleculares Morgan/ECFP4 y MACCS keys, y perfiles sigma
+   COSMO-RS, conformando un espacio de características de más de 2900
+   dimensiones.
+
+5. **Desarrollar tres modelos de aprendizaje automático** validados mediante
+   validación cruzada estratificada de 5 particiones:
+   - Modelo de regresión de afinidad de docking ($\Delta G$) por proteína.
+   - Índice de Eficiencia de Transporte (ITI) como métrica compuesta de
+     idoneidad para drug delivery.
+   - Clasificador binario favorable/desfavorable.
+
+6. **Analizar la interpretabilidad** de los modelos mediante valores SHAP,
+   identificando los descriptores moleculares con mayor poder predictivo
+   sobre la afinidad por cada proteína de barrera.
+
+7. **Implementar una herramienta web interactiva** (Streamlit) que permita,
+   a partir de una molécula definida por su SMILES, calcular descriptores,
+   predecir el perfil de afinidad frente a las seis proteínas y recomendar
+   el carrier óptimo según el ITI.

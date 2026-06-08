@@ -1,0 +1,387 @@
+MODEL 1
+REMARK VINA RESULT:    -3.761      0.000      0.000
+REMARK INTER + INTRA:          -4.932
+REMARK INTER:                  -4.860
+REMARK INTRA:                  -0.071
+REMARK UNBOUND:                -0.071
+REMARK  Name = 2-(2-Aminoethoxy)ethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: O_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -17.979 -30.750  -8.648  0.00  0.00    +0.174 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -18.690 -32.106  -8.564  0.00  0.00    +0.105 C 
+BRANCH   2   3
+ATOM      3  N   UNL     1     -19.582 -32.334  -9.708  0.00  0.00    -0.328 NA
+ATOM      4  H   UNL     1     -20.550 -32.308  -9.390  0.00  0.00    +0.118 HD
+ATOM      5  H   UNL     1     -19.432 -33.301 -10.008  0.00  0.00    +0.118 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  O   UNL     1     -17.832 -30.215  -7.328  0.00  0.00    -0.376 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1     -17.798 -31.226  -6.320  0.00  0.00    +0.187 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -18.028 -30.648  -4.926  0.00  0.00    +0.184 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     -17.995 -31.685  -3.955  0.00  0.00    -0.393 OA
+ATOM     10  H   UNL     1     -18.730 -31.520  -3.339  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -3.724      1.549      2.496
+REMARK INTER + INTRA:          -4.884
+REMARK INTER:                  -4.809
+REMARK INTRA:                  -0.075
+REMARK UNBOUND:                -0.071
+REMARK  Name = 2-(2-Aminoethoxy)ethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: O_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -18.328 -30.945  -8.213  0.00  0.00    +0.174 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -18.663 -32.350  -8.730  0.00  0.00    +0.105 C 
+BRANCH   2   3
+ATOM      3  N   UNL     1     -19.724 -32.327  -9.744  0.00  0.00    -0.328 NA
+ATOM      4  H   UNL     1     -19.307 -32.186 -10.663  0.00  0.00    +0.118 HD
+ATOM      5  H   UNL     1     -20.273 -31.480  -9.575  0.00  0.00    +0.118 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  O   UNL     1     -17.845 -31.043  -6.869  0.00  0.00    -0.376 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1     -17.292 -29.818  -6.387  0.00  0.00    +0.187 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -16.777 -28.940  -7.525  0.00  0.00    +0.184 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     -17.213 -27.600  -7.343  0.00  0.00    -0.393 OA
+ATOM     10  H   UNL     1     -17.183 -27.418  -6.387  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -3.658      2.769      4.165
+REMARK INTER + INTRA:          -4.798
+REMARK INTER:                  -4.750
+REMARK INTRA:                  -0.048
+REMARK UNBOUND:                -0.071
+REMARK  Name = 2-(2-Aminoethoxy)ethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: O_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -17.925 -31.072  -6.002  0.00  0.00    +0.174 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -18.247 -30.496  -4.617  0.00  0.00    +0.105 C 
+BRANCH   2   3
+ATOM      3  N   UNL     1     -18.056 -31.484  -3.549  0.00  0.00    -0.328 NA
+ATOM      4  H   UNL     1     -17.655 -31.024  -2.732  0.00  0.00    +0.118 HD
+ATOM      5  H   UNL     1     -17.326 -32.126  -3.870  0.00  0.00    +0.118 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  O   UNL     1     -18.228 -30.091  -6.999  0.00  0.00    -0.376 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1     -17.926 -30.533  -8.322  0.00  0.00    +0.187 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -18.469 -31.935  -8.591  0.00  0.00    +0.184 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     -19.355 -31.910  -9.702  0.00  0.00    -0.393 OA
+ATOM     10  H   UNL     1     -20.200 -32.286  -9.400  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -3.593      3.426      4.620
+REMARK INTER + INTRA:          -4.715
+REMARK INTER:                  -4.688
+REMARK INTRA:                  -0.027
+REMARK UNBOUND:                -0.071
+REMARK  Name = 2-(2-Aminoethoxy)ethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: O_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -18.146 -30.490  -4.973  0.00  0.00    +0.174 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -18.244 -30.282  -3.457  0.00  0.00    +0.105 C 
+BRANCH   2   3
+ATOM      3  N   UNL     1     -18.174 -31.550  -2.720  0.00  0.00    -0.328 NA
+ATOM      4  H   UNL     1     -17.633 -32.224  -3.260  0.00  0.00    +0.118 HD
+ATOM      5  H   UNL     1     -19.123 -31.932  -2.703  0.00  0.00    +0.118 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  O   UNL     1     -17.140 -29.618  -5.501  0.00  0.00    -0.376 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1     -17.158 -29.549  -6.927  0.00  0.00    +0.187 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -16.381 -28.342  -7.447  0.00  0.00    +0.184 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     -17.185 -27.173  -7.367  0.00  0.00    -0.393 OA
+ATOM     10  H   UNL     1     -16.689 -26.522  -6.840  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -3.586      8.401      9.206
+REMARK INTER + INTRA:          -4.706
+REMARK INTER:                  -4.375
+REMARK INTRA:                  -0.331
+REMARK UNBOUND:                -0.071
+REMARK  Name = 2-(2-Aminoethoxy)ethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: O_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -17.478 -24.629 -14.401  0.00  0.00    +0.174 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -17.604 -24.340 -12.900  0.00  0.00    +0.105 C 
+BRANCH   2   3
+ATOM      3  N   UNL     1     -17.581 -25.569 -12.097  0.00  0.00    -0.328 NA
+ATOM      4  H   UNL     1     -17.962 -25.374 -11.172  0.00  0.00    +0.118 HD
+ATOM      5  H   UNL     1     -16.596 -25.792 -11.930  0.00  0.00    +0.118 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  O   UNL     1     -16.877 -25.915 -14.582  0.00  0.00    -0.376 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1     -17.631 -26.762 -15.450  0.00  0.00    +0.187 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -17.631 -28.212 -14.970  0.00  0.00    +0.184 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     -17.930 -28.267 -13.582  0.00  0.00    -0.393 OA
+ATOM     10  H   UNL     1     -18.440 -29.083 -13.433  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -3.583      2.838      4.147
+REMARK INTER + INTRA:          -4.701
+REMARK INTER:                  -4.661
+REMARK INTRA:                  -0.041
+REMARK UNBOUND:                -0.071
+REMARK  Name = 2-(2-Aminoethoxy)ethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: O_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -17.054 -29.721  -7.347  0.00  0.00    +0.174 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -16.780 -29.436  -5.865  0.00  0.00    +0.105 C 
+BRANCH   2   3
+ATOM      3  N   UNL     1     -17.912 -29.816  -5.010  0.00  0.00    -0.328 NA
+ATOM      4  H   UNL     1     -17.750 -30.748  -4.632  0.00  0.00    +0.118 HD
+ATOM      5  H   UNL     1     -18.722 -29.923  -5.627  0.00  0.00    +0.118 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  O   UNL     1     -18.070 -30.723  -7.451  0.00  0.00    -0.376 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1     -18.322 -31.120  -8.799  0.00  0.00    +0.187 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -19.000 -32.486  -8.873  0.00  0.00    +0.184 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     -19.845 -32.551 -10.013  0.00  0.00    -0.393 OA
+ATOM     10  H   UNL     1     -20.758 -32.428  -9.698  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -3.555      8.211      8.840
+REMARK INTER + INTRA:          -4.666
+REMARK INTER:                  -4.304
+REMARK INTRA:                  -0.361
+REMARK UNBOUND:                -0.071
+REMARK  Name = 2-(2-Aminoethoxy)ethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: O_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -17.963 -26.746 -15.436  0.00  0.00    +0.174 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -17.498 -28.115 -14.921  0.00  0.00    +0.105 C 
+BRANCH   2   3
+ATOM      3  N   UNL     1     -17.852 -28.325 -13.512  0.00  0.00    -0.328 NA
+ATOM      4  H   UNL     1     -18.822 -28.633 -13.452  0.00  0.00    +0.118 HD
+ATOM      5  H   UNL     1     -17.843 -27.404 -13.067  0.00  0.00    +0.118 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  O   UNL     1     -17.041 -25.743 -14.997  0.00  0.00    -0.376 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1     -17.684 -24.637 -14.364  0.00  0.00    +0.187 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -17.266 -24.496 -12.903  0.00  0.00    +0.184 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     -17.649 -25.653 -12.171  0.00  0.00    -0.393 OA
+ATOM     10  H   UNL     1     -18.091 -26.252 -12.798  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.522      3.085      3.513
+REMARK INTER + INTRA:          -4.623
+REMARK INTER:                  -4.556
+REMARK INTRA:                  -0.067
+REMARK UNBOUND:                -0.071
+REMARK  Name = 2-(2-Aminoethoxy)ethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: O_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -17.465 -30.349  -6.196  0.00  0.00    +0.174 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -16.218 -29.463  -6.077  0.00  0.00    +0.105 C 
+BRANCH   2   3
+ATOM      3  N   UNL     1     -16.539 -28.037  -6.205  0.00  0.00    -0.328 NA
+ATOM      4  H   UNL     1     -17.109 -27.894  -7.039  0.00  0.00    +0.118 HD
+ATOM      5  H   UNL     1     -15.659 -27.555  -6.406  0.00  0.00    +0.118 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  O   UNL     1     -17.731 -30.956  -4.928  0.00  0.00    -0.376 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1     -18.516 -30.127  -4.070  0.00  0.00    +0.187 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -18.414 -30.562  -2.610  0.00  0.00    +0.184 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     -17.970 -31.909  -2.532  0.00  0.00    -0.393 OA
+ATOM     10  H   UNL     1     -18.235 -32.246  -1.657  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.427     12.569     13.290
+REMARK INTER + INTRA:          -4.500
+REMARK INTER:                  -4.394
+REMARK INTRA:                  -0.107
+REMARK UNBOUND:                -0.071
+REMARK  Name = 2-(2-Aminoethoxy)ethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: O_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -13.465 -19.002  -6.264  0.00  0.00    +0.174 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -14.219 -17.714  -6.619  0.00  0.00    +0.105 C 
+BRANCH   2   3
+ATOM      3  N   UNL     1     -13.644 -16.537  -5.957  0.00  0.00    -0.328 NA
+ATOM      4  H   UNL     1     -14.293 -15.755  -6.039  0.00  0.00    +0.118 HD
+ATOM      5  H   UNL     1     -12.829 -16.258  -6.509  0.00  0.00    +0.118 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  O   UNL     1     -13.435 -19.859  -7.410  0.00  0.00    -0.376 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1     -14.308 -19.422  -8.453  0.00  0.00    +0.187 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -14.952 -20.596  -9.185  0.00  0.00    +0.184 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     -14.501 -21.824  -8.631  0.00  0.00    -0.393 OA
+ATOM     10  H   UNL     1     -13.946 -21.603  -7.862  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 6
+ENDMDL

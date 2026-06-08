@@ -1,0 +1,12 @@
+REMARK  Name = Ammonia
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1       0.004   0.005   0.296  0.00  0.00    -0.344 NA
+ATOM      2  H   UNL     1       0.917  -0.200  -0.109  0.00  0.00    +0.115 HD
+ATOM      3  H   UNL     1      -0.632  -0.698  -0.079  0.00  0.00    +0.115 HD
+ATOM      4  H   UNL     1      -0.289   0.893  -0.108  0.00  0.00    +0.115 HD
+ENDROOT
+TORSDOF 0

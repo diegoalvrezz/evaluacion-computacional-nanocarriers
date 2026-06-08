@@ -1,0 +1,441 @@
+MODEL 1
+REMARK VINA RESULT:    -6.340      0.000      0.000
+REMARK INTER + INTRA:          -8.480
+REMARK INTER:                  -8.008
+REMARK INTRA:                  -0.471
+REMARK UNBOUND:                -0.471
+REMARK  Name = Ibuprofen
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_5
+REMARK    5  A    between atoms: C_8  and  C_11
+REMARK    6  A    between atoms: C_11  and  C_12
+REMARK    7  A    between atoms: C_11  and  C_13
+REMARK    8  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     164.624 153.334 151.308  0.00  0.00    -0.047 A 
+ATOM      2  C   UNL     1     163.886 154.076 152.236  0.00  0.00    +0.004 A 
+ATOM      3  C   UNL     1     164.157 155.433 152.437  0.00  0.00    +0.005 A 
+ATOM      4  C   UNL     1     165.173 156.078 151.718  0.00  0.00    -0.034 A 
+ATOM      5  C   UNL     1     165.913 155.327 150.791  0.00  0.00    +0.005 A 
+ATOM      6  C   UNL     1     165.641 153.971 150.588  0.00  0.00    +0.004 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNL     1     165.479 157.555 151.910  0.00  0.00    +0.124 C 
+ATOM      8  C   UNL     1     164.492 158.444 151.153  0.00  0.00    +0.024 C 
+BRANCH   7   9
+ATOM      9  C   UNL     1     165.519 157.978 153.369  0.00  0.00    +0.312 C 
+ATOM     10  O   UNL     1     164.605 158.399 154.060  0.00  0.00    -0.250 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1     166.763 157.896 153.890  0.00  0.00    -0.480 OA
+ATOM     12  H   UNL     1     166.619 157.477 154.766  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   7   9
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C   UNL     1     164.330 151.869 151.087  0.00  0.00    +0.038 C 
+BRANCH  13  15
+ATOM     14  C   UNL     1     166.038 150.133 150.468  0.00  0.00    +0.007 C 
+ATOM     15  C   UNL     1     165.130 151.242 149.929  0.00  0.00    -0.013 C 
+ATOM     16  C   UNL     1     164.216 150.674 148.839  0.00  0.00    +0.007 C 
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -6.328     10.848     14.091
+REMARK INTER + INTRA:          -8.464
+REMARK INTER:                  -7.973
+REMARK INTRA:                  -0.492
+REMARK UNBOUND:                -0.471
+REMARK  Name = Ibuprofen
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_5
+REMARK    5  A    between atoms: C_8  and  C_11
+REMARK    6  A    between atoms: C_11  and  C_12
+REMARK    7  A    between atoms: C_11  and  C_13
+REMARK    8  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.713 165.114 157.981  0.00  0.00    -0.047 A 
+ATOM      2  C   UNL     1     162.346 164.455 159.040  0.00  0.00    +0.004 A 
+ATOM      3  C   UNL     1     161.994 164.735 160.364  0.00  0.00    +0.005 A 
+ATOM      4  C   UNL     1     161.002 165.680 160.659  0.00  0.00    -0.034 A 
+ATOM      5  C   UNL     1     160.372 166.341 159.594  0.00  0.00    +0.005 A 
+ATOM      6  C   UNL     1     160.723 166.061 158.270  0.00  0.00    +0.004 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNL     1     160.593 165.994 162.090  0.00  0.00    +0.124 C 
+ATOM      8  C   UNL     1     161.063 164.915 163.066  0.00  0.00    +0.024 C 
+BRANCH   7   9
+ATOM      9  C   UNL     1     161.076 167.351 162.573  0.00  0.00    +0.312 C 
+ATOM     10  O   UNL     1     160.566 168.444 162.390  0.00  0.00    -0.250 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1     162.247 167.267 163.243  0.00  0.00    -0.480 OA
+ATOM     12  H   UNL     1     162.923 167.372 162.540  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   7   9
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C   UNL     1     162.089 164.810 156.550  0.00  0.00    +0.038 C 
+BRANCH  13  15
+ATOM     14  C   UNL     1     160.763 164.538 154.433  0.00  0.00    +0.007 C 
+ATOM     15  C   UNL     1     161.060 163.935 155.809  0.00  0.00    -0.013 C 
+ATOM     16  C   UNL     1     161.545 162.492 155.644  0.00  0.00    +0.007 C 
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -6.268     11.777     13.752
+REMARK INTER + INTRA:          -8.388
+REMARK INTER:                  -7.834
+REMARK INTRA:                  -0.554
+REMARK UNBOUND:                -0.471
+REMARK  Name = Ibuprofen
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_5
+REMARK    5  A    between atoms: C_8  and  C_11
+REMARK    6  A    between atoms: C_11  and  C_12
+REMARK    7  A    between atoms: C_11  and  C_13
+REMARK    8  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.611 164.958 157.646  0.00  0.00    -0.047 A 
+ATOM      2  C   UNL     1     162.377 164.154 158.497  0.00  0.00    +0.004 A 
+ATOM      3  C   UNL     1     162.314 164.326 159.883  0.00  0.00    +0.005 A 
+ATOM      4  C   UNL     1     161.486 165.305 160.450  0.00  0.00    -0.034 A 
+ATOM      5  C   UNL     1     160.723 166.111 159.591  0.00  0.00    +0.005 A 
+ATOM      6  C   UNL     1     160.784 165.939 158.205  0.00  0.00    +0.004 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNL     1     161.392 165.503 161.955  0.00  0.00    +0.124 C 
+ATOM      8  C   UNL     1     160.837 166.882 162.314  0.00  0.00    +0.024 C 
+BRANCH   7   9
+ATOM      9  C   UNL     1     160.569 164.434 162.654  0.00  0.00    +0.312 C 
+ATOM     10  O   UNL     1     160.953 163.564 163.418  0.00  0.00    -0.250 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1     159.264 164.484 162.304  0.00  0.00    -0.480 OA
+ATOM     12  H   UNL     1     158.794 164.248 163.132  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   7   9
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C   UNL     1     161.675 164.771 156.148  0.00  0.00    +0.038 C 
+BRANCH  13  15
+ATOM     14  C   UNL     1     160.457 164.488 153.969  0.00  0.00    +0.007 C 
+ATOM     15  C   UNL     1     160.300 164.547 155.491  0.00  0.00    -0.013 C 
+ATOM     16  C   UNL     1     159.627 163.264 155.988  0.00  0.00    +0.007 C 
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -6.211      8.959     10.932
+REMARK INTER + INTRA:          -8.316
+REMARK INTER:                  -7.816
+REMARK INTRA:                  -0.499
+REMARK UNBOUND:                -0.471
+REMARK  Name = Ibuprofen
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_5
+REMARK    5  A    between atoms: C_8  and  C_11
+REMARK    6  A    between atoms: C_11  and  C_12
+REMARK    7  A    between atoms: C_11  and  C_13
+REMARK    8  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     159.202 159.371 157.264  0.00  0.00    -0.047 A 
+ATOM      2  C   UNL     1     157.901 159.829 157.491  0.00  0.00    +0.004 A 
+ATOM      3  C   UNL     1     157.506 160.245 158.767  0.00  0.00    +0.005 A 
+ATOM      4  C   UNL     1     158.403 160.211 159.843  0.00  0.00    -0.034 A 
+ATOM      5  C   UNL     1     159.706 159.747 159.611  0.00  0.00    +0.005 A 
+ATOM      6  C   UNL     1     160.102 159.332 158.336  0.00  0.00    +0.004 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNL     1     158.001 160.669 161.237  0.00  0.00    +0.124 C 
+ATOM      8  C   UNL     1     158.575 159.759 162.323  0.00  0.00    +0.024 C 
+BRANCH   7   9
+ATOM      9  C   UNL     1     158.386 162.108 161.534  0.00  0.00    +0.312 C 
+ATOM     10  O   UNL     1     157.789 163.129 161.232  0.00  0.00    -0.250 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1     159.573 162.197 162.175  0.00  0.00    -0.480 OA
+ATOM     12  H   UNL     1     159.378 162.777 162.942  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   7   9
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C   UNL     1     159.631 158.925 155.886  0.00  0.00    +0.038 C 
+BRANCH  13  15
+ATOM     14  C   UNL     1     159.369 156.631 154.893  0.00  0.00    +0.007 C 
+ATOM     15  C   UNL     1     160.202 157.494 155.846  0.00  0.00    -0.013 C 
+ATOM     16  C   UNL     1     161.670 157.472 155.410  0.00  0.00    +0.007 C 
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -6.208      3.286      6.333
+REMARK INTER + INTRA:          -8.313
+REMARK INTER:                  -7.805
+REMARK INTRA:                  -0.508
+REMARK UNBOUND:                -0.471
+REMARK  Name = Ibuprofen
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_5
+REMARK    5  A    between atoms: C_8  and  C_11
+REMARK    6  A    between atoms: C_11  and  C_12
+REMARK    7  A    between atoms: C_11  and  C_13
+REMARK    8  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     164.477 155.068 152.040  0.00  0.00    -0.047 A 
+ATOM      2  C   UNL     1     165.519 154.746 151.164  0.00  0.00    +0.004 A 
+ATOM      3  C   UNL     1     165.502 153.543 150.451  0.00  0.00    +0.005 A 
+ATOM      4  C   UNL     1     164.445 152.634 150.600  0.00  0.00    -0.034 A 
+ATOM      5  C   UNL     1     163.404 152.961 151.482  0.00  0.00    +0.005 A 
+ATOM      6  C   UNL     1     163.420 154.164 152.194  0.00  0.00    +0.004 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNL     1     164.398 151.325 149.828  0.00  0.00    +0.124 C 
+ATOM      8  C   UNL     1     163.881 151.523 148.402  0.00  0.00    +0.024 C 
+BRANCH   7   9
+ATOM      9  C   UNL     1     165.734 150.603 149.781  0.00  0.00    +0.312 C 
+ATOM     10  O   UNL     1     166.390 150.164 150.712  0.00  0.00    -0.250 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1     166.220 150.510 148.523  0.00  0.00    -0.480 OA
+ATOM     12  H   UNL     1     165.705 149.773 148.130  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   7   9
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C   UNL     1     164.492 156.369 152.807  0.00  0.00    +0.038 C 
+BRANCH  13  15
+ATOM     14  C   UNL     1     164.829 158.355 151.305  0.00  0.00    +0.007 C 
+ATOM     15  C   UNL     1     165.516 157.392 152.277  0.00  0.00    -0.013 C 
+ATOM     16  C   UNL     1     166.174 158.186 153.409  0.00  0.00    +0.007 C 
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -6.194      3.382      6.329
+REMARK INTER + INTRA:          -8.295
+REMARK INTER:                  -7.778
+REMARK INTRA:                  -0.517
+REMARK UNBOUND:                -0.471
+REMARK  Name = Ibuprofen
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_5
+REMARK    5  A    between atoms: C_8  and  C_11
+REMARK    6  A    between atoms: C_11  and  C_12
+REMARK    7  A    between atoms: C_11  and  C_13
+REMARK    8  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     164.573 155.277 152.111  0.00  0.00    -0.047 A 
+ATOM      2  C   UNL     1     163.673 154.217 152.261  0.00  0.00    +0.004 A 
+ATOM      3  C   UNL     1     163.811 153.053 151.498  0.00  0.00    +0.005 A 
+ATOM      4  C   UNL     1     164.851 152.924 150.567  0.00  0.00    -0.034 A 
+ATOM      5  C   UNL     1     165.749 153.991 150.418  0.00  0.00    +0.005 A 
+ATOM      6  C   UNL     1     165.612 155.154 151.181  0.00  0.00    +0.004 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNL     1     165.030 151.664 149.733  0.00  0.00    +0.124 C 
+ATOM      8  C   UNL     1     164.275 150.476 150.329  0.00  0.00    +0.024 C 
+BRANCH   7   9
+ATOM      9  C   UNL     1     164.623 151.839 148.280  0.00  0.00    +0.312 C 
+ATOM     10  O   UNL     1     165.295 152.257 147.351  0.00  0.00    -0.250 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1     163.327 151.515 148.070  0.00  0.00    -0.480 OA
+ATOM     12  H   UNL     1     162.950 151.473 148.975  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   7   9
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C   UNL     1     164.427 156.533 152.938  0.00  0.00    +0.038 C 
+BRANCH  13  15
+ATOM     14  C   UNL     1     164.596 158.869 152.027  0.00  0.00    +0.007 C 
+ATOM     15  C   UNL     1     165.393 157.662 152.529  0.00  0.00    -0.013 C 
+ATOM     16  C   UNL     1     166.301 158.088 153.686  0.00  0.00    +0.007 C 
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -6.161      1.285      1.995
+REMARK INTER + INTRA:          -8.252
+REMARK INTER:                  -7.727
+REMARK INTRA:                  -0.526
+REMARK UNBOUND:                -0.471
+REMARK  Name = Ibuprofen
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_5
+REMARK    5  A    between atoms: C_8  and  C_11
+REMARK    6  A    between atoms: C_11  and  C_12
+REMARK    7  A    between atoms: C_11  and  C_13
+REMARK    8  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     164.648 153.484 151.360  0.00  0.00    -0.047 A 
+ATOM      2  C   UNL     1     165.580 154.345 150.772  0.00  0.00    +0.004 A 
+ATOM      3  C   UNL     1     165.677 155.678 151.185  0.00  0.00    +0.005 A 
+ATOM      4  C   UNL     1     164.843 156.179 152.194  0.00  0.00    -0.034 A 
+ATOM      5  C   UNL     1     163.908 155.312 152.779  0.00  0.00    +0.005 A 
+ATOM      6  C   UNL     1     163.812 153.980 152.367  0.00  0.00    +0.004 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNL     1     164.937 157.621 152.670  0.00  0.00    +0.124 C 
+ATOM      8  C   UNL     1     166.167 157.852 153.548  0.00  0.00    +0.024 C 
+BRANCH   7   9
+ATOM      9  C   UNL     1     164.935 158.632 151.536  0.00  0.00    +0.312 C 
+ATOM     10  O   UNL     1     164.061 158.839 150.708  0.00  0.00    -0.250 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1     166.094 159.323 151.465  0.00  0.00    -0.480 OA
+ATOM     12  H   UNL     1     166.532 159.127 152.321  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   7   9
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C   UNL     1     164.545 152.044 150.918  0.00  0.00    +0.038 C 
+BRANCH  13  15
+ATOM     14  C   UNL     1     166.381 150.400 150.424  0.00  0.00    +0.007 C 
+ATOM     15  C   UNL     1     165.626 151.626 149.902  0.00  0.00    -0.013 C 
+ATOM     16  C   UNL     1     165.033 151.318 148.524  0.00  0.00    +0.007 C 
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -6.071     33.427     35.299
+REMARK INTER + INTRA:          -8.139
+REMARK INTER:                  -7.604
+REMARK INTRA:                  -0.535
+REMARK UNBOUND:                -0.471
+REMARK  Name = Ibuprofen
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_5
+REMARK    5  A    between atoms: C_8  and  C_11
+REMARK    6  A    between atoms: C_11  and  C_12
+REMARK    7  A    between atoms: C_11  and  C_13
+REMARK    8  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     164.839 189.042 159.767  0.00  0.00    -0.047 A 
+ATOM      2  C   UNL     1     164.458 188.257 160.860  0.00  0.00    +0.004 A 
+ATOM      3  C   UNL     1     163.252 187.549 160.840  0.00  0.00    +0.005 A 
+ATOM      4  C   UNL     1     162.400 187.612 159.729  0.00  0.00    -0.034 A 
+ATOM      5  C   UNL     1     162.786 188.404 158.637  0.00  0.00    +0.005 A 
+ATOM      6  C   UNL     1     163.991 189.111 158.656  0.00  0.00    +0.004 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNL     1     161.089 186.842 159.679  0.00  0.00    +0.124 C 
+ATOM      8  C   UNL     1     160.641 186.389 161.068  0.00  0.00    +0.024 C 
+BRANCH   7   9
+ATOM      9  C   UNL     1     159.962 187.613 159.014  0.00  0.00    +0.312 C 
+ATOM     10  O   UNL     1     159.354 188.582 159.440  0.00  0.00    -0.250 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1     159.608 187.076 157.825  0.00  0.00    -0.480 OA
+ATOM     12  H   UNL     1     158.867 187.646 157.526  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   7   9
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C   UNL     1     166.143 189.805 159.786  0.00  0.00    +0.038 C 
+BRANCH  13  15
+ATOM     14  C   UNL     1     165.618 192.261 159.715  0.00  0.00    +0.007 C 
+ATOM     15  C   UNL     1     166.136 191.069 158.905  0.00  0.00    -0.013 C 
+ATOM     16  C   UNL     1     167.527 191.390 158.349  0.00  0.00    +0.007 C 
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -6.064     33.600     35.228
+REMARK INTER + INTRA:          -8.131
+REMARK INTER:                  -7.641
+REMARK INTRA:                  -0.490
+REMARK UNBOUND:                -0.471
+REMARK  Name = Ibuprofen
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_5
+REMARK    5  A    between atoms: C_8  and  C_11
+REMARK    6  A    between atoms: C_11  and  C_12
+REMARK    7  A    between atoms: C_11  and  C_13
+REMARK    8  A    between atoms: C_13  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     164.399 188.298 160.385  0.00  0.00    -0.047 A 
+ATOM      2  C   UNL     1     163.963 187.801 161.617  0.00  0.00    +0.004 A 
+ATOM      3  C   UNL     1     162.616 187.484 161.819  0.00  0.00    +0.005 A 
+ATOM      4  C   UNL     1     161.675 187.659 160.795  0.00  0.00    -0.034 A 
+ATOM      5  C   UNL     1     162.118 188.161 159.562  0.00  0.00    +0.005 A 
+ATOM      6  C   UNL     1     163.464 188.477 159.359  0.00  0.00    +0.004 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  C   UNL     1     160.207 187.310 160.986  0.00  0.00    +0.124 C 
+ATOM      8  C   UNL     1     160.028 185.966 161.692  0.00  0.00    +0.024 C 
+BRANCH   7   9
+ATOM      9  C   UNL     1     159.426 188.377 161.734  0.00  0.00    +0.312 C 
+ATOM     10  O   UNL     1     158.809 189.325 161.276  0.00  0.00    -0.250 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1     159.504 188.220 163.075  0.00  0.00    -0.480 OA
+ATOM     12  H   UNL     1     159.175 189.075 163.427  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   7   9
+ENDBRANCH   4   7
+BRANCH   1  13
+ATOM     13  C   UNL     1     165.855 188.638 160.164  0.00  0.00    +0.038 C 
+BRANCH  13  15
+ATOM     14  C   UNL     1     165.889 191.142 159.961  0.00  0.00    +0.007 C 
+ATOM     15  C   UNL     1     166.078 189.824 159.206  0.00  0.00    -0.013 C 
+ATOM     16  C   UNL     1     167.469 189.792 158.566  0.00  0.00    +0.007 C 
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL

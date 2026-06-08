@@ -1,0 +1,85 @@
+```{=latex}
+\capitulo{4}{Discusión}
+```
+
+## Geometrías DFT y perfiles sigma
+
+Usar estructuras moleculares calculadas a nivel cuántico (DFT) en lugar de
+geometrías estimadas por métodos de campo de fuerza tiene un impacto real.
+Para moléculas grandes con tensión conformacional, como el sirolimus o el
+paclitaxel, las diferencias geométricas son suficientes para cambiar los
+perfiles sigma. Estos perfiles describen cómo se distribuye la polaridad
+en la superficie de la molécula, algo que los descriptores globales como
+LogP o TPSA no capturan con la misma precisión. Los estudios previos que
+calculan descriptores directamente desde SMILES asumen una geometría que
+puede estar lejos del mínimo real de energía.
+
+## Interpretación de los modelos
+
+BertzCT domina el análisis SHAP con un peso de $0,54$, frente a $0,16$
+de NumBonds y $0,14$ de MW. Los tres miden, de distintas formas, el tamaño
+y la complejidad de la molécula. P-gp tiene un sitio de unión enorme, de
+unos $5000$\,Å$^3$, y reconoce sus sustratos principalmente por su
+hidrofobicidad y complejidad topológica, no por grupos químicos específicos.
+Los resultados coinciden con lo que describe la literatura.
+
+La correlación alta entre P-gp y TfR1 ($r = 0,95$) tiene una implicación
+práctica importante: diseñar una molécula con alta afinidad por TfR1 (para
+dirigirla a células tumorales) probablemente también aumentará su afinidad
+por P-gp (que la expulsará). Por eso el ITI es necesario. Una métrica que
+solo mida afinidad por TfR1 no detecta ese conflicto.
+
+El rendimiento moderado en CYP3A4 (R$^2 = 0,62$) y FR$\alpha$
+(R$^2 = 0,53$) es esperable con 56 moléculas y validación cruzada de 5
+particiones. Con 11 muestras de test por fold, cualquier modelo tiene margen
+limitado. Random Forest y Gradient Boosting funcionan razonablemente bien
+en estas condiciones.
+
+## Validación estructural con PLIP
+
+Los 708 contactos identificados por PLIP dan contexto molecular a los
+resultados de docking. En FR$\alpha$, los residuos SER174 (67 contactos) y
+ARG103 (64) son exactamente los que la cristalografía identifica como
+esenciales para reconocer el ácido fólico. Que los oligómeros de quitosano
+se unan en el mismo bolsillo sugiere que podrían funcionar como ligandos de
+targeting: FR$\alpha$ está sobreexpresado en tumores ováricos y de mama, así
+que una molécula que compita con el folato por ese sitio podría usarse para
+dirigir un nanocarrier específicamente a esos tumores.
+
+En P-gp, los 96 contactos hidrofóbicos con ILE730, LEU312, LEU757 y LEU760
+(8 cada uno) confirman lo que predice SHAP. Triethylene glycol y
+Tetraethylenepentamine forman muy pocos de esos contactos, lo que explica
+cuantitativamente por qué tienen ITI alto.
+
+## Relevancia del ITI y propiedades ADMET
+
+Triethylene glycol (PEG, ITI\,=\,100) tiene el perfil más limpio: 0
+violaciones de Lipinski, biodisponibilidad oral alta y 0\,\% de sustrato
+P-gp. Las ramas PAMAM de baja generación (Tetraethylenepentamine con
+ITI\,=\,$87,3$ y Pentaethylenehexamine con $85,0$) combinan buena
+afinidad por TfR1 con poca interacción con P-gp.
+
+El dato más directo viene del análisis ADMET: el 80\,\% de los fármacos
+modelo son sustratos de P-gp, frente al 0\,\% de los monómeros de
+degradación. Eso cuantifica el problema que resuelven los nanocarriers:
+si el fármaco está encapsulado en una partícula cuyo recubrimiento no es
+sustrato de P-gp, la bomba no puede expulsarlo directamente. Es una
+ventaja que los ensayos clínicos con formulaciones de nanopartículas
+PLGA y PAMAM han confirmado experimentalmente.
+
+Chitotriose (ITI\,=\,$84,7$) y Chitobiose ($82,7$) tienen un perfil
+equilibrado: buena afinidad por FR$\alpha$ confirmada por PLIP, poca
+interacción con P-gp y pocas violaciones de Lipinski. El quitosano ya se
+usa ampliamente como recubrimiento de nanopartículas en formulaciones
+clínicas, así que estos resultados refuerzan lo que se observa
+experimentalmente.
+
+## Limitaciones
+
+El tamaño del dataset es la limitación principal. Con 56 moléculas y cálculos
+DFT completos, el coste computacional es el factor que lo acota. La ausencia
+de validación experimental es inherente al carácter computacional del trabajo.
+Los valores de $\Delta G$ son coherentes con los publicados para moléculas
+similares, y los residuos identificados por PLIP coinciden con datos
+cristalográficos. Los pesos del ITI se definieron con criterio experto. Con
+datos de biodistribución real se podrían calibrar mejor.

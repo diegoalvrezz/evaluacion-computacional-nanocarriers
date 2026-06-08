@@ -1,0 +1,55 @@
+```{=latex}
+\capitulo{5}{Conclusiones}
+```
+
+Se ha construido una plataforma computacional completa para evaluar
+componentes moleculares de nanopartículas poliméricas y dendrímeros frente
+a seis proteínas que determinan cómo se distribuye y metaboliza un fármaco
+en el organismo. Las conclusiones principales son:
+
+1. Las 58 estructuras moleculares se optimizaron a nivel cuántico
+(B3LYP-D4/def2-TZVP) sin que ninguna presentara frecuencias imaginarias.
+Los perfiles de polaridad superficial (COSMO-RS) y las frecuencias de
+vibración IR se calcularon para todas las moléculas, incluidos los casos
+especiales como el cisplatino y el condroitín sulfato.
+
+2. El protocolo de docking generó 342 resultados válidos frente a seis
+proteínas. La matriz de energías de unión resultante separa claramente
+fármacos, oligómeros y ligandos de targeting, con valores medios entre
+$-3,54$ y $-5,70$ kcal/mol según la proteína.
+
+3. El análisis de interacciones con PLIP identificó 708 contactos no
+covalentes en 15 complejos. Los residuos clave de FR$\alpha$ (SER174,
+ARG103) y P-gp (ILE730, LEU312, LEU757) coinciden con los datos
+cristalográficos publicados, lo que valida las poses de docking obtenidas.
+
+4. Random Forest superó R$^2 = 0,7$ en tres proteínas: P-gp
+(R$^2 = 0,817$, MAE = $0,426$ kcal/mol), TfR1 ($0,753$) y Lisozima
+($0,712$). El conjunto de 2908 descriptores es suficientemente informativo
+para predecir la afinidad de unión con este dataset.
+
+5. El ITI identifica Triethylene glycol (100), Tetraethylenepentamine
+($87,3$), Pentaethylenehexamine ($85,0$), Chitotriose ($84,7$) y
+Chitobiose ($82,7$) como los candidatos más favorables. Todos son
+componentes habituales en formulaciones de nanopartículas clínicas.
+
+6. El análisis ADMET confirma que el 80\,\% de los fármacos modelo son
+sustratos de P-gp frente al 0\,\% de los monómeros de degradación. Ese
+contraste cuantifica el problema que resuelven los nanocarriers con ITI
+alto: al encapsular el fármaco, se reduce la exposición directa a la
+bomba de expulsión.
+
+7. El descriptor BertzCT, que mide la complejidad topológica de una
+molécula, tiene el mayor peso en el análisis SHAP (valor medio $0,54$),
+seguido de NumBonds ($0,16$) y MW ($0,14$). P-gp selecciona sus
+sustratos principalmente por tamaño y complejidad estructural, no por
+grupos químicos concretos.
+
+8. El clasificador binario alcanza AUC-ROC = $0,983$ y Accuracy =
+$0,965$. El espacio de descriptores moleculares separa bien las
+moléculas favorables de las desfavorables para drug delivery.
+
+9. La herramienta Streamlit permite evaluar cualquier molécula nueva
+introduciendo su SMILES: calcula descriptores, predice el perfil de
+afinidad, estima el ITI y recomienda el carrier más adecuado sin
+necesidad de ejecutar ningún script.

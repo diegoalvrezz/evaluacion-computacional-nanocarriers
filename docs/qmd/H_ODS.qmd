@@ -1,0 +1,32 @@
+```{=latex}
+\apendice{Objetivos de Desarrollo Sostenible}
+```
+
+Este trabajo contribuye a varios Objetivos de Desarrollo Sostenible de la
+Agenda 2030 de Naciones Unidas.
+
+\textbf{ODS 3: Salud y bienestar.} El objetivo central es mejorar la eficacia
+de los sistemas de liberación de fármacos para enfermedades oncológicas,
+inflamatorias y neurológicas. Las herramientas computacionales desarrolladas
+permiten identificar qué moléculas tienen mejor perfil para el transporte de
+fármacos antes de hacer ningún experimento, reduciendo el tiempo y el coste
+del desarrollo de nuevas formulaciones. Las plataformas de nanopartículas
+poliméricas \cite{danhier2012} y dendrímeros PAMAM \cite{kesharwani2018}
+tienen aplicaciones clínicas directas ya en desarrollo.
+
+\textbf{ODS 9: Industria, innovación e infraestructura.} La plataforma
+combina cálculo cuántico \cite{turbomole}, simulación de unión
+proteína-molécula \cite{eberhardt2021} y aprendizaje automático en un
+pipeline reproducible. La herramienta Streamlit hace accesible esta
+metodología a cualquier investigador sin conocimientos de programación.
+
+\textbf{ODS 12: Producción y consumo responsables.} El enfoque computacional
+reduce el número de experimentos en laboratorio necesarios para cribar
+candidatos. El análisis ADMET con SwissADME \cite{swissadme} descarta
+tempranamente moléculas con propiedades farmacológicas desfavorables, antes
+de llegar a fase experimental.
+
+\textbf{ODS 17: Alianzas para lograr los objetivos.} El trabajo se desarrolló
+con acceso a la infraestructura HPC del CENITS y en colaboración con el Grupo
+de Química-Física Computacional de la Universidad de Burgos. Todos los scripts
+y datos están disponibles en repositorio público.

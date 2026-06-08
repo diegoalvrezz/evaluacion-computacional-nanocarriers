@@ -1,0 +1,432 @@
+MODEL 1
+REMARK VINA RESULT:    -3.496      0.000      0.000
+REMARK INTER + INTRA:          -4.817
+REMARK INTER:                  -4.722
+REMARK INTRA:                  -0.095
+REMARK UNBOUND:                -0.095
+REMARK  Name = Adipic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      13.005  13.154  20.574  0.00  0.00    +0.012 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      12.878  11.632  20.611  0.00  0.00    +0.012 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1      13.816  11.018  21.650  0.00  0.00    +0.120 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1      13.056  10.465  22.825  0.00  0.00    +0.305 C 
+ATOM      5  O   UNL     1      12.081   9.737  22.803  0.00  0.00    -0.251 OA
+BRANCH   4   6
+ATOM      6  O   UNL     1      13.583  10.872  23.997  0.00  0.00    -0.481 OA
+ATOM      7  H   UNL     1      14.193  11.597  23.744  0.00  0.00    +0.295 HD
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1      14.246  13.589  19.806  0.00  0.00    +0.120 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1      14.464  15.067  19.947  0.00  0.00    +0.305 C 
+ATOM     10  O   UNL     1      14.808  15.653  20.959  0.00  0.00    -0.251 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1      14.271  15.734  18.793  0.00  0.00    -0.481 OA
+ATOM     12  H   UNL     1      14.316  16.678  19.055  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -3.462      0.871      5.219
+REMARK INTER + INTRA:          -4.771
+REMARK INTER:                  -4.642
+REMARK INTRA:                  -0.129
+REMARK UNBOUND:                -0.095
+REMARK  Name = Adipic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      13.417  11.438  20.543  0.00  0.00    +0.012 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      13.420  12.960  20.678  0.00  0.00    +0.012 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1      14.380  13.607  19.680  0.00  0.00    +0.120 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1      14.489  15.092  19.898  0.00  0.00    +0.305 C 
+ATOM      5  O   UNL     1      14.729  15.674  20.940  0.00  0.00    -0.251 OA
+BRANCH   4   6
+ATOM      6  O   UNL     1      14.282  15.781  18.758  0.00  0.00    -0.481 OA
+ATOM      7  H   UNL     1      14.732  15.245  18.072  0.00  0.00    +0.295 HD
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1      12.812  10.773  21.773  0.00  0.00    +0.120 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1      13.852  10.587  22.839  0.00  0.00    +0.305 C 
+ATOM     10  O   UNL     1      14.957  10.093  22.691  0.00  0.00    -0.251 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1      13.463  11.065  24.036  0.00  0.00    -0.481 OA
+ATOM     12  H   UNL     1      14.285  11.067  24.570  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -3.434      2.734      3.919
+REMARK INTER + INTRA:          -4.734
+REMARK INTER:                  -4.280
+REMARK INTRA:                  -0.454
+REMARK UNBOUND:                -0.095
+REMARK  Name = Adipic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      11.031   9.807  20.543  0.00  0.00    +0.012 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      10.260   8.901  21.502  0.00  0.00    +0.012 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1      11.096   8.552  22.732  0.00  0.00    +0.120 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1      10.618   9.288  23.955  0.00  0.00    +0.305 C 
+ATOM      5  O   UNL     1       9.481   9.357  24.384  0.00  0.00    -0.251 OA
+BRANCH   4   6
+ATOM      6  O   UNL     1      11.629   9.917  24.587  0.00  0.00    -0.481 OA
+ATOM      7  H   UNL     1      11.289  10.059  25.495  0.00  0.00    +0.295 HD
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1      12.507   9.875  20.910  0.00  0.00    +0.120 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1      12.904  11.282  21.250  0.00  0.00    +0.305 C 
+ATOM     10  O   UNL     1      12.936  12.229  20.482  0.00  0.00    -0.251 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1      13.209  11.437  22.552  0.00  0.00    -0.481 OA
+ATOM     12  H   UNL     1      13.791  10.673  22.751  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -3.418      2.751      5.648
+REMARK INTER + INTRA:          -4.712
+REMARK INTER:                  -4.247
+REMARK INTRA:                  -0.465
+REMARK UNBOUND:                -0.095
+REMARK  Name = Adipic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      10.100   9.083  21.424  0.00  0.00    +0.012 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      11.004   9.727  20.375  0.00  0.00    +0.012 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1      12.445   9.837  20.872  0.00  0.00    +0.120 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1      12.837  11.269  21.121  0.00  0.00    +0.305 C 
+ATOM      5  O   UNL     1      12.878  12.180  20.314  0.00  0.00    -0.251 OA
+BRANCH   4   6
+ATOM      6  O   UNL     1      13.167  11.479  22.411  0.00  0.00    -0.481 OA
+ATOM      7  H   UNL     1      13.263  10.577  22.781  0.00  0.00    +0.295 HD
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1      10.907   8.552  22.601  0.00  0.00    +0.120 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1      10.529   9.265  23.866  0.00  0.00    +0.305 C 
+ATOM     10  O   UNL     1       9.451   9.208  24.433  0.00  0.00    -0.251 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1      11.541   9.992  24.376  0.00  0.00    -0.481 OA
+ATOM     12  H   UNL     1      12.262   9.889  23.720  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -3.378      1.215      5.620
+REMARK INTER + INTRA:          -4.658
+REMARK INTER:                  -4.564
+REMARK INTRA:                  -0.094
+REMARK UNBOUND:                -0.095
+REMARK  Name = Adipic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      13.205  13.102  20.894  0.00  0.00    +0.012 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      14.154  13.796  19.918  0.00  0.00    +0.012 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1      14.358  15.265  20.286  0.00  0.00    +0.120 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1      15.357  15.931  19.378  0.00  0.00    +0.305 C 
+ATOM      5  O   UNL     1      16.568  15.805  19.387  0.00  0.00    -0.251 OA
+BRANCH   4   6
+ATOM      6  O   UNL     1      14.757  16.742  18.485  0.00  0.00    -0.481 OA
+ATOM      7  H   UNL     1      15.470  16.963  17.849  0.00  0.00    +0.295 HD
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1      12.879  11.686  20.439  0.00  0.00    +0.120 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1      13.061  10.713  21.568  0.00  0.00    +0.305 C 
+ATOM     10  O   UNL     1      13.155   9.502  21.469  0.00  0.00    -0.251 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1      13.149  11.318  22.767  0.00  0.00    -0.481 OA
+ATOM     12  H   UNL     1      14.110  11.324  22.960  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -3.369      1.315      1.769
+REMARK INTER + INTRA:          -4.646
+REMARK INTER:                  -4.544
+REMARK INTRA:                  -0.103
+REMARK UNBOUND:                -0.095
+REMARK  Name = Adipic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      14.341  13.906  19.957  0.00  0.00    +0.012 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      13.204  13.327  20.796  0.00  0.00    +0.012 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1      12.840  11.913  20.344  0.00  0.00    +0.120 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1      13.124  10.897  21.417  0.00  0.00    +0.305 C 
+ATOM      5  O   UNL     1      13.296   9.699  21.280  0.00  0.00    -0.251 OA
+BRANCH   4   6
+ATOM      6  O   UNL     1      13.177  11.463  22.639  0.00  0.00    -0.481 OA
+ATOM      7  H   UNL     1      12.299  11.268  23.030  0.00  0.00    +0.295 HD
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1      14.315  15.429  19.962  0.00  0.00    +0.120 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1      15.257  15.977  18.930  0.00  0.00    +0.305 C 
+ATOM     10  O   UNL     1      16.391  16.377  19.129  0.00  0.00    -0.251 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1      14.735  15.964  17.689  0.00  0.00    -0.481 OA
+ATOM     12  H   UNL     1      13.801  16.231  17.821  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -3.355      5.219      6.480
+REMARK INTER + INTRA:          -4.628
+REMARK INTER:                  -4.466
+REMARK INTRA:                  -0.162
+REMARK UNBOUND:                -0.095
+REMARK  Name = Adipic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      11.281   9.417  23.641  0.00  0.00    +0.012 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1       9.952   8.978  24.253  0.00  0.00    +0.012 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1      10.099   7.666  25.023  0.00  0.00    +0.120 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1       8.908   7.406  25.907  0.00  0.00    +0.305 C 
+ATOM      5  O   UNL     1       8.731   6.463  26.656  0.00  0.00    -0.251 OA
+BRANCH   4   6
+ATOM      6  O   UNL     1       7.981   8.377  25.794  0.00  0.00    -0.481 OA
+ATOM      7  H   UNL     1       7.204   8.020  26.274  0.00  0.00    +0.295 HD
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1      12.460   8.748  24.336  0.00  0.00    +0.120 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1      13.521   9.757  24.667  0.00  0.00    +0.305 C 
+ATOM     10  O   UNL     1      14.689   9.715  24.323  0.00  0.00    -0.251 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1      13.049  10.790  25.390  0.00  0.00    -0.481 OA
+ATOM     12  H   UNL     1      12.311  10.401  25.905  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.301      5.363      7.705
+REMARK INTER + INTRA:          -4.554
+REMARK INTER:                  -4.441
+REMARK INTRA:                  -0.112
+REMARK UNBOUND:                -0.095
+REMARK  Name = Adipic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       9.891   7.867  24.950  0.00  0.00    +0.012 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1       8.606   7.724  25.765  0.00  0.00    +0.012 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1       8.604   6.432  26.581  0.00  0.00    +0.120 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1       9.156   6.649  27.964  0.00  0.00    +0.305 C 
+ATOM      5  O   UNL     1      10.243   6.305  28.393  0.00  0.00    -0.251 OA
+BRANCH   4   6
+ATOM      6  O   UNL     1       8.284   7.305  28.754  0.00  0.00    -0.481 OA
+ATOM      7  H   UNL     1       8.477   6.968  29.654  0.00  0.00    +0.295 HD
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1       9.970   9.229  24.272  0.00  0.00    +0.120 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1      11.388   9.556  23.907  0.00  0.00    +0.305 C 
+ATOM     10  O   UNL     1      11.893   9.443  22.803  0.00  0.00    -0.251 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1      12.094  10.042  24.944  0.00  0.00    -0.481 OA
+ATOM     12  H   UNL     1      12.458   9.242  25.380  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.250      4.607      5.500
+REMARK INTER + INTRA:          -4.485
+REMARK INTER:                  -3.982
+REMARK INTRA:                  -0.504
+REMARK UNBOUND:                -0.095
+REMARK  Name = Adipic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      12.916   9.209  22.466  0.00  0.00    +0.012 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      11.391   9.286  22.499  0.00  0.00    +0.012 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1      10.782   8.027  23.116  0.00  0.00    +0.120 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1      10.238   8.292  24.495  0.00  0.00    +0.305 C 
+ATOM      5  O   UNL     1       9.220   8.892  24.789  0.00  0.00    -0.251 OA
+BRANCH   4   6
+ATOM      6  O   UNL     1      11.030   7.772  25.453  0.00  0.00    -0.481 OA
+ATOM      7  H   UNL     1      11.109   6.826  25.208  0.00  0.00    +0.295 HD
+ENDBRANCH   4   6
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1      13.546  10.331  23.280  0.00  0.00    +0.120 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1      13.500  10.011  24.746  0.00  0.00    +0.305 C 
+ATOM     10  O   UNL     1      13.895   8.985  25.274  0.00  0.00    -0.251 OA
+BRANCH   9  11
+ATOM     11  O   UNL     1      12.989  11.015  25.482  0.00  0.00    -0.481 OA
+ATOM     12  H   UNL     1      12.565  11.602  24.821  0.00  0.00    +0.295 HD
+ENDBRANCH   9  11
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL

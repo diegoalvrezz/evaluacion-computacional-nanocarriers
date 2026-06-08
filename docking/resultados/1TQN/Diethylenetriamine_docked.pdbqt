@@ -1,0 +1,405 @@
+MODEL 1
+REMARK VINA RESULT:    -3.946      0.000      0.000
+REMARK INTER + INTRA:          -5.123
+REMARK INTER:                  -5.099
+REMARK INTRA:                  -0.024
+REMARK UNBOUND:                -0.024
+REMARK  Name = Diethylenetriamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     -18.287 -29.822  -6.191  0.00  0.00    -0.314 NA
+ATOM      2  H   UNL     1     -19.299 -29.791  -6.328  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -17.680 -30.113  -7.499  0.00  0.00    +0.096 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     -18.443 -31.237  -8.230  0.00  0.00    +0.092 C 
+BRANCH   4   5
+ATOM      5  N   UNL     1     -18.186 -31.242  -9.677  0.00  0.00    -0.329 NA
+ATOM      6  H   UNL     1     -17.782 -32.152  -9.904  0.00  0.00    +0.118 HD
+ATOM      7  H   UNL     1     -19.080 -31.215 -10.165  0.00  0.00    +0.118 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   8
+ATOM      8  C   UNL     1     -17.961 -30.841  -5.186  0.00  0.00    +0.096 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1     -18.189 -30.395  -3.727  0.00  0.00    +0.092 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     -18.188 -31.534  -2.808  0.00  0.00    -0.329 NA
+ATOM     11  H   UNL     1     -17.483 -32.206  -3.109  0.00  0.00    +0.118 HD
+ATOM     12  H   UNL     1     -19.084 -32.017  -2.863  0.00  0.00    +0.118 HD
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -3.869      0.411      4.482
+REMARK INTER + INTRA:          -5.024
+REMARK INTER:                  -4.972
+REMARK INTRA:                  -0.052
+REMARK UNBOUND:                -0.024
+REMARK  Name = Diethylenetriamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     -17.543 -29.614  -6.328  0.00  0.00    -0.314 NA
+ATOM      2  H   UNL     1     -16.613 -29.306  -6.034  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -17.885 -30.794  -5.518  0.00  0.00    +0.096 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     -18.315 -30.387  -4.093  0.00  0.00    +0.092 C 
+BRANCH   4   5
+ATOM      5  N   UNL     1     -18.135 -31.473  -3.121  0.00  0.00    -0.329 NA
+ATOM      6  H   UNL     1     -17.499 -31.125  -2.401  0.00  0.00    +0.118 HD
+ATOM      7  H   UNL     1     -19.021 -31.630  -2.643  0.00  0.00    +0.118 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   8
+ATOM      8  C   UNL     1     -17.526 -29.910  -7.766  0.00  0.00    +0.096 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1     -18.377 -31.128  -8.178  0.00  0.00    +0.092 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     -18.360 -31.333  -9.627  0.00  0.00    -0.329 NA
+ATOM     11  H   UNL     1     -17.932 -30.523 -10.074  0.00  0.00    +0.118 HD
+ATOM     12  H   UNL     1     -19.318 -31.376  -9.975  0.00  0.00    +0.118 HD
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -3.797      2.410      4.587
+REMARK INTER + INTRA:          -4.930
+REMARK INTER:                  -4.885
+REMARK INTRA:                  -0.046
+REMARK UNBOUND:                -0.024
+REMARK  Name = Diethylenetriamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     -17.126 -29.123  -5.418  0.00  0.00    -0.314 NA
+ATOM      2  H   UNL     1     -16.586 -28.881  -4.585  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -17.932 -30.307  -5.084  0.00  0.00    +0.096 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     -18.354 -30.294  -3.600  0.00  0.00    +0.092 C 
+BRANCH   4   5
+ATOM      5  N   UNL     1     -18.121 -31.586  -2.938  0.00  0.00    -0.329 NA
+ATOM      6  H   UNL     1     -19.029 -32.049  -2.864  0.00  0.00    +0.118 HD
+ATOM      7  H   UNL     1     -17.569 -32.173  -3.561  0.00  0.00    +0.118 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   8
+ATOM      8  C   UNL     1     -16.211 -29.369  -6.539  0.00  0.00    +0.096 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1     -16.397 -28.416  -7.737  0.00  0.00    +0.092 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     -17.071 -27.178  -7.343  0.00  0.00    -0.329 NA
+ATOM     11  H   UNL     1     -16.839 -26.444  -8.012  0.00  0.00    +0.118 HD
+ATOM     12  H   UNL     1     -16.710 -26.867  -6.442  0.00  0.00    +0.118 HD
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -3.791      1.962      2.300
+REMARK INTER + INTRA:          -4.923
+REMARK INTER:                  -4.895
+REMARK INTRA:                  -0.028
+REMARK UNBOUND:                -0.024
+REMARK  Name = Diethylenetriamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     -17.532 -29.347  -5.701  0.00  0.00    -0.314 NA
+ATOM      2  H   UNL     1     -18.383 -28.782  -5.660  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -17.259 -29.617  -7.121  0.00  0.00    +0.096 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     -16.530 -28.431  -7.785  0.00  0.00    +0.092 C 
+BRANCH   4   5
+ATOM      5  N   UNL     1     -17.080 -27.132  -7.372  0.00  0.00    -0.329 NA
+ATOM      6  H   UNL     1     -16.292 -26.562  -7.058  0.00  0.00    +0.118 HD
+ATOM      7  H   UNL     1     -17.444 -26.658  -8.196  0.00  0.00    +0.118 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   8
+ATOM      8  C   UNL     1     -17.725 -30.578  -4.925  0.00  0.00    +0.096 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1     -18.223 -30.353  -3.483  0.00  0.00    +0.092 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     -18.166 -31.585  -2.694  0.00  0.00    -0.329 NA
+ATOM     11  H   UNL     1     -19.112 -31.942  -2.563  0.00  0.00    +0.118 HD
+ATOM     12  H   UNL     1     -17.810 -31.375  -1.762  0.00  0.00    +0.118 HD
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -3.732      2.212      4.169
+REMARK INTER + INTRA:          -4.847
+REMARK INTER:                  -4.776
+REMARK INTRA:                  -0.072
+REMARK UNBOUND:                -0.024
+REMARK  Name = Diethylenetriamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     -17.750 -30.993  -6.744  0.00  0.00    -0.314 NA
+ATOM      2  H   UNL     1     -18.505 -31.217  -6.092  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -17.194 -29.694  -6.335  0.00  0.00    +0.096 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     -16.775 -28.856  -7.561  0.00  0.00    +0.092 C 
+BRANCH   4   5
+ATOM      5  N   UNL     1     -17.047 -27.423  -7.381  0.00  0.00    -0.329 NA
+ATOM      6  H   UNL     1     -17.286 -27.048  -8.300  0.00  0.00    +0.118 HD
+ATOM      7  H   UNL     1     -17.892 -27.322  -6.821  0.00  0.00    +0.118 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   8
+ATOM      8  C   UNL     1     -18.280 -30.968  -8.112  0.00  0.00    +0.096 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1     -18.633 -32.356  -8.686  0.00  0.00    +0.092 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     -19.662 -32.265  -9.723  0.00  0.00    -0.329 NA
+ATOM     11  H   UNL     1     -20.423 -31.676  -9.388  0.00  0.00    +0.118 HD
+ATOM     12  H   UNL     1     -20.066 -33.187  -9.883  0.00  0.00    +0.118 HD
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -3.715      5.351      6.766
+REMARK INTER + INTRA:          -4.825
+REMARK INTER:                  -4.486
+REMARK INTRA:                  -0.339
+REMARK UNBOUND:                -0.024
+REMARK  Name = Diethylenetriamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     -17.429 -26.747 -11.486  0.00  0.00    -0.314 NA
+ATOM      2  H   UNL     1     -17.807 -27.656 -11.761  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -17.010 -26.060 -12.717  0.00  0.00    +0.096 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     -17.133 -26.987 -13.944  0.00  0.00    +0.092 C 
+BRANCH   4   5
+ATOM      5  N   UNL     1     -17.847 -28.234 -13.636  0.00  0.00    -0.329 NA
+ATOM      6  H   UNL     1     -17.871 -28.783 -14.497  0.00  0.00    +0.118 HD
+ATOM      7  H   UNL     1     -17.284 -28.778 -12.985  0.00  0.00    +0.118 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   8
+ATOM      8  C   UNL     1     -16.316 -26.946 -10.550  0.00  0.00    +0.096 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1     -16.268 -28.343  -9.900  0.00  0.00    +0.092 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     -17.015 -29.329 -10.683  0.00  0.00    -0.329 NA
+ATOM     11  H   UNL     1     -17.892 -28.913 -10.994  0.00  0.00    +0.118 HD
+ATOM     12  H   UNL     1     -17.269 -30.115 -10.086  0.00  0.00    +0.118 HD
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -3.697     11.567     12.405
+REMARK INTER + INTRA:          -4.802
+REMARK INTER:                  -4.705
+REMARK INTRA:                  -0.097
+REMARK UNBOUND:                -0.024
+REMARK  Name = Diethylenetriamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     -13.244 -19.734  -7.883  0.00  0.00    -0.314 NA
+ATOM      2  H   UNL     1     -12.358 -19.374  -8.245  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -14.268 -19.475  -8.907  0.00  0.00    +0.096 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     -15.229 -20.673  -9.051  0.00  0.00    +0.092 C 
+BRANCH   4   5
+ATOM      5  N   UNL     1     -14.632 -21.932  -8.583  0.00  0.00    -0.329 NA
+ATOM      6  H   UNL     1     -13.626 -21.772  -8.507  0.00  0.00    +0.118 HD
+ATOM      7  H   UNL     1     -14.950 -22.107  -7.631  0.00  0.00    +0.118 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   8
+ATOM      8  C   UNL     1     -13.552 -19.077  -6.607  0.00  0.00    +0.096 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1     -14.252 -17.709  -6.744  0.00  0.00    +0.092 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     -13.580 -16.677  -5.953  0.00  0.00    -0.329 NA
+ATOM     11  H   UNL     1     -14.237 -16.296  -5.274  0.00  0.00    +0.118 HD
+ATOM     12  H   UNL     1     -13.317 -15.901  -6.561  0.00  0.00    +0.118 HD
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.681     11.516     12.730
+REMARK INTER + INTRA:          -4.781
+REMARK INTER:                  -4.682
+REMARK INTRA:                  -0.099
+REMARK UNBOUND:                -0.024
+REMARK  Name = Diethylenetriamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     -13.209 -19.689  -7.934  0.00  0.00    -0.314 NA
+ATOM      2  H   UNL     1     -12.980 -20.675  -7.792  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -13.467 -19.108  -6.608  0.00  0.00    +0.096 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     -14.219 -17.766  -6.722  0.00  0.00    +0.092 C 
+BRANCH   4   5
+ATOM      5  N   UNL     1     -13.575 -16.692  -5.953  0.00  0.00    -0.329 NA
+ATOM      6  H   UNL     1     -13.126 -17.133  -5.148  0.00  0.00    +0.118 HD
+ATOM      7  H   UNL     1     -12.813 -16.309  -6.510  0.00  0.00    +0.118 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   8
+ATOM      8  C   UNL     1     -14.370 -19.581  -8.826  0.00  0.00    +0.096 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1     -15.337 -20.782  -8.765  0.00  0.00    +0.092 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     -14.620 -22.042  -8.566  0.00  0.00    -0.329 NA
+ATOM     11  H   UNL     1     -14.108 -22.273  -9.417  0.00  0.00    +0.118 HD
+ATOM     12  H   UNL     1     -15.292 -22.796  -8.425  0.00  0.00    +0.118 HD
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.673      2.214      2.325
+REMARK INTER + INTRA:          -4.771
+REMARK INTER:                  -4.740
+REMARK INTRA:                  -0.031
+REMARK UNBOUND:                -0.024
+REMARK  Name = Diethylenetriamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_7
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     -17.843 -30.416  -7.392  0.00  0.00    -0.314 NA
+ATOM      2  H   UNL     1     -17.413 -31.216  -6.922  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -18.153 -30.836  -8.767  0.00  0.00    +0.096 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     -18.716 -32.272  -8.799  0.00  0.00    +0.092 C 
+BRANCH   4   5
+ATOM      5  N   UNL     1     -19.776 -32.438  -9.803  0.00  0.00    -0.329 NA
+ATOM      6  H   UNL     1     -20.624 -32.025  -9.410  0.00  0.00    +0.118 HD
+ATOM      7  H   UNL     1     -19.548 -31.864 -10.613  0.00  0.00    +0.118 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   8
+ATOM      8  C   UNL     1     -16.922 -29.274  -7.351  0.00  0.00    +0.096 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1     -16.387 -28.934  -5.945  0.00  0.00    +0.092 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     -17.257 -29.462  -4.894  0.00  0.00    -0.329 NA
+ATOM     11  H   UNL     1     -16.723 -30.103  -4.309  0.00  0.00    +0.118 HD
+ATOM     12  H   UNL     1     -18.003 -30.014  -5.315  0.00  0.00    +0.118 HD
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL

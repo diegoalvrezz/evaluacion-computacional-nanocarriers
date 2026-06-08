@@ -1,0 +1,67 @@
+```{=latex}
+\apendice{Resultados completos de docking}
+```
+
+### Protocolo de preparación
+
+Las proteínas se descargaron del Protein Data Bank en formato PDB y se
+prepararon con MGLTools 1.5.7. El script \texttt{prepare\_receptor4.py}
+elimina las moléculas de agua, añade hidrógenos polares y asigna cargas
+Gasteiger a cada átomo. Los ligandos se prepararon desde los SMILES con
+OpenBabel 3.1, convirtiendo al formato PDBQT que requiere AutoDock Vina.
+
+Las cajas de búsqueda, que definen la región de la proteína donde se busca
+la pose de unión, se centraron en el sitio activo co-cristalizado de cada
+proteína. El tamaño fue de $25\times25\times25$\,Å para todas excepto P-gp
+(7A65), que por su gran cavidad de unión requirió $40\times40\times40$\,Å.
+El docking se realizó con AutoDock Vina 1.2.5 \cite{eberhardt2021} con
+parámetros de alta exhaustividad (32), 9 poses por cálculo y 8 CPUs.
+
+### Energías de unión
+
+La tabla siguiente recoge las estadísticas de energía de unión $\Delta G$
+(modo 1, mejor pose) para las seis proteínas. Valores más negativos indican
+mayor afinidad. Cisplatino no generó resultados porque AutoDock Vina no
+maneja el platino sin parámetros específicos.
+
+\begin{table}[!h]
+\centering
+\small
+\caption{Estadísticas de energía de unión por proteína (kcal/mol).}
+\label{tab:stats_docking}
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Proteína} & \textbf{Media} & \textbf{Mín.} & \textbf{Máx.} &
+\textbf{DE} \\
+\midrule
+P-gp MDR1  (7A65) & $-5,07$ & $-10,27$ & $-0,85$ & 1,87 \\
+CYP3A4     (1TQN) & $-5,21$ & $-9,91$  & $-0,15$ & 2,13 \\
+TfR1       (1CX8) & $-5,08$ & $-9,12$  & $-1,23$ & 1,74 \\
+FR$\alpha$ (4LRH) & $-5,70$ & $-9,91$  & $-1,41$ & 1,98 \\
+Lisozima   (1LYZ) & $-3,54$ & $-7,84$  & $-0,92$ & 1,42 \\
+HSA        (1AO6) & $-4,31$ & $-8,67$  & $-1,05$ & 1,61 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!h]
+\centering
+\small
+\caption{Energía de unión media por grupo molecular (kcal/mol, media
+sobre las 6 proteínas).}
+\label{tab:stats_docking_grupo}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Grupo} & \textbf{Media $\Delta G$} & \textbf{DE} \\
+\midrule
+Fármacos modelo         & $-7,31$ & 1,42 \\
+Ligandos targeting      & $-5,18$ & 1,21 \\
+Oligómeros/Unidades     & $-4,43$ & 1,18 \\
+Monómeros degradación   & $-3,87$ & 0,94 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Los datos completos por molécula están en el archivo
+\texttt{docking\_energias\_completo.csv} del repositorio. Los 342 archivos
+de poses están organizados por proteína en \texttt{docking/resultados/}.

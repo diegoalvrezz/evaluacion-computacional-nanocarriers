@@ -1,0 +1,468 @@
+MODEL 1
+REMARK VINA RESULT:    -7.532      0.000      0.000
+REMARK INTER + INTRA:         -10.116
+REMARK INTER:                  -9.954
+REMARK INTRA:                  -0.162
+REMARK UNBOUND:                -0.162
+REMARK  Name = Biotin
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_6
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  C_8
+REMARK    4  A    between atoms: C_8  and  C_9
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_10  and  O_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       0.261  24.564   4.262  0.00  0.00    +0.093 C 
+ATOM      2  C   UNL     1       1.268  24.339   5.375  0.00  0.00    +0.105 C 
+ATOM      3  C   UNL     1       2.692  24.290   4.808  0.00  0.00    +0.108 C 
+ATOM      4  C   UNL     1       2.632  23.582   3.441  0.00  0.00    +0.069 C 
+ATOM      5  S   UNL     1       1.027  24.033   2.707  0.00  0.00    -0.154 S 
+ATOM      6  N   UNL     1       3.361  23.472   5.797  0.00  0.00    -0.294 N 
+ATOM      7  C   UNL     1       2.447  22.681   6.473  0.00  0.00    +0.300 C 
+ATOM      8  O   UNL     1       2.708  21.806   7.274  0.00  0.00    -0.253 OA
+ATOM      9  N   UNL     1       1.174  23.080   6.084  0.00  0.00    -0.294 N 
+ATOM     10  H   UNL     1       4.350  23.258   5.838  0.00  0.00    +0.151 HD
+ATOM     11  H   UNL     1       0.404  22.804   6.682  0.00  0.00    +0.151 HD
+ENDROOT
+BRANCH   4  12
+ATOM     12  C   UNL     1       3.834  23.874   2.531  0.00  0.00    +0.016 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1       3.745  23.348   1.093  0.00  0.00    +0.002 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1       5.134  22.976   0.558  0.00  0.00    +0.011 C 
+BRANCH  14  15
+ATOM     15  C   UNL     1       5.373  21.467   0.540  0.00  0.00    +0.120 C 
+BRANCH  15  16
+ATOM     16  C   UNL     1       6.689  21.088  -0.088  0.00  0.00    +0.305 C 
+ATOM     17  O   UNL     1       7.754  21.675   0.002  0.00  0.00    -0.251 OA
+BRANCH  16  18
+ATOM     18  O   UNL     1       6.590  19.954  -0.808  0.00  0.00    -0.481 OA
+ATOM     19  H   UNL     1       5.873  19.451  -0.369  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   4  12
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -7.419      5.026      6.264
+REMARK INTER + INTRA:          -9.967
+REMARK INTER:                  -9.977
+REMARK INTRA:                   0.010
+REMARK UNBOUND:                -0.162
+REMARK  Name = Biotin
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_6
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  C_8
+REMARK    4  A    between atoms: C_8  and  C_9
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_10  and  O_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       4.129  24.147   4.242  0.00  0.00    +0.093 C 
+ATOM      2  C   UNL     1       4.590  23.873   2.823  0.00  0.00    +0.105 C 
+ATOM      3  C   UNL     1       3.461  24.164   1.827  0.00  0.00    +0.108 C 
+ATOM      4  C   UNL     1       2.134  23.734   2.480  0.00  0.00    +0.069 C 
+ATOM      5  S   UNL     1       2.317  24.058   4.262  0.00  0.00    -0.154 S 
+ATOM      6  N   UNL     1       3.819  23.286   0.732  0.00  0.00    -0.294 N 
+ATOM      7  C   UNL     1       4.611  22.243   1.185  0.00  0.00    +0.300 C 
+ATOM      8  O   UNL     1       4.972  21.282   0.535  0.00  0.00    -0.253 OA
+ATOM      9  N   UNL     1       4.935  22.502   2.511  0.00  0.00    -0.294 N 
+ATOM     10  H   UNL     1       3.366  23.228  -0.171  0.00  0.00    +0.151 HD
+ATOM     11  H   UNL     1       5.721  21.996   2.898  0.00  0.00    +0.151 HD
+ENDROOT
+BRANCH   4  12
+ATOM     12  C   UNL     1       0.890  24.386   1.856  0.00  0.00    +0.016 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1       0.894  24.539   0.330  0.00  0.00    +0.002 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1       0.043  25.741  -0.103  0.00  0.00    +0.011 C 
+BRANCH  14  15
+ATOM     15  C   UNL     1       0.001  25.915  -1.621  0.00  0.00    +0.120 C 
+BRANCH  15  16
+ATOM     16  C   UNL     1      -1.340  26.388  -2.120  0.00  0.00    +0.305 C 
+ATOM     17  O   UNL     1      -2.209  26.964  -1.489  0.00  0.00    -0.251 OA
+BRANCH  16  18
+ATOM     18  O   UNL     1      -1.513  26.107  -3.427  0.00  0.00    -0.481 OA
+ATOM     19  H   UNL     1      -1.531  26.986  -3.862  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   4  12
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -7.192      3.413      3.910
+REMARK INTER + INTRA:          -9.667
+REMARK INTER:                  -9.455
+REMARK INTRA:                  -0.212
+REMARK UNBOUND:                -0.162
+REMARK  Name = Biotin
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_6
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  C_8
+REMARK    4  A    between atoms: C_8  and  C_9
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_10  and  O_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       0.932  24.129   3.716  0.00  0.00    +0.093 C 
+ATOM      2  C   UNL     1       0.325  24.306   2.337  0.00  0.00    +0.105 C 
+ATOM      3  C   UNL     1       1.255  23.729   1.264  0.00  0.00    +0.108 C 
+ATOM      4  C   UNL     1       2.706  24.019   1.692  0.00  0.00    +0.069 C 
+ATOM      5  S   UNL     1       2.724  23.937   3.511  0.00  0.00    -0.154 S 
+ATOM      6  N   UNL     1       0.877  24.519   0.110  0.00  0.00    -0.294 N 
+ATOM      7  C   UNL     1       0.308  25.718   0.508  0.00  0.00    +0.300 C 
+ATOM      8  O   UNL     1      -0.000  26.642  -0.218  0.00  0.00    -0.253 OA
+ATOM      9  N   UNL     1       0.136  25.668   1.886  0.00  0.00    -0.294 N 
+ATOM     10  H   UNL     1       1.206  24.400  -0.840  0.00  0.00    +0.151 HD
+ATOM     11  H   UNL     1      -0.512  26.332   2.291  0.00  0.00    +0.151 HD
+ENDROOT
+BRANCH   4  12
+ATOM     12  C   UNL     1       3.750  23.113   1.020  0.00  0.00    +0.016 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1       5.141  23.080   1.666  0.00  0.00    +0.002 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1       6.237  23.322   0.620  0.00  0.00    +0.011 C 
+BRANCH  14  15
+ATOM     15  C   UNL     1       6.084  22.426  -0.609  0.00  0.00    +0.120 C 
+BRANCH  15  16
+ATOM     16  C   UNL     1       7.090  21.305  -0.647  0.00  0.00    +0.305 C 
+ATOM     17  O   UNL     1       8.305  21.393  -0.611  0.00  0.00    -0.251 OA
+BRANCH  16  18
+ATOM     18  O   UNL     1       6.491  20.100  -0.722  0.00  0.00    -0.481 OA
+ATOM     19  H   UNL     1       6.655  19.806  -1.643  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   4  12
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -7.113      4.007      4.874
+REMARK INTER + INTRA:          -9.563
+REMARK INTER:                  -9.323
+REMARK INTRA:                  -0.240
+REMARK UNBOUND:                -0.162
+REMARK  Name = Biotin
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_6
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  C_8
+REMARK    4  A    between atoms: C_8  and  C_9
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_10  and  O_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       4.352  23.316   4.698  0.00  0.00    +0.093 C 
+ATOM      2  C   UNL     1       3.136  22.653   5.318  0.00  0.00    +0.105 C 
+ATOM      3  C   UNL     1       1.853  23.140   4.636  0.00  0.00    +0.108 C 
+ATOM      4  C   UNL     1       2.035  24.632   4.299  0.00  0.00    +0.069 C 
+ATOM      5  S   UNL     1       3.800  24.850   3.904  0.00  0.00    -0.154 S 
+ATOM      6  N   UNL     1       0.882  22.953   5.694  0.00  0.00    -0.294 N 
+ATOM      7  C   UNL     1       1.507  22.950   6.931  0.00  0.00    +0.300 C 
+ATOM      8  O   UNL     1       0.957  22.933   8.014  0.00  0.00    -0.253 OA
+ATOM      9  N   UNL     1       2.879  22.950   6.711  0.00  0.00    -0.294 N 
+ATOM     10  H   UNL     1      -0.119  23.086   5.629  0.00  0.00    +0.151 HD
+ATOM     11  H   UNL     1       3.468  22.668   7.486  0.00  0.00    +0.151 HD
+ENDROOT
+BRANCH   4  12
+ATOM     12  C   UNL     1       1.087  25.147   3.205  0.00  0.00    +0.016 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1       0.595  24.110   2.186  0.00  0.00    +0.002 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1       0.901  24.563   0.752  0.00  0.00    +0.011 C 
+BRANCH  14  15
+ATOM     15  C   UNL     1       0.237  25.895   0.402  0.00  0.00    +0.120 C 
+BRANCH  15  16
+ATOM     16  C   UNL     1       0.150  26.136  -1.082  0.00  0.00    +0.305 C 
+ATOM     17  O   UNL     1      -0.779  25.875  -1.827  0.00  0.00    -0.251 OA
+BRANCH  16  18
+ATOM     18  O   UNL     1       1.269  26.717  -1.559  0.00  0.00    -0.481 OA
+ATOM     19  H   UNL     1       0.979  27.612  -1.833  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   4  12
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -6.774      1.739      2.074
+REMARK INTER + INTRA:          -9.115
+REMARK INTER:                  -8.911
+REMARK INTRA:                  -0.204
+REMARK UNBOUND:                -0.162
+REMARK  Name = Biotin
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_6
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  C_8
+REMARK    4  A    between atoms: C_8  and  C_9
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_10  and  O_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       1.308  24.848   3.173  0.00  0.00    +0.093 C 
+ATOM      2  C   UNL     1       2.199  24.857   4.400  0.00  0.00    +0.105 C 
+ATOM      3  C   UNL     1       3.652  24.559   4.011  0.00  0.00    +0.108 C 
+ATOM      4  C   UNL     1       3.632  23.518   2.875  0.00  0.00    +0.069 C 
+ATOM      5  S   UNL     1       2.139  23.869   1.892  0.00  0.00    -0.154 S 
+ATOM      6  N   UNL     1       4.162  23.989   5.240  0.00  0.00    -0.294 N 
+ATOM      7  C   UNL     1       3.127  23.473   6.002  0.00  0.00    +0.300 C 
+ATOM      8  O   UNL     1       3.242  22.826   7.025  0.00  0.00    -0.253 OA
+ATOM      9  N   UNL     1       1.932  23.843   5.398  0.00  0.00    -0.294 N 
+ATOM     10  H   UNL     1       5.120  23.724   5.433  0.00  0.00    +0.151 HD
+ATOM     11  H   UNL     1       1.096  23.790   5.967  0.00  0.00    +0.151 HD
+ENDROOT
+BRANCH   4  12
+ATOM     12  C   UNL     1       4.924  23.473   2.045  0.00  0.00    +0.016 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1       4.772  23.089   0.567  0.00  0.00    +0.002 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1       6.136  23.056  -0.134  0.00  0.00    +0.011 C 
+BRANCH  14  15
+ATOM     15  C   UNL     1       7.237  23.724   0.691  0.00  0.00    +0.120 C 
+BRANCH  15  16
+ATOM     16  C   UNL     1       8.505  23.942  -0.092  0.00  0.00    +0.305 C 
+ATOM     17  O   UNL     1       8.787  24.889  -0.806  0.00  0.00    -0.251 OA
+BRANCH  16  18
+ATOM     18  O   UNL     1       9.378  22.929   0.079  0.00  0.00    -0.481 OA
+ATOM     19  H   UNL     1       9.816  23.130   0.933  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   4  12
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -6.666      4.598      7.311
+REMARK INTER + INTRA:          -8.972
+REMARK INTER:                  -8.855
+REMARK INTRA:                  -0.117
+REMARK UNBOUND:                -0.162
+REMARK  Name = Biotin
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_6
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  C_8
+REMARK    4  A    between atoms: C_8  and  C_9
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_10  and  O_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       7.032  20.968  -0.353  0.00  0.00    +0.093 C 
+ATOM      2  C   UNL     1       7.840  22.252  -0.331  0.00  0.00    +0.105 C 
+ATOM      3  C   UNL     1       7.243  23.244   0.673  0.00  0.00    +0.108 C 
+ATOM      4  C   UNL     1       5.710  23.103   0.621  0.00  0.00    +0.069 C 
+ATOM      5  S   UNL     1       5.374  21.347   0.275  0.00  0.00    -0.154 S 
+ATOM      6  N   UNL     1       7.676  24.507   0.113  0.00  0.00    -0.294 N 
+ATOM      7  C   UNL     1       7.935  24.374  -1.242  0.00  0.00    +0.300 C 
+ATOM      8  O   UNL     1       8.199  25.274  -2.014  0.00  0.00    -0.253 OA
+ATOM      9  N   UNL     1       7.859  23.023  -1.556  0.00  0.00    -0.294 N 
+ATOM     10  H   UNL     1       7.554  25.425   0.521  0.00  0.00    +0.151 HD
+ATOM     11  H   UNL     1       8.290  22.729  -2.424  0.00  0.00    +0.151 HD
+ENDROOT
+BRANCH   4  12
+ATOM     12  C   UNL     1       4.989  23.639   1.868  0.00  0.00    +0.016 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1       3.475  23.402   1.934  0.00  0.00    +0.002 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1       2.807  23.751   0.598  0.00  0.00    +0.011 C 
+BRANCH  14  15
+ATOM     15  C   UNL     1       1.286  23.601   0.644  0.00  0.00    +0.120 C 
+BRANCH  15  16
+ATOM     16  C   UNL     1       0.565  24.923   0.616  0.00  0.00    +0.305 C 
+ATOM     17  O   UNL     1       0.368  25.645  -0.347  0.00  0.00    -0.251 OA
+BRANCH  16  18
+ATOM     18  O   UNL     1       0.110  25.269   1.837  0.00  0.00    -0.481 OA
+ATOM     19  H   UNL     1      -0.751  24.807   1.913  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   4  12
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -6.607      2.521      5.508
+REMARK INTER + INTRA:          -8.894
+REMARK INTER:                  -8.188
+REMARK INTRA:                  -0.706
+REMARK UNBOUND:                -0.162
+REMARK  Name = Biotin
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_6
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  C_8
+REMARK    4  A    between atoms: C_8  and  C_9
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_10  and  O_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       0.896  24.133   0.299  0.00  0.00    +0.093 C 
+ATOM      2  C   UNL     1       2.018  23.387   0.996  0.00  0.00    +0.105 C 
+ATOM      3  C   UNL     1       1.945  23.602   2.512  0.00  0.00    +0.108 C 
+ATOM      4  C   UNL     1       1.489  25.052   2.761  0.00  0.00    +0.069 C 
+ATOM      5  S   UNL     1       0.350  25.466   1.401  0.00  0.00    -0.154 S 
+ATOM      6  N   UNL     1       3.330  23.412   2.891  0.00  0.00    -0.294 N 
+ATOM      7  C   UNL     1       4.165  23.648   1.811  0.00  0.00    +0.300 C 
+ATOM      8  O   UNL     1       5.379  23.687   1.837  0.00  0.00    -0.253 OA
+ATOM      9  N   UNL     1       3.366  23.814   0.686  0.00  0.00    -0.294 N 
+ATOM     10  H   UNL     1       3.704  23.393   3.831  0.00  0.00    +0.151 HD
+ATOM     11  H   UNL     1       3.817  23.714  -0.215  0.00  0.00    +0.151 HD
+ENDROOT
+BRANCH   4  12
+ATOM     12  C   UNL     1       0.898  25.291   4.159  0.00  0.00    +0.016 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1       0.435  24.044   4.925  0.00  0.00    +0.002 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1       1.173  23.918   6.264  0.00  0.00    +0.011 C 
+BRANCH  14  15
+ATOM     15  C   UNL     1       2.002  22.638   6.360  0.00  0.00    +0.120 C 
+BRANCH  15  16
+ATOM     16  C   UNL     1       3.477  22.904   6.515  0.00  0.00    +0.305 C 
+ATOM     17  O   UNL     1       4.192  23.581   5.796  0.00  0.00    -0.251 OA
+BRANCH  16  18
+ATOM     18  O   UNL     1       3.983  22.292   7.604  0.00  0.00    -0.481 OA
+ATOM     19  H   UNL     1       3.211  22.180   8.198  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   4  12
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -6.430      4.279      7.594
+REMARK INTER + INTRA:          -8.659
+REMARK INTER:                  -8.461
+REMARK INTRA:                  -0.198
+REMARK UNBOUND:                -0.162
+REMARK  Name = Biotin
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_6
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  C_8
+REMARK    4  A    between atoms: C_8  and  C_9
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_10  and  O_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       8.209  21.326  -0.881  0.00  0.00    +0.093 C 
+ATOM      2  C   UNL     1       8.723  22.742  -0.699  0.00  0.00    +0.105 C 
+ATOM      3  C   UNL     1       7.834  23.513   0.283  0.00  0.00    +0.108 C 
+ATOM      4  C   UNL     1       6.377  23.068   0.049  0.00  0.00    +0.069 C 
+ATOM      5  S   UNL     1       6.454  21.312  -0.425  0.00  0.00    -0.154 S 
+ATOM      6  N   UNL     1       8.046  24.877  -0.156  0.00  0.00    -0.294 N 
+ATOM      7  C   UNL     1       8.461  24.902  -1.478  0.00  0.00    +0.300 C 
+ATOM      8  O   UNL     1       8.606  25.893  -2.166  0.00  0.00    -0.253 OA
+ATOM      9  N   UNL     1       8.702  23.591  -1.871  0.00  0.00    -0.294 N 
+ATOM     10  H   UNL     1       7.693  25.717   0.284  0.00  0.00    +0.151 HD
+ATOM     11  H   UNL     1       9.269  23.458  -2.699  0.00  0.00    +0.151 HD
+ENDROOT
+BRANCH   4  12
+ATOM     12  C   UNL     1       5.439  23.350   1.233  0.00  0.00    +0.016 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1       3.959  23.005   1.027  0.00  0.00    +0.002 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1       3.077  23.746   2.041  0.00  0.00    +0.011 C 
+BRANCH  14  15
+ATOM     15  C   UNL     1       3.674  23.747   3.449  0.00  0.00    +0.120 C 
+BRANCH  15  16
+ATOM     16  C   UNL     1       2.764  23.121   4.473  0.00  0.00    +0.305 C 
+ATOM     17  O   UNL     1       1.574  23.327   4.637  0.00  0.00    -0.251 OA
+BRANCH  16  18
+ATOM     18  O   UNL     1       3.421  22.238   5.251  0.00  0.00    -0.481 OA
+ATOM     19  H   UNL     1       3.646  22.748   6.057  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   4  12
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -6.407      4.694      7.842
+REMARK INTER + INTRA:          -8.629
+REMARK INTER:                  -8.494
+REMARK INTRA:                  -0.135
+REMARK UNBOUND:                -0.162
+REMARK  Name = Biotin
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_6
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  C_8
+REMARK    4  A    between atoms: C_8  and  C_9
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_10  and  O_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       8.446  21.326  -0.825  0.00  0.00    +0.093 C 
+ATOM      2  C   UNL     1       8.832  22.781  -0.634  0.00  0.00    +0.105 C 
+ATOM      3  C   UNL     1       7.820  23.490   0.273  0.00  0.00    +0.108 C 
+ATOM      4  C   UNL     1       6.423  22.926  -0.048  0.00  0.00    +0.069 C 
+ATOM      5  S   UNL     1       6.671  21.176  -0.486  0.00  0.00    -0.154 S 
+ATOM      6  N   UNL     1       7.951  24.861  -0.176  0.00  0.00    -0.294 N 
+ATOM      7  C   UNL     1       8.451  24.903  -1.467  0.00  0.00    +0.300 C 
+ATOM      8  O   UNL     1       8.562  25.894  -2.162  0.00  0.00    -0.253 OA
+ATOM      9  N   UNL     1       8.821  23.612  -1.820  0.00  0.00    -0.294 N 
+ATOM     10  H   UNL     1       7.504  25.675   0.226  0.00  0.00    +0.151 HD
+ATOM     11  H   UNL     1       9.452  23.514  -2.606  0.00  0.00    +0.151 HD
+ENDROOT
+BRANCH   4  12
+ATOM     12  C   UNL     1       5.388  23.146   1.066  0.00  0.00    +0.016 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1       3.917  22.948   0.679  0.00  0.00    +0.002 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1       2.993  23.739   1.613  0.00  0.00    +0.011 C 
+BRANCH  14  15
+ATOM     15  C   UNL     1       1.548  23.783   1.113  0.00  0.00    +0.120 C 
+BRANCH  15  16
+ATOM     16  C   UNL     1       0.598  24.379   2.118  0.00  0.00    +0.305 C 
+ATOM     17  O   UNL     1       0.214  23.886   3.165  0.00  0.00    -0.251 OA
+BRANCH  16  18
+ATOM     18  O   UNL     1       0.176  25.603   1.742  0.00  0.00    -0.481 OA
+ATOM     19  H   UNL     1      -0.064  25.495   0.798  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   4  12
+TORSDOF 6
+ENDMDL

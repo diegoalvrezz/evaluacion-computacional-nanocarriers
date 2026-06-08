@@ -1,0 +1,198 @@
+---
+title: " "
+author: " "
+
+format:
+  pdf:
+    documentclass: memoir
+    classoption: [a4paper, 12pt, twoside, openany]
+    pdf-engine: pdflatex
+    include-in-header: preambulo_memoria.tex
+    maketitle: false
+    keep-tex: false
+    number-sections: false
+    toc: false
+    toc-depth: 3
+    lof: false
+    lot: false
+    cite-method: natbib
+    biblio-style: apalike
+    bibliography: bibliografia.bib
+    lang: es
+
+knitr:
+  opts_chunk:
+    echo: false
+    warning: false
+    message: false
+    fig.pos: "!h"
+    out.width: "90%"
+    fig.align: "center"
+---
+
+```{=latex}
+\title{Evaluación computacional de nanopartículas poliméricas y
+dendrímeros como sistemas de liberación de fármacos:
+acoplamiento molecular con proteínas de barrera biológica
+y modelos predictivos de eficiencia de transporte}
+\author{\nombre}
+\date{Curso académico 2025--2026}
+
+\maketitle
+```
+
+```{=latex}
+\newpage\null\thispagestyle{empty}\newpage
+\thispagestyle{empty}
+
+\noindent\includegraphics[width=\textwidth]{CabeceraEPS.png}\vspace{1cm}
+
+\noindent D. \nombreTutor, profesor del Departamento de Química,
+Área de Química Física, Unidad de Investigación Consolidada 305 ---
+Análisis y Simulación Molecular de Fluidos, Universidad de Burgos.
+
+\noindent D. \nombreTutorb, profesor del Departamento de Química,
+Área de Física Aplicada, Universidad de Burgos.
+
+\bigskip
+\noindent \textbf{Exponen:}
+
+\bigskip
+\noindent Que el alumno D.~\nombre, con DNI \dni, ha realizado el
+Trabajo Fin de Máster en Ingeniería Biomédica titulado:
+
+\begin{center}
+  \textit{Evaluación computacional de nanopartículas poliméricas y
+  dendrímeros como sistemas de liberación de fármacos: acoplamiento
+  molecular con proteínas de barrera biológica y modelos predictivos
+  de eficiencia de transporte.}
+\end{center}
+
+\noindent Y que dicho trabajo ha sido realizado por el alumno bajo la
+dirección de los que suscriben, quienes autorizan su presentación.
+
+\begin{center}
+  En Burgos, a {\large \today}
+\end{center}
+
+\vfill\vfill\vfill
+
+\begin{minipage}{0.45\textwidth}
+  \begin{flushleft}
+    Vº.~Bº. del Director:\\[2cm]
+    D.~\nombreTutor
+  \end{flushleft}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+  \begin{flushleft}
+    Vº.~Bº. del Director:\\[2cm]
+    D.~\nombreTutorb
+  \end{flushleft}
+\end{minipage}
+
+\vfill
+\newpage\null\thispagestyle{empty}\newpage
+```
+
+```{=latex}
+\frontmatter
+\pagestyle{chapterfirst}
+
+\renewcommand*\abstractname{Resumen}
+\begin{abstract}
+Los sistemas de liberación de fármacos basados en nanopartículas
+poliméricas y dendrímeros representan una de las estrategias más
+prometedoras en nanomedicina. Su eficiencia de transporte depende
+fundamentalmente de la interacción de sus componentes moleculares con
+las proteínas de barrera biológica que regulan la biodistribución, el
+metabolismo y la captación celular de los fármacos.
+
+Este trabajo presenta una plataforma computacional integrada para la
+evaluación sistemática de 58 moléculas representativas de monómeros,
+oligómeros, unidades de dendrímero, fármacos modelo y ligandos de
+targeting frente a seis proteínas de barrera clave: P-glicoproteína
+(P-gp/MDR1), CYP3A4, receptor de transferrina (TfR1), receptor de
+folato alfa (FR$\alpha$), lisozima y albúmina sérica humana (HSA).
+
+La metodología combina: (i) optimización de geometrías moleculares
+mediante DFT (B3LYP-D4/def2-TZVP) y cálculo de perfiles sigma
+COSMO-RS en clúster HPC; (ii) acoplamiento molecular sistemático con
+AutoDock Vina~1.2.5 (342 dockings) y análisis de interacciones
+proteína-ligando con PLIP~2025; (iii) cálculo de 2908 descriptores
+moleculares (2D, 3D, fingerprints y perfiles de polaridad superficial)
+y propiedades ADMET con SwissADME; y (iv) tres modelos de aprendizaje
+automático: regresión de afinidad por proteína (Random Forest,
+R$^2$ hasta 0.817 para P-gp), un Índice de Eficiencia de Transporte
+(ITI) y un clasificador favorable/desfavorable (AUC\,=\,0.983).
+El análisis SHAP revela que la complejidad topológica (BertzCT) es
+el descriptor con mayor poder predictivo. Los resultados identifican
+Triethylene glycol (PEG), ramas PAMAM de baja generación y oligómeros
+de quitosano como los candidatos más favorables para drug delivery,
+validado estructuralmente por PLIP y farmacocinéticamente por ADMET.
+El trabajo incluye una herramienta web interactiva (Streamlit) para
+la recomendación de carrier óptimo a partir del SMILES de una nueva
+molécula.
+\end{abstract}
+
+\renewcommand*\abstractname{Descriptores}
+\begin{abstract}
+nanopartículas poliméricas, dendrímeros, drug delivery, acoplamiento
+molecular, docking, proteínas de barrera biológica, DFT, COSMO-RS,
+PLIP, ADMET, descriptores moleculares, aprendizaje automático,
+Random Forest, SHAP, índice de eficiencia de transporte,
+P-glicoproteína, receptor de transferrina, receptor de folato
+\end{abstract}
+
+\clearpage
+
+\renewcommand*\abstractname{Abstract}
+\begin{abstract}
+Polymeric nanoparticle- and dendrimer-based drug delivery systems
+represent one of the most promising strategies in nanomedicine. Their
+transport efficiency fundamentally depends on how their molecular
+building blocks interact with the biological barrier proteins that
+govern biodistribution, metabolism and cellular uptake.
+
+This work presents an integrated computational platform for the
+systematic evaluation of 58 representative molecules --- monomers,
+oligomers, dendrimer units, model drugs and targeting ligands ---
+against six key barrier proteins: P-glycoprotein (P-gp/MDR1),
+CYP3A4, transferrin receptor (TfR1), folate receptor alpha
+(FR$\alpha$), lysozyme and human serum albumin (HSA).
+
+The methodology combines: (i) molecular geometry optimization by DFT
+(B3LYP-D4/def2-TZVP) and COSMO-RS sigma-profile calculation on HPC;
+(ii) systematic molecular docking with AutoDock Vina~1.2.5 (342
+dockings) and protein-ligand interaction analysis with PLIP~2025;
+(iii) 2908 molecular descriptors (2D, 3D, fingerprints, surface
+polarity profiles) and ADMET properties with SwissADME; and (iv)
+three machine learning models: affinity regression per protein
+(Random Forest, R$^2$ up to 0.817 for P-gp), a Transport Efficiency
+Index (TEI), and a favorable/unfavorable classifier (AUC\,=\,0.983).
+SHAP analysis identifies topological complexity (BertzCT) as the most
+predictive descriptor. Triethylene glycol (PEG), low-generation PAMAM
+branches and chitosan oligomers emerge as the most favorable
+candidates, structurally validated by PLIP and
+pharmacokinetically confirmed by ADMET. An interactive Streamlit
+web tool for optimal carrier recommendation is also provided.
+\end{abstract}
+
+\renewcommand*\abstractname{Keywords}
+\begin{abstract}
+polymeric nanoparticles, dendrimers, drug delivery, molecular docking,
+biological barrier proteins, DFT, COSMO-RS, PLIP, ADMET, molecular
+descriptors, machine learning, Random Forest, SHAP, transport
+efficiency index, P-glycoprotein, transferrin receptor, folate receptor
+\end{abstract}
+
+\mainmatter
+\pagestyle{mipc}
+```
+
+{{< include qmd/1_introduccion.qmd >}}
+{{< include qmd/2_metodologia.qmd >}}
+{{< include qmd/3_resultados.qmd >}}
+{{< include qmd/4_discusion.qmd >}}
+{{< include qmd/5_conclusiones.qmd >}}
+{{< include qmd/6_lineas_futuras.qmd >}}

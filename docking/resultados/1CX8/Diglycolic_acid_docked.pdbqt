@@ -1,0 +1,396 @@
+MODEL 1
+REMARK VINA RESULT:    -4.317      0.000      0.000
+REMARK INTER + INTRA:          -5.980
+REMARK INTER:                  -5.579
+REMARK INTRA:                  -0.401
+REMARK UNBOUND:                -0.401
+REMARK  Name = Diglycolic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_5
+REMARK    3  A    between atoms: C_2  and  O_4
+REMARK    4  A    between atoms: O_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -35.518 -26.888 146.890  0.00  0.00    -0.357 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -34.799 -28.109 146.985  0.00  0.00    +0.280 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     -34.782 -28.996 145.744  0.00  0.00    +0.331 C 
+ATOM      4  O   UNL     1     -34.717 -28.644 144.578  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -34.833 -30.308 146.056  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -35.609 -30.380 146.652  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     -34.689 -25.771 146.584  0.00  0.00    +0.280 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -35.083 -25.084 145.286  0.00  0.00    +0.331 C 
+ATOM      9  O   UNL     1     -34.910 -23.904 145.019  0.00  0.00    -0.248 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     -35.739 -25.883 144.419  0.00  0.00    -0.479 OA
+ATOM     11  H   UNL     1     -35.819 -26.737 144.892  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.305      0.536      3.861
+REMARK INTER + INTRA:          -5.964
+REMARK INTER:                  -5.564
+REMARK INTRA:                  -0.400
+REMARK UNBOUND:                -0.401
+REMARK  Name = Diglycolic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_5
+REMARK    3  A    between atoms: C_2  and  O_4
+REMARK    4  A    between atoms: O_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -34.166 -26.914 146.663  0.00  0.00    -0.357 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -35.105 -25.851 146.603  0.00  0.00    +0.280 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     -35.150 -25.044 145.309  0.00  0.00    +0.331 C 
+ATOM      4  O   UNL     1     -34.768 -23.900 145.131  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -35.674 -25.753 144.286  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -35.661 -26.680 144.609  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     -34.776 -28.195 146.784  0.00  0.00    +0.280 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -34.811 -28.959 145.470  0.00  0.00    +0.331 C 
+ATOM      9  O   UNL     1     -34.709 -28.469 144.355  0.00  0.00    -0.248 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     -35.044 -30.280 145.609  0.00  0.00    -0.479 OA
+ATOM     11  H   UNL     1     -35.462 -30.359 146.491  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.182      1.183      1.416
+REMARK INTER + INTRA:          -5.805
+REMARK INTER:                  -5.702
+REMARK INTRA:                  -0.104
+REMARK UNBOUND:                -0.401
+REMARK  Name = Diglycolic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_5
+REMARK    3  A    between atoms: C_2  and  O_4
+REMARK    4  A    between atoms: O_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -34.979 -26.687 146.530  0.00  0.00    -0.357 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -35.260 -27.923 147.171  0.00  0.00    +0.280 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     -34.302 -29.076 146.892  0.00  0.00    +0.331 C 
+ATOM      4  O   UNL     1     -33.145 -29.190 147.263  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -34.879 -30.051 146.158  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -34.242 -30.206 145.427  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     -35.294 -26.691 145.141  0.00  0.00    +0.280 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -35.380 -25.292 144.553  0.00  0.00    +0.331 C 
+ATOM      9  O   UNL     1     -34.899 -24.280 145.040  0.00  0.00    -0.248 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     -36.123 -25.214 143.429  0.00  0.00    -0.479 OA
+ATOM     11  H   UNL     1     -36.576 -24.349 143.499  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.154      1.171      4.095
+REMARK INTER + INTRA:          -5.769
+REMARK INTER:                  -5.663
+REMARK INTRA:                  -0.106
+REMARK UNBOUND:                -0.401
+REMARK  Name = Diglycolic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_5
+REMARK    3  A    between atoms: C_2  and  O_4
+REMARK    4  A    between atoms: O_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -35.292 -26.626 146.838  0.00  0.00    -0.357 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -35.264 -26.612 145.418  0.00  0.00    +0.280 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     -35.304 -25.244 144.743  0.00  0.00    +0.331 C 
+ATOM      4  O   UNL     1     -34.830 -24.198 145.151  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -35.942 -25.283 143.554  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -35.346 -25.814 142.982  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     -35.550 -27.917 147.381  0.00  0.00    +0.280 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -34.447 -28.917 147.073  0.00  0.00    +0.331 C 
+ATOM      9  O   UNL     1     -33.268 -28.796 147.372  0.00  0.00    -0.248 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     -34.855 -29.976 146.344  0.00  0.00    -0.479 OA
+ATOM     11  H   UNL     1     -34.028 -30.344 145.970  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.123      1.767      4.257
+REMARK INTER + INTRA:          -5.729
+REMARK INTER:                  -5.343
+REMARK INTRA:                  -0.386
+REMARK UNBOUND:                -0.401
+REMARK  Name = Diglycolic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_5
+REMARK    3  A    between atoms: C_2  and  O_4
+REMARK    4  A    between atoms: O_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -35.536 -27.919 147.810  0.00  0.00    -0.357 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -35.223 -27.036 146.742  0.00  0.00    +0.280 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     -35.497 -27.541 145.329  0.00  0.00    +0.331 C 
+ATOM      4  O   UNL     1     -34.914 -28.429 144.729  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -36.528 -26.892 144.748  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -37.160 -26.744 145.484  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     -34.427 -28.708 148.229  0.00  0.00    +0.280 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -34.677 -30.201 148.083  0.00  0.00    +0.331 C 
+ATOM      9  O   UNL     1     -34.587 -31.032 148.975  0.00  0.00    -0.248 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     -34.953 -30.590 146.821  0.00  0.00    -0.479 OA
+ATOM     11  H   UNL     1     -35.046 -31.563 146.884  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.083      1.744      2.677
+REMARK INTER + INTRA:          -5.677
+REMARK INTER:                  -5.288
+REMARK INTRA:                  -0.389
+REMARK UNBOUND:                -0.401
+REMARK  Name = Diglycolic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_5
+REMARK    3  A    between atoms: C_2  and  O_4
+REMARK    4  A    between atoms: O_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -34.190 -27.665 147.331  0.00  0.00    -0.357 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -34.853 -28.503 148.266  0.00  0.00    +0.280 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     -34.653 -30.007 148.105  0.00  0.00    +0.331 C 
+ATOM      4  O   UNL     1     -34.361 -30.816 148.969  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -34.855 -30.414 146.833  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -34.742 -31.388 146.876  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     -35.080 -26.832 146.594  0.00  0.00    +0.280 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -35.503 -27.449 145.270  0.00  0.00    +0.331 C 
+ATOM      9  O   UNL     1     -34.942 -28.372 144.698  0.00  0.00    -0.248 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     -36.556 -26.835 144.691  0.00  0.00    -0.479 OA
+ATOM     11  H   UNL     1     -37.329 -27.146 145.206  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -3.944     13.540     15.492
+REMARK INTER + INTRA:          -5.497
+REMARK INTER:                  -5.364
+REMARK INTRA:                  -0.133
+REMARK UNBOUND:                -0.401
+REMARK  Name = Diglycolic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_5
+REMARK    3  A    between atoms: C_2  and  O_4
+REMARK    4  A    between atoms: O_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -41.574 -40.009 139.435  0.00  0.00    -0.357 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -40.586 -39.628 140.381  0.00  0.00    +0.280 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     -40.685 -38.216 140.949  0.00  0.00    +0.331 C 
+ATOM      4  O   UNL     1     -41.149 -37.226 140.407  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -40.197 -38.137 142.205  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -40.931 -37.737 142.720  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     -41.061 -40.145 138.113  0.00  0.00    +0.280 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -42.034 -39.660 137.051  0.00  0.00    +0.331 C 
+ATOM      9  O   UNL     1     -41.904 -39.800 135.843  0.00  0.00    -0.248 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     -43.079 -38.961 137.542  0.00  0.00    -0.479 OA
+ATOM     11  H   UNL     1     -43.772 -39.637 137.691  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.900      2.098      4.628
+REMARK INTER + INTRA:          -5.440
+REMARK INTER:                  -5.049
+REMARK INTRA:                  -0.392
+REMARK UNBOUND:                -0.401
+REMARK  Name = Diglycolic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_5
+REMARK    3  A    between atoms: C_2  and  O_4
+REMARK    4  A    between atoms: O_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -33.901 -28.365 146.891  0.00  0.00    -0.357 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -34.898 -27.527 146.325  0.00  0.00    +0.280 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     -35.251 -26.260 147.098  0.00  0.00    +0.331 C 
+ATOM      4  O   UNL     1     -35.014 -25.105 146.784  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -35.913 -26.531 148.244  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -36.844 -26.646 147.957  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     -34.348 -29.701 147.106  0.00  0.00    +0.280 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -34.995 -29.893 148.468  0.00  0.00    +0.331 C 
+ATOM      9  O   UNL     1     -34.864 -29.154 149.433  0.00  0.00    -0.248 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     -35.708 -31.032 148.580  0.00  0.00    -0.479 OA
+ATOM     11  H   UNL     1     -36.282 -30.881 149.359  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.864      1.900      2.710
+REMARK INTER + INTRA:          -5.395
+REMARK INTER:                  -5.056
+REMARK INTRA:                  -0.338
+REMARK UNBOUND:                -0.401
+REMARK  Name = Diglycolic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_5
+REMARK    3  A    between atoms: C_2  and  O_4
+REMARK    4  A    between atoms: O_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -34.075 -28.483 146.192  0.00  0.00    -0.357 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -34.317 -29.718 146.848  0.00  0.00    +0.280 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     -34.850 -29.646 148.276  0.00  0.00    +0.331 C 
+ATOM      4  O   UNL     1     -34.599 -28.804 149.123  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -35.702 -30.656 148.553  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -36.390 -30.237 149.114  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     -35.261 -27.730 145.958  0.00  0.00    +0.280 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     -35.240 -26.371 146.641  0.00  0.00    +0.331 C 
+ATOM      9  O   UNL     1     -34.580 -25.404 146.290  0.00  0.00    -0.248 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     -35.982 -26.311 147.765  0.00  0.00    -0.479 OA
+ATOM     11  H   UNL     1     -36.449 -25.452 147.700  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL

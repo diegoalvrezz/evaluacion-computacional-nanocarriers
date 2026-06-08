@@ -1,0 +1,106 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+c  1-3,6-8,11-13                                                               \
+   basis =c def2-TZVP                                                          \
+   jbas  =c def2-TZVP
+o  4-5,9-10,14-16                                                              \
+   basis =o def2-TZVP                                                          \
+   jbas  =o def2-TZVP
+h  17-30                                                                       \
+   basis =h def2-TZVP                                                          \
+   jbas  =h def2-TZVP
+$basis    file=basis
+$scfmo   file=mos
+$closed shells
+ a       1-62                                   ( 2 )
+$scfiterlimit       30
+$thize     0.10000000E-04
+$thime        5
+$scfdamp   start=0.300  step=0.050  min=0.100
+$scfdump
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$dft
+    functional   b3-lyp
+    gridsize   m3
+$scfconv   7
+$ricore     5000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=30
+   nbf(CAO)=660
+   nbf(AO)=580
+$last step     force
+$cosmo_out file=Lactic_acid_trimer.cosmo
+$moldenfile file=Lactic_acid_trimer.molden
+$xctype hybrid-GGA X= 0.20000 (not to be modified here)
+$last SCF energy change = -877.89933
+$charge from ridft
+         -0.000 (not to be modified here)
+$dipole from force
+  x    -0.52853021767035    y    -0.52690155873144    z    -1.06125393416833    a.u.
+   | dipole | =    3.2976697453  debye
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$orbital_max_rnorm 0.10774434008956E-04
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-877.8993315154    -3569.435658137     1591.301822707    -86.99772927211    -5.071532611867     1192.303765799
+$dipgrad    file=dipgrad
+$hessian (projected)    file=hessian
+$vibrational normal modes    file=vib_normal_modes
+$vibrational reduced masses
+   6.3038679494   6.2623924609   5.3287560829   6.2905734948   7.3205271178
+   8.4353838359   3.6804592177   4.2955622344   7.9362709176   6.7831503314
+   7.1807219300   6.2433709916  10.0722074732   3.8770253953   4.3302481928
+   3.1170399083   1.8974592702   1.1902482966   1.4692880149   1.1046556703
+   3.2794608075   3.1512916696   3.2983273644   1.3906223824   5.2199553956
+   4.3479918626   4.1387023459   4.7060885736   3.8223086254   6.1465784057
+   4.4673253574   2.3832847454   2.7916991959   2.0775873561   4.7529833029
+   4.2213031241   3.7718153712   3.8186525868   2.7401042773   4.0969097218
+   3.1147346102   2.3873206491   2.4512644718   2.4923993342   2.1874184598
+   2.1420204833   2.1999663535   1.8195679125   2.5557040159   2.6572999098
+   2.6767120332   2.4657493249   2.7653196448   1.9139202297   2.8464274438
+   3.7619484930   1.1903824237   1.3747263554   1.4771136771   1.2871812963
+   1.2785192314   2.5599146644   1.4124565035   1.4429055899   1.2570484151
+   1.3976629967   1.2784449253   1.0520474833   1.0460448675   1.0462535692
+   1.0530257604   1.0581093064   1.0618008830  12.4339166827  12.3666571870
+  10.3318067697   1.0808418247   1.0355955144   1.0352370230   1.0349904591
+   1.0839648781   1.0856828318   1.1022750706   1.1023072997   1.1024888981
+   1.1025063757   1.1021863131   1.1022520671   1.0643227007   1.0656643473
+$nvibro       90
+$vibrational spectrum    file=vibspectrum
+$end

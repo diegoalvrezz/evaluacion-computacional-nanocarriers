@@ -1,0 +1,11 @@
+ERROR in dscf step
+Please look at the output file job.last
+  Possible reasons:
+     - unfinished step before running energy calculation
+              ->  call \'actual -r\' and restart job
+     - missing input files like coord, basis, control, ...
+              ->  rerun define    
+     - missing auxiliary basis set if using RI
+              ->  switch on RI in define 
+     - mismatch between occupation and provided MOs
+              ->  rerun define and redo \'eht\' step

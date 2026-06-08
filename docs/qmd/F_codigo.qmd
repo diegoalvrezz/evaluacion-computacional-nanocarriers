@@ -1,0 +1,63 @@
+```{=latex}
+\apendice{Código fuente}
+```
+
+Todos los scripts están en Python 3.12 y se organizan en dos carpetas:
+\texttt{cluster/} para los que se ejecutaron en HPC CENITS, y \texttt{local/}
+para los del Mac.
+
+### Scripts del clúster HPC
+
+\textbf{\texttt{calcular\_descriptores\_2D.py}} — calcula los 38 descriptores
+2D con RDKit \cite{rdkit} a partir del CSV con los SMILES. Genera un CSV con
+una fila por molécula.
+
+\textbf{\texttt{calcular\_fingerprints.py}} — genera los fingerprints
+Morgan/ECFP4 (2048 bits) y MACCS keys (167 bits) con RDKit \cite{rdkit}.
+Los fingerprints codifican la presencia de patrones de subestructura.
+
+\textbf{\texttt{extraer\_sigma\_profiles.py}} — lee los archivos de salida
+COSMO-RS de TURBOMOLE \cite{turbomole}, discretiza la distribución de carga
+superficial en 100 puntos y exporta un CSV con una fila por molécula.
+
+\textbf{\texttt{combinar\_descriptores.py}} — une los cinco archivos de
+descriptores en un único dataset ML, alineando por nombre de molécula y
+eliminando columnas con más del 5\,\% de valores perdidos.
+
+\textbf{\texttt{lanzar\_docking.py}} — automatiza los 348 dockings con
+AutoDock Vina \cite{eberhardt2021} vía línea de comandos. Para cada par
+proteína-ligando genera el archivo de configuración, lanza el cálculo y
+extrae la energía de unión del modo 1.
+
+\textbf{\texttt{extraer\_docking\_energias.py}} — parsea los archivos de
+salida de Vina y construye la matriz de energías $57\times6$.
+
+\textbf{\texttt{modelos\_ML\_v2.py}} — entrena los tres modelos (regresión,
+ITI y clasificador), hace validación cruzada, calcula los valores SHAP
+\cite{lundberg2017} y exporta todos los resultados a CSV.
+
+### Scripts locales
+
+\textbf{\texttt{preparar\_plip.py}} — combina cada proteína PDB con el
+ligando en pose de docking (modo 1) en un único archivo PDB listo para
+subir a PLIP online \cite{plip2025}.
+
+\textbf{\texttt{graficas\_pro.py}} — genera todas las figuras de la memoria
+con estilo de publicación científica usando matplotlib y seaborn.
+
+\textbf{\texttt{analisis\_admet.py}} — procesa los CSV descargados de
+SwissADME \cite{swissadme} y genera las figuras de propiedades ADMET.
+
+### Dependencias
+
+\begin{verbatim}
+pip install -r requirements.txt
+\end{verbatim}
+
+Los scripts del clúster se lanzan con:
+
+\begin{verbatim}
+sbatch slurm_dft.sh
+python lanzar_docking.py
+python modelos_ML_v2.py
+\end{verbatim}

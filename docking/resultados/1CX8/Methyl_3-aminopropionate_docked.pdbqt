@@ -1,0 +1,296 @@
+MODEL 1
+REMARK VINA RESULT:    -3.871      0.000      0.000
+REMARK INTER + INTRA:          -4.886
+REMARK INTER:                  -4.664
+REMARK INTRA:                  -0.222
+REMARK UNBOUND:                -0.222
+REMARK  Name = Methyl 3-aminopropionate
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  N_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -34.362 -25.150 146.130  0.00  0.00    +0.135 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -35.130 -26.319 146.696  0.00  0.00    +0.308 C 
+ATOM      3  O   UNL     1     -35.656 -26.355 147.800  0.00  0.00    -0.251 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -34.757 -28.595 146.292  0.00  0.00    +0.280 C 
+ATOM      5  O   UNL     1     -35.167 -27.327 145.778  0.00  0.00    -0.468 OA
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     -35.217 -24.366 145.143  0.00  0.00    +0.089 C 
+BRANCH   6   7
+ATOM      7  N   UNL     1     -35.584 -25.199 143.998  0.00  0.00    -0.329 NA
+ATOM      8  H   UNL     1     -34.876 -25.922 143.872  0.00  0.00    +0.118 HD
+ATOM      9  H   UNL     1     -35.568 -24.640 143.145  0.00  0.00    +0.118 HD
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -3.805      0.850      1.489
+REMARK INTER + INTRA:          -4.806
+REMARK INTER:                  -4.599
+REMARK INTRA:                  -0.207
+REMARK UNBOUND:                -0.222
+REMARK  Name = Methyl 3-aminopropionate
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  N_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -34.422 -25.328 146.079  0.00  0.00    +0.135 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -35.131 -26.647 146.258  0.00  0.00    +0.308 C 
+ATOM      3  O   UNL     1     -35.250 -27.512 145.401  0.00  0.00    -0.251 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -35.242 -27.948 148.203  0.00  0.00    +0.280 C 
+ATOM      5  O   UNL     1     -35.605 -26.739 147.533  0.00  0.00    -0.468 OA
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     -35.205 -24.415 145.144  0.00  0.00    +0.089 C 
+BRANCH   6   7
+ATOM      7  N   UNL     1     -35.649 -25.145 143.956  0.00  0.00    -0.329 NA
+ATOM      8  H   UNL     1     -34.860 -25.258 143.320  0.00  0.00    +0.118 HD
+ATOM      9  H   UNL     1     -36.339 -24.592 143.449  0.00  0.00    +0.118 HD
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -3.725      1.441      2.692
+REMARK INTER + INTRA:          -4.709
+REMARK INTER:                  -4.236
+REMARK INTRA:                  -0.473
+REMARK UNBOUND:                -0.222
+REMARK  Name = Methyl 3-aminopropionate
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  N_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -34.518 -27.589 146.523  0.00  0.00    +0.135 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -34.936 -26.210 146.970  0.00  0.00    +0.308 C 
+ATOM      3  O   UNL     1     -35.722 -25.964 147.875  0.00  0.00    -0.251 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -34.848 -23.962 146.318  0.00  0.00    +0.280 C 
+ATOM      5  O   UNL     1     -34.289 -25.272 146.221  0.00  0.00    -0.468 OA
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     -35.241 -27.986 145.242  0.00  0.00    +0.089 C 
+BRANCH   6   7
+ATOM      7  N   UNL     1     -36.271 -27.004 144.901  0.00  0.00    -0.329 NA
+ATOM      8  H   UNL     1     -36.539 -27.129 143.925  0.00  0.00    +0.118 HD
+ATOM      9  H   UNL     1     -35.885 -26.062 144.966  0.00  0.00    +0.118 HD
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -3.529      2.110      3.607
+REMARK INTER + INTRA:          -4.473
+REMARK INTER:                  -4.239
+REMARK INTRA:                  -0.234
+REMARK UNBOUND:                -0.222
+REMARK  Name = Methyl 3-aminopropionate
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  N_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -35.182 -28.035 147.322  0.00  0.00    +0.135 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -35.226 -26.907 146.321  0.00  0.00    +0.308 C 
+ATOM      3  O   UNL     1     -35.327 -27.037 145.109  0.00  0.00    -0.251 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -34.670 -24.637 146.172  0.00  0.00    +0.280 C 
+ATOM      5  O   UNL     1     -35.155 -25.713 146.976  0.00  0.00    -0.468 OA
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     -34.244 -29.140 146.853  0.00  0.00    +0.089 C 
+BRANCH   6   7
+ATOM      7  N   UNL     1     -34.858 -29.920 145.778  0.00  0.00    -0.329 NA
+ATOM      8  H   UNL     1     -35.072 -29.299 144.998  0.00  0.00    +0.118 HD
+ATOM      9  H   UNL     1     -35.753 -30.294 146.091  0.00  0.00    +0.118 HD
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -3.501      2.954      4.279
+REMARK INTER + INTRA:          -4.440
+REMARK INTER:                  -3.976
+REMARK INTRA:                  -0.464
+REMARK UNBOUND:                -0.222
+REMARK  Name = Methyl 3-aminopropionate
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  N_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -33.746 -28.775 147.654  0.00  0.00    +0.135 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -34.698 -28.645 146.491  0.00  0.00    +0.308 C 
+ATOM      3  O   UNL     1     -34.710 -29.360 145.499  0.00  0.00    -0.251 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -34.957 -26.321 146.639  0.00  0.00    +0.280 C 
+ATOM      5  O   UNL     1     -35.560 -27.614 146.722  0.00  0.00    -0.468 OA
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     -34.440 -29.407 148.854  0.00  0.00    +0.089 C 
+BRANCH   6   7
+ATOM      7  N   UNL     1     -35.547 -30.263 148.423  0.00  0.00    -0.329 NA
+ATOM      8  H   UNL     1     -35.753 -30.071 147.443  0.00  0.00    +0.118 HD
+ATOM      9  H   UNL     1     -36.391 -30.020 148.940  0.00  0.00    +0.118 HD
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -3.483     15.657     16.396
+REMARK INTER + INTRA:          -4.417
+REMARK INTER:                  -3.950
+REMARK INTRA:                  -0.467
+REMARK UNBOUND:                -0.222
+REMARK  Name = Methyl 3-aminopropionate
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  N_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -40.398 -38.259 139.381  0.00  0.00    +0.135 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -40.553 -39.178 138.195  0.00  0.00    +0.308 C 
+ATOM      3  O   UNL     1     -39.642 -39.763 137.627  0.00  0.00    -0.251 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -42.108 -39.877 136.589  0.00  0.00    +0.280 C 
+ATOM      5  O   UNL     1     -41.872 -39.273 137.862  0.00  0.00    -0.468 OA
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     -40.742 -38.983 140.677  0.00  0.00    +0.089 C 
+BRANCH   6   7
+ATOM      7  N   UNL     1     -40.830 -40.427 140.457  0.00  0.00    -0.329 NA
+ATOM      8  H   UNL     1     -41.604 -40.620 139.823  0.00  0.00    +0.118 HD
+ATOM      9  H   UNL     1     -41.062 -40.895 141.333  0.00  0.00    +0.118 HD
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -3.462      3.052      3.435
+REMARK INTER + INTRA:          -4.392
+REMARK INTER:                  -3.897
+REMARK INTRA:                  -0.496
+REMARK UNBOUND:                -0.222
+REMARK  Name = Methyl 3-aminopropionate
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  N_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -35.106 -27.709 146.484  0.00  0.00    +0.135 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -34.551 -28.502 147.641  0.00  0.00    +0.308 C 
+ATOM      3  O   UNL     1     -35.213 -29.129 148.455  0.00  0.00    -0.251 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -32.547 -29.435 148.415  0.00  0.00    +0.280 C 
+ATOM      5  O   UNL     1     -33.189 -28.429 147.631  0.00  0.00    -0.468 OA
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     -35.036 -28.514 145.192  0.00  0.00    +0.089 C 
+BRANCH   6   7
+ATOM      7  N   UNL     1     -34.844 -29.937 145.476  0.00  0.00    -0.329 NA
+ATOM      8  H   UNL     1     -33.895 -30.202 145.213  0.00  0.00    +0.118 HD
+ATOM      9  H   UNL     1     -35.463 -30.492 144.887  0.00  0.00    +0.118 HD
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.410      2.606      3.146
+REMARK INTER + INTRA:          -4.330
+REMARK INTER:                  -3.919
+REMARK INTRA:                  -0.411
+REMARK UNBOUND:                -0.222
+REMARK  Name = Methyl 3-aminopropionate
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  N_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -34.834 -28.720 145.850  0.00  0.00    +0.135 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -34.286 -28.792 147.253  0.00  0.00    +0.308 C 
+ATOM      3  O   UNL     1     -33.204 -28.351 147.616  0.00  0.00    -0.251 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -34.835 -30.746 148.423  0.00  0.00    +0.280 C 
+ATOM      5  O   UNL     1     -35.191 -29.409 148.065  0.00  0.00    -0.468 OA
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     -35.521 -27.383 145.604  0.00  0.00    +0.089 C 
+BRANCH   6   7
+ATOM      7  N   UNL     1     -35.986 -26.798 146.862  0.00  0.00    -0.329 NA
+ATOM      8  H   UNL     1     -36.080 -25.790 146.745  0.00  0.00    +0.118 HD
+ATOM      9  H   UNL     1     -35.281 -26.931 147.586  0.00  0.00    +0.118 HD
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4
+ENDMDL

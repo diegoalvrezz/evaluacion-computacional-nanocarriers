@@ -1,0 +1,83 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+c  1-13                                                                        \
+   basis =c def2-TZVP                                                          \
+   jbas  =c def2-TZVP
+o  14-15                                                                       \
+   basis =o def2-TZVP                                                          \
+   jbas  =o def2-TZVP
+h  16-33                                                                       \
+   basis =h def2-TZVP                                                          \
+   jbas  =h def2-TZVP
+$basis    file=basis
+$scfmo    file=mos
+$closed shells
+ a       1-56                                   ( 2 )
+$scfiterlimit       30
+$thize     0.10000000E-04
+$thime        5
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$dft
+    functional   b3-lyp
+    gridsize   m4
+$scfconv   7
+$ricore     8000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=33
+   nbf(CAO)=648
+   nbf(AO)=573
+$last step     ridft
+$scfiterlimit 500
+$xctype hybrid-GGA X= 0.20000 (not to be modified here)
+$last SCF energy change = -656.56499
+$charge from ridft
+          0.000 (not to be modified here)
+$dipole from ridft
+  x    -0.54458751484469    y    -0.32760271341130    z    -0.77342450358014    a.u.
+   | dipole | =    2.5444135348  debye
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$cosmo
+  epsilon=infinity
+$cosmo_out file=Ibuprofen_SP.cosmo
+$scfconv 7
+$orbital_max_rnorm 0.30552677059305E-05
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-656.5649907146    -2808.139051018     1261.428629183    -71.76007607643    -4.414472368525     966.3199795659
+$end

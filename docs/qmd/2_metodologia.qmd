@@ -1,0 +1,121 @@
+```{=latex}
+\capitulo{2}{Materiales y Métodos}
+```
+
+## Base de datos molecular
+
+Se construyó una biblioteca de 58 moléculas en cuatro categorías: monómeros
+y productos de degradación de polímeros biodegradables (ácido láctico,
+glicólico, $\varepsilon$-caprolactona y derivados), oligómeros y unidades
+de dendrímero PAMAM (poliaminas, oligómeros de quitosano), fármacos modelo
+(doxorrubicina, paclitaxel, 5-fluorouracilo, metotrexato, curcumina,
+cisplatino, gemcitabina, sirolimus, dexametasona, ibuprofeno) y ligandos de
+targeting activo (ácido fólico, biotina, galactosa, manosa, PEG-aminas y
+péptido RGD). Los SMILES se obtuvieron de PubChem. Las coordenadas 3D
+iniciales se generaron con el algoritmo ETKDGv3 y se refinaron con MMFF94
+mediante RDKit [@rdkit].
+
+## Optimización de geometrías (DFT)
+
+Los cálculos de estructura electrónica se realizaron con TURBOMOLE 7.8.1
+[@turbomole] en el clúster HPC CENITS (16 núcleos, 31\,GB RAM por nodo).
+El nivel de cálculo fue el funcional híbrido B3LYP con corrección de
+dispersión D4 [@grimme2010] y base de funciones def2-TZVP [@weigend2005],
+con aproximación RI-J para reducir el coste computacional. Para cada
+molécula se realizaron tres cálculos: (i) optimización de la geometría hasta
+encontrar la estructura de mínima energía, (ii) cálculo de la distribución
+de carga superficial (COSMO-RS) para obtener el perfil sigma, y (iii)
+cálculo de frecuencias de vibración IR para confirmar que la estructura es
+un mínimo real. El cisplatino requirió un tratamiento especial con
+pseudopotencial para el platino; el condroitín sulfato, con carga $-2$,
+se recalculó especificando la carga formal.
+
+## Acoplamiento molecular
+
+Las seis proteínas de barrera (Tabla~\ref{tab:proteinas}) se obtuvieron del
+Protein Data Bank. Las proteínas se prepararon con MGLTools, añadiendo
+hidrógenos y asignando cargas. Los ligandos se convirtieron a formato PDBQT
+con OpenBabel. El docking, que simula cómo una molécula pequeña se une a
+una proteína, se realizó con AutoDock Vina 1.2.5 [@eberhardt2021] con
+parámetros de alta exhaustividad (32), 9 poses por cálculo y 8 CPUs. Las
+cajas de búsqueda se centraron en los sitios de unión conocidos de cada
+proteína. De 348 dockings posibles se obtuvieron 342 válidos.
+
+\begin{table}[!h]
+\centering
+\caption{Proteínas de barrera biológica empleadas en el estudio.}
+\label{tab:proteinas}
+\begin{tabular}{llll}
+\toprule
+\textbf{PDB} & \textbf{Proteína} & \textbf{Función} & \textbf{Centro grid (Å)} \\
+\midrule
+7A65 & P-gp/MDR1   & Bomba de expulsión de fármacos  & 160,\;177,\;144 \\
+1TQN & CYP3A4      & Metabolismo hepático             & $-15,5$,\;$-22,0$,\;$-11,0$ \\
+1CX8 & TfR1        & Entrada en células por endocitosis & $-28,4$,\;$-38,9$,\;$147,7$ \\
+4LRH & FR$\alpha$  & Internalización del folato       & 5,2,\;25,8,\;$-1,4$ \\
+1LYZ & Lisozima    & Evaluación de biocompatibilidad  & 17,0,\;10,0,\;25,0 \\
+1AO6 & HSA         & Transporte en sangre             & 7,0,\;10,0,\;18,0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+## Análisis de interacciones proteína-ligando
+
+Las interacciones no covalentes entre los cinco candidatos con mayor ITI y
+las tres proteínas más relevantes (P-gp, TfR1 y FR$\alpha$) se analizaron
+con PLIP 2025 [@plip2025], una herramienta que detecta automáticamente qué
+tipo de contactos establece cada ligando con los residuos de la proteína:
+puentes de hidrógeno, contactos hidrofóbicos, puentes salinos e interacciones
+entre anillos aromáticos. Se procesaron 15 complejos en total.
+
+## Descriptores moleculares
+
+Se calcularon 2908 descriptores numéricos para caracterizar cada molécula.
+Se agrupan en cinco familias: descriptores 2D calculados con RDKit [@rdkit]
+(38 valores: peso molecular, lipofilia, superficie polar, grupos funcionales,
+índices de complejidad topológica); perfiles sigma COSMO-RS (100 valores que
+describen la distribución de polaridad superficial); fingerprints Morgan/ECFP4
+(2048 bits que codifican los patrones de subestructura) y MACCS keys (167
+bits) con RDKit; y descriptores 3D calculados con Mordred [@moriwaki2018]
+(1826 valores sobre las geometrías DFT).
+
+## Propiedades ADMET
+
+Las propiedades farmacológicas se calcularon con SwissADME [@swissadme] para
+las 60 moléculas. ADMET es el acrónimo de Absorción, Distribución,
+Metabolismo, Excreción y Toxicidad. Se obtuvieron 49 propiedades por
+molécula: cinco modelos de lipofilia (LogP), solubilidad en agua, absorción
+intestinal, permeabilidad de la barrera hematoencefálica, si la molécula
+es sustrato de P-gp, inhibición de enzimas CYP450 de metabolismo, score
+de biodisponibilidad oral, alertas de toxicidad, cumplimiento de las reglas
+de Lipinski y accesibilidad sintética.
+
+## Modelos de aprendizaje automático
+
+El dataset final tiene 56 moléculas y 2908 descriptores. Antes del
+entrenamiento se aplica escalado estadístico (RobustScaler) y se seleccionan
+las 200 variables más informativas para cada proteína (SelectKBest). Se
+desarrollaron tres modelos:
+
+\textbf{Modelo 1.} Regresión de afinidad: Random Forest (300 árboles),
+Gradient Boosting (200 estimadores) y SVR (máquina de vectores soporte) para
+predecir la energía de unión $\Delta G$ en cada proteína. Se evalúa con
+validación cruzada de 5 particiones usando R², MAE y RMSE.
+
+\textbf{Modelo 2.} Índice de Eficiencia de Transporte (ITI): puntuación de
+0 a 100 que combina las seis afinidades de docking en una métrica única.
+Premia la afinidad por TfR1, FR$\alpha$, HSA y lisozima. Penaliza la
+afinidad por P-gp y CYP3A4. Incluye un factor corrector por peso molecular.
+
+\textbf{Modelo 3.} Clasificador binario: Random Forest, Gradient Boosting y
+SVC para clasificar moléculas como favorables (ITI $\geq$ 50) o
+desfavorables. Evaluado con AUC-ROC, precisión y F1.
+
+La interpretabilidad de los modelos se analizó con valores SHAP
+[@lundberg2017], que miden cuánto contribuye cada descriptor a la predicción
+final.
+
+\textbf{Herramienta web.} Se implementó una aplicación Streamlit que, a
+partir del SMILES de una molécula, calcula descriptores, predice el perfil
+de afinidad frente a las seis proteínas, calcula el ITI y genera un diagrama
+radar del perfil de transporte con una recomendación del carrier más adecuado.

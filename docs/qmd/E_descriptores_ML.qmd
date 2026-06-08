@@ -1,0 +1,118 @@
+```{=latex}
+\apendice{Descriptores moleculares y modelos ML}
+```
+
+### Espacio de descriptores
+
+El dataset ML final tiene 56 moléculas y 2908 características numéricas. La
+tabla siguiente resume las cinco familias de descriptores.
+
+\begin{table}[!h]
+\centering
+\caption{Familias de descriptores moleculares calculados.}
+\label{tab:descriptores}
+\begin{tabular}{llr}
+\toprule
+\textbf{Familia} & \textbf{Herramienta} & \textbf{Dimensión} \\
+\midrule
+Descriptores 2D           & RDKit \cite{rdkit}              &   38 \\
+Perfiles sigma COSMO-RS   & TURBOMOLE \cite{turbomole}      &  100 \\
+Fingerprints Morgan/ECFP4 & RDKit \cite{rdkit}              & 2048 \\
+MACCS keys                & RDKit \cite{rdkit}              &  167 \\
+Descriptores 3D Mordred   & Mordred \cite{moriwaki2018}     & 555$^*$ \\
+\midrule
+\textbf{Total}            &                                 & \textbf{2908} \\
+\bottomrule
+\multicolumn{3}{l}{$^*$De 1826 calculados, se retuvieron 555 sin valores} \\
+\multicolumn{3}{l}{perdidos para las 56 moléculas del dataset.} \\
+\end{tabular}
+\end{table}
+
+Los descriptores 2D incluyen: peso molecular, lipofilia (LogP), superficie
+polar (TPSA), número de donadores y aceptores de enlace de hidrógeno, enlaces
+rotables, índice de complejidad topológica (BertzCT), índices Chi y Kappa, y
+contadores de grupos funcionales.
+
+### Pipeline de preprocesado
+
+Antes del entrenamiento se aplica escalado estadístico (RobustScaler, que es
+menos sensible a valores extremos que el escalado estándar) y se seleccionan
+las 200 variables más informativas para cada proteína (SelectKBest). El número
+200 equilibra la cantidad de variables con el riesgo de sobreajuste dado el
+tamaño del dataset.
+
+### Resultados del Modelo 1: regresión de afinidad
+
+\begin{table}[!h]
+\centering
+\caption{R² y MAE (kcal/mol) en validación cruzada de 5 particiones.}
+\label{tab:modelo1}
+\begin{tabular}{lrrrrrr}
+\toprule
+\textbf{Modelo} & \textbf{P-gp} & \textbf{CYP3A4} & \textbf{TfR1} &
+\textbf{FR$\alpha$} & \textbf{Lisozima} & \textbf{HSA} \\
+\midrule
+\multicolumn{7}{l}{\textit{R²}} \\
+Random Forest     & 0,817 & 0,620 & 0,753 & 0,530 & 0,712 & 0,565 \\
+Gradient Boosting & 0,746 & 0,612 & 0,742 & 0,516 & 0,668 & 0,589 \\
+SVR               & 0,783 & 0,614 & 0,660 & 0,537 & 0,698 & 0,651 \\
+\midrule
+\multicolumn{7}{l}{\textit{MAE (kcal/mol)}} \\
+Random Forest     & 0,426 & 0,631 & 0,374 & 0,682 & 0,290 & 0,521 \\
+Gradient Boosting & 0,481 & 0,644 & 0,392 & 0,695 & 0,318 & 0,509 \\
+SVR               & 0,453 & 0,638 & 0,441 & 0,674 & 0,301 & 0,487 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+### Resultados del Modelo 3: clasificador
+
+\begin{table}[!h]
+\centering
+\caption{Métricas del clasificador favorable/desfavorable (5-fold CV
+estratificado). AUC-ROC mide la capacidad de separar las dos clases;
+un valor de 1 es perfecto.}
+\label{tab:modelo3}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Modelo} & \textbf{AUC-ROC} & \textbf{Accuracy} & \textbf{F1} \\
+\midrule
+Gradient Boosting & 0,983 & 0,965 & 0,966 \\
+Random Forest     & 0,978 & 0,932 & 0,934 \\
+SVC               & 0,971 & 0,896 & 0,898 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+### Variables más importantes según SHAP
+
+SHAP \cite{lundberg2017} mide cuánto contribuye cada variable a la predicción
+del modelo. Los diez descriptores con mayor peso para P-gp son todos
+indicadores de tamaño o complejidad molecular.
+
+\begin{table}[!h]
+\centering
+\caption{Top 10 variables por importancia SHAP (modelo RF, P-gp MDR1).}
+\label{tab:shap}
+\begin{tabular}{llr}
+\toprule
+\textbf{Rank} & \textbf{Variable} & \textbf{SHAP medio} \\
+\midrule
+1  & BertzCT (complejidad topológica) & 0,540 \\
+2  & NumBonds (número de enlaces)     & 0,160 \\
+3  & MW (peso molecular)              & 0,140 \\
+4  & ExactMW (peso molecular exacto)  & 0,130 \\
+5  & HeavyAtomCount (átomos pesados)  & 0,112 \\
+6  & NumAtoms (número de átomos)      & 0,108 \\
+7  & Chi1 (índice de conectividad)    & 0,094 \\
+8  & Chi2                             & 0,087 \\
+9  & Kappa1 (índice de forma)         & 0,081 \\
+10 & TPSA (superficie polar)          & 0,063 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Ningún descriptor de polaridad superficial (COSMO-RS) ni de patrón de
+subestructura (fingerprints) entra en el top 10 para P-gp. La forma y el
+tamaño de la molécula explican mejor el reconocimiento de esta bomba que
+su química concreta.

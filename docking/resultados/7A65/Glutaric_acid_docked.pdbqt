@@ -1,0 +1,396 @@
+MODEL 1
+REMARK VINA RESULT:    -4.595      0.000      0.000
+REMARK INTER + INTRA:          -5.996
+REMARK INTER:                  -5.938
+REMARK INTRA:                  -0.059
+REMARK UNBOUND:                -0.059
+REMARK  Name = Glutaric acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     150.556 189.706 160.504  0.00  0.00    +0.022 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     149.808 190.234 159.281  0.00  0.00    +0.121 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     148.337 189.931 159.357  0.00  0.00    +0.305 C 
+ATOM      4  O   UNL     1     147.731 189.569 160.351  0.00  0.00    -0.251 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     147.705 190.064 158.177  0.00  0.00    -0.481 OA
+ATOM      6  H   UNL     1     148.358 189.750 157.517  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     151.949 189.179 160.160  0.00  0.00    +0.121 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     152.271 187.874 160.838  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     151.531 187.188 161.521  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     153.542 187.491 160.607  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     153.699 186.776 161.259  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.552     12.175     13.333
+REMARK INTER + INTRA:          -5.941
+REMARK INTER:                  -5.831
+REMARK INTRA:                  -0.110
+REMARK UNBOUND:                -0.059
+REMARK  Name = Glutaric acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     151.047 177.272 160.121  0.00  0.00    +0.022 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     152.315 176.461 160.384  0.00  0.00    +0.121 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     153.505 177.047 159.676  0.00  0.00    +0.305 C 
+ATOM      4  O   UNL     1     153.745 176.957 158.484  0.00  0.00    -0.251 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     154.351 177.690 160.501  0.00  0.00    -0.481 OA
+ATOM      6  H   UNL     1     154.246 177.229 161.360  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     149.885 176.408 159.634  0.00  0.00    +0.121 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     150.152 175.752 158.305  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     150.861 176.163 157.403  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     149.497 174.581 158.185  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     148.853 174.740 157.462  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.426      0.507      4.524
+REMARK INTER + INTRA:          -5.778
+REMARK INTER:                  -5.698
+REMARK INTRA:                  -0.080
+REMARK UNBOUND:                -0.059
+REMARK  Name = Glutaric acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     150.975 189.480 159.252  0.00  0.00    +0.022 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     151.811 189.356 160.525  0.00  0.00    +0.121 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     152.148 187.923 160.830  0.00  0.00    +0.305 C 
+ATOM      4  O   UNL     1     151.426 187.123 161.401  0.00  0.00    -0.251 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     153.385 187.571 160.434  0.00  0.00    -0.481 OA
+ATOM      6  H   UNL     1     153.770 187.124 161.217  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     149.876 190.534 159.369  0.00  0.00    +0.121 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     148.492 189.942 159.423  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     147.949 189.408 160.374  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     147.849 190.064 158.245  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     146.902 190.116 158.493  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.337     10.299     11.482
+REMARK INTER + INTRA:          -5.664
+REMARK INTER:                  -5.568
+REMARK INTRA:                  -0.096
+REMARK UNBOUND:                -0.059
+REMARK  Name = Glutaric acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.574 186.915 159.977  0.00  0.00    +0.022 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     161.894 186.714 159.233  0.00  0.00    +0.121 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     161.751 185.729 158.106  0.00  0.00    +0.305 C 
+ATOM      4  O   UNL     1     162.018 185.938 156.935  0.00  0.00    -0.251 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     161.251 184.543 158.496  0.00  0.00    -0.481 OA
+ATOM      6  H   UNL     1     161.726 184.343 159.330  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     160.704 186.679 161.481  0.00  0.00    +0.121 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     160.242 187.852 162.305  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     159.932 188.963 161.910  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     160.190 187.552 163.617  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     160.554 188.348 164.059  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.258     10.585     11.536
+REMARK INTER + INTRA:          -5.561
+REMARK INTER:                  -5.487
+REMARK INTRA:                  -0.074
+REMARK UNBOUND:                -0.059
+REMARK  Name = Glutaric acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.425 187.064 160.256  0.00  0.00    +0.022 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     160.322 186.462 161.657  0.00  0.00    +0.121 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     160.900 187.379 162.699  0.00  0.00    +0.305 C 
+ATOM      4  O   UNL     1     162.049 187.788 162.734  0.00  0.00    -0.251 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     160.022 187.712 163.662  0.00  0.00    -0.481 OA
+ATOM      6  H   UNL     1     160.519 187.578 164.497  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     161.701 186.646 159.528  0.00  0.00    +0.121 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     161.434 185.900 158.248  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     161.307 186.364 157.128  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     161.344 184.571 158.453  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     161.000 184.493 159.368  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.226      8.612      9.758
+REMARK INTER + INTRA:          -5.520
+REMARK INTER:                  -5.152
+REMARK INTRA:                  -0.368
+REMARK UNBOUND:                -0.059
+REMARK  Name = Glutaric acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.250 189.157 160.613  0.00  0.00    +0.022 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     160.336 190.381 160.641  0.00  0.00    +0.121 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     158.949 190.049 160.166  0.00  0.00    +0.305 C 
+ATOM      4  O   UNL     1     157.938 190.688 160.404  0.00  0.00    -0.251 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     158.890 188.915 159.444  0.00  0.00    -0.481 OA
+ATOM      6  H   UNL     1     159.027 189.211 158.519  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     161.465 188.550 161.998  0.00  0.00    +0.121 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     160.363 187.609 162.409  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     159.675 186.909 161.687  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     160.187 187.598 163.745  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     160.829 188.262 164.076  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -4.190      9.887     11.098
+REMARK INTER + INTRA:          -5.473
+REMARK INTER:                  -5.132
+REMARK INTRA:                  -0.341
+REMARK UNBOUND:                -0.059
+REMARK  Name = Glutaric acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     162.081 187.246 160.582  0.00  0.00    +0.022 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     161.985 187.267 162.107  0.00  0.00    +0.121 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     160.758 187.999 162.575  0.00  0.00    +0.305 C 
+ATOM      4  O   UNL     1     160.251 188.966 162.032  0.00  0.00    -0.251 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     160.248 187.506 163.718  0.00  0.00    -0.481 OA
+ATOM      6  H   UNL     1     160.574 186.582 163.749  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     160.940 186.468 159.929  0.00  0.00    +0.121 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     160.188 187.272 158.901  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     160.337 187.257 157.692  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     159.261 188.068 159.469  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     159.279 188.882 158.923  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -4.173      9.644     10.927
+REMARK INTER + INTRA:          -5.451
+REMARK INTER:                  -5.122
+REMARK INTRA:                  -0.329
+REMARK UNBOUND:                -0.059
+REMARK  Name = Glutaric acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.859 189.178 161.657  0.00  0.00    +0.022 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     161.868 187.681 161.968  0.00  0.00    +0.121 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     160.511 187.196 162.395  0.00  0.00    +0.305 C 
+ATOM      4  O   UNL     1     159.798 186.425 161.774  0.00  0.00    -0.251 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     160.100 187.724 163.562  0.00  0.00    -0.481 OA
+ATOM      6  H   UNL     1     159.504 187.042 163.938  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     160.998 189.522 160.444  0.00  0.00    +0.121 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     159.922 190.531 160.750  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     159.767 191.629 160.245  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     159.074 190.085 161.697  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     159.633 190.001 162.498  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -4.157     10.999     12.346
+REMARK INTER + INTRA:          -5.431
+REMARK INTER:                  -5.067
+REMARK INTRA:                  -0.364
+REMARK UNBOUND:                -0.059
+REMARK  Name = Glutaric acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     163.367 187.428 161.655  0.00  0.00    +0.022 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     162.400 187.533 162.833  0.00  0.00    +0.121 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     161.015 187.087 162.455  0.00  0.00    +0.305 C 
+ATOM      4  O   UNL     1     160.729 186.345 161.530  0.00  0.00    -0.251 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     160.054 187.616 163.233  0.00  0.00    -0.481 OA
+ATOM      6  H   UNL     1     159.225 187.209 162.903  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     163.136 188.513 160.604  0.00  0.00    +0.121 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     163.020 187.968 159.206  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     163.184 188.567 158.157  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     162.701 186.659 159.205  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     161.866 186.616 159.717  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL

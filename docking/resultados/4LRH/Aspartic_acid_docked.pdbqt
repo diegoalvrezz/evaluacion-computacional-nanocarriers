@@ -1,0 +1,414 @@
+MODEL 1
+REMARK VINA RESULT:    -5.273      0.000      0.000
+REMARK INTER + INTRA:          -6.696
+REMARK INTER:                  -6.660
+REMARK INTRA:                  -0.036
+REMARK UNBOUND:                -0.036
+REMARK  Name = Aspartic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  OXT_5
+REMARK    6  A    between atoms: CG_7  and  OD1_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASP A   1      -1.553  26.606  -1.181  0.00  0.00    +0.171 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASP A   1      -2.587  27.661  -1.330  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASP A   1      -2.336  28.440  -0.717  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASP A   1      -3.490  27.313  -1.013  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASP A   1      -0.929  26.288  -2.543  0.00  0.00    +0.322 C 
+ATOM      6  O   ASP A   1       0.263  26.283  -2.805  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT ASP A   1      -1.845  26.072  -3.514  0.00  0.00    -0.480 OA
+ATOM      8  HXT ASP A   1      -2.475  26.816  -3.407  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASP A   1      -0.458  27.040  -0.212  0.00  0.00    +0.150 C 
+BRANCH   9  10
+ATOM     10  CG  ASP A   1       0.039  25.877   0.598  0.00  0.00    +0.307 C 
+ATOM     11  OD2 ASP A   1       0.397  24.800   0.153  0.00  0.00    -0.251 OA
+BRANCH  10  12
+ATOM     12  OD1 ASP A   1       0.095  26.138   1.915  0.00  0.00    -0.481 OA
+ATOM     13  HD1 ASP A   1      -0.679  25.665   2.291  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -5.103      1.886      2.118
+REMARK INTER + INTRA:          -6.481
+REMARK INTER:                  -6.355
+REMARK INTRA:                  -0.125
+REMARK UNBOUND:                -0.036
+REMARK  Name = Aspartic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  OXT_5
+REMARK    6  A    between atoms: CG_7  and  OD1_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASP A   1       0.255  26.402  -0.979  0.00  0.00    +0.171 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASP A   1       1.314  26.667  -1.984  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASP A   1       2.222  26.521  -1.535  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASP A   1       1.283  27.642  -2.278  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASP A   1      -1.118  26.385  -1.656  0.00  0.00    +0.322 C 
+ATOM      6  O   ASP A   1      -2.135  26.916  -1.238  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT ASP A   1      -1.150  25.635  -2.781  0.00  0.00    -0.480 OA
+ATOM      8  HXT ASP A   1      -0.839  26.250  -3.479  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASP A   1       0.486  25.072  -0.272  0.00  0.00    +0.150 C 
+BRANCH   9  10
+ATOM     10  CG  ASP A   1       0.409  25.231   1.220  0.00  0.00    +0.307 C 
+ATOM     11  OD2 ASP A   1       0.587  24.348   2.042  0.00  0.00    -0.251 OA
+BRANCH  10  12
+ATOM     12  OD1 ASP A   1       0.151  26.494   1.602  0.00  0.00    -0.481 OA
+ATOM     13  HD1 ASP A   1      -0.419  26.853   0.889  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -5.089      1.263      4.000
+REMARK INTER + INTRA:          -6.463
+REMARK INTER:                  -6.236
+REMARK INTRA:                  -0.227
+REMARK UNBOUND:                -0.036
+REMARK  Name = Aspartic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  OXT_5
+REMARK    6  A    between atoms: CG_7  and  OD1_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASP A   1      -0.008  26.223   0.202  0.00  0.00    +0.171 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASP A   1      -1.341  26.823   0.455  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASP A   1      -1.725  27.133  -0.441  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASP A   1      -1.248  27.652   1.039  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASP A   1       0.399  25.334   1.382  0.00  0.00    +0.322 C 
+ATOM      6  O   ASP A   1       0.594  24.130   1.343  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT ASP A   1       0.460  26.001   2.557  0.00  0.00    -0.480 OA
+ATOM      8  HXT ASP A   1       1.415  25.988   2.781  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASP A   1      -0.009  25.394  -1.078  0.00  0.00    +0.150 C 
+BRANCH   9  10
+ATOM     10  CG  ASP A   1      -0.609  26.163  -2.219  0.00  0.00    +0.307 C 
+ATOM     11  OD2 ASP A   1      -1.768  26.533  -2.299  0.00  0.00    -0.251 OA
+BRANCH  10  12
+ATOM     12  OD1 ASP A   1       0.282  26.460  -3.181  0.00  0.00    -0.481 OA
+ATOM     13  HD1 ASP A   1       1.037  26.860  -2.699  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -5.040      4.248      6.426
+REMARK INTER + INTRA:          -6.402
+REMARK INTER:                  -5.846
+REMARK INTRA:                  -0.555
+REMARK UNBOUND:                -0.036
+REMARK  Name = Aspartic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  OXT_5
+REMARK    6  A    between atoms: CG_7  and  OD1_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASP A   1       0.430  24.423   4.464  0.00  0.00    +0.171 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASP A   1      -0.762  23.736   3.906  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASP A   1      -0.821  23.962   2.910  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASP A   1      -1.610  24.094   4.342  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASP A   1       1.352  23.406   5.143  0.00  0.00    +0.322 C 
+ATOM      6  O   ASP A   1       2.399  22.969   4.692  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT ASP A   1       0.862  22.938   6.314  0.00  0.00    -0.480 OA
+ATOM      8  HXT ASP A   1       0.065  22.432   6.046  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASP A   1       1.203  25.158   3.375  0.00  0.00    +0.150 C 
+BRANCH   9  10
+ATOM     10  CG  ASP A   1       0.754  24.727   2.008  0.00  0.00    +0.307 C 
+ATOM     11  OD2 ASP A   1       1.114  23.719   1.424  0.00  0.00    -0.251 OA
+BRANCH  10  12
+ATOM     12  OD1 ASP A   1      -0.147  25.561   1.462  0.00  0.00    -0.481 OA
+ATOM     13  HD1 ASP A   1       0.275  26.445   1.514  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.958      6.798      8.416
+REMARK INTER + INTRA:          -6.297
+REMARK INTER:                  -6.196
+REMARK INTRA:                  -0.101
+REMARK UNBOUND:                -0.036
+REMARK  Name = Aspartic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  OXT_5
+REMARK    6  A    between atoms: CG_7  and  OD1_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASP A   1       1.830  23.441   6.317  0.00  0.00    +0.171 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASP A   1       0.867  22.895   7.305  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASP A   1       1.029  21.888   7.383  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASP A   1      -0.087  23.016   6.969  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASP A   1       3.109  22.599   6.310  0.00  0.00    +0.322 C 
+ATOM      6  O   ASP A   1       3.756  22.263   7.289  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT ASP A   1       3.541  22.294   5.065  0.00  0.00    -0.480 OA
+ATOM      8  HXT ASP A   1       3.074  22.940   4.494  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASP A   1       1.231  23.462   4.915  0.00  0.00    +0.150 C 
+BRANCH   9  10
+ATOM     10  CG  ASP A   1       0.269  24.603   4.755  0.00  0.00    +0.307 C 
+ATOM     11  OD2 ASP A   1       0.550  25.788   4.821  0.00  0.00    -0.251 OA
+BRANCH  10  12
+ATOM     12  OD1 ASP A   1      -0.985  24.202   4.483  0.00  0.00    -0.481 OA
+ATOM     13  HD1 ASP A   1      -1.304  23.811   5.325  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.947      6.589      8.387
+REMARK INTER + INTRA:          -6.284
+REMARK INTER:                  -5.670
+REMARK INTRA:                  -0.615
+REMARK UNBOUND:                -0.036
+REMARK  Name = Aspartic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  OXT_5
+REMARK    6  A    between atoms: CG_7  and  OD1_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASP A   1       1.567  23.815   5.870  0.00  0.00    +0.171 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASP A   1       0.609  23.283   4.869  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASP A   1       1.145  22.941   4.067  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASP A   1       0.008  24.030   4.527  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASP A   1       1.836  22.764   6.951  0.00  0.00    +0.322 C 
+ATOM      6  O   ASP A   1       2.825  22.054   7.035  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT ASP A   1       0.808  22.613   7.816  0.00  0.00    -0.480 OA
+ATOM      8  HXT ASP A   1       0.646  23.523   8.145  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASP A   1       2.885  24.214   5.214  0.00  0.00    +0.150 C 
+BRANCH   9  10
+ATOM     10  CG  ASP A   1       3.065  23.520   3.895  0.00  0.00    +0.307 C 
+ATOM     11  OD2 ASP A   1       2.728  23.956   2.807  0.00  0.00    -0.251 OA
+BRANCH  10  12
+ATOM     12  OD1 ASP A   1       3.689  22.334   4.004  0.00  0.00    -0.481 OA
+ATOM     13  HD1 ASP A   1       3.759  22.010   3.080  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -4.929      2.149      3.588
+REMARK INTER + INTRA:          -6.261
+REMARK INTER:                  -6.133
+REMARK INTRA:                  -0.128
+REMARK UNBOUND:                -0.036
+REMARK  Name = Aspartic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  OXT_5
+REMARK    6  A    between atoms: CG_7  and  OD1_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASP A   1       0.108  26.031  -0.628  0.00  0.00    +0.171 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASP A   1       1.197  26.567  -1.482  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASP A   1       1.809  27.138  -0.894  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASP A   1       0.811  27.185  -2.195  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASP A   1       0.691  25.113   0.450  0.00  0.00    +0.322 C 
+ATOM      6  O   ASP A   1       1.555  24.267   0.286  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT ASP A   1       0.096  25.261   1.656  0.00  0.00    -0.480 OA
+ATOM      8  HXT ASP A   1      -0.328  26.143   1.598  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASP A   1      -0.678  27.156   0.036  0.00  0.00    +0.150 C 
+BRANCH   9  10
+ATOM     10  CG  ASP A   1      -2.103  27.174  -0.439  0.00  0.00    +0.307 C 
+ATOM     11  OD2 ASP A   1      -2.474  27.440  -1.569  0.00  0.00    -0.251 OA
+BRANCH  10  12
+ATOM     12  OD1 ASP A   1      -2.981  26.823   0.516  0.00  0.00    -0.481 OA
+ATOM     13  HD1 ASP A   1      -3.275  25.923   0.258  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -4.908      6.779      8.985
+REMARK INTER + INTRA:          -6.234
+REMARK INTER:                  -5.978
+REMARK INTRA:                  -0.257
+REMARK UNBOUND:                -0.036
+REMARK  Name = Aspartic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  OXT_5
+REMARK    6  A    between atoms: CG_7  and  OD1_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASP A   1       2.404  22.615   5.935  0.00  0.00    +0.171 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASP A   1       3.705  22.999   5.331  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASP A   1       3.619  23.954   4.973  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASP A   1       3.911  22.401   4.533  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASP A   1       2.600  22.242   7.407  0.00  0.00    +0.322 C 
+ATOM      6  O   ASP A   1       1.715  22.077   8.232  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT ASP A   1       3.900  22.176   7.774  0.00  0.00    -0.480 OA
+ATOM      8  HXT ASP A   1       4.375  22.572   7.013  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASP A   1       1.391  23.750   5.832  0.00  0.00    +0.150 C 
+BRANCH   9  10
+ATOM     10  CG  ASP A   1       0.865  23.879   4.431  0.00  0.00    +0.307 C 
+ATOM     11  OD2 ASP A   1       1.517  23.747   3.409  0.00  0.00    -0.251 OA
+BRANCH  10  12
+ATOM     12  OD1 ASP A   1      -0.455  24.129   4.385  0.00  0.00    -0.481 OA
+ATOM     13  HD1 ASP A   1      -0.577  24.642   3.557  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -4.831      5.039      6.415
+REMARK INTER + INTRA:          -6.137
+REMARK INTER:                  -5.884
+REMARK INTRA:                  -0.253
+REMARK UNBOUND:                -0.036
+REMARK  Name = Aspartic acid
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  OXT_5
+REMARK    6  A    between atoms: CG_7  and  OD1_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASP A   1       0.852  23.822   4.037  0.00  0.00    +0.171 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASP A   1      -0.509  24.205   4.490  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASP A   1      -0.446  24.502   5.467  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASP A   1      -1.127  23.397   4.465  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASP A   1       1.210  24.577   2.754  0.00  0.00    +0.322 C 
+ATOM      6  O   ASP A   1       2.037  24.236   1.924  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  OXT ASP A   1       0.562  25.758   2.631  0.00  0.00    -0.480 OA
+ATOM      8  HXT ASP A   1       0.652  25.973   1.678  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASP A   1       1.895  24.121   5.108  0.00  0.00    +0.150 C 
+BRANCH   9  10
+ATOM     10  CG  ASP A   1       1.946  23.027   6.135  0.00  0.00    +0.307 C 
+ATOM     11  OD2 ASP A   1       2.831  22.196   6.248  0.00  0.00    -0.251 OA
+BRANCH  10  12
+ATOM     12  OD1 ASP A   1       0.907  23.055   6.987  0.00  0.00    -0.481 OA
+ATOM     13  HD1 ASP A   1       0.156  22.695   6.468  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 6
+ENDMDL

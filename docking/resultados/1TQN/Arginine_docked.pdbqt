@@ -1,0 +1,522 @@
+MODEL 1
+REMARK VINA RESULT:    -5.604      0.000      0.000
+REMARK INTER + INTRA:          -8.512
+REMARK INTER:                  -7.897
+REMARK INTRA:                  -0.615
+REMARK UNBOUND:                -0.615
+REMARK  Name = Arginine
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_1  and  CB_2
+REMARK    2  A    between atoms: CG_1  and  CD_8
+REMARK    3  A    between atoms: CB_2  and  CA_3
+REMARK    4  A    between atoms: CA_3  and  C_4
+REMARK    5  A    between atoms: CA_3  and  N_7
+REMARK    6  A    between atoms: C_4  and  OXT_6
+REMARK    7  A    between atoms: CD_8  and  NE_9
+REMARK    8  A    between atoms: NE_9  and  CZ_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  ARG A   1     -16.853 -29.962  -6.321  0.00  0.00    +0.025 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ARG A   1     -15.831 -29.005  -6.947  0.00  0.00    +0.032 C 
+BRANCH   2   3
+ATOM      3  CA  ARG A   1     -16.395 -28.238  -8.148  0.00  0.00    +0.161 C 
+BRANCH   3   4
+ATOM      4  N   ARG A   1     -15.637 -28.565  -9.382  0.00  0.00    -0.318 NA
+ATOM      5  H1  ARG A   1     -16.314 -28.749 -10.125  0.00  0.00    +0.119 HD
+ATOM      6  H2  ARG A   1     -15.176 -29.466  -9.238  0.00  0.00    +0.119 HD
+ENDBRANCH   3   4
+BRANCH   3   7
+ATOM      7  C   ARG A   1     -16.330 -26.727  -7.890  0.00  0.00    +0.322 C 
+ATOM      8  O   ARG A   1     -15.963 -25.871  -8.683  0.00  0.00    -0.249 OA
+BRANCH   7   9
+ATOM      9  OXT ARG A   1     -16.757 -26.376  -6.661  0.00  0.00    -0.480 OA
+ATOM     10  HXT ARG A   1     -17.733 -26.432  -6.721  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   3   7
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  CD  ARG A   1     -18.137 -30.062  -7.145  0.00  0.00    +0.145 C 
+BRANCH  11  12
+ATOM     12  NE  ARG A   1     -18.226 -31.395  -7.735  0.00  0.00    -0.253 NA
+BRANCH  12  13
+ATOM     13  CZ  ARG A   1     -18.389 -31.488  -8.999  0.00  0.00    +0.188 C 
+ATOM     14  NH2 ARG A   1     -19.503 -32.070  -9.492  0.00  0.00    -0.370 N 
+ATOM     15  NH1 ARG A   1     -17.588 -31.092 -10.012  0.00  0.00    -0.370 N 
+ATOM     16 HH21 ARG A   1     -20.021 -32.503  -8.733  0.00  0.00    +0.159 HD
+ATOM     17 HH22 ARG A   1     -19.291 -32.754 -10.208  0.00  0.00    +0.159 HD
+ATOM     18 HH11 ARG A   1     -18.120 -30.727 -10.793  0.00  0.00    +0.159 HD
+ATOM     19 HH12 ARG A   1     -16.867 -30.437  -9.735  0.00  0.00    +0.159 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 8
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -5.513      1.566      2.009
+REMARK INTER + INTRA:          -8.383
+REMARK INTER:                  -7.660
+REMARK INTRA:                  -0.723
+REMARK UNBOUND:                -0.615
+REMARK  Name = Arginine
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_1  and  CB_2
+REMARK    2  A    between atoms: CG_1  and  CD_8
+REMARK    3  A    between atoms: CB_2  and  CA_3
+REMARK    4  A    between atoms: CA_3  and  C_4
+REMARK    5  A    between atoms: CA_3  and  N_7
+REMARK    6  A    between atoms: C_4  and  OXT_6
+REMARK    7  A    between atoms: CD_8  and  NE_9
+REMARK    8  A    between atoms: NE_9  and  CZ_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  ARG A   1     -16.716 -29.400  -6.115  0.00  0.00    +0.025 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ARG A   1     -15.515 -28.900  -6.928  0.00  0.00    +0.032 C 
+BRANCH   2   3
+ATOM      3  CA  ARG A   1     -15.799 -27.582  -7.656  0.00  0.00    +0.161 C 
+BRANCH   3   4
+ATOM      4  N   ARG A   1     -17.134 -27.052  -7.281  0.00  0.00    -0.318 NA
+ATOM      5  H1  ARG A   1     -17.816 -27.423  -7.947  0.00  0.00    +0.119 HD
+ATOM      6  H2  ARG A   1     -17.135 -26.046  -7.459  0.00  0.00    +0.119 HD
+ENDBRANCH   3   4
+BRANCH   3   7
+ATOM      7  C   ARG A   1     -15.737 -27.791  -9.175  0.00  0.00    +0.322 C 
+ATOM      8  O   ARG A   1     -16.496 -27.311 -10.005  0.00  0.00    -0.249 OA
+BRANCH   7   9
+ATOM      9  OXT ARG A   1     -14.709 -28.570  -9.565  0.00  0.00    -0.480 OA
+ATOM     10  HXT ARG A   1     -14.156 -28.656  -8.761  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   3   7
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  CD  ARG A   1     -17.361 -30.641  -6.732  0.00  0.00    +0.145 C 
+BRANCH  11  12
+ATOM     12  NE  ARG A   1     -18.261 -30.230  -7.806  0.00  0.00    -0.253 NA
+BRANCH  12  13
+ATOM     13  CZ  ARG A   1     -18.198 -30.852  -8.920  0.00  0.00    +0.188 C 
+ATOM     14  NH2 ARG A   1     -17.289 -30.481  -9.847  0.00  0.00    -0.370 N 
+ATOM     15  NH1 ARG A   1     -18.934 -31.885  -9.384  0.00  0.00    -0.370 N 
+ATOM     16 HH21 ARG A   1     -16.850 -29.611  -9.558  0.00  0.00    +0.159 HD
+ATOM     17 HH22 ARG A   1     -17.702 -30.378 -10.766  0.00  0.00    +0.159 HD
+ATOM     18 HH11 ARG A   1     -18.375 -32.536  -9.922  0.00  0.00    +0.159 HD
+ATOM     19 HH12 ARG A   1     -19.456 -32.373  -8.667  0.00  0.00    +0.159 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 8
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -5.437      2.078      2.946
+REMARK INTER + INTRA:          -8.277
+REMARK INTER:                  -8.034
+REMARK INTRA:                  -0.242
+REMARK UNBOUND:                -0.615
+REMARK  Name = Arginine
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_1  and  CB_2
+REMARK    2  A    between atoms: CG_1  and  CD_8
+REMARK    3  A    between atoms: CB_2  and  CA_3
+REMARK    4  A    between atoms: CA_3  and  C_4
+REMARK    5  A    between atoms: CA_3  and  N_7
+REMARK    6  A    between atoms: C_4  and  OXT_6
+REMARK    7  A    between atoms: CD_8  and  NE_9
+REMARK    8  A    between atoms: NE_9  and  CZ_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  ARG A   1     -15.725 -29.498  -5.966  0.00  0.00    +0.025 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ARG A   1     -15.012 -28.517  -6.906  0.00  0.00    +0.032 C 
+BRANCH   2   3
+ATOM      3  CA  ARG A   1     -15.804 -28.243  -8.188  0.00  0.00    +0.161 C 
+BRANCH   3   4
+ATOM      4  N   ARG A   1     -14.959 -28.471  -9.387  0.00  0.00    -0.318 NA
+ATOM      5  H1  ARG A   1     -14.073 -27.981  -9.243  0.00  0.00    +0.119 HD
+ATOM      6  H2  ARG A   1     -15.389 -27.981 -10.173  0.00  0.00    +0.119 HD
+ENDBRANCH   3   4
+BRANCH   3   7
+ATOM      7  C   ARG A   1     -16.324 -26.799  -8.192  0.00  0.00    +0.322 C 
+ATOM      8  O   ARG A   1     -15.964 -25.902  -8.942  0.00  0.00    -0.249 OA
+BRANCH   7   9
+ATOM      9  OXT ARG A   1     -17.282 -26.573  -7.273  0.00  0.00    -0.480 OA
+ATOM     10  HXT ARG A   1     -16.823 -26.690  -6.415  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   3   7
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  CD  ARG A   1     -17.065 -29.971  -6.527  0.00  0.00    +0.145 C 
+BRANCH  11  12
+ATOM     12  NE  ARG A   1     -17.536 -31.114  -5.749  0.00  0.00    -0.253 NA
+BRANCH  12  13
+ATOM     13  CZ  ARG A   1     -18.081 -30.891  -4.616  0.00  0.00    +0.188 C 
+ATOM     14  NH2 ARG A   1     -18.885 -29.818  -4.455  0.00  0.00    -0.370 N 
+ATOM     15  NH1 ARG A   1     -17.989 -31.577  -3.455  0.00  0.00    -0.370 N 
+ATOM     16 HH21 ARG A   1     -18.824 -29.226  -5.279  0.00  0.00    +0.159 HD
+ATOM     17 HH22 ARG A   1     -18.652 -29.289  -3.624  0.00  0.00    +0.159 HD
+ATOM     18 HH11 ARG A   1     -18.871 -31.598  -2.958  0.00  0.00    +0.159 HD
+ATOM     19 HH12 ARG A   1     -17.615 -32.512  -3.558  0.00  0.00    +0.159 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 8
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -5.401      3.229      4.442
+REMARK INTER + INTRA:          -8.226
+REMARK INTER:                  -7.593
+REMARK INTRA:                  -0.633
+REMARK UNBOUND:                -0.615
+REMARK  Name = Arginine
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_1  and  CB_2
+REMARK    2  A    between atoms: CG_1  and  CD_8
+REMARK    3  A    between atoms: CB_2  and  CA_3
+REMARK    4  A    between atoms: CA_3  and  C_4
+REMARK    5  A    between atoms: CA_3  and  N_7
+REMARK    6  A    between atoms: C_4  and  OXT_6
+REMARK    7  A    between atoms: CD_8  and  NE_9
+REMARK    8  A    between atoms: NE_9  and  CZ_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  ARG A   1     -15.495 -28.820  -6.148  0.00  0.00    +0.025 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ARG A   1     -16.446 -29.052  -4.967  0.00  0.00    +0.032 C 
+BRANCH   2   3
+ATOM      3  CA  ARG A   1     -17.459 -30.171  -5.234  0.00  0.00    +0.161 C 
+BRANCH   3   4
+ATOM      4  N   ARG A   1     -18.393 -29.786  -6.322  0.00  0.00    -0.318 NA
+ATOM      5  H1  ARG A   1     -18.214 -30.400  -7.119  0.00  0.00    +0.119 HD
+ATOM      6  H2  ARG A   1     -18.120 -28.860  -6.656  0.00  0.00    +0.119 HD
+ENDBRANCH   3   4
+BRANCH   3   7
+ATOM      7  C   ARG A   1     -18.254 -30.482  -3.959  0.00  0.00    +0.322 C 
+ATOM      8  O   ARG A   1     -19.030 -29.730  -3.388  0.00  0.00    -0.249 OA
+BRANCH   7   9
+ATOM      9  OXT ARG A   1     -18.047 -31.728  -3.491  0.00  0.00    -0.480 OA
+ATOM     10  HXT ARG A   1     -17.607 -31.590  -2.627  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   3   7
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  CD  ARG A   1     -15.692 -27.448  -6.792  0.00  0.00    +0.145 C 
+BRANCH  11  12
+ATOM     12  NE  ARG A   1     -16.526 -27.591  -7.983  0.00  0.00    -0.253 NA
+BRANCH  12  13
+ATOM     13  CZ  ARG A   1     -16.164 -28.428  -8.878  0.00  0.00    +0.188 C 
+ATOM     14  NH2 ARG A   1     -16.925 -29.515  -9.129  0.00  0.00    -0.370 N 
+ATOM     15  NH1 ARG A   1     -15.072 -28.435  -9.674  0.00  0.00    -0.370 N 
+ATOM     16 HH21 ARG A   1     -17.653 -29.586  -8.425  0.00  0.00    +0.159 HD
+ATOM     17 HH22 ARG A   1     -16.377 -30.366  -9.155  0.00  0.00    +0.159 HD
+ATOM     18 HH11 ARG A   1     -15.285 -28.775 -10.604  0.00  0.00    +0.159 HD
+ATOM     19 HH12 ARG A   1     -14.593 -27.545  -9.721  0.00  0.00    +0.159 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 8
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -5.315      3.191      4.129
+REMARK INTER + INTRA:          -8.104
+REMARK INTER:                  -7.807
+REMARK INTRA:                  -0.298
+REMARK UNBOUND:                -0.615
+REMARK  Name = Arginine
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_1  and  CB_2
+REMARK    2  A    between atoms: CG_1  and  CD_8
+REMARK    3  A    between atoms: CB_2  and  CA_3
+REMARK    4  A    between atoms: CA_3  and  C_4
+REMARK    5  A    between atoms: CA_3  and  N_7
+REMARK    6  A    between atoms: C_4  and  OXT_6
+REMARK    7  A    between atoms: CD_8  and  NE_9
+REMARK    8  A    between atoms: NE_9  and  CZ_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  ARG A   1     -16.406 -28.995  -5.223  0.00  0.00    +0.025 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ARG A   1     -15.270 -28.931  -6.251  0.00  0.00    +0.032 C 
+BRANCH   2   3
+ATOM      3  CA  ARG A   1     -15.544 -27.926  -7.375  0.00  0.00    +0.161 C 
+BRANCH   3   4
+ATOM      4  N   ARG A   1     -16.698 -27.057  -7.033  0.00  0.00    -0.318 NA
+ATOM      5  H1  ARG A   1     -16.451 -26.097  -7.283  0.00  0.00    +0.119 HD
+ATOM      6  H2  ARG A   1     -16.782 -27.034  -6.014  0.00  0.00    +0.119 HD
+ENDBRANCH   3   4
+BRANCH   3   7
+ATOM      7  C   ARG A   1     -15.829 -28.665  -8.689  0.00  0.00    +0.322 C 
+ATOM      8  O   ARG A   1     -16.822 -29.332  -8.945  0.00  0.00    -0.249 OA
+BRANCH   7   9
+ATOM      9  OXT ARG A   1     -14.863 -28.503  -9.614  0.00  0.00    -0.480 OA
+ATOM     10  HXT ARG A   1     -14.039 -28.745  -9.144  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   3   7
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  CD  ARG A   1     -17.246 -30.265  -5.363  0.00  0.00    +0.145 C 
+BRANCH  11  12
+ATOM     12  NE  ARG A   1     -18.469 -30.120  -4.577  0.00  0.00    -0.253 NA
+BRANCH  12  13
+ATOM     13  CZ  ARG A   1     -18.442 -30.460  -3.346  0.00  0.00    +0.188 C 
+ATOM     14  NH2 ARG A   1     -18.009 -31.691  -2.998  0.00  0.00    -0.370 N 
+ATOM     15  NH1 ARG A   1     -18.803 -29.768  -2.244  0.00  0.00    -0.370 N 
+ATOM     16 HH21 ARG A   1     -17.890 -32.255  -3.834  0.00  0.00    +0.159 HD
+ATOM     17 HH22 ARG A   1     -18.640 -32.148  -2.351  0.00  0.00    +0.159 HD
+ATOM     18 HH11 ARG A   1     -18.183 -29.951  -1.463  0.00  0.00    +0.159 HD
+ATOM     19 HH12 ARG A   1     -18.899 -28.772  -2.396  0.00  0.00    +0.159 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 8
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -5.196      3.143      4.660
+REMARK INTER + INTRA:          -7.937
+REMARK INTER:                  -7.306
+REMARK INTRA:                  -0.631
+REMARK UNBOUND:                -0.615
+REMARK  Name = Arginine
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_1  and  CB_2
+REMARK    2  A    between atoms: CG_1  and  CD_8
+REMARK    3  A    between atoms: CB_2  and  CA_3
+REMARK    4  A    between atoms: CA_3  and  C_4
+REMARK    5  A    between atoms: CA_3  and  N_7
+REMARK    6  A    between atoms: C_4  and  OXT_6
+REMARK    7  A    between atoms: CD_8  and  NE_9
+REMARK    8  A    between atoms: NE_9  and  CZ_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  ARG A   1     -14.969 -29.302  -6.309  0.00  0.00    +0.025 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ARG A   1     -16.179 -29.187  -5.374  0.00  0.00    +0.032 C 
+BRANCH   2   3
+ATOM      3  CA  ARG A   1     -17.281 -30.201  -5.703  0.00  0.00    +0.161 C 
+BRANCH   3   4
+ATOM      4  N   ARG A   1     -18.122 -29.715  -6.825  0.00  0.00    -0.318 NA
+ATOM      5  H1  ARG A   1     -19.086 -29.654  -6.490  0.00  0.00    +0.119 HD
+ATOM      6  H2  ARG A   1     -18.153 -30.450  -7.536  0.00  0.00    +0.119 HD
+ENDBRANCH   3   4
+BRANCH   3   7
+ATOM      7  C   ARG A   1     -18.160 -30.448  -4.470  0.00  0.00    +0.322 C 
+ATOM      8  O   ARG A   1     -17.904 -31.194  -3.535  0.00  0.00    -0.249 OA
+BRANCH   7   9
+ATOM      9  OXT ARG A   1     -19.296 -29.724  -4.470  0.00  0.00    -0.480 OA
+ATOM     10  HXT ARG A   1     -19.239 -29.189  -5.288  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   3   7
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  CD  ARG A   1     -14.745 -28.031  -7.129  0.00  0.00    +0.145 C 
+BRANCH  11  12
+ATOM     12  NE  ARG A   1     -15.601 -28.066  -8.313  0.00  0.00    -0.253 NA
+BRANCH  12  13
+ATOM     13  CZ  ARG A   1     -16.412 -27.098  -8.502  0.00  0.00    +0.188 C 
+ATOM     14  NH2 ARG A   1     -17.167 -26.642  -7.479  0.00  0.00    -0.370 N 
+ATOM     15  NH1 ARG A   1     -16.684 -26.397  -9.625  0.00  0.00    -0.370 N 
+ATOM     16 HH21 ARG A   1     -17.073 -27.271  -6.687  0.00  0.00    +0.159 HD
+ATOM     17 HH22 ARG A   1     -18.141 -26.545  -7.738  0.00  0.00    +0.159 HD
+ATOM     18 HH11 ARG A   1     -16.841 -25.415  -9.429  0.00  0.00    +0.159 HD
+ATOM     19 HH12 ARG A   1     -15.994 -26.508 -10.357  0.00  0.00    +0.159 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 8
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -5.154      2.612      3.193
+REMARK INTER + INTRA:          -7.878
+REMARK INTER:                  -7.089
+REMARK INTRA:                  -0.789
+REMARK UNBOUND:                -0.615
+REMARK  Name = Arginine
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_1  and  CB_2
+REMARK    2  A    between atoms: CG_1  and  CD_8
+REMARK    3  A    between atoms: CB_2  and  CA_3
+REMARK    4  A    between atoms: CA_3  and  C_4
+REMARK    5  A    between atoms: CA_3  and  N_7
+REMARK    6  A    between atoms: C_4  and  OXT_6
+REMARK    7  A    between atoms: CD_8  and  NE_9
+REMARK    8  A    between atoms: NE_9  and  CZ_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  ARG A   1     -15.430 -27.544  -5.593  0.00  0.00    +0.025 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ARG A   1     -14.892 -27.859  -6.994  0.00  0.00    +0.032 C 
+BRANCH   2   3
+ATOM      3  CA  ARG A   1     -15.831 -27.388  -8.110  0.00  0.00    +0.161 C 
+BRANCH   3   4
+ATOM      4  N   ARG A   1     -17.170 -27.056  -7.563  0.00  0.00    -0.318 NA
+ATOM      5  H1  ARG A   1     -17.150 -26.081  -7.256  0.00  0.00    +0.119 HD
+ATOM      6  H2  ARG A   1     -17.297 -27.586  -6.698  0.00  0.00    +0.119 HD
+ENDBRANCH   3   4
+BRANCH   3   7
+ATOM      7  C   ARG A   1     -15.968 -28.476  -9.183  0.00  0.00    +0.322 C 
+ATOM      8  O   ARG A   1     -16.931 -29.210  -9.351  0.00  0.00    -0.249 OA
+BRANCH   7   9
+ATOM      9  OXT ARG A   1     -14.898 -28.560  -9.998  0.00  0.00    -0.480 OA
+ATOM     10  HXT ARG A   1     -15.115 -27.957 -10.739  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   3   7
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  CD  ARG A   1     -16.092 -28.756  -4.937  0.00  0.00    +0.145 C 
+BRANCH  11  12
+ATOM     12  NE  ARG A   1     -16.181 -29.840  -5.912  0.00  0.00    -0.253 NA
+BRANCH  12  13
+ATOM     13  CZ  ARG A   1     -17.290 -30.465  -6.022  0.00  0.00    +0.188 C 
+ATOM     14  NH2 ARG A   1     -18.327 -29.887  -6.665  0.00  0.00    -0.370 N 
+ATOM     15  NH1 ARG A   1     -17.649 -31.687  -5.571  0.00  0.00    -0.370 N 
+ATOM     16 HH21 ARG A   1     -18.103 -28.916  -6.861  0.00  0.00    +0.159 HD
+ATOM     17 HH22 ARG A   1     -19.187 -29.950  -6.133  0.00  0.00    +0.159 HD
+ATOM     18 HH11 ARG A   1     -18.250 -32.171  -6.228  0.00  0.00    +0.159 HD
+ATOM     19 HH12 ARG A   1     -16.868 -32.273  -5.304  0.00  0.00    +0.159 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 8
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -5.131     13.059     14.095
+REMARK INTER + INTRA:          -7.846
+REMARK INTER:                  -7.605
+REMARK INTRA:                  -0.240
+REMARK UNBOUND:                -0.615
+REMARK  Name = Arginine
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_1  and  CB_2
+REMARK    2  A    between atoms: CG_1  and  CD_8
+REMARK    3  A    between atoms: CB_2  and  CA_3
+REMARK    4  A    between atoms: CA_3  and  C_4
+REMARK    5  A    between atoms: CA_3  and  N_7
+REMARK    6  A    between atoms: C_4  and  OXT_6
+REMARK    7  A    between atoms: CD_8  and  NE_9
+REMARK    8  A    between atoms: NE_9  and  CZ_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  ARG A   1     -23.924 -21.758 -14.755  0.00  0.00    +0.025 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ARG A   1     -23.931 -22.811 -15.870  0.00  0.00    +0.032 C 
+BRANCH   2   3
+ATOM      3  CA  ARG A   1     -25.144 -23.744 -15.797  0.00  0.00    +0.161 C 
+BRANCH   3   4
+ATOM      4  N   ARG A   1     -24.712 -25.159 -15.684  0.00  0.00    -0.318 NA
+ATOM      5  H1  ARG A   1     -25.541 -25.749 -15.789  0.00  0.00    +0.119 HD
+ATOM      6  H2  ARG A   1     -24.413 -25.321 -14.720  0.00  0.00    +0.119 HD
+ENDBRANCH   3   4
+BRANCH   3   7
+ATOM      7  C   ARG A   1     -26.022 -23.572 -17.044  0.00  0.00    +0.322 C 
+ATOM      8  O   ARG A   1     -27.080 -24.141 -17.269  0.00  0.00    -0.249 OA
+BRANCH   7   9
+ATOM      9  OXT ARG A   1     -25.531 -22.676 -17.923  0.00  0.00    -0.480 OA
+ATOM     10  HXT ARG A   1     -24.609 -22.969 -18.074  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   3   7
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  CD  ARG A   1     -24.161 -20.345 -15.288  0.00  0.00    +0.145 C 
+BRANCH  11  12
+ATOM     12  NE  ARG A   1     -23.972 -19.384 -14.204  0.00  0.00    -0.253 NA
+BRANCH  12  13
+ATOM     13  CZ  ARG A   1     -25.000 -18.784 -13.741  0.00  0.00    +0.188 C 
+ATOM     14  NH2 ARG A   1     -25.554 -19.196 -12.581  0.00  0.00    -0.370 N 
+ATOM     15  NH1 ARG A   1     -25.696 -17.739 -14.240  0.00  0.00    -0.370 N 
+ATOM     16 HH21 ARG A   1     -25.126 -20.072 -12.296  0.00  0.00    +0.159 HD
+ATOM     17 HH22 ARG A   1     -26.558 -19.303 -12.655  0.00  0.00    +0.159 HD
+ATOM     18 HH11 ARG A   1     -26.013 -17.113 -13.509  0.00  0.00    +0.159 HD
+ATOM     19 HH12 ARG A   1     -25.206 -17.225 -14.961  0.00  0.00    +0.159 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 8
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -5.029      2.674      4.501
+REMARK INTER + INTRA:          -7.702
+REMARK INTER:                  -6.995
+REMARK INTRA:                  -0.706
+REMARK UNBOUND:                -0.615
+REMARK  Name = Arginine
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_1  and  CB_2
+REMARK    2  A    between atoms: CG_1  and  CD_8
+REMARK    3  A    between atoms: CB_2  and  CA_3
+REMARK    4  A    between atoms: CA_3  and  C_4
+REMARK    5  A    between atoms: CA_3  and  N_7
+REMARK    6  A    between atoms: C_4  and  OXT_6
+REMARK    7  A    between atoms: CD_8  and  NE_9
+REMARK    8  A    between atoms: NE_9  and  CZ_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CG  ARG A   1     -16.053 -28.285  -5.578  0.00  0.00    +0.025 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ARG A   1     -16.065 -29.652  -6.275  0.00  0.00    +0.032 C 
+BRANCH   2   3
+ATOM      3  CA  ARG A   1     -17.461 -30.282  -6.322  0.00  0.00    +0.161 C 
+BRANCH   3   4
+ATOM      4  N   ARG A   1     -17.486 -31.559  -5.567  0.00  0.00    -0.318 NA
+ATOM      5  H1  ARG A   1     -17.181 -31.363  -4.611  0.00  0.00    +0.119 HD
+ATOM      6  H2  ARG A   1     -16.752 -32.161  -5.943  0.00  0.00    +0.119 HD
+ENDBRANCH   3   4
+BRANCH   3   7
+ATOM      7  C   ARG A   1     -17.880 -30.535  -7.776  0.00  0.00    +0.322 C 
+ATOM      8  O   ARG A   1     -18.802 -31.246  -8.151  0.00  0.00    -0.249 OA
+BRANCH   7   9
+ATOM      9  OXT ARG A   1     -17.134 -29.860  -8.673  0.00  0.00    -0.480 OA
+ATOM     10  HXT ARG A   1     -16.922 -30.528  -9.358  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   3   7
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  CD  ARG A   1     -15.612 -27.159  -6.513  0.00  0.00    +0.145 C 
+BRANCH  11  12
+ATOM     12  NE  ARG A   1     -16.622 -26.974  -7.553  0.00  0.00    -0.253 NA
+BRANCH  12  13
+ATOM     13  CZ  ARG A   1     -16.227 -26.745  -8.746  0.00  0.00    +0.188 C 
+ATOM     14  NH2 ARG A   1     -15.328 -27.568  -9.327  0.00  0.00    -0.370 N 
+ATOM     15  NH1 ARG A   1     -16.559 -25.749  -9.596  0.00  0.00    -0.370 N 
+ATOM     16 HH21 ARG A   1     -14.968 -28.216  -8.634  0.00  0.00    +0.159 HD
+ATOM     17 HH22 ARG A   1     -14.569 -27.057  -9.760  0.00  0.00    +0.159 HD
+ATOM     18 HH11 ARG A   1     -16.625 -26.075 -10.553  0.00  0.00    +0.159 HD
+ATOM     19 HH12 ARG A   1     -17.397 -25.245  -9.333  0.00  0.00    +0.159 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 8
+ENDMDL

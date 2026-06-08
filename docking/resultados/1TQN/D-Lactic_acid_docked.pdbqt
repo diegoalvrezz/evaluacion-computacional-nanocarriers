@@ -1,0 +1,297 @@
+MODEL 1
+REMARK VINA RESULT:    -3.908      0.000      0.000
+REMARK INTER + INTRA:          -4.365
+REMARK INTER:                  -4.365
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = D-Lactic acid
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_6
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -16.828 -29.670  -5.378  0.00  0.00    +0.049 C 
+ATOM      2  C   UNL     1     -17.974 -30.631  -5.114  0.00  0.00    +0.219 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C   UNL     1     -18.341 -30.636  -3.633  0.00  0.00    +0.333 C 
+ATOM      4  O   UNL     1     -18.915 -29.731  -3.045  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -17.977 -31.759  -2.987  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -17.834 -32.416  -3.701  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  O   UNL     1     -17.582 -31.931  -5.555  0.00  0.00    -0.381 OA
+ATOM      8  H   UNL     1     -16.632 -31.878  -5.779  0.00  0.00    +0.210 HD
+ENDBRANCH   2   7
+TORSDOF 3
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -3.805     15.686     16.218
+REMARK INTER + INTRA:          -4.250
+REMARK INTER:                  -4.250
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = D-Lactic acid
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_6
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -24.720 -24.817 -15.463  0.00  0.00    +0.049 C 
+ATOM      2  C   UNL     1     -24.674 -24.276 -16.881  0.00  0.00    +0.219 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C   UNL     1     -24.779 -22.754 -16.879  0.00  0.00    +0.333 C 
+ATOM      4  O   UNL     1     -24.720 -22.043 -15.886  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -24.945 -22.219 -18.103  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -24.447 -22.817 -18.700  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  O   UNL     1     -25.739 -24.867 -17.625  0.00  0.00    -0.381 OA
+ATOM      8  H   UNL     1     -25.352 -25.611 -18.128  0.00  0.00    +0.210 HD
+ENDBRANCH   2   7
+TORSDOF 3
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -3.764     15.522     16.116
+REMARK INTER + INTRA:          -4.204
+REMARK INTER:                  -4.204
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = D-Lactic acid
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_6
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -23.962 -22.257 -15.690  0.00  0.00    +0.049 C 
+ATOM      2  C   UNL     1     -25.017 -22.785 -16.645  0.00  0.00    +0.219 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C   UNL     1     -24.924 -24.303 -16.764  0.00  0.00    +0.333 C 
+ATOM      4  O   UNL     1     -24.375 -25.042 -15.959  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -25.516 -24.799 -17.865  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -25.449 -25.772 -17.762  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  O   UNL     1     -24.835 -22.154 -17.912  0.00  0.00    -0.381 OA
+ATOM      8  H   UNL     1     -25.286 -21.288 -17.863  0.00  0.00    +0.210 HD
+ENDBRANCH   2   7
+TORSDOF 3
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -3.688     15.518     16.080
+REMARK INTER + INTRA:          -4.119
+REMARK INTER:                  -4.119
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = D-Lactic acid
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_6
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -24.074 -23.294 -15.364  0.00  0.00    +0.049 C 
+ATOM      2  C   UNL     1     -24.586 -24.282 -16.397  0.00  0.00    +0.219 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C   UNL     1     -25.709 -23.663 -17.223  0.00  0.00    +0.333 C 
+ATOM      4  O   UNL     1     -26.869 -24.049 -17.240  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -25.320 -22.611 -17.966  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -26.023 -22.517 -18.644  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  O   UNL     1     -25.030 -25.456 -15.718  0.00  0.00    -0.381 OA
+ATOM      8  H   UNL     1     -25.725 -25.859 -16.275  0.00  0.00    +0.210 HD
+ENDBRANCH   2   7
+TORSDOF 3
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -3.621      3.061      4.253
+REMARK INTER + INTRA:          -4.044
+REMARK INTER:                  -4.044
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = D-Lactic acid
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_6
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -15.629 -28.463  -5.233  0.00  0.00    +0.049 C 
+ATOM      2  C   UNL     1     -16.529 -29.323  -6.103  0.00  0.00    +0.219 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C   UNL     1     -16.796 -28.639  -7.441  0.00  0.00    +0.333 C 
+ATOM      4  O   UNL     1     -16.700 -29.172  -8.537  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -17.164 -27.350  -7.329  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -17.175 -27.183  -6.362  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  O   UNL     1     -17.744 -29.565  -5.395  0.00  0.00    -0.381 OA
+ATOM      8  H   UNL     1     -18.475 -29.384  -6.018  0.00  0.00    +0.210 HD
+ENDBRANCH   2   7
+TORSDOF 3
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -3.613      9.956     10.713
+REMARK INTER + INTRA:          -4.035
+REMARK INTER:                  -4.035
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = D-Lactic acid
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_6
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -17.484 -25.192 -14.811  0.00  0.00    +0.049 C 
+ATOM      2  C   UNL     1     -17.058 -26.271 -13.831  0.00  0.00    +0.219 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C   UNL     1     -17.553 -27.639 -14.289  0.00  0.00    +0.333 C 
+ATOM      4  O   UNL     1     -17.624 -28.012 -15.451  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -17.922 -28.448 -13.280  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -17.137 -29.015 -13.122  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  O   UNL     1     -17.572 -25.938 -12.543  0.00  0.00    -0.381 OA
+ATOM      8  H   UNL     1     -18.260 -26.601 -12.334  0.00  0.00    +0.210 HD
+ENDBRANCH   2   7
+TORSDOF 3
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -3.559     15.333     15.840
+REMARK INTER + INTRA:          -3.975
+REMARK INTER:                  -3.975
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = D-Lactic acid
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_6
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -27.101 -24.402 -16.495  0.00  0.00    +0.049 C 
+ATOM      2  C   UNL     1     -25.744 -24.144 -17.127  0.00  0.00    +0.219 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C   UNL     1     -24.640 -24.207 -16.075  0.00  0.00    +0.333 C 
+ATOM      4  O   UNL     1     -23.986 -23.253 -15.680  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -24.427 -25.442 -15.586  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -23.455 -25.495 -15.470  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  O   UNL     1     -25.779 -22.867 -17.764  0.00  0.00    -0.381 OA
+ATOM      8  H   UNL     1     -25.234 -22.265 -17.219  0.00  0.00    +0.210 HD
+ENDBRANCH   2   7
+TORSDOF 3
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.530      4.872      6.067
+REMARK INTER + INTRA:          -3.943
+REMARK INTER:                  -3.943
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = D-Lactic acid
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_6
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -15.328 -28.544  -6.892  0.00  0.00    +0.049 C 
+ATOM      2  C   UNL     1     -16.431 -28.167  -7.865  0.00  0.00    +0.219 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C   UNL     1     -15.844 -27.777  -9.219  0.00  0.00    +0.333 C 
+ATOM      4  O   UNL     1     -16.235 -26.854  -9.918  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -14.816 -28.552  -9.608  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -14.506 -28.145 -10.445  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  O   UNL     1     -17.186 -27.096  -7.300  0.00  0.00    -0.381 OA
+ATOM      8  H   UNL     1     -17.464 -27.387  -6.409  0.00  0.00    +0.210 HD
+ENDBRANCH   2   7
+TORSDOF 3
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.521      2.451      3.427
+REMARK INTER + INTRA:          -3.933
+REMARK INTER:                  -3.933
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = D-Lactic acid
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_6
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -14.918 -29.037  -6.371  0.00  0.00    +0.049 C 
+ATOM      2  C   UNL     1     -16.292 -28.732  -5.801  0.00  0.00    +0.219 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C   UNL     1     -17.238 -29.910  -6.018  0.00  0.00    +0.333 C 
+ATOM      4  O   UNL     1     -17.056 -31.046  -5.606  0.00  0.00    -0.248 OA
+BRANCH   3   5
+ATOM      5  O   UNL     1     -18.339 -29.598  -6.725  0.00  0.00    -0.479 OA
+ATOM      6  H   UNL     1     -18.424 -28.626  -6.629  0.00  0.00    +0.295 HD
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+BRANCH   2   7
+ATOM      7  O   UNL     1     -16.787 -27.549  -6.425  0.00  0.00    -0.381 OA
+ATOM      8  H   UNL     1     -17.762 -27.579  -6.354  0.00  0.00    +0.210 HD
+ENDBRANCH   2   7
+TORSDOF 3
+ENDMDL

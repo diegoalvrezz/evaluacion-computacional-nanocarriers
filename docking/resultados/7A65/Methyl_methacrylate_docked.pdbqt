@@ -1,0 +1,270 @@
+MODEL 1
+REMARK VINA RESULT:    -4.529      0.000      0.000
+REMARK INTER + INTRA:          -5.099
+REMARK INTER:                  -5.059
+REMARK INTRA:                  -0.040
+REMARK UNBOUND:                -0.040
+REMARK  Name = Methyl methacrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  O_6
+REMARK    4  A    between atoms: O_6  and  C_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     152.102 176.328 160.082  0.00  0.00    +0.334 C 
+ATOM      2  O   UNL     1     152.129 175.193 160.535  0.00  0.00    -0.245 OA
+ENDROOT
+BRANCH   1   4
+ATOM      3  C   UNL     1     154.115 177.818 160.398  0.00  0.00    +0.050 C 
+ATOM      4  C   UNL     1     153.290 176.986 159.462  0.00  0.00    +0.026 C 
+ATOM      5  C   UNL     1     153.602 176.845 158.162  0.00  0.00    +0.019 C 
+ENDBRANCH   1   4
+BRANCH   1   6
+ATOM      6  O   UNL     1     151.018 177.145 160.072  0.00  0.00    -0.465 OA
+ATOM      7  C   UNL     1     149.886 176.598 159.396  0.00  0.00    +0.280 C 
+ENDBRANCH   1   6
+TORSDOF 2
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -3.787      1.258      2.944
+REMARK INTER + INTRA:          -4.270
+REMARK INTER:                  -4.229
+REMARK INTRA:                  -0.040
+REMARK UNBOUND:                -0.040
+REMARK  Name = Methyl methacrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  O_6
+REMARK    4  A    between atoms: O_6  and  C_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     152.134 176.023 159.673  0.00  0.00    +0.334 C 
+ATOM      2  O   UNL     1     152.447 175.182 160.503  0.00  0.00    -0.245 OA
+ENDROOT
+BRANCH   1   4
+ATOM      3  C   UNL     1     150.082 177.476 159.904  0.00  0.00    +0.050 C 
+ATOM      4  C   UNL     1     150.720 176.277 159.267  0.00  0.00    +0.026 C 
+ATOM      5  C   UNL     1     150.063 175.492 158.395  0.00  0.00    +0.019 C 
+ENDBRANCH   1   4
+BRANCH   1   6
+ATOM      6  O   UNL     1     152.997 176.834 159.010  0.00  0.00    -0.465 OA
+ATOM      7  C   UNL     1     153.857 177.587 159.865  0.00  0.00    +0.280 C 
+ENDBRANCH   1   6
+TORSDOF 2
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -3.748     11.019     11.974
+REMARK INTER + INTRA:          -4.226
+REMARK INTER:                  -4.210
+REMARK INTRA:                  -0.016
+REMARK UNBOUND:                -0.040
+REMARK  Name = Methyl methacrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  O_6
+REMARK    4  A    between atoms: O_6  and  C_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.859 170.280 162.543  0.00  0.00    +0.334 C 
+ATOM      2  O   UNL     1     162.925 170.255 163.140  0.00  0.00    -0.245 OA
+ENDROOT
+BRANCH   1   4
+ATOM      3  C   UNL     1     160.806 167.986 162.576  0.00  0.00    +0.050 C 
+ATOM      4  C   UNL     1     160.689 169.438 162.932  0.00  0.00    +0.026 C 
+ATOM      5  C   UNL     1     159.608 169.940 163.554  0.00  0.00    +0.019 C 
+ENDBRANCH   1   4
+BRANCH   1   6
+ATOM      6  O   UNL     1     161.579 171.054 161.463  0.00  0.00    -0.465 OA
+ATOM      7  C   UNL     1     162.564 172.053 161.197  0.00  0.00    +0.280 C 
+ENDBRANCH   1   6
+TORSDOF 2
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -3.706     11.503     12.365
+REMARK INTER + INTRA:          -4.180
+REMARK INTER:                  -4.197
+REMARK INTRA:                   0.017
+REMARK UNBOUND:                -0.040
+REMARK  Name = Methyl methacrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  O_6
+REMARK    4  A    between atoms: O_6  and  C_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.891 169.099 163.068  0.00  0.00    +0.334 C 
+ATOM      2  O   UNL     1     163.031 169.537 163.008  0.00  0.00    -0.245 OA
+ENDROOT
+BRANCH   1   4
+ATOM      3  C   UNL     1     160.725 170.787 161.597  0.00  0.00    +0.050 C 
+ATOM      4  C   UNL     1     160.682 169.943 162.836  0.00  0.00    +0.026 C 
+ATOM      5  C   UNL     1     159.630 169.949 163.672  0.00  0.00    +0.019 C 
+ENDBRANCH   1   4
+BRANCH   1   6
+ATOM      6  O   UNL     1     161.557 167.813 163.348  0.00  0.00    -0.465 OA
+ATOM      7  C   UNL     1     161.041 167.092 162.229  0.00  0.00    +0.280 C 
+ENDBRANCH   1   6
+TORSDOF 2
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -3.506     12.033     12.788
+REMARK INTER + INTRA:          -3.956
+REMARK INTER:                  -3.941
+REMARK INTRA:                  -0.015
+REMARK UNBOUND:                -0.040
+REMARK  Name = Methyl methacrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  O_6
+REMARK    4  A    between atoms: O_6  and  C_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.227 167.744 162.722  0.00  0.00    +0.334 C 
+ATOM      2  O   UNL     1     161.746 166.941 163.484  0.00  0.00    -0.245 OA
+ENDROOT
+BRANCH   1   4
+ATOM      3  C   UNL     1     162.497 169.889 163.124  0.00  0.00    +0.050 C 
+ATOM      4  C   UNL     1     161.165 169.209 163.004  0.00  0.00    +0.026 C 
+ATOM      5  C   UNL     1     160.005 169.873 163.139  0.00  0.00    +0.019 C 
+ENDBRANCH   1   4
+BRANCH   1   6
+ATOM      6  O   UNL     1     160.643 167.439 161.536  0.00  0.00    -0.465 OA
+ATOM      7  C   UNL     1     160.769 166.066 161.164  0.00  0.00    +0.280 C 
+ENDBRANCH   1   6
+TORSDOF 2
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -3.460     26.041     26.609
+REMARK INTER + INTRA:          -3.905
+REMARK INTER:                  -3.867
+REMARK INTRA:                  -0.038
+REMARK UNBOUND:                -0.040
+REMARK  Name = Methyl methacrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  O_6
+REMARK    4  A    between atoms: O_6  and  C_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.055 151.424 160.360  0.00  0.00    +0.334 C 
+ATOM      2  O   UNL     1     161.044 150.489 161.148  0.00  0.00    -0.245 OA
+ENDROOT
+BRANCH   1   4
+ATOM      3  C   UNL     1     162.941 152.797 159.397  0.00  0.00    +0.050 C 
+ATOM      4  C   UNL     1     162.083 151.572 159.288  0.00  0.00    +0.026 C 
+ATOM      5  C   UNL     1     162.232 150.677 158.296  0.00  0.00    +0.019 C 
+ENDBRANCH   1   4
+BRANCH   1   6
+ATOM      6  O   UNL     1     160.159 152.443 160.337  0.00  0.00    -0.465 OA
+ATOM      7  C   UNL     1     158.803 152.020 160.192  0.00  0.00    +0.280 C 
+ENDBRANCH   1   6
+TORSDOF 2
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -3.458     27.416     28.096
+REMARK INTER + INTRA:          -3.902
+REMARK INTER:                  -3.870
+REMARK INTRA:                  -0.032
+REMARK UNBOUND:                -0.040
+REMARK  Name = Methyl methacrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  O_6
+REMARK    4  A    between atoms: O_6  and  C_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     162.301 150.596 159.011  0.00  0.00    +0.334 C 
+ATOM      2  O   UNL     1     162.674 151.199 158.015  0.00  0.00    -0.245 OA
+ENDROOT
+BRANCH   1   4
+ATOM      3  C   UNL     1     161.251 150.360 161.294  0.00  0.00    +0.050 C 
+ATOM      4  C   UNL     1     161.719 151.278 160.204  0.00  0.00    +0.026 C 
+ATOM      5  C   UNL     1     161.619 152.615 160.299  0.00  0.00    +0.019 C 
+ENDBRANCH   1   4
+BRANCH   1   6
+ATOM      6  O   UNL     1     162.357 149.251 159.182  0.00  0.00    -0.465 OA
+ATOM      7  C   UNL     1     163.197 148.581 158.242  0.00  0.00    +0.280 C 
+ENDBRANCH   1   6
+TORSDOF 2
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.444     21.692     22.787
+REMARK INTER + INTRA:          -3.887
+REMARK INTER:                  -3.828
+REMARK INTRA:                  -0.058
+REMARK UNBOUND:                -0.040
+REMARK  Name = Methyl methacrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  O_6
+REMARK    4  A    between atoms: O_6  and  C_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     165.292 160.404 150.875  0.00  0.00    +0.334 C 
+ATOM      2  O   UNL     1     166.452 160.735 150.681  0.00  0.00    -0.245 OA
+ENDROOT
+BRANCH   1   4
+ATOM      3  C   UNL     1     162.931 160.784 150.063  0.00  0.00    +0.050 C 
+ATOM      4  C   UNL     1     164.298 160.239 149.772  0.00  0.00    +0.026 C 
+ATOM      5  C   UNL     1     164.602 159.645 148.605  0.00  0.00    +0.019 C 
+ENDBRANCH   1   4
+BRANCH   1   6
+ATOM      6  O   UNL     1     164.740 160.144 152.087  0.00  0.00    -0.465 OA
+ATOM      7  C   UNL     1     165.133 158.891 152.646  0.00  0.00    +0.280 C 
+ENDBRANCH   1   6
+TORSDOF 2
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.428     21.486     22.631
+REMARK INTER + INTRA:          -3.869
+REMARK INTER:                  -3.837
+REMARK INTRA:                  -0.032
+REMARK UNBOUND:                -0.040
+REMARK  Name = Methyl methacrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  O_6
+REMARK    4  A    between atoms: O_6  and  C_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     164.317 160.063 151.327  0.00  0.00    +0.334 C 
+ATOM      2  O   UNL     1     163.672 159.823 152.337  0.00  0.00    -0.245 OA
+ENDROOT
+BRANCH   1   4
+ATOM      3  C   UNL     1     164.462 159.782 148.822  0.00  0.00    +0.050 C 
+ATOM      4  C   UNL     1     163.684 160.299 149.995  0.00  0.00    +0.026 C 
+ATOM      5  C   UNL     1     162.504 160.929 149.854  0.00  0.00    +0.019 C 
+ENDBRANCH   1   4
+BRANCH   1   6
+ATOM      6  O   UNL     1     165.670 160.150 151.258  0.00  0.00    -0.465 OA
+ATOM      7  C   UNL     1     166.353 159.105 151.951  0.00  0.00    +0.280 C 
+ENDBRANCH   1   6
+TORSDOF 2
+ENDMDL

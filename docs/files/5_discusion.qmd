@@ -1,0 +1,77 @@
+```{=latex}
+\capitulo{5}{Discusión}
+```
+
+## Relevancia de las geometrías DFT en los descriptores
+
+La combinación de geometrías optimizadas a nivel DFT con perfiles sigma
+COSMO-RS representa una contribución metodológica distintiva de este trabajo.
+A diferencia de los estudios previos que emplean geometrías generadas por
+campos de fuerza (MMFF94) o directamente descriptores 2D desde SMILES, el
+uso de coordenadas DFT garantiza geometrías de equilibrio precisas, especialmente
+relevantes para moléculas con tensión conformacional como los oligómeros
+cíclicos ($\varepsilon$-caprolactona, lactida) y los fármacos macrocíclicos
+(sirolimus, paclitaxel).
+
+Los perfiles sigma COSMO-RS capturan la distribución de polaridad
+superficial de cada molécula en su geometría de equilibrio, ofreciendo una
+descripción cuantitativa de las interacciones intermoleculares que va más
+allá de descriptores globales como LogP o TPSA. Su incorporación como
+familia de descriptores en los modelos ML es novedosa en este campo.
+
+## Interpretación del modelo predictivo
+
+El papel dominante de BertzCT en el modelo SHAP de P-gp es consistente con
+la literatura: la P-glicoproteína es una bomba de eflujo de amplio espectro
+que reconoce sustratos por su complejidad topológica y anfifilia, más que
+por grupos farmacofóricos específicos [@waghray2018]. La correlación entre
+tamaño molecular (MW, NumBonds) y afinidad P-gp es una consecuencia directa
+de la geometría del sitio de unión de esta proteína, que puede acomodar
+moléculas grandes gracias a su cavidad hidrofóbica de \textasciitilde5000
+Å$^3$.
+
+La alta correlación entre las afinidades de P-gp y TfR1 ($r = 0.95$) merece
+discusión. Ambas proteínas tienen sitios de unión grandes y preferencias por
+moléculas complejas, lo que podría sugerir que un ligando de targeting
+(ej.\ folato para FR$\alpha$) que maximice la afinidad por TfR1 sin penalizar
+la afinidad P-gp podría ser contraproducente desde el punto de vista de la
+resistencia multidroga. Esta observación subraya la importancia del ITI como
+métrica que pondera diferencialmente la afinidad según el rol de cada proteína.
+
+## Limitaciones del estudio
+
+El principal factor limitante es el tamaño del dataset (56--58 moléculas),
+que condiciona el poder predictivo de los modelos de ML, especialmente en
+validación cruzada donde las particiones de test son de apenas 11 muestras.
+Los modelos de redes neuronales (MLP) no alcanzaron rendimientos competitivos
+precisamente por esta razón, mientras que los métodos basados en árboles
+(RF, GB) son más robustos en datasets pequeños.
+
+La ausencia de validación experimental directa es inherente a la naturaleza
+computacional del trabajo. Sin embargo, los valores de $\Delta G$ obtenidos
+son consistentes con datos publicados de docking para moléculas similares en
+las mismas proteínas [@trott2010], lo que respalda la validez del protocolo
+empleado.
+
+El ITI es una métrica heurística cuyas ponderaciones se han definido con
+criterio experto. Una calibración empírica de estos pesos mediante datos
+experimentales de biodistribución o citotoxicidad incrementaría su valor
+predictivo.
+
+## Implicaciones para el diseño de DDS
+
+Los resultados sugieren que los oligómeros PAMAM de generaciones bajas
+(Tetraethylenepentamine, Pentaethylenehexamine) y los ligandos de PEGilación
+(Triethylene glycol) presentan el mejor perfil de eficiencia de transporte:
+alta afinidad por TfR1 (para endocitosis mediada por receptor en tumores),
+baja afinidad por P-gp (para evitar el eflujo), y buena interacción con HSA
+(para extender la vida media plasmática). Los oligómeros de quitosano
+(Chitotriose, Chitobiose) también destacan por su perfil favorable, lo que
+es consistente con el uso clínico del quitosano como polímero de
+recubrimiento en formulaciones de nanopartículas.
+
+Los fármacos modelo presentan, en conjunto, los ITI más bajos, lo que
+refleja su alta afinidad por P-gp --- fenómeno bien documentado como
+mecanismo de resistencia multidroga en quimioterapia. La encapsulación de
+estos fármacos en nanocarriers con perfil ITI alto (ej.\ partículas
+PEGiladas con quitosano) podría mitigar esta resistencia.

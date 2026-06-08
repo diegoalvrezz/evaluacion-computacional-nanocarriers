@@ -1,0 +1,396 @@
+MODEL 1
+REMARK VINA RESULT:    -4.392      0.000      0.000
+REMARK INTER + INTRA:          -6.080
+REMARK INTER:                  -5.419
+REMARK INTRA:                  -0.661
+REMARK UNBOUND:                -0.661
+REMARK  Name = Asparagine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASN A   1     159.865 187.156 161.362  0.00  0.00    +0.169 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASN A   1     158.606 187.932 161.258  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASN A   1     158.262 187.891 160.298  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASN A   1     157.892 187.504 161.845  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASN A   1     160.728 187.756 162.475  0.00  0.00    +0.322 C 
+ATOM      6  OXT ASN A   1     161.774 188.371 162.320  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  O   ASN A   1     160.195 187.606 163.704  0.00  0.00    -0.480 OA
+ATOM      8  H   ASN A   1     159.538 188.326 163.773  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASN A   1     160.632 187.196 160.037  0.00  0.00    +0.125 C 
+BRANCH   9  10
+ATOM     10  CG  ASN A   1     160.216 188.382 159.197  0.00  0.00    +0.213 C 
+ATOM     11  OD1 ASN A   1     159.356 188.349 158.326  0.00  0.00    -0.276 OA
+ATOM     12  ND2 ASN A   1     160.852 189.547 159.512  0.00  0.00    -0.329 N 
+ATOM     13 HD21 ASN A   1     161.731 189.552 160.010  0.00  0.00    +0.145 HD
+ATOM     14 HD22 ASN A   1     160.659 190.337 158.907  0.00  0.00    +0.145 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.153      3.732      4.648
+REMARK INTER + INTRA:          -5.785
+REMARK INTER:                  -5.153
+REMARK INTRA:                  -0.632
+REMARK UNBOUND:                -0.661
+REMARK  Name = Asparagine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASN A   1     161.879 186.919 158.036  0.00  0.00    +0.169 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASN A   1     162.186 185.476 158.191  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASN A   1     161.354 184.928 157.965  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASN A   1     162.905 185.206 157.523  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASN A   1     160.568 187.228 158.763  0.00  0.00    +0.322 C 
+ATOM      6  OXT ASN A   1     160.446 187.455 159.959  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  O   ASN A   1     159.503 187.295 157.939  0.00  0.00    -0.480 OA
+ATOM      8  H   ASN A   1     158.732 187.188 158.529  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASN A   1     161.746 187.284 156.555  0.00  0.00    +0.125 C 
+BRANCH   9  10
+ATOM     10  CG  ASN A   1     161.740 186.050 155.682  0.00  0.00    +0.213 C 
+ATOM     11  OD1 ASN A   1     162.685 185.676 155.000  0.00  0.00    -0.276 OA
+ATOM     12  ND2 ASN A   1     160.585 185.325 155.738  0.00  0.00    -0.329 N 
+ATOM     13 HD21 ASN A   1     159.718 185.735 156.057  0.00  0.00    +0.145 HD
+ATOM     14 HD22 ASN A   1     160.519 184.543 155.097  0.00  0.00    +0.145 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.133      1.487      1.562
+REMARK INTER + INTRA:          -5.761
+REMARK INTER:                  -5.247
+REMARK INTRA:                  -0.514
+REMARK UNBOUND:                -0.661
+REMARK  Name = Asparagine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASN A   1     159.614 187.767 161.163  0.00  0.00    +0.169 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASN A   1     158.219 187.908 161.647  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASN A   1     157.758 186.998 161.616  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASN A   1     158.225 188.202 162.622  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASN A   1     160.572 188.031 162.327  0.00  0.00    +0.322 C 
+ATOM      6  OXT ASN A   1     161.640 188.624 162.258  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  O   ASN A   1     160.105 187.592 163.513  0.00  0.00    -0.480 OA
+ATOM      8  H   ASN A   1     160.909 187.397 164.033  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASN A   1     159.893 188.761 160.031  0.00  0.00    +0.125 C 
+BRANCH   9  10
+ATOM     10  CG  ASN A   1     159.052 190.009 160.176  0.00  0.00    +0.213 C 
+ATOM     11  OD1 ASN A   1     158.010 190.219 159.569  0.00  0.00    -0.276 OA
+ATOM     12  ND2 ASN A   1     159.522 190.903 161.094  0.00  0.00    -0.329 N 
+ATOM     13 HD21 ASN A   1     160.487 190.893 161.394  0.00  0.00    +0.145 HD
+ATOM     14 HD22 ASN A   1     159.029 191.787 161.147  0.00  0.00    +0.145 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.115      8.994     10.117
+REMARK INTER + INTRA:          -5.738
+REMARK INTER:                  -5.321
+REMARK INTRA:                  -0.417
+REMARK UNBOUND:                -0.661
+REMARK  Name = Asparagine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASN A   1     150.304 189.650 160.599  0.00  0.00    +0.169 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASN A   1     149.797 188.343 161.083  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASN A   1     150.578 187.785 161.430  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASN A   1     149.169 188.492 161.870  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASN A   1     149.499 190.069 159.366  0.00  0.00    +0.322 C 
+ATOM      6  OXT ASN A   1     148.344 190.471 159.366  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  O   ASN A   1     150.209 190.019 158.222  0.00  0.00    -0.480 OA
+ATOM      8  H   ASN A   1     150.632 190.898 158.160  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASN A   1     151.788 189.549 160.234  0.00  0.00    +0.125 C 
+BRANCH   9  10
+ATOM     10  CG  ASN A   1     152.506 188.558 161.123  0.00  0.00    +0.213 C 
+ATOM     11  OD1 ASN A   1     152.566 188.634 162.343  0.00  0.00    -0.276 OA
+ATOM     12  ND2 ASN A   1     153.069 187.508 160.457  0.00  0.00    -0.329 N 
+ATOM     13 HD21 ASN A   1     153.274 187.557 159.469  0.00  0.00    +0.145 HD
+ATOM     14 HD22 ASN A   1     153.631 186.877 161.015  0.00  0.00    +0.145 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.077      1.716      3.696
+REMARK INTER + INTRA:          -5.691
+REMARK INTER:                  -5.062
+REMARK INTRA:                  -0.630
+REMARK UNBOUND:                -0.661
+REMARK  Name = Asparagine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASN A   1     160.675 187.663 160.029  0.00  0.00    +0.169 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASN A   1     161.365 188.891 160.493  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASN A   1     162.372 188.786 160.354  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASN A   1     161.071 189.683 159.925  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASN A   1     159.742 188.027 158.871  0.00  0.00    +0.322 C 
+ATOM      6  OXT ASN A   1     159.724 187.495 157.769  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  O   ASN A   1     158.850 188.987 159.185  0.00  0.00    -0.480 OA
+ATOM      8  H   ASN A   1     158.290 188.581 159.876  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASN A   1     159.863 187.040 161.169  0.00  0.00    +0.125 C 
+BRANCH   9  10
+ATOM     10  CG  ASN A   1     159.661 188.023 162.300  0.00  0.00    +0.213 C 
+ATOM     11  OD1 ASN A   1     158.980 189.037 162.226  0.00  0.00    -0.276 OA
+ATOM     12  ND2 ASN A   1     160.272 187.671 163.469  0.00  0.00    -0.329 N 
+ATOM     13 HD21 ASN A   1     161.041 187.015 163.486  0.00  0.00    +0.145 HD
+ATOM     14 HD22 ASN A   1     160.229 188.353 164.216  0.00  0.00    +0.145 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.046      1.863      3.557
+REMARK INTER + INTRA:          -5.653
+REMARK INTER:                  -5.228
+REMARK INTRA:                  -0.425
+REMARK UNBOUND:                -0.661
+REMARK  Name = Asparagine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASN A   1     160.269 189.282 160.685  0.00  0.00    +0.169 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASN A   1     159.215 189.740 161.622  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASN A   1     159.391 190.713 161.879  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASN A   1     158.310 189.718 161.156  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASN A   1     159.605 188.767 159.405  0.00  0.00    +0.322 C 
+ATOM      6  OXT ASN A   1     160.023 187.866 158.692  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  O   ASN A   1     158.430 189.368 159.134  0.00  0.00    -0.480 OA
+ATOM      8  H   ASN A   1     157.999 189.463 160.007  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASN A   1     161.103 188.164 161.318  0.00  0.00    +0.125 C 
+BRANCH   9  10
+ATOM     10  CG  ASN A   1     160.257 187.285 162.211  0.00  0.00    +0.213 C 
+ATOM     11  OD1 ASN A   1     159.573 186.350 161.818  0.00  0.00    -0.276 OA
+ATOM     12  ND2 ASN A   1     160.340 187.585 163.540  0.00  0.00    -0.329 N 
+ATOM     13 HD21 ASN A   1     160.659 188.489 163.859  0.00  0.00    +0.145 HD
+ATOM     14 HD22 ASN A   1     159.716 187.071 164.151  0.00  0.00    +0.145 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -4.022      2.040      2.319
+REMARK INTER + INTRA:          -5.624
+REMARK INTER:                  -5.378
+REMARK INTRA:                  -0.247
+REMARK UNBOUND:                -0.661
+REMARK  Name = Asparagine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASN A   1     160.840 187.664 162.249  0.00  0.00    +0.169 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASN A   1     160.207 187.580 163.588  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASN A   1     159.302 188.053 163.563  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASN A   1     160.023 186.606 163.819  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASN A   1     162.343 187.408 162.395  0.00  0.00    +0.322 C 
+ATOM      6  OXT ASN A   1     163.222 187.867 161.679  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  O   ASN A   1     162.654 186.650 163.465  0.00  0.00    -0.480 OA
+ATOM      8  H   ASN A   1     161.964 186.864 164.123  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASN A   1     160.610 189.045 161.631  0.00  0.00    +0.125 C 
+BRANCH   9  10
+ATOM     10  CG  ASN A   1     159.293 189.103 160.890  0.00  0.00    +0.213 C 
+ATOM     11  OD1 ASN A   1     159.151 189.553 159.760  0.00  0.00    -0.276 OA
+ATOM     12  ND2 ASN A   1     158.240 188.562 161.568  0.00  0.00    -0.329 N 
+ATOM     13 HD21 ASN A   1     158.262 188.444 162.571  0.00  0.00    +0.145 HD
+ATOM     14 HD22 ASN A   1     157.330 188.668 161.134  0.00  0.00    +0.145 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.965      2.446      3.257
+REMARK INTER + INTRA:          -5.554
+REMARK INTER:                  -4.829
+REMARK INTRA:                  -0.725
+REMARK UNBOUND:                -0.661
+REMARK  Name = Asparagine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASN A   1     159.301 189.325 161.074  0.00  0.00    +0.169 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASN A   1     158.497 188.129 161.427  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASN A   1     159.104 187.429 161.856  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASN A   1     157.799 188.381 162.124  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASN A   1     158.390 190.353 160.397  0.00  0.00    +0.322 C 
+ATOM      6  OXT ASN A   1     158.350 191.550 160.645  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  O   ASN A   1     157.635 189.830 159.411  0.00  0.00    -0.480 OA
+ATOM      8  H   ASN A   1     157.075 189.167 159.860  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASN A   1     160.442 188.944 160.126  0.00  0.00    +0.125 C 
+BRANCH   9  10
+ATOM     10  CG  ASN A   1     160.244 187.558 159.556  0.00  0.00    +0.213 C 
+ATOM     11  OD1 ASN A   1     160.709 186.535 160.040  0.00  0.00    -0.276 OA
+ATOM     12  ND2 ASN A   1     159.447 187.512 158.449  0.00  0.00    -0.329 N 
+ATOM     13 HD21 ASN A   1     159.284 188.332 157.881  0.00  0.00    +0.145 HD
+ATOM     14 HD22 ASN A   1     159.370 186.610 157.994  0.00  0.00    +0.145 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.927      2.203      2.338
+REMARK INTER + INTRA:          -5.507
+REMARK INTER:                  -5.373
+REMARK INTRA:                  -0.133
+REMARK UNBOUND:                -0.661
+REMARK  Name = Asparagine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2
+REMARK    2  A    between atoms: CB_1  and  CG_7
+REMARK    3  A    between atoms: CA_2  and  C_3
+REMARK    4  A    between atoms: CA_2  and  N_6
+REMARK    5  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  ASN A   1     160.505 187.861 162.091  0.00  0.00    +0.169 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ASN A   1     160.347 187.534 163.529  0.00  0.00    -0.318 NA
+ATOM      3  H1  ASN A   1     159.883 186.629 163.620  0.00  0.00    +0.119 HD
+ATOM      4  H2  ASN A   1     161.264 187.439 163.960  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   ASN A   1     159.311 188.707 161.641  0.00  0.00    +0.322 C 
+ATOM      6  OXT ASN A   1     159.354 189.872 161.274  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  O   ASN A   1     158.150 188.022 161.618  0.00  0.00    -0.480 OA
+ATOM      8  H   ASN A   1     157.466 188.707 161.484  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  ASN A   1     160.576 186.582 161.253  0.00  0.00    +0.125 C 
+BRANCH   9  10
+ATOM     10  CG  ASN A   1     161.086 186.865 159.858  0.00  0.00    +0.213 C 
+ATOM     11  OD1 ASN A   1     160.372 187.084 158.889  0.00  0.00    -0.276 OA
+ATOM     12  ND2 ASN A   1     162.446 186.907 159.753  0.00  0.00    -0.329 N 
+ATOM     13 HD21 ASN A   1     163.043 186.471 160.441  0.00  0.00    +0.145 HD
+ATOM     14 HD22 ASN A   1     162.816 187.006 158.815  0.00  0.00    +0.145 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL

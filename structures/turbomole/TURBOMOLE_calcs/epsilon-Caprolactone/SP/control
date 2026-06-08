@@ -1,0 +1,84 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+c  1-4,7-8                                                                     \
+   basis =c def2-TZVP                                                          \
+   jbas  =c def2-TZVP
+o  5-6                                                                         \
+   basis =o def2-TZVP                                                          \
+   jbas  =o def2-TZVP
+h  9-18                                                                        \
+   basis =h def2-TZVP                                                          \
+   jbas  =h def2-TZVP
+$basis    file=basis
+$scfmo   file=mos
+$closed shells
+ a       1-31                                   ( 2 )
+$scfiterlimit       30
+$thize     0.10000000E-04
+$thime        5
+$scfdamp   start=0.300  step=0.050  min=0.100
+$scfdump
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$dft
+    functional   b3-lyp
+    gridsize   m3
+$scfconv   7
+$ricore     5000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=18
+   nbf(CAO)=348
+   nbf(AO)=308
+$last step     ridft
+$xctype hybrid-GGA X= 0.20000 (not to be modified here)
+$last SCF energy change = -385.05692
+$charge from ridft
+          0.000 (not to be modified here)
+$dipole from ridft
+  x    -1.77336788661469    y    -1.59527472115553    z     0.97716887205790    a.u.
+   | dipole | =    6.5519374032  debye
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$cosmo
+  epsilon=infinity
+$cosmo_out file=epsilon-Caprolactone_SP.cosmo
+$scfconv 7
+$orbital_max_rnorm 0.73943642838306E-05
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-385.0569232030    -1307.747664179     569.8446060408    -40.67284515654    -2.466197791950     395.9851778837
+$end

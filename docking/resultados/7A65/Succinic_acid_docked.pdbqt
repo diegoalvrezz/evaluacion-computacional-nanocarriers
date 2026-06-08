@@ -1,0 +1,360 @@
+MODEL 1
+REMARK VINA RESULT:    -4.265      0.000      0.000
+REMARK INTER + INTRA:          -5.364
+REMARK INTER:                  -5.262
+REMARK INTRA:                  -0.102
+REMARK UNBOUND:                -0.102
+REMARK  Name = Succinic acid
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     162.152 148.762 166.437  0.00  0.00    +0.131 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     161.333 149.651 167.331  0.00  0.00    +0.305 C 
+ATOM      3  O   UNL     1     161.595 150.788 167.685  0.00  0.00    -0.251 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     160.190 149.056 167.723  0.00  0.00    -0.481 OA
+ATOM      5  H   UNL     1     159.699 148.905 166.889  0.00  0.00    +0.295 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     163.154 149.564 165.614  0.00  0.00    +0.131 C 
+BRANCH   6   7
+ATOM      7  C   UNL     1     162.587 150.158 164.352  0.00  0.00    +0.305 C 
+ATOM      8  O   UNL     1     161.721 149.645 163.660  0.00  0.00    -0.251 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1     163.168 151.306 163.963  0.00  0.00    -0.481 OA
+ATOM     10  H   UNL     1     163.495 151.104 163.060  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.227      0.505      3.700
+REMARK INTER + INTRA:          -5.318
+REMARK INTER:                  -5.187
+REMARK INTRA:                  -0.131
+REMARK UNBOUND:                -0.102
+REMARK  Name = Succinic acid
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     163.078 148.971 165.774  0.00  0.00    +0.131 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     162.559 149.914 164.726  0.00  0.00    +0.305 C 
+ATOM      3  O   UNL     1     161.819 149.650 163.793  0.00  0.00    -0.251 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     162.989 151.176 164.925  0.00  0.00    -0.481 OA
+ATOM      5  H   UNL     1     163.218 151.496 164.029  0.00  0.00    +0.295 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     161.946 148.384 166.610  0.00  0.00    +0.131 C 
+BRANCH   6   7
+ATOM      7  C   UNL     1     161.147 149.405 167.377  0.00  0.00    +0.305 C 
+ATOM      8  O   UNL     1     161.520 150.538 167.639  0.00  0.00    -0.251 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1     159.972 148.955 167.850  0.00  0.00    -0.481 OA
+ATOM     10  H   UNL     1     160.197 148.620 168.745  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.220     40.604     41.451
+REMARK INTER + INTRA:          -5.309
+REMARK INTER:                  -5.268
+REMARK INTRA:                  -0.041
+REMARK UNBOUND:                -0.102
+REMARK  Name = Succinic acid
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     150.389 189.687 160.441  0.00  0.00    +0.131 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     149.582 190.149 159.260  0.00  0.00    +0.305 C 
+ATOM      3  O   UNL     1     148.461 190.629 159.272  0.00  0.00    -0.251 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     150.254 190.001 158.102  0.00  0.00    -0.481 OA
+ATOM      5  H   UNL     1     151.172 189.805 158.380  0.00  0.00    +0.295 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     151.817 189.332 160.040  0.00  0.00    +0.131 C 
+BRANCH   6   7
+ATOM      7  C   UNL     1     152.557 188.499 161.054  0.00  0.00    +0.305 C 
+ATOM      8  O   UNL     1     152.513 188.660 162.263  0.00  0.00    -0.251 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1     153.372 187.570 160.526  0.00  0.00    -0.481 OA
+ATOM     10  H   UNL     1     152.760 186.977 160.039  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 5
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.183     40.367     41.170
+REMARK INTER + INTRA:          -5.264
+REMARK INTER:                  -5.204
+REMARK INTRA:                  -0.060
+REMARK UNBOUND:                -0.102
+REMARK  Name = Succinic acid
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     151.816 189.276 160.240  0.00  0.00    +0.131 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     152.183 187.939 160.821  0.00  0.00    +0.305 C 
+ATOM      3  O   UNL     1     151.500 187.231 161.540  0.00  0.00    -0.251 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     153.413 187.544 160.437  0.00  0.00    -0.481 OA
+ATOM      5  H   UNL     1     153.250 186.749 159.888  0.00  0.00    +0.295 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     150.374 189.651 160.565  0.00  0.00    +0.131 C 
+BRANCH   6   7
+ATOM      7  C   UNL     1     149.552 190.050 159.368  0.00  0.00    +0.305 C 
+ATOM      8  O   UNL     1     148.354 190.287 159.385  0.00  0.00    -0.251 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1     150.225 190.058 158.204  0.00  0.00    -0.481 OA
+ATOM     10  H   UNL     1     150.756 189.233 158.241  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 5
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.090     37.595     38.247
+REMARK INTER + INTRA:          -5.149
+REMARK INTER:                  -5.033
+REMARK INTRA:                  -0.116
+REMARK UNBOUND:                -0.102
+REMARK  Name = Succinic acid
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.009 186.819 161.437  0.00  0.00    +0.131 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     160.650 187.746 162.431  0.00  0.00    +0.305 C 
+ATOM      3  O   UNL     1     161.502 188.590 162.213  0.00  0.00    -0.251 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     160.156 187.574 163.673  0.00  0.00    -0.481 OA
+ATOM      5  H   UNL     1     159.427 188.225 163.733  0.00  0.00    +0.295 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     160.636 186.958 160.054  0.00  0.00    +0.131 C 
+BRANCH   6   7
+ATOM      7  C   UNL     1     159.835 187.793 159.091  0.00  0.00    +0.305 C 
+ATOM      8  O   UNL     1     159.380 188.901 159.330  0.00  0.00    -0.251 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1     159.565 187.192 157.919  0.00  0.00    -0.481 OA
+ATOM     10  H   UNL     1     160.417 187.241 157.434  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 5
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.034     37.507     38.243
+REMARK INTER + INTRA:          -5.079
+REMARK INTER:                  -4.976
+REMARK INTRA:                  -0.104
+REMARK UNBOUND:                -0.102
+REMARK  Name = Succinic acid
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.803 186.831 160.031  0.00  0.00    +0.131 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     159.913 187.656 159.144  0.00  0.00    +0.305 C 
+ATOM      3  O   UNL     1     159.442 188.755 159.383  0.00  0.00    -0.251 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     159.676 187.050 157.964  0.00  0.00    -0.481 OA
+ATOM      5  H   UNL     1     158.736 186.780 158.017  0.00  0.00    +0.295 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     160.199 186.652 161.420  0.00  0.00    +0.131 C 
+BRANCH   6   7
+ATOM      7  C   UNL     1     160.707 187.629 162.447  0.00  0.00    +0.305 C 
+ATOM      8  O   UNL     1     161.669 188.366 162.302  0.00  0.00    -0.251 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1     160.058 187.590 163.624  0.00  0.00    -0.481 OA
+ATOM     10  H   UNL     1     159.583 186.731 163.597  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 5
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -4.005     37.434     37.954
+REMARK INTER + INTRA:          -5.044
+REMARK INTER:                  -4.787
+REMARK INTRA:                  -0.257
+REMARK UNBOUND:                -0.102
+REMARK  Name = Succinic acid
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.802 188.351 162.140  0.00  0.00    +0.131 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     160.634 187.448 162.425  0.00  0.00    +0.305 C 
+ATOM      3  O   UNL     1     160.174 186.582 161.701  0.00  0.00    -0.251 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     160.111 187.672 163.646  0.00  0.00    -0.481 OA
+ATOM      5  H   UNL     1     160.719 188.324 164.052  0.00  0.00    +0.295 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     163.032 187.559 161.710  0.00  0.00    +0.131 C 
+BRANCH   6   7
+ATOM      7  C   UNL     1     163.267 187.537 160.222  0.00  0.00    +0.305 C 
+ATOM      8  O   UNL     1     164.029 188.277 159.620  0.00  0.00    -0.251 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1     162.497 186.667 159.547  0.00  0.00    -0.481 OA
+ATOM     10  H   UNL     1     161.864 186.345 160.225  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 5
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.994     61.023     61.968
+REMARK INTER + INTRA:          -5.030
+REMARK INTER:                  -5.000
+REMARK INTRA:                  -0.030
+REMARK UNBOUND:                -0.102
+REMARK  Name = Succinic acid
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     137.905 202.785 145.269  0.00  0.00    +0.131 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     136.734 203.687 145.541  0.00  0.00    +0.305 C 
+ATOM      3  O   UNL     1     135.712 203.791 144.885  0.00  0.00    -0.251 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     136.906 204.410 146.666  0.00  0.00    -0.481 OA
+ATOM      5  H   UNL     1     137.021 205.328 146.345  0.00  0.00    +0.295 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     137.889 202.261 143.837  0.00  0.00    +0.131 C 
+BRANCH   6   7
+ATOM      7  C   UNL     1     139.254 201.989 143.261  0.00  0.00    +0.305 C 
+ATOM      8  O   UNL     1     139.700 202.490 142.241  0.00  0.00    -0.251 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1     139.964 201.058 143.921  0.00  0.00    -0.481 OA
+ATOM     10  H   UNL     1     139.468 200.942 144.760  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 5
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.909     38.068     39.066
+REMARK INTER + INTRA:          -4.925
+REMARK INTER:                  -4.651
+REMARK INTRA:                  -0.274
+REMARK UNBOUND:                -0.102
+REMARK  Name = Succinic acid
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_6
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.163 189.573 161.488  0.00  0.00    +0.131 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     158.721 189.472 161.075  0.00  0.00    +0.305 C 
+ATOM      3  O   UNL     1     158.138 190.155 160.250  0.00  0.00    -0.251 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     158.081 188.478 161.720  0.00  0.00    -0.481 OA
+ATOM      5  H   UNL     1     158.583 187.672 161.480  0.00  0.00    +0.295 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1     160.854 188.214 161.451  0.00  0.00    +0.131 C 
+BRANCH   6   7
+ATOM      7  C   UNL     1     161.255 187.685 162.802  0.00  0.00    +0.305 C 
+ATOM      8  O   UNL     1     162.371 187.289 163.100  0.00  0.00    -0.251 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1     160.248 187.594 163.689  0.00  0.00    -0.481 OA
+ATOM     10  H   UNL     1     160.665 187.162 164.466  0.00  0.00    +0.295 HD
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 5
+ENDMDL

@@ -1,0 +1,83 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+$optimize
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+c  1-3,6                                                                       \
+   basis =c def2-TZVP                                                          \
+   jbas  =c def2-TZVP
+o  4-5,7-8                                                                     \
+   basis =o def2-TZVP                                                          \
+   jbas  =o def2-TZVP
+h  9-14                                                                        \
+   basis =h def2-TZVP                                                          \
+   jbas  =h def2-TZVP
+$basis    file=basis
+$scfmo   file=mos
+$closed shells
+ a       1-31                                   ( 2 )
+$scfiterlimit       30
+$thize     0.10000000E-04
+$thime        5
+$scfdamp   start=0.300  step=0.050  min=0.100
+$scfdump
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$dft
+    functional   b3-lyp
+    gridsize   m3
+$scfconv   7
+$ricore     5000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=14
+   nbf(CAO)=324
+   nbf(AO)=284
+$last step     tm2molden
+$cosmo_out file=Succinic_acid.cosmo
+$moldenfile file=Succinic_acid.molden
+$xctype hybrid-GGA X= 0.20000 (not to be modified here)
+$last SCF energy change = -.29591899E-06
+$charge from ridft
+          0.000 (not to be modified here)
+$dipole from ridft
+  x     0.54029784709011    y    -0.21079349994671    z    -1.08102201357637    a.u.
+   | dipole | =    3.1181614939  debye
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$orbital_max_rnorm 0.63009852963797E-04
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-456.9381310687    -1378.757855186     588.6247680906    -44.44250234896    -2.552846927900     380.1903053034
+$end

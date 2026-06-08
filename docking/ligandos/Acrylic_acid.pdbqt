@@ -1,0 +1,20 @@
+REMARK  Name = Acrylic acid
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK    2  A    between atoms: C_3  and  O_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       0.683   0.356  -0.462  0.00  0.00    +0.329 C 
+ATOM      2  O   UNL     1       0.762   1.564  -0.347  0.00  0.00    -0.246 OA
+ENDROOT
+BRANCH   1   4
+ATOM      3  C   UNL     1      -1.267  -0.054   0.945  0.00  0.00    +0.015 C 
+ATOM      4  C   UNL     1      -0.305  -0.541   0.151  0.00  0.00    +0.084 C 
+ENDBRANCH   1   4
+BRANCH   1   5
+ATOM      5  O   UNL     1       1.543  -0.351  -1.211  0.00  0.00    -0.478 OA
+ATOM      6  H   UNL     1       2.151   0.329  -1.570  0.00  0.00    +0.295 HD
+ENDBRANCH   1   5
+TORSDOF 2

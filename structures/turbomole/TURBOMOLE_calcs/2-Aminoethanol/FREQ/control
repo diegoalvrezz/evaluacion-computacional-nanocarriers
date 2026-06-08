@@ -1,0 +1,98 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+c  1-2                                                                         \
+   basis =c def2-TZVP                                                          \
+   jbas  =c def2-TZVP
+o  3                                                                           \
+   basis =o def2-TZVP                                                          \
+   jbas  =o def2-TZVP
+n  4                                                                           \
+   basis =n def2-TZVP                                                          \
+   jbas  =n def2-TZVP
+h  5-11                                                                        \
+   basis =h def2-TZVP                                                          \
+   jbas  =h def2-TZVP
+$basis    file=basis
+$scfmo   file=mos
+$closed shells
+ a       1-17                                   ( 2 )
+$scfiterlimit       30
+$thize     0.10000000E-04
+$thime        5
+$scfdamp   start=0.300  step=0.050  min=0.100
+$scfdump
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$dft
+    functional   b3-lyp
+    gridsize   m3
+$scfconv   7
+$ricore     1000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=11
+   nbf(CAO)=186
+   nbf(AO)=166
+$last step     force
+$cosmo_out file=2-Aminoethanol.cosmo
+$moldenfile file=2-Aminoethanol.molden
+$xctype hybrid-GGA X= 0.20000 (not to be modified here)
+$last SCF energy change = -210.35402
+$charge from ridft
+          0.000 (not to be modified here)
+$dipole from force
+  x    -0.34032775845259    y    -0.30968868767319    z     0.20963473569522    a.u.
+   | dipole | =    1.2852309133  debye
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$orbital_max_rnorm 0.11014824125335E-05
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-210.3540240775    -548.8789499915     228.8283198304    -22.02231458706    -1.337093655364     133.0560143261
+$dipgrad    file=dipgrad
+$hessian (projected)    file=hessian
+$vibrational normal modes    file=vib_normal_modes
+$vibrational reduced masses
+   4.9369522993   3.7238748995   4.2761801852   4.8711795544   5.0273350970
+   3.0036045228   2.7127600928   1.1768409467   1.2761186132   1.4696564340
+   2.0740256441   1.8288290967   2.1379163980   1.3720785324   1.7007447082
+   2.8718025003   1.7730015549   1.5047685708   1.3276338106   1.2858256399
+   1.2781562665   1.1896171342   1.2401295984   1.0907524152   1.0892284396
+   1.0862129727   1.0687008352   1.0664989865   1.0953520410   1.0967904079
+   1.0484735358   1.0929067413   1.0663358377
+$nvibro       33
+$vibrational spectrum    file=vibspectrum
+$end

@@ -1,0 +1,99 @@
+```{=latex}
+\apendice{Base de datos molecular}
+```
+
+La biblioteca molecular se construyó a partir de SMILES obtenidos de PubChem
+\cite{rdkit}. Para cada molécula se verificó la estructura manualmente y se
+descartaron las que daban error de parseo en RDKit. El dataset final tiene 60
+entradas, de las que 58 generaron geometrías DFT convergidas y 56 se usaron
+para el entrenamiento ML.
+
+Las columnas MW y LogP se calcularon con RDKit sobre los SMILES canónicos.
+El CID es el identificador de PubChem.
+
+\begin{center}
+\small
+\captionof{table}{Base de datos molecular completa (60 moléculas).}
+\label{tab:base_datos}
+\begin{longtable}{llrr}
+\toprule
+\textbf{Grupo} & \textbf{Nombre} & \textbf{MW (Da)} & \textbf{LogP} \\
+\midrule
+\multicolumn{4}{l}{\textit{Monómeros y productos de degradación (15)}} \\
+\midrule
+Monómeros & L-Lactic acid        &  90.1 & $-0.55$ \\
+Monómeros & D-Lactic acid        &  90.1 & $-0.55$ \\
+Monómeros & Glycolic acid        &  76.1 & $-0.94$ \\
+Monómeros & Succinic acid        & 118.1 & $-0.06$ \\
+Monómeros & Glutaric acid        & 132.1 &  $0.33$ \\
+Monómeros & Adipic acid          & 146.1 &  $0.72$ \\
+Monómeros & 6-Hydroxyhexanoic acid & 132.2 & $0.62$ \\
+Monómeros & epsilon-Caprolactone & 114.1 &  $1.10$ \\
+Monómeros & Glucosamine          & 179.2 & $-3.25$ \\
+Monómeros & N-Acetylglucosamine  & 221.2 & $-3.23$ \\
+Monómeros & Ethylenediamine      &  60.1 & $-1.10$ \\
+Monómeros & Methyl acrylate      &  86.1 &  $0.35$ \\
+Monómeros & L-Lactide            & 144.1 & $-0.14$ \\
+Monómeros & Glycolide            & 116.1 & $-0.91$ \\
+\midrule
+\multicolumn{4}{l}{\textit{Oligómeros y unidades de dendrímero (20)}} \\
+\midrule
+Oligómeros & Diethylenetriamine          & 103.2 & $-1.51$ \\
+Oligómeros & Triethylenetetramine        & 146.2 & $-1.92$ \\
+Oligómeros & Tetraethylenepentamine      & 189.3 & $-2.33$ \\
+Oligómeros & Pentaethylenehexamine       & 232.4 & $-2.74$ \\
+Oligómeros & Tris(2-aminoethyl)amine     & 146.2 & $-1.84$ \\
+Oligómeros & Methylamine                 &  31.1 & $-0.43$ \\
+Oligómeros & Ammonia                     &  17.0 &  $0.16$ \\
+Oligómeros & 2-Aminoethanol              &  61.1 & $-1.06$ \\
+Oligómeros & 2-(2-Aminoethoxy)ethanol    & 105.1 & $-1.05$ \\
+Oligómeros & Bis(2-aminoethyl) ether     & 104.2 & $-1.08$ \\
+Oligómeros & Methyl 3-aminopropionate    & 103.1 & $-0.49$ \\
+Oligómeros & Ethyl acrylate              & 100.1 &  $0.74$ \\
+Oligómeros & Methyl methacrylate         & 100.1 &  $0.74$ \\
+Oligómeros & Acrylic acid                &  72.1 &  $0.26$ \\
+Oligómeros & Lactic acid dimer           & 162.1 & $-0.62$ \\
+Oligómeros & Lactic acid trimer          & 234.2 & $-0.68$ \\
+Oligómeros & Diglycolic acid             & 134.1 & $-0.83$ \\
+Oligómeros & Chitobiose                  & 340.3 & $-5.62$ \\
+Oligómeros & Chitotriose                 & 501.5 & $-7.83$ \\
+\midrule
+\multicolumn{4}{l}{\textit{Fármacos modelo (10)}} \\
+\midrule
+Fármacos & Doxorubicin    & 543.5 &  $0.00$ \\
+Fármacos & Paclitaxel     & 853.9 &  $3.74$ \\
+Fármacos & 5-Fluorouracil & 130.1 & $-0.80$ \\
+Fármacos & Methotrexate   & 454.4 &  $0.27$ \\
+Fármacos & Curcumin       & 368.4 &  $3.37$ \\
+Fármacos & Cisplatin      & 300.0 &  $1.70$ \\
+Fármacos & Gemcitabine    & 263.2 & $-1.29$ \\
+Fármacos & Sirolimus      & 914.2 &  $6.18$ \\
+Fármacos & Dexamethasone  & 392.5 &  $1.90$ \\
+Fármacos & Ibuprofen      & 206.3 &  $3.07$ \\
+\midrule
+\multicolumn{4}{l}{\textit{Ligandos de targeting activo (15)}} \\
+\midrule
+Ligandos & Folic acid                       & 441.4 & $-0.04$ \\
+Ligandos & Biotin                           & 244.3 &  $0.80$ \\
+Ligandos & D-Mannose                        & 180.2 & $-3.22$ \\
+Ligandos & D-Galactose                      & 180.2 & $-3.22$ \\
+Ligandos & N-Acetylneuraminic acid          & 309.3 & $-3.87$ \\
+Ligandos & Glucuronic acid                  & 194.1 & $-3.13$ \\
+Ligandos & Glucosamine-6-sulfate            & 259.2 & $-3.43$ \\
+Ligandos & Chondroitin sulfate disaccharide & 555.4 & $-6.19$ \\
+Ligandos & Arginylglycylaspartic acid       & 346.3 & $-3.47$ \\
+Ligandos & Asparagine                       & 132.1 & $-1.73$ \\
+Ligandos & Arginine                         & 174.2 & $-1.55$ \\
+Ligandos & Aspartic acid                    & 133.1 & $-1.13$ \\
+Ligandos & 4-Aminobenzoic acid              & 137.1 &  $0.97$ \\
+Ligandos & 2,2'-Iminodiethanol              & 105.1 & $-1.44$ \\
+Ligandos & Triethylene glycol               & 150.2 & $-1.00$ \\
+\bottomrule
+\end{longtable}
+\end{center}
+
+Los SMILES completos están en el archivo \texttt{base\_molecular\_pubchem.csv}
+del repositorio. Los fármacos modelo tienen los pesos moleculares más altos,
+con Sirolimus (914.2 Da) y Paclitaxel (853.9 Da) en los extremos. Los
+oligómeros de quitosano son los más hidrofílicos, con LogP de $-5.62$
+(Chitobiose) y $-7.83$ (Chitotriose).

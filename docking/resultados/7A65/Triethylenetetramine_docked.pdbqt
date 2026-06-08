@@ -1,0 +1,522 @@
+MODEL 1
+REMARK VINA RESULT:    -4.126      0.000      0.000
+REMARK INTER + INTRA:          -6.208
+REMARK INTER:                  -6.056
+REMARK INTRA:                  -0.152
+REMARK UNBOUND:                -0.152
+REMARK  Name = Triethylenetetramine
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_10
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK    7  A    between atoms: N_6  and  C_7
+REMARK    8  A    between atoms: C_7  and  C_8
+REMARK    9  A    between atoms: C_8  and  N_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.147 191.535 160.343  0.00  0.00    +0.096 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     160.609 192.448 161.360  0.00  0.00    -0.314 NA
+ATOM      3  H   UNL     1     161.357 192.709 162.003  0.00  0.00    +0.122 HD
+BRANCH   2   4
+ATOM      4  C   UNL     1     160.059 193.657 160.738  0.00  0.00    +0.096 C 
+BRANCH   4   5
+ATOM      5  C   UNL     1     160.501 194.919 161.503  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     160.933 195.994 160.608  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     161.925 196.182 160.754  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     160.843 195.682 159.642  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1     160.388 190.193 160.351  0.00  0.00    +0.096 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     159.413 190.156 161.449  0.00  0.00    -0.314 NA
+ATOM     11  H   UNL     1     159.892 190.471 162.303  0.00  0.00    +0.122 HD
+BRANCH  10  12
+ATOM     12  C   UNL     1     158.971 188.781 161.730  0.00  0.00    +0.096 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1     160.143 187.844 162.093  0.00  0.00    +0.092 C 
+BRANCH  13  14
+ATOM     14  N   UNL     1     160.224 187.619 163.543  0.00  0.00    -0.329 NA
+ATOM     15  H   UNL     1     159.280 187.530 163.919  0.00  0.00    +0.118 HD
+ATOM     16  H   UNL     1     160.629 188.445 163.985  0.00  0.00    +0.118 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 9
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.073      4.063      6.028
+REMARK INTER + INTRA:          -6.130
+REMARK INTER:                  -5.948
+REMARK INTRA:                  -0.182
+REMARK UNBOUND:                -0.152
+REMARK  Name = Triethylenetetramine
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_10
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK    7  A    between atoms: N_6  and  C_7
+REMARK    8  A    between atoms: C_7  and  C_8
+REMARK    9  A    between atoms: C_8  and  N_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     159.955 188.295 159.893  0.00  0.00    +0.096 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     161.289 188.807 160.235  0.00  0.00    -0.314 NA
+ATOM      3  H   UNL     1     161.350 189.788 159.959  0.00  0.00    +0.122 HD
+BRANCH   2   4
+ATOM      4  C   UNL     1     161.540 188.690 161.675  0.00  0.00    +0.096 C 
+BRANCH   4   5
+ATOM      5  C   UNL     1     160.922 187.396 162.238  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     160.272 187.604 163.533  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     159.578 188.347 163.451  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     159.755 186.763 163.787  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1     159.824 188.071 158.373  0.00  0.00    +0.096 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     160.312 186.737 158.002  0.00  0.00    -0.314 NA
+ATOM     11  H   UNL     1     160.504 186.222 158.872  0.00  0.00    +0.122 HD
+BRANCH  10  12
+ATOM     12  C   UNL     1     161.602 186.812 157.297  0.00  0.00    +0.096 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1     161.587 186.052 155.953  0.00  0.00    +0.092 C 
+BRANCH  13  14
+ATOM     14  N   UNL     1     160.425 185.159 155.851  0.00  0.00    -0.329 NA
+ATOM     15  H   UNL     1     160.384 184.774 154.907  0.00  0.00    +0.118 HD
+ATOM     16  H   UNL     1     159.573 185.708 155.972  0.00  0.00    +0.118 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 9
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.065      3.675      5.335
+REMARK INTER + INTRA:          -6.118
+REMARK INTER:                  -5.596
+REMARK INTRA:                  -0.522
+REMARK UNBOUND:                -0.152
+REMARK  Name = Triethylenetetramine
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_10
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK    7  A    between atoms: N_6  and  C_7
+REMARK    8  A    between atoms: C_7  and  C_8
+REMARK    9  A    between atoms: C_8  and  N_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.118 187.818 159.118  0.00  0.00    +0.096 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     161.319 186.468 159.662  0.00  0.00    -0.314 NA
+ATOM      3  H   UNL     1     162.307 186.223 159.589  0.00  0.00    +0.122 HD
+BRANCH   2   4
+ATOM      4  C   UNL     1     160.904 186.404 161.067  0.00  0.00    +0.096 C 
+BRANCH   4   5
+ATOM      5  C   UNL     1     161.915 187.132 161.973  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     161.347 187.485 163.275  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     162.068 187.411 163.993  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     161.062 188.463 163.262  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1     159.798 187.901 158.325  0.00  0.00    +0.096 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     158.989 189.037 158.784  0.00  0.00    -0.314 NA
+ATOM     11  H   UNL     1     159.074 189.785 158.083  0.00  0.00    +0.122 HD
+BRANCH  10  12
+ATOM     12  C   UNL     1     159.519 189.605 160.034  0.00  0.00    +0.096 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1     158.457 189.671 161.153  0.00  0.00    +0.092 C 
+BRANCH  13  14
+ATOM     14  N   UNL     1     158.953 189.079 162.403  0.00  0.00    -0.329 NA
+ATOM     15  H   UNL     1     159.741 189.631 162.742  0.00  0.00    +0.118 HD
+ATOM     16  H   UNL     1     159.322 188.148 162.205  0.00  0.00    +0.118 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 9
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.058      1.897      5.351
+REMARK INTER + INTRA:          -6.107
+REMARK INTER:                  -5.602
+REMARK INTRA:                  -0.505
+REMARK UNBOUND:                -0.152
+REMARK  Name = Triethylenetetramine
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_10
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK    7  A    between atoms: N_6  and  C_7
+REMARK    8  A    between atoms: C_7  and  C_8
+REMARK    9  A    between atoms: C_8  and  N_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.329 188.629 159.643  0.00  0.00    +0.096 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     160.380 187.413 160.466  0.00  0.00    -0.314 NA
+ATOM      3  H   UNL     1     160.226 186.599 159.869  0.00  0.00    +0.122 HD
+BRANCH   2   4
+ATOM      4  C   UNL     1     161.679 187.287 161.133  0.00  0.00    +0.096 C 
+BRANCH   4   5
+ATOM      5  C   UNL     1     161.581 187.704 162.613  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     160.209 187.643 163.122  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     160.143 186.919 163.837  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     159.986 188.522 163.588  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1     159.167 189.542 160.082  0.00  0.00    +0.096 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     159.535 190.309 161.278  0.00  0.00    -0.314 NA
+ATOM     11  H   UNL     1     158.675 190.728 161.657  0.00  0.00    +0.122 HD
+BRANCH  10  12
+ATOM     12  C   UNL     1     160.411 191.443 160.943  0.00  0.00    +0.096 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1     159.632 192.641 160.359  0.00  0.00    +0.092 C 
+BRANCH  13  14
+ATOM     14  N   UNL     1     158.605 193.124 161.292  0.00  0.00    -0.329 NA
+ATOM     15  H   UNL     1     158.150 192.321 161.728  0.00  0.00    +0.118 HD
+ATOM     16  H   UNL     1     157.879 193.610 160.764  0.00  0.00    +0.118 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 9
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.047      1.186      5.394
+REMARK INTER + INTRA:          -6.091
+REMARK INTER:                  -5.865
+REMARK INTRA:                  -0.226
+REMARK UNBOUND:                -0.152
+REMARK  Name = Triethylenetetramine
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_10
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK    7  A    between atoms: N_6  and  C_7
+REMARK    8  A    between atoms: C_7  and  C_8
+REMARK    9  A    between atoms: C_8  and  N_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.369 190.564 160.436  0.00  0.00    +0.096 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     159.519 190.203 161.579  0.00  0.00    -0.314 NA
+ATOM      3  H   UNL     1     158.653 190.742 161.534  0.00  0.00    +0.122 HD
+BRANCH   2   4
+ATOM      4  C   UNL     1     159.202 188.772 161.563  0.00  0.00    +0.096 C 
+BRANCH   4   5
+ATOM      5  C   UNL     1     160.363 187.945 162.147  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     160.156 187.607 163.556  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     159.343 188.110 163.912  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     159.930 186.616 163.633  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1     161.750 191.058 160.911  0.00  0.00    +0.096 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     161.925 192.482 160.601  0.00  0.00    -0.314 NA
+ATOM     11  H   UNL     1     162.936 192.666 160.537  0.00  0.00    +0.122 HD
+BRANCH  10  12
+ATOM     12  C   UNL     1     161.438 193.337 161.696  0.00  0.00    +0.096 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1     160.308 194.289 161.247  0.00  0.00    +0.092 C 
+BRANCH  13  14
+ATOM     14  N   UNL     1     159.052 194.006 161.955  0.00  0.00    -0.329 NA
+ATOM     15  H   UNL     1     159.103 194.405 162.892  0.00  0.00    +0.118 HD
+ATOM     16  H   UNL     1     158.961 192.998 162.079  0.00  0.00    +0.118 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 9
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -3.961      4.004      5.430
+REMARK INTER + INTRA:          -5.965
+REMARK INTER:                  -5.703
+REMARK INTRA:                  -0.262
+REMARK UNBOUND:                -0.152
+REMARK  Name = Triethylenetetramine
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_10
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK    7  A    between atoms: N_6  and  C_7
+REMARK    8  A    between atoms: C_7  and  C_8
+REMARK    9  A    between atoms: C_8  and  N_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     162.143 188.934 159.644  0.00  0.00    +0.096 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     160.805 189.519 159.479  0.00  0.00    -0.314 NA
+ATOM      3  H   UNL     1     160.583 189.568 158.484  0.00  0.00    +0.122 HD
+BRANCH   2   4
+ATOM      4  C   UNL     1     159.793 188.709 160.165  0.00  0.00    +0.096 C 
+BRANCH   4   5
+ATOM      5  C   UNL     1     159.056 189.539 161.234  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     159.124 188.928 162.562  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     159.534 189.588 163.221  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     158.178 188.747 162.896  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1     162.483 187.999 158.466  0.00  0.00    +0.096 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     162.558 186.604 158.918  0.00  0.00    -0.314 NA
+ATOM     11  H   UNL     1     163.462 186.223 158.607  0.00  0.00    +0.122 HD
+BRANCH  10  12
+ATOM     12  C   UNL     1     161.535 185.771 158.266  0.00  0.00    +0.096 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1     161.024 186.385 156.944  0.00  0.00    +0.092 C 
+BRANCH  13  14
+ATOM     14  N   UNL     1     160.657 185.346 155.972  0.00  0.00    -0.329 NA
+ATOM     15  H   UNL     1     159.770 185.598 155.537  0.00  0.00    +0.118 HD
+ATOM     16  H   UNL     1     160.492 184.470 156.470  0.00  0.00    +0.118 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 9
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -3.957      4.086      6.058
+REMARK INTER + INTRA:          -5.959
+REMARK INTER:                  -5.441
+REMARK INTRA:                  -0.518
+REMARK UNBOUND:                -0.152
+REMARK  Name = Triethylenetetramine
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_10
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK    7  A    between atoms: N_6  and  C_7
+REMARK    8  A    between atoms: C_7  and  C_8
+REMARK    9  A    between atoms: C_8  and  N_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.584 188.251 158.742  0.00  0.00    +0.096 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     160.256 186.819 158.743  0.00  0.00    -0.314 NA
+ATOM      3  H   UNL     1     159.634 186.618 157.958  0.00  0.00    +0.122 HD
+BRANCH   2   4
+ATOM      4  C   UNL     1     161.469 186.005 158.622  0.00  0.00    +0.096 C 
+BRANCH   4   5
+ATOM      5  C   UNL     1     161.803 185.732 157.143  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     160.635 185.298 156.376  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     160.913 184.581 155.706  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     159.968 184.852 157.005  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1     159.460 189.074 159.401  0.00  0.00    +0.096 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     158.895 188.354 160.549  0.00  0.00    -0.314 NA
+ATOM     11  H   UNL     1     157.911 188.637 160.643  0.00  0.00    +0.122 HD
+BRANCH  10  12
+ATOM     12  C   UNL     1     159.543 188.756 161.808  0.00  0.00    +0.096 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1     160.351 187.609 162.452  0.00  0.00    +0.092 C 
+BRANCH  13  14
+ATOM     14  N   UNL     1     159.864 186.294 162.013  0.00  0.00    -0.329 NA
+ATOM     15  H   UNL     1     159.739 186.307 161.000  0.00  0.00    +0.118 HD
+ATOM     16  H   UNL     1     158.938 186.132 162.411  0.00  0.00    +0.118 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 9
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.921      2.768      4.279
+REMARK INTER + INTRA:          -5.907
+REMARK INTER:                  -5.613
+REMARK INTRA:                  -0.294
+REMARK UNBOUND:                -0.152
+REMARK  Name = Triethylenetetramine
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_10
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK    7  A    between atoms: N_6  and  C_7
+REMARK    8  A    between atoms: C_7  and  C_8
+REMARK    9  A    between atoms: C_8  and  N_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.430 190.631 160.688  0.00  0.00    +0.096 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     162.091 190.351 159.406  0.00  0.00    -0.314 NA
+ATOM      3  H   UNL     1     163.082 190.585 159.484  0.00  0.00    +0.122 HD
+BRANCH   2   4
+ATOM      4  C   UNL     1     161.951 188.937 159.044  0.00  0.00    +0.096 C 
+BRANCH   4   5
+ATOM      5  C   UNL     1     163.319 188.229 159.053  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     163.436 187.251 160.136  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     164.266 186.677 159.988  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     163.585 187.742 161.016  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1     159.907 190.417 160.581  0.00  0.00    +0.096 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     159.403 189.691 161.753  0.00  0.00    -0.314 NA
+ATOM     11  H   UNL     1     160.138 189.709 162.472  0.00  0.00    +0.122 HD
+BRANCH  10  12
+ATOM     12  C   UNL     1     159.181 188.268 161.451  0.00  0.00    +0.096 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1     160.218 187.349 162.133  0.00  0.00    +0.092 C 
+BRANCH  13  14
+ATOM     14  N   UNL     1     160.273 187.579 163.583  0.00  0.00    -0.329 NA
+ATOM     15  H   UNL     1     159.332 187.493 163.968  0.00  0.00    +0.118 HD
+ATOM     16  H   UNL     1     160.564 188.542 163.755  0.00  0.00    +0.118 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 9
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.855      3.176      3.564
+REMARK INTER + INTRA:          -5.810
+REMARK INTER:                  -5.657
+REMARK INTRA:                  -0.152
+REMARK UNBOUND:                -0.152
+REMARK  Name = Triethylenetetramine
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_10
+REMARK    3  A    between atoms: C_2  and  N_3
+REMARK    4  A    between atoms: N_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  N_6
+REMARK    7  A    between atoms: N_6  and  C_7
+REMARK    8  A    between atoms: C_7  and  C_8
+REMARK    9  A    between atoms: C_8  and  N_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.412 189.804 160.266  0.00  0.00    +0.096 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     161.071 191.011 159.750  0.00  0.00    -0.314 NA
+ATOM      3  H   UNL     1     160.640 191.271 158.861  0.00  0.00    +0.122 HD
+BRANCH   2   4
+ATOM      4  C   UNL     1     160.942 192.122 160.697  0.00  0.00    +0.096 C 
+BRANCH   4   5
+ATOM      5  C   UNL     1     159.840 193.102 160.249  0.00  0.00    +0.092 C 
+BRANCH   5   6
+ATOM      6  N   UNL     1     158.701 193.122 161.168  0.00  0.00    -0.329 NA
+ATOM      7  H   UNL     1     158.231 192.217 161.148  0.00  0.00    +0.118 HD
+ATOM      8  H   UNL     1     159.041 193.242 162.121  0.00  0.00    +0.118 HD
+ENDBRANCH   5   6
+ENDBRANCH   4   5
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1     160.942 188.541 159.558  0.00  0.00    +0.096 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     160.510 188.514 158.155  0.00  0.00    -0.314 NA
+ATOM     11  H   UNL     1     159.496 188.685 158.137  0.00  0.00    +0.122 HD
+BRANCH  10  12
+ATOM     12  C   UNL     1     160.694 187.180 157.561  0.00  0.00    +0.096 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1     161.757 186.342 158.304  0.00  0.00    +0.092 C 
+BRANCH  13  14
+ATOM     14  N   UNL     1     161.406 184.915 158.316  0.00  0.00    -0.329 NA
+ATOM     15  H   UNL     1     162.263 184.362 158.292  0.00  0.00    +0.118 HD
+ATOM     16  H   UNL     1     160.899 184.691 157.459  0.00  0.00    +0.118 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 9
+ENDMDL

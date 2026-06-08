@@ -1,0 +1,96 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+pt 1                                                                           \
+   basis =pt def2-SVP                                                          \
+   ecp   =pt def2-ecp                                                          \
+   jbas  =pt def2-SVP
+cl 2-3                                                                         \
+   basis =cl def2-SVP                                                          \
+   jbas  =cl def2-SVP
+n  4-5                                                                         \
+   basis =n def2-SVP                                                           \
+   jbas  =n def2-SVP
+h  6-10                                                                        \
+   basis =h def2-SVP                                                           \
+   jbas  =h def2-SVP
+$basis    file=basis
+$ecp    file=basis
+$scfmo    file=mos
+$closed shells
+ a       1-35                                   ( 2 )
+$scfiterlimit 500
+$thize     0.10000000E-04
+$thime        5
+$scfdamp   start=0.700  step=0.050  min=0.100
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$dft
+    functional   b3-lyp
+    gridsize   m3
+$scfconv   7
+$ricore     4000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=10
+   nbf(CAO)=130
+   nbf(AO)=121
+$last step     force
+$xctype hybrid-GGA X= 0.20000 (not to be modified here)
+$charge from ridft
+          1.000 (not to be modified here)
+$dipole from force
+  x     0.15502969527504    y     0.44866981691189    z     0.69640614551965    a.u.
+   | dipole | =    2.1422129182  debye
+$last SCF energy change = -1151.4538
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$orbital_max_rnorm 0.52444997286697E-04
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-1151.453772799    -2417.047496820     931.0883362178    -64.07922456181    -3.109535941426     401.6941483066
+$dipgrad    file=dipgrad
+$hessian (projected)    file=hessian
+$vibrational normal modes    file=vib_normal_modes
+$vibrational reduced masses
+  10.4724580747  27.1028722162  17.3473932424  25.4581603894  24.0872961713
+   4.6182016997   1.1718996057   5.8307074994   3.9828580447   9.3309946842
+   3.7977873182   3.3148668364  26.5500548078  21.9519534471   2.6966298225
+   1.2612493180   4.9212420443   1.1492975243   1.1728608173   1.3042822800
+   1.2209619521   1.1730112914   1.1263707371   1.0547504743   1.0541061990
+   1.0309110486   1.0453747666   1.0928303934   1.0937172458   1.1021091992
+$nvibro       30
+$vibrational spectrum    file=vibspectrum
+$end

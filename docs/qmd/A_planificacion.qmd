@@ -1,0 +1,99 @@
+```{=latex}
+\apendice{Planificación del proyecto}
+```
+
+### Fases de desarrollo
+
+El proyecto se dividió en siete fases. No siguieron un orden estrictamente
+secuencial: las fases 3 y 4 se solaparon porque los cálculos cuánticos
+tardaban semanas y era posible preparar el docking en paralelo.
+
+\begin{table}[!h]
+\centering
+\caption{Plan de trabajo por fases.}
+\label{tab:planificacion}
+\begin{tabular}{llp{8cm}}
+\toprule
+\textbf{Fase} & \textbf{Periodo} & \textbf{Descripción} \\
+\midrule
+Fase 1 & Semanas 1--2  & Revisión bibliográfica sobre nanopartículas
+                         poliméricas, dendrímeros y proteínas de barrera.
+                         Formación en TURBOMOLE \cite{turbomole},
+                         AutoDock Vina \cite{eberhardt2021} y
+                         RDKit \cite{rdkit}. \\
+Fase 2 & Semanas 3--4  & Construcción de la base de datos molecular (58
+                         moléculas). Obtención de estructuras desde PubChem.
+                         Generación de coordenadas 3D iniciales con RDKit. \\
+Fase 3 & Semanas 4--8  & Cálculos cuánticos (B3LYP-D4/def2-TZVP) en
+                         clúster HPC CENITS: optimización de estructuras,
+                         distribución de carga superficial (COSMO-RS) y
+                         frecuencias de vibración IR. Resolución de casos
+                         especiales: Cisplatino, Condroitín sulfato,
+                         Paclitaxel y Sirolimus. \\
+Fase 4 & Semanas 7--9  & Docking con AutoDock Vina 1.2.5:
+                         342 cálculos automatizados con Python. \\
+Fase 5 & Semanas 9--11 & Cálculo de descriptores moleculares con RDKit
+                         \cite{rdkit} y Mordred \cite{moriwaki2018}.
+                         Construcción del dataset para los modelos ML. \\
+Fase 6 & Semanas 11--13 & Modelos ML, análisis SHAP \cite{lundberg2017},
+                          análisis de interacciones con PLIP \cite{plip2025}
+                          y propiedades farmacológicas con SwissADME
+                          \cite{swissadme}. \\
+Fase 7 & Semanas 13--16 & Implementación de la herramienta Streamlit.
+                          Redacción de memoria y anexos. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+### Infraestructura computacional
+
+Los cálculos cuánticos y de docking se ejecutaron en el clúster HPC CENITS
+(Centro Nacional de Información y Tecnología de Salud, Sevilla), con acceso
+por SSH y gestión de colas con SLURM. El equipo local fue un MacBook Air M2
+con 16 GB de RAM, usado para el análisis de datos, las figuras y la redacción.
+
+\begin{table}[!h]
+\centering
+\caption{Recursos computacionales empleados.}
+\label{tab:hardware}
+\begin{tabular}{ll}
+\toprule
+\textbf{Recurso} & \textbf{Especificación} \\
+\midrule
+Clúster & HPC CENITS, partición \texttt{lusi2} \\
+CPUs por nodo & 16 núcleos \\
+RAM por nodo & 31 GB \\
+Gestor de colas & SLURM \\
+Tiempo de cómputo DFT & $\sim$3 semanas acumuladas \\
+Tiempo de cómputo docking & $\sim$4 días acumulados \\
+Equipo local & MacBook Air M2, 16 GB RAM \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+### Software utilizado
+
+\begin{table}[!h]
+\centering
+\caption{Software empleado en el proyecto.}
+\label{tab:software}
+\begin{tabular}{lll}
+\toprule
+\textbf{Software} & \textbf{Versión} & \textbf{Uso} \\
+\midrule
+TURBOMOLE        & 7.8.1   & Cálculos cuánticos \cite{turbomole} \\
+AutoDock Vina    & 1.2.5   & Docking molecular \cite{eberhardt2021} \\
+MGLTools         & 1.5.7   & Preparación de proteínas \\
+OpenBabel        & 3.1.0   & Conversión de formatos \\
+RDKit            & 2023.09 & Descriptores y fingerprints \cite{rdkit} \\
+Mordred          & 1.2.0   & Descriptores 3D \cite{moriwaki2018} \\
+scikit-learn     & 1.3.0   & Modelos ML \\
+SHAP             & 0.44.0  & Interpretabilidad \cite{lundberg2017} \\
+PLIP             & 2025    & Análisis de interacciones \cite{plip2025} \\
+SwissADME        & web     & Propiedades ADMET \cite{swissadme} \\
+Streamlit        & 1.32.0  & Herramienta web \\
+Python           & 3.12    & Scripts de automatización \\
+Quarto           & 1.5     & Redacción de la memoria \\
+\bottomrule
+\end{tabular}
+\end{table}

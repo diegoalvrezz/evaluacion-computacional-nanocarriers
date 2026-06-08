@@ -1,0 +1,24 @@
+CONVERGENCY CRITERIA FULFILLED IN CYCLE 123
+
+ energy change  : actual value =  -0.8080E-06 threshold =   0.1000E-05
+ geom. gradient : actual value =   0.6692E-04 threshold =   0.1000E-02
+
+Job ended at   jue abr 16 07:11:51 CEST 2026
+  on machine     s02r2b69
+  by user        ubu-iccram01
+  in directory   /lusitania_homes/ubu-iccram/ubu-iccram01/MASTER_SALUD_2026/DIEGO/Archivos_Trabajo/TURBOMOLE_calcs/Doxorubicin
+  
+job.start file had been created with details about the job type: 
+
+mié abr 15 19:55:39 CEST 2026
+jobex WAS CALLED AS: jobex -ri -c 300
+AN OPTIMIZATION WITH MAX. 300 CYCLES WILL BE PERFORMED
+CONVERGENCY CRITERION FOR TOTAL SCF-ENERGY IS 10**(-6)
+CONVERGENCY CRITERION FOR MAXIMUM NORM OF SCF-ENERGY GRADIENT IS 10**(-3)
+CONVERGENCY CRITERION FOR MAXIMUM NORM OF BASIS SET GRADIENT IS 10**(-3)
+PROCEDURE WILL START WITH A dscf like STEP
+LOAD MODULES WILL BE TAKEN FROM DIRECTORY /lusitania_homes/ubu-iccram/ubu-iccram01/MASTER_SALUD_2026/TmoleX2024/TURBOMOLE/bin/x86_64-unknown-linux-gnu_smp
+DSCF  = /lusitania_homes/ubu-iccram/ubu-iccram01/MASTER_SALUD_2026/TmoleX2024/TURBOMOLE/bin/x86_64-unknown-linux-gnu_smp/ridft
+GRAD  = /lusitania_homes/ubu-iccram/ubu-iccram01/MASTER_SALUD_2026/TmoleX2024/TURBOMOLE/bin/x86_64-unknown-linux-gnu_smp/rdgrad
+STATPT = /lusitania_homes/ubu-iccram/ubu-iccram01/MASTER_SALUD_2026/TmoleX2024/TURBOMOLE/bin/x86_64-unknown-linux-gnu_smp/statpt
+

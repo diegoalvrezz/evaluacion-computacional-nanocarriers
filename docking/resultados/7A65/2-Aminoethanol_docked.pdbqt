@@ -1,0 +1,279 @@
+MODEL 1
+REMARK VINA RESULT:    -2.818      0.000      0.000
+REMARK INTER + INTRA:          -3.148
+REMARK INTER:                  -3.148
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = 2-Aminoethanol
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  C_2
+REMARK    2  A    between atoms: CA_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLY A   1     161.468 150.171 167.248  0.00  0.00    +0.105 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLY A   1     160.389 149.252 167.621  0.00  0.00    -0.328 NA
+ATOM      3  H1  GLY A   1     159.644 149.785 168.070  0.00  0.00    +0.118 HD
+ATOM      4  H2  GLY A   1     159.960 148.910 166.756  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   GLY A   1     162.185 149.709 165.973  0.00  0.00    +0.170 C 
+BRANCH   5   6
+ATOM      6  O   GLY A   1     162.882 150.800 165.373  0.00  0.00    -0.394 OA
+ATOM      7  H   GLY A   1     163.076 151.441 166.079  0.00  0.00    +0.209 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -2.773     42.627     42.670
+REMARK INTER + INTRA:          -3.097
+REMARK INTER:                  -3.097
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = 2-Aminoethanol
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  C_2
+REMARK    2  A    between atoms: CA_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLY A   1     148.231 189.838 159.531  0.00  0.00    +0.105 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLY A   1     147.679 189.787 158.175  0.00  0.00    -0.328 NA
+ATOM      3  H1  GLY A   1     148.202 189.100 157.632  0.00  0.00    +0.118 HD
+ATOM      4  H2  GLY A   1     146.738 189.386 158.237  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   GLY A   1     149.737 190.124 159.514  0.00  0.00    +0.170 C 
+BRANCH   5   6
+ATOM      6  O   GLY A   1     150.245 190.036 158.184  0.00  0.00    -0.394 OA
+ATOM      7  H   GLY A   1     149.869 189.232 157.785  0.00  0.00    +0.209 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -2.768      2.611      2.827
+REMARK INTER + INTRA:          -3.092
+REMARK INTER:                  -3.092
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = 2-Aminoethanol
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  C_2
+REMARK    2  A    between atoms: CA_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLY A   1     162.231 149.639 165.961  0.00  0.00    +0.105 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLY A   1     162.910 150.741 165.273  0.00  0.00    -0.328 NA
+ATOM      3  H1  GLY A   1     162.210 151.417 164.964  0.00  0.00    +0.118 HD
+ATOM      4  H2  GLY A   1     163.455 151.255 165.971  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   GLY A   1     161.463 150.133 167.193  0.00  0.00    +0.170 C 
+BRANCH   5   6
+ATOM      6  O   GLY A   1     160.398 149.237 167.507  0.00  0.00    -0.394 OA
+ATOM      7  H   GLY A   1     159.851 149.668 168.187  0.00  0.00    +0.209 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -2.745     37.771     37.847
+REMARK INTER + INTRA:          -3.065
+REMARK INTER:                  -3.065
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = 2-Aminoethanol
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  C_2
+REMARK    2  A    between atoms: CA_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLY A   1     159.917 187.138 161.325  0.00  0.00    +0.105 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLY A   1     158.531 187.549 161.566  0.00  0.00    -0.328 NA
+ATOM      3  H1  GLY A   1     158.119 187.850 160.683  0.00  0.00    +0.118 HD
+ATOM      4  H2  GLY A   1     157.997 186.712 161.814  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   GLY A   1     160.847 187.609 162.450  0.00  0.00    +0.170 C 
+BRANCH   5   6
+ATOM      6  O   GLY A   1     160.144 187.649 163.691  0.00  0.00    -0.394 OA
+ATOM      7  H   GLY A   1     159.197 187.559 163.489  0.00  0.00    +0.209 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -2.738     47.457     47.474
+REMARK INTER + INTRA:          -3.058
+REMARK INTER:                  -3.058
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = 2-Aminoethanol
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  C_2
+REMARK    2  A    between atoms: CA_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLY A   1     165.567 194.675 153.768  0.00  0.00    +0.105 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLY A   1     164.483 194.960 152.824  0.00  0.00    -0.328 NA
+ATOM      3  H1  GLY A   1     164.793 194.714 151.883  0.00  0.00    +0.118 HD
+ATOM      4  H2  GLY A   1     163.724 194.299 153.013  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   GLY A   1     165.746 195.814 154.779  0.00  0.00    +0.170 C 
+BRANCH   5   6
+ATOM      6  O   GLY A   1     164.867 196.895 154.471  0.00  0.00    -0.394 OA
+ATOM      7  H   GLY A   1     165.410 197.608 154.092  0.00  0.00    +0.209 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -2.711     42.760     42.777
+REMARK INTER + INTRA:          -3.027
+REMARK INTER:                  -3.027
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = 2-Aminoethanol
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  C_2
+REMARK    2  A    between atoms: CA_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLY A   1     149.369 190.243 159.498  0.00  0.00    +0.105 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLY A   1     150.188 190.044 158.299  0.00  0.00    -0.328 NA
+ATOM      3  H1  GLY A   1     149.594 189.686 157.551  0.00  0.00    +0.118 HD
+ATOM      4  H2  GLY A   1     150.477 190.967 157.963  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   GLY A   1     147.956 189.679 159.314  0.00  0.00    +0.170 C 
+BRANCH   5   6
+ATOM      6  O   GLY A   1     147.562 189.762 157.945  0.00  0.00    -0.394 OA
+ATOM      7  H   GLY A   1     148.288 189.391 157.414  0.00  0.00    +0.209 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -2.708     37.774     37.829
+REMARK INTER + INTRA:          -3.025
+REMARK INTER:                  -3.025
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = 2-Aminoethanol
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  C_2
+REMARK    2  A    between atoms: CA_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLY A   1     160.813 187.475 162.200  0.00  0.00    +0.105 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLY A   1     160.195 187.632 163.520  0.00  0.00    -0.328 NA
+ATOM      3  H1  GLY A   1     160.425 186.818 164.090  0.00  0.00    +0.118 HD
+ATOM      4  H2  GLY A   1     160.670 188.406 163.995  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   GLY A   1     159.766 187.517 161.081  0.00  0.00    +0.170 C 
+BRANCH   5   6
+ATOM      6  O   GLY A   1     158.476 187.186 161.595  0.00  0.00    -0.394 OA
+ATOM      7  H   GLY A   1     157.926 186.915 160.839  0.00  0.00    +0.209 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -2.692      9.837     10.054
+REMARK INTER + INTRA:          -3.007
+REMARK INTER:                  -3.007
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = 2-Aminoethanol
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  C_2
+REMARK    2  A    between atoms: CA_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLY A   1     162.036 158.222 170.215  0.00  0.00    +0.105 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLY A   1     160.812 158.278 171.020  0.00  0.00    -0.328 NA
+ATOM      3  H1  GLY A   1     161.065 158.243 172.007  0.00  0.00    +0.118 HD
+ATOM      4  H2  GLY A   1     160.406 159.210 170.903  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   GLY A   1     163.146 159.091 170.819  0.00  0.00    +0.170 C 
+BRANCH   5   6
+ATOM      6  O   GLY A   1     162.641 159.849 171.917  0.00  0.00    -0.394 OA
+ATOM      7  H   GLY A   1     162.228 159.221 172.536  0.00  0.00    +0.209 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -2.691     47.753     47.764
+REMARK INTER + INTRA:          -3.005
+REMARK INTER:                  -3.005
+REMARK INTRA:                   0.000
+REMARK UNBOUND:                 0.000
+REMARK  Name = 2-Aminoethanol
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_1  and  C_2
+REMARK    2  A    between atoms: CA_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLY A   1     165.853 196.303 155.101  0.00  0.00    +0.105 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLY A   1     164.894 197.369 154.796  0.00  0.00    -0.328 NA
+ATOM      3  H1  GLY A   1     164.259 197.041 154.067  0.00  0.00    +0.118 HD
+ATOM      4  H2  GLY A   1     164.289 197.487 155.614  0.00  0.00    +0.118 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   GLY A   1     165.683 195.106 154.158  0.00  0.00    +0.170 C 
+BRANCH   5   6
+ATOM      6  O   GLY A   1     164.462 195.218 153.429  0.00  0.00    -0.394 OA
+ATOM      7  H   GLY A   1     164.273 194.343 153.047  0.00  0.00    +0.209 HD
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL

@@ -1,0 +1,142 @@
+```{=latex}
+\capitulo{4}{Resultados}
+```
+
+## Cálculos DFT y propiedades moleculares
+
+Se obtuvieron geometrías optimizadas para las 58 moléculas del dataset. La
+convergencia del SCF y la optimización de geometría se verificó en todos los
+casos, confirmando la ausencia de frecuencias imaginarias en los espectros
+IR calculados. Los cálculos más costosos computacionalmente fueron
+Paclitaxel (113 átomos, \textgreater{}500 ciclos de optimización) y
+Sirolimus (144 átomos), ambos completados exitosamente. El condroitín
+sulfato disacárido (carga $-2$) requirió recálculo con def2-SVP y
+convergió tras 1000 ciclos.
+
+Los perfiles sigma COSMO-RS extraídos de los 58 archivos \texttt{.cosmo}
+revelaron patrones característicos por grupo molecular: los fármacos modelo
+presentan perfiles más anchos y polares, mientras que los monómeros
+apolares de degradación muestran perfiles concentrados en la región central
+($\sigma \approx 0$).
+
+## Acoplamiento molecular
+
+La Figura~\ref{fig:heatmap} muestra la matriz de afinidad completa
+(57 moléculas $\times$ 6 proteínas). Los fármacos modelo (Methotrexate,
+Folic acid, Paclitaxel, Curcumin) presentan las mayores afinidades en todas
+las proteínas, consistente con su alta complejidad molecular. Destaca el
+comportamiento diferencial de Sirolimus en CYP3A4 ($\Delta G = -0.15$
+kcal/mol), indicando una interacción mínima con esta enzima metabólica, lo
+que puede ser relevante para su biodisponibilidad oral.
+
+```{=latex}
+\imagen{img/heatmap_docking.png}{Matriz de afinidad de docking ($\Delta G$
+modo 1, kcal/mol) para las 57 moléculas frente a las 6 proteínas de
+barrera. La escala de color va de verde oscuro (alta afinidad, $\Delta G$
+muy negativo) a rojo (baja afinidad). Las moléculas están ordenadas por
+afinidad creciente hacia FR$\alpha$.}{1.0}
+```
+
+El análisis de correlación entre proteínas (Figura~\ref{fig:correlacion})
+revela una correlación de Pearson muy elevada entre P-gp y TfR1 ($r =
+0.95$), lo que indica que ambas proteínas comparten preferencias
+estructurales similares. Esta correlación se atribuye al tamaño molecular:
+ambas proteínas presentan sitios de unión amplios que acomodan mejor
+moléculas de mayor peso molecular.
+
+```{=latex}
+\imagen{img/correlacion_proteinas.png}{(Izquierda) Mapa de correlación de
+Pearson entre las energías de docking de las seis proteínas. (Derecha)
+Dispersión $\Delta G$ P-gp vs.\ $\Delta G$ TfR1 coloreada por grupo
+molecular.}{1.0}
+```
+
+## Modelos de regresión de afinidad
+
+La Figura~\ref{fig:r2} resume el rendimiento de los tres modelos de
+regresión en validación cruzada de 5 particiones. El modelo Random Forest
+obtuvo el mejor desempeño en la mayoría de proteínas, superando el umbral
+R$^2 > 0.7$ en P-gp/MDR1 (R$^2 = 0.817$, MAE = 0.426 kcal/mol), TfR1
+(R$^2 = 0.753$) y Lisozima (R$^2 = 0.712$).
+
+```{=latex}
+\imagen{img/r2_por_proteina.png}{Rendimiento de los modelos de regresión
+(Random Forest, Gradient Boosting, SVR) por proteína, evaluado con R² en
+validación cruzada de 5 particiones. La línea discontinua roja indica el
+umbral R² = 0.7.}{0.95}
+```
+
+Para CYP3A4 (R$^2 \approx 0.61$), FR$\alpha$ (R$^2 \approx 0.53$) y HSA
+(R$^2 \approx 0.65$) los modelos presentan un desempeño moderado, atribuible
+al menor tamaño efectivo del dataset en validación cruzada (11 moléculas por
+partición) y a la mayor variabilidad conformacional de estas proteínas. La
+Figura~\ref{fig:predicted} muestra la correlación predicho vs.\ real para
+los dos mejores modelos.
+
+```{=latex}
+\imagen{img/predicted_vs_real.png}{Predicción vs.\ real en validación
+cruzada de 5 particiones para P-gp MDR1 (R²=0.817) y TfR1 (R²=0.753).
+Los puntos están coloreados por grupo molecular. Las etiquetas indican los
+tres mayores errores de predicción.}{1.0}
+```
+
+## Índice de Eficiencia de Transporte (ITI)
+
+El ITI combina las seis afinidades de docking en una métrica de idoneidad
+para drug delivery, ponderando positivamente el targeting (TfR1, FR$\alpha$)
+y penalizando el eflujo (P-gp) y el metabolismo (CYP3A4). La
+Figura~\ref{fig:iti} presenta el ranking de las 20 moléculas con mayor ITI.
+
+```{=latex}
+\imagen{img/iti_top20.png}{Top 20 moléculas por Índice de Eficiencia de
+Transporte (ITI, escala 0--100). Las barras están coloreadas por grupo
+molecular. Las líneas discontinuas indican los umbrales de clasificación
+favorable (\textgreater66) y moderado (\textgreater33).}{0.95}
+```
+
+Triethylene glycol (PEG, ITI = 100), Tetraethylenepentamine (ITI = 87.3) y
+Pentaethylenehexamine (ITI = 85.0) encabezan el ranking. Los ligandos de
+targeting (galactosa, manosa, ácido glucurónico) presentan puntuaciones
+elevadas, consistente con su uso en estrategias de targeting activo. Los
+fármacos modelo obtienen los ITI más bajos, reflejando su alta afinidad por
+P-gp (resistencia multidroga).
+
+La distribución del ITI por grupos moleculares (Figura~\ref{fig:violin})
+muestra que los oligómeros/unidades de dendrímero y los ligandos de
+targeting presentan las medianas más altas, mientras que los fármacos
+modelo muestran mayor variabilidad con valores medianos inferiores.
+
+```{=latex}
+\imagen{img/distribucion_ITI_grupos.png}{Distribución del ITI por grupo
+molecular (boxplot + violin plot). Las líneas discontinuas indican los
+umbrales favorable (\textgreater66, verde) y moderado (\textgreater33,
+naranja).}{1.0}
+```
+
+## Clasificador y valores SHAP
+
+El clasificador Gradient Boosting obtuvo el mejor desempeño: Accuracy =
+0.965, AUC-ROC = 0.983, F1 = 0.966 (Figura~\ref{fig:roc}). El Random
+Forest alcanzó AUC = 0.978, evidenciando la separabilidad del espacio de
+características entre moléculas favorables y desfavorables para drug
+delivery.
+
+```{=latex}
+\imagen{img/curva_ROC.png}{Curvas ROC del clasificador favorable/desfavorable
+en validación cruzada de 5 particiones. La banda sombreada indica la
+desviación estándar entre particiones.}{0.75}
+```
+
+El análisis SHAP sobre el modelo RF de P-gp (Figura~\ref{fig:shap}) revela
+que BertzCT (complejidad topológica de Bertz) es el descriptor con mayor
+importancia predictiva, con un valor SHAP medio de 0.54, muy por encima del
+resto. El plot de dependencia BertzCT muestra que a mayor complejidad
+topológica, mayor afinidad por P-gp (SHAP más negativo), lo que refleja
+la preferencia de esta bomba de eflujo por sustratos molecularmente complejos.
+
+```{=latex}
+\imagen{img/shap_summary_mejorado.png}{(Izquierda) Importancia de las 15
+características principales según valores SHAP medios para el modelo RF de
+P-gp. (Derecha) Plot de dependencia SHAP para BertzCT, coloreado por
+$\Delta G$ real.}{1.0}
+```

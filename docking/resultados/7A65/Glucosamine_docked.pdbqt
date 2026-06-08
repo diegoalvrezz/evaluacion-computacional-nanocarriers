@@ -1,0 +1,459 @@
+MODEL 1
+REMARK VINA RESULT:    -5.700      0.000      0.000
+REMARK INTER + INTRA:          -6.921
+REMARK INTER:                  -6.866
+REMARK INTRA:                  -0.054
+REMARK UNBOUND:                -0.054
+REMARK  Name = Glucosamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  N_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.166 187.009 159.257  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1     160.021 187.823 158.638  0.00  0.00    +0.176 C 
+ATOM      3  C   UNL     1     159.662 188.987 159.572  0.00  0.00    +0.167 C 
+ATOM      4  C   UNL     1     159.853 188.627 161.057  0.00  0.00    +0.139 C 
+ATOM      5  C   UNL     1     159.787 187.090 161.242  0.00  0.00    +0.267 C 
+ATOM      6  O   UNL     1     160.771 186.388 160.492  0.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   4   7
+ATOM      7  N   UNL     1     158.882 189.372 161.901  0.00  0.00    -0.321 NA
+ATOM      8  H   UNL     1     159.270 190.295 162.104  0.00  0.00    +0.119 HD
+ATOM      9  H   UNL     1     158.866 188.892 162.810  0.00  0.00    +0.119 HD
+ENDBRANCH   4   7
+BRANCH   5  10
+ATOM     10  O   UNL     1     160.011 186.797 162.616  0.00  0.00    -0.366 OA
+ATOM     11  H   UNL     1     159.379 186.085 162.817  0.00  0.00    +0.213 HD
+ENDBRANCH   5  10
+BRANCH   3  12
+ATOM     12  O   UNL     1     158.298 189.361 159.306  0.00  0.00    -0.387 OA
+ATOM     13  H   UNL     1     158.364 190.269 158.934  0.00  0.00    +0.210 HD
+ENDBRANCH   3  12
+BRANCH   2  14
+ATOM     14  O   UNL     1     160.350 188.333 157.341  0.00  0.00    -0.387 OA
+ATOM     15  H   UNL     1     159.610 188.928 157.102  0.00  0.00    +0.210 HD
+ENDBRANCH   2  14
+BRANCH   1  16
+ATOM     16  C   UNL     1     161.675 185.917 158.304  0.00  0.00    +0.190 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     161.213 184.623 158.674  0.00  0.00    -0.392 OA
+ATOM     18  H   UNL     1     160.253 184.710 158.861  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -5.666      2.109      2.347
+REMARK INTER + INTRA:          -6.880
+REMARK INTER:                  -6.626
+REMARK INTRA:                  -0.254
+REMARK UNBOUND:                -0.054
+REMARK  Name = Glucosamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  N_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     162.274 188.837 161.136  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1     161.392 188.613 159.899  0.00  0.00    +0.176 C 
+ATOM      3  C   UNL     1     159.969 189.106 160.193  0.00  0.00    +0.167 C 
+ATOM      4  C   UNL     1     159.573 188.908 161.668  0.00  0.00    +0.139 C 
+ATOM      5  C   UNL     1     160.434 187.786 162.300  0.00  0.00    +0.267 C 
+ATOM      6  O   UNL     1     161.831 188.052 162.254  0.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   4   7
+ATOM      7  N   UNL     1     158.110 188.676 161.786  0.00  0.00    -0.321 NA
+ATOM      8  H   UNL     1     157.798 188.147 160.970  0.00  0.00    +0.119 HD
+ATOM      9  H   UNL     1     157.665 189.598 161.683  0.00  0.00    +0.119 HD
+ENDBRANCH   4   7
+BRANCH   5  10
+ATOM     10  O   UNL     1     160.070 187.664 163.670  0.00  0.00    -0.366 OA
+ATOM     11  H   UNL     1     160.030 188.581 163.992  0.00  0.00    +0.213 HD
+ENDBRANCH   5  10
+BRANCH   3  12
+ATOM     12  O   UNL     1     159.069 188.399 159.321  0.00  0.00    -0.387 OA
+ATOM     13  H   UNL     1     159.622 187.687 158.928  0.00  0.00    +0.210 HD
+ENDBRANCH   3  12
+BRANCH   2  14
+ATOM     14  O   UNL     1     161.900 189.279 158.737  0.00  0.00    -0.387 OA
+ATOM     15  H   UNL     1     161.128 189.737 158.344  0.00  0.00    +0.210 HD
+ENDBRANCH   2  14
+BRANCH   1  16
+ATOM     16  C   UNL     1     163.747 188.504 160.859  0.00  0.00    +0.190 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     163.891 187.424 159.943  0.00  0.00    -0.392 OA
+ATOM     18  H   UNL     1     163.539 187.738 159.081  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -5.598      1.876      2.968
+REMARK INTER + INTRA:          -6.798
+REMARK INTER:                  -6.546
+REMARK INTRA:                  -0.253
+REMARK UNBOUND:                -0.054
+REMARK  Name = Glucosamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  N_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.477 187.208 159.329  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1     161.799 187.480 160.061  0.00  0.00    +0.176 C 
+ATOM      3  C   UNL     1     161.661 187.061 161.531  0.00  0.00    +0.167 C 
+ATOM      4  C   UNL     1     160.234 187.277 162.071  0.00  0.00    +0.139 C 
+ATOM      5  C   UNL     1     159.507 188.352 161.225  0.00  0.00    +0.267 C 
+ATOM      6  O   UNL     1     159.407 188.014 159.847  0.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   4   7
+ATOM      7  N   UNL     1     160.270 187.585 163.524  0.00  0.00    -0.321 NA
+ATOM      8  H   UNL     1     160.111 186.719 164.044  0.00  0.00    +0.119 HD
+ATOM      9  H   UNL     1     159.439 188.158 163.716  0.00  0.00    +0.119 HD
+ENDBRANCH   4   7
+BRANCH   5  10
+ATOM     10  O   UNL     1     158.183 188.491 161.726  0.00  0.00    -0.366 OA
+ATOM     11  H   UNL     1     157.678 187.793 161.272  0.00  0.00    +0.213 HD
+ENDBRANCH   5  10
+BRANCH   3  12
+ATOM     12  O   UNL     1     162.618 187.815 162.296  0.00  0.00    -0.387 OA
+ATOM     13  H   UNL     1     163.486 187.420 162.054  0.00  0.00    +0.210 HD
+ENDBRANCH   3  12
+BRANCH   2  14
+ATOM     14  O   UNL     1     162.905 186.790 159.469  0.00  0.00    -0.387 OA
+ATOM     15  H   UNL     1     162.799 186.913 158.503  0.00  0.00    +0.210 HD
+ENDBRANCH   2  14
+BRANCH   1  16
+ATOM     16  C   UNL     1     160.594 187.464 157.819  0.00  0.00    +0.190 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     161.467 188.549 157.524  0.00  0.00    -0.392 OA
+ATOM     18  H   UNL     1     161.154 188.941 156.680  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -5.579      1.834      2.347
+REMARK INTER + INTRA:          -6.775
+REMARK INTER:                  -6.529
+REMARK INTRA:                  -0.246
+REMARK UNBOUND:                -0.054
+REMARK  Name = Glucosamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  N_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.513 187.939 159.565  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1     160.061 187.474 159.748  0.00  0.00    +0.176 C 
+ATOM      3  C   UNL     1     159.549 187.933 161.119  0.00  0.00    +0.167 C 
+ATOM      4  C   UNL     1     160.662 187.955 162.184  0.00  0.00    +0.139 C 
+ATOM      5  C   UNL     1     161.806 186.996 161.772  0.00  0.00    +0.267 C 
+ATOM      6  O   UNL     1     162.394 187.322 160.518  0.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   4   7
+ATOM      7  N   UNL     1     160.099 187.670 163.529  0.00  0.00    -0.321 NA
+ATOM      8  H   UNL     1     160.349 186.715 163.791  0.00  0.00    +0.119 HD
+ATOM      9  H   UNL     1     159.078 187.648 163.413  0.00  0.00    +0.119 HD
+ENDBRANCH   4   7
+BRANCH   5  10
+ATOM     10  O   UNL     1     162.831 187.077 162.755  0.00  0.00    -0.366 OA
+ATOM     11  H   UNL     1     162.363 186.962 163.601  0.00  0.00    +0.213 HD
+ENDBRANCH   5  10
+BRANCH   3  12
+ATOM     12  O   UNL     1     158.482 187.050 161.510  0.00  0.00    -0.387 OA
+ATOM     13  H   UNL     1     157.761 187.243 160.869  0.00  0.00    +0.210 HD
+ENDBRANCH   3  12
+BRANCH   2  14
+ATOM     14  O   UNL     1     159.195 187.969 158.721  0.00  0.00    -0.387 OA
+ATOM     15  H   UNL     1     158.305 187.628 158.948  0.00  0.00    +0.210 HD
+ENDBRANCH   2  14
+BRANCH   1  16
+ATOM     16  C   UNL     1     162.038 187.643 158.153  0.00  0.00    +0.190 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     161.588 188.599 157.200  0.00  0.00    -0.392 OA
+ATOM     18  H   UNL     1     162.391 188.993 156.794  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -5.567      2.517      3.805
+REMARK INTER + INTRA:          -6.760
+REMARK INTER:                  -6.514
+REMARK INTRA:                  -0.246
+REMARK UNBOUND:                -0.054
+REMARK  Name = Glucosamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  N_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     162.348 188.070 160.996  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1     161.842 187.821 162.423  0.00  0.00    +0.176 C 
+ATOM      3  C   UNL     1     160.349 187.468 162.379  0.00  0.00    +0.167 C 
+ATOM      4  C   UNL     1     159.608 188.194 161.240  0.00  0.00    +0.139 C 
+ATOM      5  C   UNL     1     160.385 189.472 160.835  0.00  0.00    +0.267 C 
+ATOM      6  O   UNL     1     161.713 189.211 160.397  0.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   4   7
+ATOM      7  N   UNL     1     158.194 188.450 161.621  0.00  0.00    -0.321 NA
+ATOM      8  H   UNL     1     158.183 188.945 162.514  0.00  0.00    +0.119 HD
+ATOM      9  H   UNL     1     157.783 187.531 161.828  0.00  0.00    +0.119 HD
+ENDBRANCH   4   7
+BRANCH   5  10
+ATOM     10  O   UNL     1     159.694 190.089 159.756  0.00  0.00    -0.366 OA
+ATOM     11  H   UNL     1     160.256 189.918 158.980  0.00  0.00    +0.213 HD
+ENDBRANCH   5  10
+BRANCH   3  12
+ATOM     12  O   UNL     1     159.778 187.802 163.657  0.00  0.00    -0.387 OA
+ATOM     13  H   UNL     1     160.382 188.490 164.019  0.00  0.00    +0.210 HD
+ENDBRANCH   3  12
+BRANCH   2  14
+ATOM     14  O   UNL     1     162.562 186.776 163.085  0.00  0.00    -0.387 OA
+ATOM     15  H   UNL     1     163.490 187.087 163.127  0.00  0.00    +0.210 HD
+ENDBRANCH   2  14
+BRANCH   1  16
+ATOM     16  C   UNL     1     163.869 188.281 160.954  0.00  0.00    +0.190 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     164.584 187.052 161.014  0.00  0.00    -0.392 OA
+ATOM     18  H   UNL     1     164.463 186.613 160.144  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -5.499      3.856      4.809
+REMARK INTER + INTRA:          -6.679
+REMARK INTER:                  -6.435
+REMARK INTRA:                  -0.243
+REMARK UNBOUND:                -0.054
+REMARK  Name = Glucosamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  N_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     162.309 188.251 157.709  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1     162.473 188.153 156.186  0.00  0.00    +0.176 C 
+ATOM      3  C   UNL     1     161.307 187.345 155.601  0.00  0.00    +0.167 C 
+ATOM      4  C   UNL     1     160.818 186.243 156.559  0.00  0.00    +0.139 C 
+ATOM      5  C   UNL     1     161.947 185.866 157.550  0.00  0.00    +0.267 C 
+ATOM      6  O   UNL     1     162.396 186.962 158.338  0.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   4   7
+ATOM      7  N   UNL     1     160.287 185.086 155.791  0.00  0.00    -0.321 NA
+ATOM      8  H   UNL     1     159.448 185.385 155.291  0.00  0.00    +0.119 HD
+ATOM      9  H   UNL     1     159.947 184.412 156.489  0.00  0.00    +0.119 HD
+ENDBRANCH   4   7
+BRANCH   5  10
+ATOM     10  O   UNL     1     161.444 184.879 158.443  0.00  0.00    -0.366 OA
+ATOM     11  H   UNL     1     161.853 184.049 158.141  0.00  0.00    +0.213 HD
+ENDBRANCH   5  10
+BRANCH   3  12
+ATOM     12  O   UNL     1     161.744 186.782 154.351  0.00  0.00    -0.387 OA
+ATOM     13  H   UNL     1     161.077 186.087 154.152  0.00  0.00    +0.210 HD
+ENDBRANCH   3  12
+BRANCH   2  14
+ATOM     14  O   UNL     1     162.528 189.439 155.558  0.00  0.00    -0.387 OA
+ATOM     15  H   UNL     1     163.007 189.294 154.715  0.00  0.00    +0.210 HD
+ENDBRANCH   2  14
+BRANCH   1  16
+ATOM     16  C   UNL     1     163.361 189.174 158.342  0.00  0.00    +0.190 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     162.966 190.541 158.311  0.00  0.00    -0.392 OA
+ATOM     18  H   UNL     1     163.732 191.063 158.633  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -5.350      8.617      9.940
+REMARK INTER + INTRA:          -6.500
+REMARK INTER:                  -6.277
+REMARK INTRA:                  -0.223
+REMARK UNBOUND:                -0.054
+REMARK  Name = Glucosamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  N_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     151.993 188.477 160.855  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1     151.256 188.947 162.117  0.00  0.00    +0.176 C 
+ATOM      3  C   UNL     1     149.742 188.877 161.878  0.00  0.00    +0.167 C 
+ATOM      4  C   UNL     1     149.365 189.173 160.414  0.00  0.00    +0.139 C 
+ATOM      5  C   UNL     1     150.486 190.003 159.738  0.00  0.00    +0.267 C 
+ATOM      6  O   UNL     1     151.750 189.352 159.741  0.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   4   7
+ATOM      7  N   UNL     1     148.024 189.811 160.342  0.00  0.00    -0.321 NA
+ATOM      8  H   UNL     1     147.320 189.116 160.598  0.00  0.00    +0.119 HD
+ATOM      9  H   UNL     1     147.851 190.000 159.347  0.00  0.00    +0.119 HD
+ENDBRANCH   4   7
+BRANCH   5  10
+ATOM     10  O   UNL     1     150.122 190.218 158.380  0.00  0.00    -0.366 OA
+ATOM     11  H   UNL     1     149.382 190.849 158.425  0.00  0.00    +0.213 HD
+ENDBRANCH   5  10
+BRANCH   3  12
+ATOM     12  O   UNL     1     149.111 189.814 162.770  0.00  0.00    -0.387 OA
+ATOM     13  H   UNL     1     148.239 189.997 162.351  0.00  0.00    +0.210 HD
+ENDBRANCH   3  12
+BRANCH   2  14
+ATOM     14  O   UNL     1     151.596 188.169 163.270  0.00  0.00    -0.387 OA
+ATOM     15  H   UNL     1     151.094 187.333 163.175  0.00  0.00    +0.210 HD
+ENDBRANCH   2  14
+BRANCH   1  16
+ATOM     16  C   UNL     1     153.509 188.380 161.077  0.00  0.00    +0.190 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     153.907 187.081 161.502  0.00  0.00    -0.392 OA
+ATOM     18  H   UNL     1     154.888 187.089 161.550  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -5.179      2.568      4.072
+REMARK INTER + INTRA:          -6.293
+REMARK INTER:                  -6.068
+REMARK INTRA:                  -0.225
+REMARK UNBOUND:                -0.054
+REMARK  Name = Glucosamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  N_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.775 189.416 160.403  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1     159.906 188.961 159.221  0.00  0.00    +0.176 C 
+ATOM      3  C   UNL     1     160.015 187.437 159.068  0.00  0.00    +0.167 C 
+ATOM      4  C   UNL     1     161.406 186.906 159.462  0.00  0.00    +0.139 C 
+ATOM      5  C   UNL     1     162.457 188.039 159.345  0.00  0.00    +0.267 C 
+ATOM      6  O   UNL     1     162.169 189.164 160.167  0.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   4   7
+ATOM      7  N   UNL     1     161.743 185.695 158.670  0.00  0.00    -0.321 NA
+ATOM      8  H   UNL     1     162.594 185.280 159.055  0.00  0.00    +0.119 HD
+ATOM      9  H   UNL     1     162.017 186.030 157.738  0.00  0.00    +0.119 HD
+ENDBRANCH   4   7
+BRANCH   5  10
+ATOM     10  O   UNL     1     163.716 187.522 159.757  0.00  0.00    -0.366 OA
+ATOM     11  H   UNL     1     163.871 187.929 160.627  0.00  0.00    +0.213 HD
+ENDBRANCH   5  10
+BRANCH   3  12
+ATOM     12  O   UNL     1     159.709 187.109 157.701  0.00  0.00    -0.387 OA
+ATOM     13  H   UNL     1     158.737 186.956 157.701  0.00  0.00    +0.210 HD
+ENDBRANCH   3  12
+BRANCH   2  14
+ATOM     14  O   UNL     1     158.532 189.330 159.378  0.00  0.00    -0.387 OA
+ATOM     15  H   UNL     1     158.516 189.951 160.135  0.00  0.00    +0.210 HD
+ENDBRANCH   2  14
+BRANCH   1  16
+ATOM     16  C   UNL     1     160.594 190.911 160.705  0.00  0.00    +0.190 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     159.315 191.197 161.258  0.00  0.00    -0.392 OA
+ATOM     18  H   UNL     1     159.451 191.888 161.943  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -5.135      2.011      4.541
+REMARK INTER + INTRA:          -6.241
+REMARK INTER:                  -6.020
+REMARK INTRA:                  -0.221
+REMARK UNBOUND:                -0.054
+REMARK  Name = Glucosamine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  N_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     159.225 189.451 160.316  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1     159.216 188.377 161.413  0.00  0.00    +0.176 C 
+ATOM      3  C   UNL     1     160.523 187.575 161.350  0.00  0.00    +0.167 C 
+ATOM      4  C   UNL     1     161.055 187.434 159.912  0.00  0.00    +0.139 C 
+ATOM      5  C   UNL     1     159.896 187.610 158.899  0.00  0.00    +0.267 C 
+ATOM      6  O   UNL     1     159.243 188.869 159.002  0.00  0.00    -0.342 OA
+ENDROOT
+BRANCH   4   7
+ATOM      7  N   UNL     1     161.795 186.154 159.756  0.00  0.00    -0.321 NA
+ATOM      8  H   UNL     1     161.117 185.392 159.693  0.00  0.00    +0.119 HD
+ATOM      9  H   UNL     1     162.282 185.995 160.647  0.00  0.00    +0.119 HD
+ENDBRANCH   4   7
+BRANCH   5  10
+ATOM     10  O   UNL     1     160.434 187.516 157.586  0.00  0.00    -0.366 OA
+ATOM     11  H   UNL     1     161.274 187.038 157.703  0.00  0.00    +0.213 HD
+ENDBRANCH   5  10
+BRANCH   3  12
+ATOM     12  O   UNL     1     160.276 186.284 161.935  0.00  0.00    -0.387 OA
+ATOM     13  H   UNL     1     161.090 186.093 162.454  0.00  0.00    +0.210 HD
+ENDBRANCH   3  12
+BRANCH   2  14
+ATOM     14  O   UNL     1     159.058 188.935 162.722  0.00  0.00    -0.387 OA
+ATOM     15  H   UNL     1     159.884 188.713 163.199  0.00  0.00    +0.210 HD
+ENDBRANCH   2  14
+BRANCH   1  16
+ATOM     16  C   UNL     1     158.012 190.387 160.418  0.00  0.00    +0.190 C 
+BRANCH  16  17
+ATOM     17  O   UNL     1     158.288 191.539 161.206  0.00  0.00    -0.392 OA
+ATOM     18  H   UNL     1     157.620 192.216 160.960  0.00  0.00    +0.210 HD
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 6
+ENDMDL

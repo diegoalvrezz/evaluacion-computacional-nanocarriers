@@ -1,0 +1,387 @@
+MODEL 1
+REMARK VINA RESULT:    -3.684      0.000      0.000
+REMARK INTER + INTRA:          -4.786
+REMARK INTER:                  -4.761
+REMARK INTRA:                  -0.026
+REMARK UNBOUND:                -0.026
+REMARK  Name = 2,2'-Iminodiethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: N_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  O_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     159.589 190.251 161.297  0.00  0.00    -0.312 NA
+ATOM      2  H   UNL     1     160.381 190.040 160.687  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     158.579 190.978 160.503  0.00  0.00    +0.108 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     158.874 192.482 160.424  0.00  0.00    +0.171 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     158.193 193.159 161.479  0.00  0.00    -0.394 OA
+ATOM      6  H   UNL     1     158.909 193.523 162.039  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   UNL     1     159.061 188.995 161.841  0.00  0.00    +0.108 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     160.192 188.051 162.269  0.00  0.00    +0.171 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     160.030 187.664 163.630  0.00  0.00    -0.394 OA
+ATOM     10  H   UNL     1     160.915 187.487 163.993  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -3.575      8.928      9.204
+REMARK INTER + INTRA:          -4.645
+REMARK INTER:                  -4.616
+REMARK INTRA:                  -0.029
+REMARK UNBOUND:                -0.026
+REMARK  Name = 2,2'-Iminodiethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: N_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  O_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     150.310 189.599 160.479  0.00  0.00    -0.312 NA
+ATOM      2  H   UNL     1     150.230 190.268 161.248  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     149.681 190.196 159.285  0.00  0.00    +0.108 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     148.188 189.855 159.182  0.00  0.00    +0.171 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     147.614 189.824 160.488  0.00  0.00    -0.394 OA
+ATOM      6  H   UNL     1     148.296 190.223 161.066  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   UNL     1     151.729 189.296 160.261  0.00  0.00    +0.108 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     152.114 187.943 160.873  0.00  0.00    +0.171 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     153.399 187.536 160.414  0.00  0.00    -0.394 OA
+ATOM     10  H   UNL     1     153.267 186.954 159.646  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -3.570      8.775      9.766
+REMARK INTER + INTRA:          -4.639
+REMARK INTER:                  -4.608
+REMARK INTRA:                  -0.031
+REMARK UNBOUND:                -0.026
+REMARK  Name = 2,2'-Iminodiethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: N_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  O_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     150.392 189.561 160.390  0.00  0.00    -0.312 NA
+ATOM      2  H   UNL     1     149.943 188.645 160.435  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     151.854 189.359 160.432  0.00  0.00    +0.108 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     152.236 188.006 161.047  0.00  0.00    +0.171 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     153.303 187.425 160.298  0.00  0.00    -0.394 OA
+ATOM      6  H   UNL     1     152.882 186.699 159.794  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   UNL     1     149.966 190.238 159.160  0.00  0.00    +0.108 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     148.439 190.220 159.010  0.00  0.00    +0.171 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     147.814 190.102 160.284  0.00  0.00    -0.394 OA
+ATOM     10  H   UNL     1     148.502 189.865 160.929  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -3.553      3.445      5.088
+REMARK INTER + INTRA:          -4.617
+REMARK INTER:                  -4.555
+REMARK INTRA:                  -0.063
+REMARK UNBOUND:                -0.026
+REMARK  Name = 2,2'-Iminodiethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: N_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  O_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     159.998 187.489 159.948  0.00  0.00    -0.312 NA
+ATOM      2  H   UNL     1     160.333 188.281 159.396  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     161.077 186.484 160.011  0.00  0.00    +0.108 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     161.575 186.076 158.619  0.00  0.00    +0.171 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     161.353 184.681 158.420  0.00  0.00    -0.394 OA
+ATOM      6  H   UNL     1     160.378 184.584 158.431  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   UNL     1     159.613 187.969 161.280  0.00  0.00    +0.108 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     160.672 187.613 162.332  0.00  0.00    +0.171 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     160.100 187.620 163.636  0.00  0.00    -0.394 OA
+ATOM     10  H   UNL     1     159.139 187.510 163.537  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -3.530     10.238     11.033
+REMARK INTER + INTRA:          -4.588
+REMARK INTER:                  -4.249
+REMARK INTRA:                  -0.338
+REMARK UNBOUND:                -0.026
+REMARK  Name = 2,2'-Iminodiethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: N_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  O_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     148.597 189.822 160.352  0.00  0.00    -0.312 NA
+ATOM      2  H   UNL     1     148.237 190.337 161.157  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     149.972 189.386 160.664  0.00  0.00    +0.108 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     151.000 189.944 159.671  0.00  0.00    +0.171 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     150.428 189.989 158.365  0.00  0.00    -0.394 OA
+ATOM      6  H   UNL     1     150.734 190.840 157.992  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   UNL     1     147.708 188.688 160.078  0.00  0.00    +0.108 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     147.293 188.643 158.602  0.00  0.00    +0.171 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     147.568 189.888 157.969  0.00  0.00    -0.394 OA
+ATOM     10  H   UNL     1     148.389 189.784 157.458  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -3.462      0.661      4.342
+REMARK INTER + INTRA:          -4.500
+REMARK INTER:                  -4.471
+REMARK INTRA:                  -0.028
+REMARK UNBOUND:                -0.026
+REMARK  Name = 2,2'-Iminodiethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: N_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  O_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     158.731 189.815 161.544  0.00  0.00    -0.312 NA
+ATOM      2  H   UNL     1     157.991 189.110 161.522  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     160.031 189.118 161.515  0.00  0.00    +0.108 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     159.955 187.718 162.138  0.00  0.00    +0.171 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     159.933 187.828 163.560  0.00  0.00    -0.394 OA
+ATOM      6  H   UNL     1     160.504 187.097 163.873  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   UNL     1     158.562 190.715 160.398  0.00  0.00    +0.108 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     159.350 192.017 160.587  0.00  0.00    +0.171 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     158.517 193.029 161.144  0.00  0.00    -0.394 OA
+ATOM     10  H   UNL     1     158.354 193.691 160.450  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -3.448      3.941      5.651
+REMARK INTER + INTRA:          -4.482
+REMARK INTER:                  -4.379
+REMARK INTRA:                  -0.103
+REMARK UNBOUND:                -0.026
+REMARK  Name = 2,2'-Iminodiethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: N_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  O_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     159.277 193.896 161.656  0.00  0.00    -0.312 NA
+ATOM      2  H   UNL     1     158.526 194.530 161.380  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     159.645 193.079 160.483  0.00  0.00    +0.108 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     160.856 192.178 160.757  0.00  0.00    +0.171 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     161.595 191.991 159.552  0.00  0.00    -0.394 OA
+ATOM      6  H   UNL     1     162.171 191.220 159.735  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   UNL     1     160.408 194.688 162.152  0.00  0.00    +0.108 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     160.465 196.066 161.481  0.00  0.00    +0.171 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     161.716 196.252 160.828  0.00  0.00    -0.394 OA
+ATOM     10  H   UNL     1     162.046 195.375 160.568  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.427      2.528      4.138
+REMARK INTER + INTRA:          -4.455
+REMARK INTER:                  -4.055
+REMARK INTRA:                  -0.399
+REMARK UNBOUND:                -0.026
+REMARK  Name = 2,2'-Iminodiethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: N_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  O_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     161.170 189.013 160.611  0.00  0.00    -0.312 NA
+ATOM      2  H   UNL     1     161.577 189.457 159.786  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     162.259 188.743 161.571  0.00  0.00    +0.108 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     162.124 187.364 162.230  0.00  0.00    +0.171 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     161.496 187.502 163.503  0.00  0.00    -0.394 OA
+ATOM      6  H   UNL     1     160.867 186.754 163.549  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   UNL     1     160.149 189.904 161.173  0.00  0.00    +0.108 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     158.894 189.126 161.590  0.00  0.00    +0.171 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     158.941 188.809 162.977  0.00  0.00    -0.394 OA
+ATOM     10  H   UNL     1     158.088 189.065 163.367  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.414      2.122      4.186
+REMARK INTER + INTRA:          -4.437
+REMARK INTER:                  -4.096
+REMARK INTRA:                  -0.341
+REMARK UNBOUND:                -0.026
+REMARK  Name = 2,2'-Iminodiethanol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  N_4
+REMARK    3  A    between atoms: C_2  and  O_3
+REMARK    4  A    between atoms: N_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  O_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1     159.274 187.582 160.923  0.00  0.00    -0.312 NA
+ATOM      2  H   UNL     1     158.604 186.881 160.601  0.00  0.00    +0.122 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     160.514 186.886 161.318  0.00  0.00    +0.108 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     161.088 187.423 162.636  0.00  0.00    +0.171 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     160.022 187.817 163.497  0.00  0.00    -0.394 OA
+ATOM      6  H   UNL     1     159.238 187.344 163.150  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   UNL     1     159.505 188.548 159.844  0.00  0.00    +0.108 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     159.716 189.965 160.393  0.00  0.00    +0.171 C 
+BRANCH   8   9
+ATOM      9  O   UNL     1     159.039 190.123 161.636  0.00  0.00    -0.394 OA
+ATOM     10  H   UNL     1     158.202 190.587 161.459  0.00  0.00    +0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 6
+ENDMDL

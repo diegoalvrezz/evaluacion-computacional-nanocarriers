@@ -1,0 +1,196 @@
+```{=latex}
+\capitulo{3}{Resultados}
+```
+
+## Cálculos DFT y perfiles COSMO-RS
+
+Las 58 estructuras moleculares convergieron sin frecuencias imaginarias, lo
+que confirma que todas son mínimos de energía reales. Los cálculos más
+exigentes fueron Paclitaxel (113 átomos pesados) y Sirolimus (144 átomos),
+que requirieron varios cientos de ciclos de optimización. Los perfiles sigma
+COSMO-RS, que describen cómo se distribuye la carga eléctrica en la
+superficie de cada molécula, mostraron patrones claros por grupo: los
+fármacos modelo tienen distribuciones anchas y polares, mientras que los
+monómeros apolares concentran su densidad de carga cerca de
+$\sigma \approx 0$.
+
+## Acoplamiento molecular
+
+La figura siguiente muestra la matriz de afinidad completa. Las energías
+medias de unión por proteína fueron: FR$\alpha$
+($\overline{\Delta G} = -5,70$ kcal/mol), CYP3A4 ($-5,21$), TfR1
+($-5,08$), P-gp ($-5,07$), HSA ($-4,31$) y Lisozima ($-3,54$).
+Los valores individuales más negativos, que indican mayor afinidad, fueron
+Methotrexate en P-gp ($-10,27$ kcal/mol), Paclitaxel en CYP3A4 ($-9,91$)
+y Folic acid en FR$\alpha$ ($-9,91$). Sirolimus en CYP3A4 obtuvo
+$-0,15$ kcal/mol, la interacción más débil del dataset, lo que sugiere que
+esta molécula elude el metabolismo hepático.
+
+```{=latex}
+\imagen{heatmap_docking.png}{Matriz de afinidad de docking ($\Delta G$ modo 1,
+kcal/mol) para las 57 moléculas frente a las 6 proteínas. Verde oscuro = alta
+afinidad, rojo = baja afinidad.}{1.0}
+```
+
+El mapa de correlaciones (figura siguiente) muestra que P-gp, TfR1,
+FR$\alpha$ y HSA están muy correlacionadas entre sí (correlación de Pearson
+$r$ entre 0,90 y 0,95). La correlación más baja es entre CYP3A4 y
+Lisozima ($r = 0,73$), lo que tiene sentido dado que sus mecanismos de
+reconocimiento son distintos. La figura de dispersión $\Delta G$ frente a
+peso molecular confirma la tendencia general: las moléculas más grandes se
+unen con mayor afinidad a todas las proteínas. Los fármacos modelo aparecen
+sistemáticamente en la zona de alta afinidad.
+
+```{=latex}
+\imagen{correlacion_proteinas.png}{Mapa de correlación de Pearson entre las
+energías de docking (izquierda) y dispersión $\Delta G$ P-gp vs.\ TfR1
+coloreada por grupo molecular ($r=0,95$, derecha).}{1.0}
+```
+
+```{=latex}
+\imagen{scatter_docking_MW.png}{Energía de docking $\Delta G$ vs.\ peso
+molecular para las seis proteínas, coloreado por grupo molecular.}{1.0}
+```
+
+## Análisis de interacciones proteína-ligando (PLIP)
+
+El análisis de los 15 complejos generó 708 contactos no covalentes en total
+(figura siguiente). FR$\alpha$, el receptor de folato que se sobreexpresa en
+tumores de ovario y mama, concentra la mayor parte: 515 contactos, de los
+que 340 son puentes de hidrógeno. Los residuos SER174 (67 contactos) y
+ARG103 (64) son los más implicados, y coinciden con los que la
+cristalografía describe como esenciales para reconocer el ácido fólico.
+Los puentes salinos con ASP81 y LYS136 en los oligómeros de quitosano
+sugieren que Chitotriose y Chitobiose se unen en el mismo bolsillo que el
+folato natural.
+
+En P-gp, que es la principal bomba de expulsión de fármacos del organismo,
+96 de los 100 contactos totales son hidrofóbicos, repartidos entre ILE730,
+LEU312, LEU757 y LEU760 (8 cada uno). Este patrón confirma lo que predice el
+análisis SHAP: P-gp reconoce sus sustratos por su forma y complejidad
+molecular, no por grupos químicos concretos. En TfR1, el receptor de
+transferrina que se usa para llevar moléculas al interior de células
+tumorales, aparecen 82 puentes de hidrógeno, con THR305 (10 contactos) y
+GLU972 (6) a la cabeza.
+
+```{=latex}
+\imagen{plip_interacciones_pro.png}{(Izquierda) Número de interacciones por
+tipo para cada proteína. (Derecha) Residuos con más contactos en
+FR$\alpha$ (4LRH).}{1.0}
+```
+
+## Modelos de regresión de afinidad
+
+Random Forest fue el mejor modelo en general (figura siguiente).
+R$^2 = 0,817$ en P-gp (MAE = $0,426$ kcal/mol), $0,753$ en TfR1 y
+$0,712$ en Lisozima superan el umbral de $0,7$ que se considera
+aceptable para modelos cuantitativos de actividad. En CYP3A4 ($0,62$),
+FR$\alpha$ ($0,53$) y HSA ($0,65$) el rendimiento es más modesto. Con 56
+muestras y validación cruzada de 5 particiones, cada fold de test tiene 11
+moléculas, lo que limita la capacidad predictiva. Gradient Boosting fue
+competitivo en TfR1 (R$^2 = 0,742$) y P-gp ($0,746$).
+
+Los puntos con mayor error de predicción (outliers) en la figura de
+predicción vs.\ real son Paclitaxel y Condroitín sulfato disacárido en P-gp,
+probablemente porque su complejidad estructural está fuera del rango habitual
+del dataset. Ammonia es el principal outlier en TfR1 por ser la molécula más
+pequeña del conjunto.
+
+```{=latex}
+\imagen{r2_por_proteina.png}{R² de los tres modelos de regresión en validación
+cruzada de 5 particiones. La línea roja marca el umbral R²\,=\,0,7.}{0.95}
+```
+
+```{=latex}
+\imagen{predicted_vs_real.png}{Predicción vs.\ real para P-gp MDR1 y TfR1,
+coloreado por grupo molecular.}{1.0}
+```
+
+## Índice de Eficiencia de Transporte (ITI)
+
+El ITI es una puntuación de 0 a 100 que resume en un solo número el perfil
+completo de una molécula para drug delivery: penaliza la afinidad por P-gp
+(expulsión) y CYP3A4 (metabolismo), y premia la afinidad por TfR1 y
+FR$\alpha$ (entrada en células tumorales), HSA (transporte en sangre) y
+lisozima (compatibilidad con tejidos).
+
+El ranking (figura siguiente) lo encabeza Triethylene glycol (PEG,
+ITI\,=\,100), seguido de Tetraethylenepentamine ($87,3$),
+Pentaethylenehexamine ($85,0$), Chitotriose ($84,7$), Chitobiose
+($82,7$), D-Galactose ($81,7$) y D-Mannose ($81,7$). Los fármacos
+modelo quedan al final del dataset porque tienen alta afinidad por P-gp.
+
+```{=latex}
+\imagen{iti_top20.png}{Top 20 moléculas por ITI (escala 0--100), coloreadas
+por grupo molecular.}{0.95}
+```
+
+La distribución por grupos (figura siguiente) muestra que ligandos de
+targeting y oligómeros tienen medianas alrededor de 70--72, los monómeros
+de degradación en torno a 60, y los fármacos modelo cerca de 42 con alta
+variabilidad. Los diagramas de radar muestran el patrón de Triethylene
+glycol: radio pequeño en P-gp y CYP3A4, moderado en TfR1 y FR$\alpha$.
+
+```{=latex}
+\imagen{distribucion_ITI_grupos.png}{Distribución del ITI por grupo molecular
+(boxplot + violin plot).}{1.0}
+```
+
+```{=latex}
+\imagen{radar_top8_parte1.png}{Perfil de afinidad de las moléculas 1--4 del
+ranking ITI. Mayor radio = mayor afinidad por esa proteína.}{1.0}
+```
+
+```{=latex}
+\imagen{radar_top8_parte2.png}{Perfil de afinidad de las moléculas 5--8 del
+ranking ITI.}{1.0}
+```
+
+## Clasificador y valores SHAP
+
+Gradient Boosting obtuvo AUC-ROC = $0,983$, Accuracy = $0,965$ y
+F1 = $0,966$. Random Forest alcanzó AUC = $0,978$ y Accuracy = $0,932$.
+SVC obtuvo AUC = $0,971$ y Accuracy = $0,896$. Un AUC cercano a 1
+significa que el modelo separa casi perfectamente moléculas favorables de
+desfavorables. Las curvas ROC con bandas de confianza se muestran en la
+figura siguiente.
+
+El análisis SHAP muestra qué descriptores moleculares son los más importantes
+para predecir la afinidad por P-gp (figura siguiente). BertzCT, que mide la
+complejidad topológica de una molécula (cuántos caminos distintos hay en su
+grafo molecular), tiene un peso de $0,54$, muy por encima de NumBonds
+($0,16$), MW ($0,14$) y ExactMW ($0,13$). En la práctica, esto
+significa que P-gp expulsa moléculas complejas y grandes, sin importar mucho
+su química concreta.
+
+```{=latex}
+\imagen{curva_ROC.png}{Curvas ROC del clasificador en validación cruzada de
+5 particiones.}{0.75}
+```
+
+```{=latex}
+\imagen{shap_importancia.png}{Importancia de los 15 descriptores principales
+según SHAP para el modelo de P-gp MDR1.}{0.85}
+```
+
+## Propiedades ADMET
+
+El análisis ADMET con SwissADME (figura siguiente) mide propiedades
+farmacológicas clave: qué porcentaje de moléculas de cada grupo se absorbe
+bien en el intestino (GI absorption), cuántas son expulsadas por P-gp, y
+qué score de biodisponibilidad oral tienen.
+
+Los monómeros de degradación tienen 0 violaciones de la regla de Lipinski
+(que define si una molécula puede ser un fármaco oral) y el 67\,\% con
+absorción intestinal alta. Los oligómeros presentan una media de 1,5
+violaciones y 65\,\% de absorción. Los ligandos de targeting obtienen el
+mejor score de biodisponibilidad oral (BA $\approx$ 0,85) y 87\,\% de
+absorción. Los fármacos modelo tienen en media 1,75 violaciones, 20\,\%
+de absorción intestinal alta y el 80\,\% son sustratos de P-gp. Los
+monómeros de degradación no son sustratos de P-gp en ningún caso.
+
+```{=latex}
+\imagen{admet_completo.png}{Propiedades ADMET por grupo molecular: violaciones
+Lipinski (izquierda), porcentaje de sustratos P-gp (centro) y
+biodisponibilidad oral vs.\ lipofilia (derecha).}{1.0}
+```

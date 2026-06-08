@@ -1,0 +1,142 @@
+```{=latex}
+\capitulo{3}{Metodología}
+```
+
+La metodología se estructura en cinco etapas secuenciales e
+interdependientes, esquematizadas en la Figura~\ref{fig:pipeline}.
+
+## Base de datos molecular
+
+Se construyó una biblioteca de 58 moléculas distribuidas en cuatro
+categorías funcionales (Tabla~\ref{tab:categorias}): monómeros y productos
+de degradación de polímeros biodegradables (ácidos láctico, glicólico,
+$\varepsilon$-caprolactona y derivados), oligómeros y unidades de dendrímero
+PAMAM (ramas amínicas, poliaminas, oligómeros de quitosano), fármacos modelo
+de relevancia oncológica (doxorrubicina, paclitaxel, 5-fluorouracilo,
+metotrexato, curcumina, cisplatino, gemcitabina, sirolimus, dexametasona,
+ibuprofeno) y ligandos de targeting activo (ácido fólico, biotina,
+galactosa, manosa, PEG-aminas, péptido RGD y derivados).
+
+Las estructuras SMILES se obtuvieron de PubChem y se validaron mediante
+RDKit~[@rdkit]. Las geometrías iniciales en 3D se generaron con el algoritmo
+ETKDGv3 y optimizadas con el campo de fuerzas MMFF94, generando archivos
+XYZ como punto de partida para los cálculos cuánticos.
+
+## Optimización de geometrías (DFT)
+
+Todos los cálculos DFT se realizaron con TURBOMOLE~7.8.1 [@turbomole] en el
+clúster HPC CENITS (Universidad de Burgos), con nodos de 16 núcleos y
+31\,GB de RAM por cálculo.
+
+**Protocolo estándar (56 moléculas):** funcional híbrido B3LYP con
+corrección de dispersión D4 [@grimme2010], base def2-TZVP [@weigend2005],
+aproximación RI-J para la evaluación eficiente de integrales de Coulomb, y
+grid de integración m4. La convergencia de la optimización de geometría se
+estableció en el criterio por defecto de TURBOMOLE ($\|\nabla E\| <
+10^{-4}$ u.a.).
+
+**Casos especiales:** el cisplatino requirió el uso de pseudopotencial
+de core efectivo (ECP-60-mwb) y base def2-SVP para el platino; el
+condroitín sulfato disacárido (carga formal $-2$) se recalculó con def2-SVP
+explicitando la carga en el fichero de control.
+
+Para cada molécula se realizaron tres cálculos sucesivos: (i) optimización
+de geometría (\texttt{jobex -ri}), (ii) punto singular COSMO-RS con
+$\varepsilon = \infty$ para obtener el archivo \texttt{.cosmo} con la
+distribución de carga superficial, y (iii) cálculo de frecuencias
+vibracionales IR (\texttt{aoforce}) para confirmar la ausencia de
+frecuencias imaginarias y obtener datos termoquímicos.
+
+## Acoplamiento molecular (Docking)
+
+Las proteínas de barrera se obtuvieron del Protein Data Bank (Tabla
+\ref{tab:proteinas}) y se prepararon con MGLTools
+\texttt{prepare\_receptor4.py} (cargas Gasteiger, eliminación de agua y
+cofactores no esenciales). Los 58 ligandos se convirtieron a formato PDBQT
+con OpenBabel~3.1, añadiendo cargas Gasteiger.
+
+Los dockings se realizaron con AutoDock Vina~1.2.5 [@eberhardt2021] con
+\texttt{exhaustiveness}~=~32, 9 modos de unión y 8 CPUs por cálculo. Las
+cajas de búsqueda se centraron en los sitios activos co-cristalizados de
+cada receptor (Tabla~\ref{tab:proteinas}). Se obtuvieron 342 dockings
+válidos de un total de 348 posibles (los 6 dockings de cisplatino no
+generaron output por la naturaleza metálica del platino).
+
+\begin{table}[!h]
+\centering
+\caption{Proteínas de barrera biológica empleadas en el estudio.}
+\label{tab:proteinas}
+\begin{tabular}{llll}
+\toprule
+\textbf{PDB} & \textbf{Proteína} & \textbf{Función} & \textbf{Centro grid (Å)} \\
+\midrule
+7A65 & P-gp/MDR1 & Bomba de eflujo & 160, 177, 144 \\
+1TQN & CYP3A4 & Metabolismo hepático & $-15.5$, $-22.0$, $-11.0$ \\
+1CX8 & TfR1 & Endocitosis mediada & $-28.4$, $-38.9$, $147.7$ \\
+4LRH & FR$\alpha$ & Internalización folato & 5.2, 25.8, $-1.4$ \\
+1LYZ & Lisozima & Biocompatibilidad & 17.0, 10.0, 25.0 \\
+1AO6 & HSA & Transporte plasmático & 7.0, 10.0, 18.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+## Descriptores moleculares
+
+Se calculó un conjunto de 2908 descriptores agrupados en cinco familias:
+
+- **Descriptores 2D RDKit** (38): peso molecular, LogP, TPSA, donadores y
+  aceptores de enlace de hidrógeno, índices topológicos (BertzCT, Chi,
+  Kappa), área superficial de Labute, refracción molar y grupos funcionales
+  relevantes para drug delivery.
+
+- **Perfiles sigma COSMO-RS** (100): histograma de densidad de carga
+  superficial $\sigma$ muestreado cada $0.001$\,e/Å$^2$ en el rango
+  $[-0.05, 0.05]$\,e/Å$^2$, normalizado por área superficial total.
+  Extraídos de los archivos \texttt{.cosmo} de TURBOMOLE.
+
+- **Fingerprints Morgan/ECFP4** (2048 bits) y **MACCS keys** (167 bits),
+  calculados con RDKit.
+
+- **Descriptores 3D Mordred** (1826): calculados sobre las geometrías DFT
+  convertidas a SDF mediante RDKit, incluyendo descriptores autocorrelación
+  3D, WHIM, RDF y momento de inercia.
+
+- **Energías de docking $\Delta G$** (6): afinidad de unión en kcal/mol para
+  cada una de las seis proteínas, modo~1 (mejor pose).
+
+## Modelos de aprendizaje automático
+
+El dataset final comprende 56 moléculas y 2908 características numéricas, sin
+valores perdidos (imputación por mediana para descriptores Mordred con menos
+del 30\,\% de ausencias). Se empleó un pipeline de preprocesado estándar:
+escalado robusto (RobustScaler) y selección de las 200 características más
+relevantes por regresión $F$ (SelectKBest).
+
+**Modelo~1 --- Regresión de afinidad:** se entrenaron modelos Random Forest
+(RF, 300 árboles), Gradient Boosting (GB, 200 estimadores) y SVR (kernel
+RBF, C=10) para predecir $\Delta G$ en cada proteína, evaluados con
+validación cruzada estratificada de 5 particiones (métricas: R², MAE, RMSE).
+
+**Modelo~2 --- Índice de Eficiencia de Transporte (ITI):** métrica compuesta
+que integra las seis afinidades de docking normalizadas, ponderando
+positivamente el targeting (TfR1, FR$\alpha$), el transporte plasmático
+(HSA) y la biocompatibilidad (lisozima), y penalizando el eflujo (P-gp) y
+el metabolismo (CYP3A4). Se aplica un factor de penalización por peso
+molecular para evitar el sesgo hacia moléculas de baja masa. El ITI se
+normaliza a escala 0--100.
+
+**Modelo~3 --- Clasificador:** se entrenaron modelos RF, GB y SVC para la
+clasificación binaria favorable (ITI $\geq$ 50) vs.\ desfavorable (ITI $<$
+50), evaluados mediante AUC-ROC, precisión y F1 en validación cruzada
+estratificada de 5 particiones.
+
+La interpretabilidad de los modelos se analizó mediante valores SHAP
+[@lundberg2017] calculados con un TreeExplainer sobre el mejor modelo RF de
+P-gp, entrenado sobre las 50 características más relevantes.
+
+**Herramienta web (Streamlit):** se implementó una aplicación interactiva que
+permite al usuario introducir una molécula mediante su cadena SMILES,
+calcula automáticamente los descriptores 2D y fingerprints con RDKit,
+predice el perfil de afinidad frente a las seis proteínas mediante el
+modelo RF, calcula el ITI y genera un radar chart del perfil de
+transporte, recomendando el tipo de carrier más adecuado.

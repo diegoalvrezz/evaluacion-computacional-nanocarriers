@@ -1,0 +1,333 @@
+MODEL 1
+REMARK VINA RESULT:    -3.676      0.000      0.000
+REMARK INTER + INTRA:          -4.136
+REMARK INTER:                  -4.106
+REMARK INTRA:                  -0.031
+REMARK UNBOUND:                -0.031
+REMARK  Name = 4-Aminobenzoic acid
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_10
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      12.731   9.724  22.468  0.00  0.00    +0.017 A 
+ATOM      2  C   UNL     1      11.792   9.405  21.481  0.00  0.00    +0.023 A 
+ATOM      3  C   UNL     1      10.499   9.003  21.827  0.00  0.00    +0.025 A 
+ATOM      4  C   UNL     1      10.128   9.022  23.175  0.00  0.00    +0.023 A 
+ATOM      5  C   UNL     1      11.059   9.338  24.168  0.00  0.00    +0.017 A 
+ATOM      6  C   UNL     1      12.369   9.683  23.818  0.00  0.00    +0.059 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  N   UNL     1       9.535   8.804  20.834  0.00  0.00    -0.358 N 
+ATOM      8  H   UNL     1       9.891   8.892  19.888  0.00  0.00    +0.142 HD
+ATOM      9  H   UNL     1       8.680   9.334  20.975  0.00  0.00    +0.142 HD
+ENDBRANCH   3   7
+BRANCH   6  10
+ATOM     10  C   UNL     1      13.324  10.014  24.903  0.00  0.00    +0.337 C 
+ATOM     11  O   UNL     1      14.317   9.378  25.201  0.00  0.00    -0.245 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1      12.990  11.135  25.568  0.00  0.00    -0.477 OA
+ATOM     13  H   UNL     1      13.806  11.368  26.057  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   6  10
+TORSDOF 3
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -3.570      5.107      5.787
+REMARK INTER + INTRA:          -4.018
+REMARK INTER:                  -3.985
+REMARK INTRA:                  -0.032
+REMARK UNBOUND:                -0.031
+REMARK  Name = 4-Aminobenzoic acid
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_10
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      14.642  12.791  18.931  0.00  0.00    +0.017 A 
+ATOM      2  C   UNL     1      14.293  11.437  18.909  0.00  0.00    +0.023 A 
+ATOM      3  C   UNL     1      13.432  10.905  19.873  0.00  0.00    +0.025 A 
+ATOM      4  C   UNL     1      12.845  11.771  20.801  0.00  0.00    +0.023 A 
+ATOM      5  C   UNL     1      13.189  13.126  20.831  0.00  0.00    +0.017 A 
+ATOM      6  C   UNL     1      14.098  13.640  19.900  0.00  0.00    +0.059 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  N   UNL     1      12.994   9.581  19.772  0.00  0.00    -0.358 N 
+ATOM      8  H   UNL     1      12.567   9.353  18.880  0.00  0.00    +0.142 HD
+ATOM      9  H   UNL     1      12.432   9.270  20.558  0.00  0.00    +0.142 HD
+ENDBRANCH   3   7
+BRANCH   6  10
+ATOM     10  C   UNL     1      14.432  15.083  19.965  0.00  0.00    +0.337 C 
+ATOM     11  O   UNL     1      14.811  15.685  20.952  0.00  0.00    -0.245 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1      14.279  15.709  18.784  0.00  0.00    -0.477 OA
+ATOM     13  H   UNL     1      15.186  15.737  18.416  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   6  10
+TORSDOF 3
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -3.461      1.821      2.618
+REMARK INTER + INTRA:          -3.897
+REMARK INTER:                  -3.856
+REMARK INTRA:                  -0.040
+REMARK UNBOUND:                -0.031
+REMARK  Name = 4-Aminobenzoic acid
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_10
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      10.190   8.875  21.979  0.00  0.00    +0.017 A 
+ATOM      2  C   UNL     1      10.260   9.022  20.590  0.00  0.00    +0.023 A 
+ATOM      3  C   UNL     1      11.331   9.694  19.994  0.00  0.00    +0.025 A 
+ATOM      4  C   UNL     1      12.385  10.127  20.803  0.00  0.00    +0.023 A 
+ATOM      5  C   UNL     1      12.324   9.985  22.193  0.00  0.00    +0.017 A 
+ATOM      6  C   UNL     1      11.220   9.365  22.788  0.00  0.00    +0.059 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  N   UNL     1      11.452   9.730  18.601  0.00  0.00    -0.358 N 
+ATOM      8  H   UNL     1      12.031   8.991  18.217  0.00  0.00    +0.142 HD
+ATOM      9  H   UNL     1      11.697  10.643  18.232  0.00  0.00    +0.142 HD
+ENDBRANCH   3   7
+BRANCH   6  10
+ATOM     10  C   UNL     1      11.198   9.232  24.264  0.00  0.00    +0.337 C 
+ATOM     11  O   UNL     1      10.511   8.456  24.902  0.00  0.00    -0.245 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1      12.045  10.079  24.878  0.00  0.00    -0.477 OA
+ATOM     13  H   UNL     1      12.714   9.488  25.281  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   6  10
+TORSDOF 3
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -3.412      1.831      2.347
+REMARK INTER + INTRA:          -3.842
+REMARK INTER:                  -3.803
+REMARK INTRA:                  -0.039
+REMARK UNBOUND:                -0.031
+REMARK  Name = 4-Aminobenzoic acid
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_10
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      12.408   9.877  22.128  0.00  0.00    +0.017 A 
+ATOM      2  C   UNL     1      12.464   9.953  20.733  0.00  0.00    +0.023 A 
+ATOM      3  C   UNL     1      11.421   9.456  19.946  0.00  0.00    +0.025 A 
+ATOM      4  C   UNL     1      10.273   8.974  20.581  0.00  0.00    +0.023 A 
+ATOM      5  C   UNL     1      10.208   8.894  21.976  0.00  0.00    +0.017 A 
+ATOM      6  C   UNL     1      11.281   9.338  22.755  0.00  0.00    +0.059 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  N   UNL     1      11.433   9.644  18.561  0.00  0.00    -0.358 N 
+ATOM      8  H   UNL     1      10.583  10.060  18.193  0.00  0.00    +0.142 HD
+ATOM      9  H   UNL     1      11.721   8.825  18.035  0.00  0.00    +0.142 HD
+ENDBRANCH   3   7
+BRANCH   6  10
+ATOM     10  C   UNL     1      11.168   9.239  24.231  0.00  0.00    +0.337 C 
+ATOM     11  O   UNL     1      10.396   8.523  24.842  0.00  0.00    -0.245 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1      12.032  10.042  24.876  0.00  0.00    -0.477 OA
+ATOM     13  H   UNL     1      12.288  10.702  24.198  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   6  10
+TORSDOF 3
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -3.362      3.602      4.492
+REMARK INTER + INTRA:          -3.786
+REMARK INTER:                  -3.745
+REMARK INTRA:                  -0.041
+REMARK UNBOUND:                -0.031
+REMARK  Name = 4-Aminobenzoic acid
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_10
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      10.550   9.010  23.141  0.00  0.00    +0.017 A 
+ATOM      2  C   UNL     1      11.227   9.388  24.305  0.00  0.00    +0.023 A 
+ATOM      3  C   UNL     1      12.498   9.964  24.239  0.00  0.00    +0.025 A 
+ATOM      4  C   UNL     1      13.040  10.250  22.982  0.00  0.00    +0.023 A 
+ATOM      5  C   UNL     1      12.372   9.875  21.813  0.00  0.00    +0.017 A 
+ATOM      6  C   UNL     1      11.125   9.244  21.889  0.00  0.00    +0.059 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  N   UNL     1      13.114  10.448  25.397  0.00  0.00    -0.358 N 
+ATOM      8  H   UNL     1      13.090  11.458  25.487  0.00  0.00    +0.142 HD
+ATOM      9  H   UNL     1      14.040  10.067  25.562  0.00  0.00    +0.142 HD
+ENDBRANCH   3   7
+BRANCH   6  10
+ATOM     10  C   UNL     1      10.449   8.867  20.624  0.00  0.00    +0.337 C 
+ATOM     11  O   UNL     1       9.510   8.100  20.517  0.00  0.00    -0.245 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1      10.980   9.473  19.547  0.00  0.00    -0.477 OA
+ATOM     13  H   UNL     1      11.284   8.729  18.987  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   6  10
+TORSDOF 3
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -3.275      2.316      2.873
+REMARK INTER + INTRA:          -3.688
+REMARK INTER:                  -3.659
+REMARK INTRA:                  -0.030
+REMARK UNBOUND:                -0.031
+REMARK  Name = 4-Aminobenzoic acid
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_10
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      10.766   9.466  24.247  0.00  0.00    +0.017 A 
+ATOM      2  C   UNL     1       9.760   8.549  24.569  0.00  0.00    +0.023 A 
+ATOM      3  C   UNL     1      10.074   7.230  24.906  0.00  0.00    +0.025 A 
+ATOM      4  C   UNL     1      11.420   6.869  25.016  0.00  0.00    +0.023 A 
+ATOM      5  C   UNL     1      12.433   7.778  24.695  0.00  0.00    +0.017 A 
+ATOM      6  C   UNL     1      12.108   9.080  24.301  0.00  0.00    +0.059 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  N   UNL     1       9.073   6.356  25.341  0.00  0.00    -0.358 N 
+ATOM      8  H   UNL     1       8.666   5.793  24.602  0.00  0.00    +0.142 HD
+ATOM      9  H   UNL     1       8.368   6.794  25.925  0.00  0.00    +0.142 HD
+ENDBRANCH   3   7
+BRANCH   6  10
+ATOM     10  C   UNL     1      13.214  10.013  23.975  0.00  0.00    +0.337 C 
+ATOM     11  O   UNL     1      13.951   9.938  23.009  0.00  0.00    -0.245 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1      13.343  11.005  24.875  0.00  0.00    -0.477 OA
+ATOM     13  H   UNL     1      14.255  11.333  24.730  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   6  10
+TORSDOF 3
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -3.274      6.355      7.069
+REMARK INTER + INTRA:          -3.688
+REMARK INTER:                  -3.646
+REMARK INTRA:                  -0.042
+REMARK UNBOUND:                -0.031
+REMARK  Name = 4-Aminobenzoic acid
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_10
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      15.467  13.405  18.718  0.00  0.00    +0.017 A 
+ATOM      2  C   UNL     1      15.733  14.715  18.307  0.00  0.00    +0.023 A 
+ATOM      3  C   UNL     1      15.077  15.798  18.899  0.00  0.00    +0.025 A 
+ATOM      4  C   UNL     1      14.225  15.557  19.980  0.00  0.00    +0.023 A 
+ATOM      5  C   UNL     1      13.952  14.251  20.398  0.00  0.00    +0.017 A 
+ATOM      6  C   UNL     1      14.567  13.167  19.761  0.00  0.00    +0.059 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  N   UNL     1      15.438  17.108  18.566  0.00  0.00    -0.358 N 
+ATOM      8  H   UNL     1      16.243  17.458  19.075  0.00  0.00    +0.142 HD
+ATOM      9  H   UNL     1      14.663  17.764  18.571  0.00  0.00    +0.142 HD
+ENDBRANCH   3   7
+BRANCH   6  10
+ATOM     10  C   UNL     1      14.252  11.799  20.238  0.00  0.00    +0.337 C 
+ATOM     11  O   UNL     1      14.713  10.764  19.794  0.00  0.00    -0.245 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1      13.373  11.790  21.255  0.00  0.00    -0.477 OA
+ATOM     13  H   UNL     1      12.523  12.032  20.831  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   6  10
+TORSDOF 3
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.260      3.423      4.193
+REMARK INTER + INTRA:          -3.672
+REMARK INTER:                  -3.636
+REMARK INTRA:                  -0.035
+REMARK UNBOUND:                -0.031
+REMARK  Name = 4-Aminobenzoic acid
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_10
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      13.236  11.109  21.978  0.00  0.00    +0.017 A 
+ATOM      2  C   UNL     1      12.610  10.010  22.573  0.00  0.00    +0.023 A 
+ATOM      3  C   UNL     1      11.622   9.293  21.892  0.00  0.00    +0.025 A 
+ATOM      4  C   UNL     1      11.341   9.633  20.565  0.00  0.00    +0.023 A 
+ATOM      5  C   UNL     1      11.962  10.731  19.962  0.00  0.00    +0.017 A 
+ATOM      6  C   UNL     1      12.907  11.480  20.671  0.00  0.00    +0.059 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  N   UNL     1      11.089   8.126  22.448  0.00  0.00    -0.358 N 
+ATOM      8  H   UNL     1      11.787   7.484  22.809  0.00  0.00    +0.142 HD
+ATOM      9  H   UNL     1      10.407   7.661  21.857  0.00  0.00    +0.142 HD
+ENDBRANCH   3   7
+BRANCH   6  10
+ATOM     10  C   UNL     1      13.543  12.634  19.992  0.00  0.00    +0.337 C 
+ATOM     11  O   UNL     1      13.731  13.735  20.477  0.00  0.00    -0.245 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1      13.920  12.356  18.731  0.00  0.00    -0.477 OA
+ATOM     13  H   UNL     1      13.137  11.910  18.346  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   6  10
+TORSDOF 3
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.097      3.539      4.121
+REMARK INTER + INTRA:          -3.490
+REMARK INTER:                  -3.448
+REMARK INTRA:                  -0.042
+REMARK UNBOUND:                -0.031
+REMARK  Name = 4-Aminobenzoic acid
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_10
+REMARK    2  A    between atoms: C_6  and  C_7
+REMARK    3  A    between atoms: C_7  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      11.240   6.955  24.949  0.00  0.00    +0.017 A 
+ATOM      2  C   UNL     1      12.342   7.388  24.204  0.00  0.00    +0.023 A 
+ATOM      3  C   UNL     1      12.294   8.584  23.484  0.00  0.00    +0.025 A 
+ATOM      4  C   UNL     1      11.159   9.393  23.601  0.00  0.00    +0.023 A 
+ATOM      5  C   UNL     1      10.052   8.967  24.341  0.00  0.00    +0.017 A 
+ATOM      6  C   UNL     1      10.085   7.740  25.012  0.00  0.00    +0.059 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  N   UNL     1      13.439   9.068  22.843  0.00  0.00    -0.358 N 
+ATOM      8  H   UNL     1      13.725   8.519  22.038  0.00  0.00    +0.142 HD
+ATOM      9  H   UNL     1      14.212   9.264  23.471  0.00  0.00    +0.142 HD
+ENDBRANCH   3   7
+BRANCH   6  10
+ATOM     10  C   UNL     1       8.891   7.330  25.789  0.00  0.00    +0.337 C 
+ATOM     11  O   UNL     1       8.741   6.266  26.361  0.00  0.00    -0.245 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1       7.936   8.277  25.818  0.00  0.00    -0.477 OA
+ATOM     13  H   UNL     1       7.263   7.910  26.428  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   6  10
+TORSDOF 3
+ENDMDL

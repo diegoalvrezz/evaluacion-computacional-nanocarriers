@@ -1,0 +1,432 @@
+MODEL 1
+REMARK VINA RESULT:    -5.030      0.000      0.000
+REMARK INTER + INTRA:          -6.997
+REMARK INTER:                  -6.500
+REMARK INTRA:                  -0.497
+REMARK UNBOUND:                -0.497
+REMARK  Name = Lactic acid dimer
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_11
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -16.714 -28.738  -5.403  0.00  0.00    -0.448 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -15.658 -28.500  -6.241  0.00  0.00    +0.336 C 
+ATOM      3  O   UNL     1     -14.682 -29.229  -6.356  0.00  0.00    -0.248 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -15.450 -25.994  -6.264  0.00  0.00    +0.049 C 
+ATOM      5  C   UNL     1     -15.912 -27.215  -7.043  0.00  0.00    +0.220 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1     -17.286 -27.022  -7.374  0.00  0.00    -0.381 OA
+ATOM      7  H   UNL     1     -17.300 -26.391  -8.118  0.00  0.00    +0.210 HD
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1     -17.161 -30.103  -5.392  0.00  0.00    +0.281 C 
+ATOM      9  C   UNL     1     -17.966 -30.301  -4.115  0.00  0.00    +0.064 C 
+BRANCH   8  10
+ATOM     10  C   UNL     1     -18.036 -30.402  -6.606  0.00  0.00    +0.346 C 
+ATOM     11  O   UNL     1     -17.926 -31.349  -7.369  0.00  0.00    -0.247 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1     -19.005 -29.481  -6.797  0.00  0.00    -0.478 OA
+ATOM     13  H   UNL     1     -18.813 -28.792  -6.126  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -5.028      1.333      2.030
+REMARK INTER + INTRA:          -6.994
+REMARK INTER:                  -6.861
+REMARK INTRA:                  -0.133
+REMARK UNBOUND:                -0.497
+REMARK  Name = Lactic acid dimer
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_11
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -16.267 -29.636  -6.576  0.00  0.00    -0.448 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -15.928 -28.478  -5.930  0.00  0.00    +0.336 C 
+ATOM      3  O   UNL     1     -15.625 -28.405  -4.746  0.00  0.00    -0.248 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -15.317 -26.067  -6.301  0.00  0.00    +0.049 C 
+ATOM      5  C   UNL     1     -15.938 -27.307  -6.923  0.00  0.00    +0.220 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1     -17.248 -26.959  -7.368  0.00  0.00    -0.381 OA
+ATOM      7  H   UNL     1     -17.296 -27.224  -8.305  0.00  0.00    +0.210 HD
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1     -17.636 -30.033  -6.394  0.00  0.00    +0.281 C 
+ATOM      9  C   UNL     1     -18.121 -30.593  -7.725  0.00  0.00    +0.064 C 
+BRANCH   8  10
+ATOM     10  C   UNL     1     -17.756 -31.101  -5.311  0.00  0.00    +0.346 C 
+ATOM     11  O   UNL     1     -17.952 -30.914  -4.120  0.00  0.00    -0.247 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1     -17.614 -32.356  -5.788  0.00  0.00    -0.478 OA
+ATOM     13  H   UNL     1     -18.181 -32.899  -5.200  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.874      2.020      2.698
+REMARK INTER + INTRA:          -6.795
+REMARK INTER:                  -6.617
+REMARK INTRA:                  -0.178
+REMARK UNBOUND:                -0.497
+REMARK  Name = Lactic acid dimer
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_11
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -17.260 -28.945  -7.025  0.00  0.00    -0.448 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -16.784 -29.154  -8.292  0.00  0.00    +0.336 C 
+ATOM      3  O   UNL     1     -17.203 -30.010  -9.060  0.00  0.00    -0.248 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -16.303 -26.797  -9.023  0.00  0.00    +0.049 C 
+ATOM      5  C   UNL     1     -15.690 -28.125  -8.611  0.00  0.00    +0.220 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1     -14.816 -28.542  -9.659  0.00  0.00    -0.381 OA
+ATOM      7  H   UNL     1     -15.328 -28.464 -10.486  0.00  0.00    +0.210 HD
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1     -16.569 -29.687  -6.006  0.00  0.00    +0.281 C 
+ATOM      9  C   UNL     1     -15.904 -28.673  -5.086  0.00  0.00    +0.064 C 
+BRANCH   8  10
+ATOM     10  C   UNL     1     -17.540 -30.551  -5.206  0.00  0.00    +0.346 C 
+ATOM     11  O   UNL     1     -18.241 -30.189  -4.273  0.00  0.00    -0.247 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1     -17.571 -31.834  -5.623  0.00  0.00    -0.478 OA
+ATOM     13  H   UNL     1     -18.336 -32.221  -5.145  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.873      1.741      4.160
+REMARK INTER + INTRA:          -6.794
+REMARK INTER:                  -6.680
+REMARK INTRA:                  -0.115
+REMARK UNBOUND:                -0.497
+REMARK  Name = Lactic acid dimer
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_11
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -17.268 -29.255  -7.531  0.00  0.00    -0.448 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -16.766 -29.817  -6.387  0.00  0.00    +0.336 C 
+ATOM      3  O   UNL     1     -15.625 -29.656  -5.975  0.00  0.00    -0.248 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -18.013 -30.191  -4.236  0.00  0.00    +0.049 C 
+ATOM      5  C   UNL     1     -17.864 -30.629  -5.684  0.00  0.00    +0.220 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1     -17.613 -32.033  -5.688  0.00  0.00    -0.381 OA
+ATOM      7  H   UNL     1     -17.254 -32.242  -6.570  0.00  0.00    +0.210 HD
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1     -16.279 -28.622  -8.358  0.00  0.00    +0.281 C 
+ATOM      9  C   UNL     1     -16.455 -29.172  -9.767  0.00  0.00    +0.064 C 
+BRANCH   8  10
+ATOM     10  C   UNL     1     -16.466 -27.107  -8.370  0.00  0.00    +0.346 C 
+ATOM     11  O   UNL     1     -16.007 -26.322  -9.186  0.00  0.00    -0.247 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1     -17.218 -26.660  -7.342  0.00  0.00    -0.478 OA
+ATOM     13  H   UNL     1     -18.136 -26.884  -7.606  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.849      1.983      3.606
+REMARK INTER + INTRA:          -6.764
+REMARK INTER:                  -6.355
+REMARK INTRA:                  -0.409
+REMARK UNBOUND:                -0.497
+REMARK  Name = Lactic acid dimer
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_11
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -16.304 -29.917  -6.795  0.00  0.00    -0.448 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -16.711 -29.552  -5.540  0.00  0.00    +0.336 C 
+ATOM      3  O   UNL     1     -16.203 -28.657  -4.877  0.00  0.00    -0.248 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -18.189 -30.254  -3.632  0.00  0.00    +0.049 C 
+ATOM      5  C   UNL     1     -17.922 -30.397  -5.121  0.00  0.00    +0.220 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1     -17.760 -31.787  -5.400  0.00  0.00    -0.381 OA
+ATOM      7  H   UNL     1     -16.928 -31.868  -5.902  0.00  0.00    +0.210 HD
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1     -17.065 -29.321  -7.858  0.00  0.00    +0.281 C 
+ATOM      9  C   UNL     1     -16.112 -28.432  -8.647  0.00  0.00    +0.064 C 
+BRANCH   8  10
+ATOM     10  C   UNL     1     -17.652 -30.389  -8.776  0.00  0.00    +0.346 C 
+ATOM     11  O   UNL     1     -18.397 -31.301  -8.451  0.00  0.00    -0.247 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1     -17.262 -30.254 -10.061  0.00  0.00    -0.478 OA
+ATOM     13  H   UNL     1     -16.341 -30.593 -10.066  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.820     12.795     13.977
+REMARK INTER + INTRA:          -6.726
+REMARK INTER:                  -6.216
+REMARK INTRA:                  -0.510
+REMARK UNBOUND:                -0.497
+REMARK  Name = Lactic acid dimer
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_11
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -24.149 -22.075 -14.846  0.00  0.00    -0.448 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -22.991 -21.361 -14.691  0.00  0.00    +0.336 C 
+ATOM      3  O   UNL     1     -21.874 -21.855 -14.617  0.00  0.00    -0.248 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -24.618 -19.591 -13.955  0.00  0.00    +0.049 C 
+ATOM      5  C   UNL     1     -23.307 -19.858 -14.675  0.00  0.00    +0.220 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1     -23.407 -19.292 -15.981  0.00  0.00    -0.381 OA
+ATOM      7  H   UNL     1     -23.663 -20.023 -16.574  0.00  0.00    +0.210 HD
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1     -24.142 -22.971 -15.970  0.00  0.00    +0.281 C 
+ATOM      9  C   UNL     1     -24.432 -24.366 -15.432  0.00  0.00    +0.064 C 
+BRANCH   8  10
+ATOM     10  C   UNL     1     -25.209 -22.578 -16.988  0.00  0.00    +0.346 C 
+ATOM     11  O   UNL     1     -26.192 -23.232 -17.304  0.00  0.00    -0.247 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1     -24.974 -21.380 -17.563  0.00  0.00    -0.478 OA
+ATOM     13  H   UNL     1     -24.009 -21.384 -17.735  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -4.814      1.925      4.380
+REMARK INTER + INTRA:          -6.719
+REMARK INTER:                  -6.582
+REMARK INTRA:                  -0.137
+REMARK UNBOUND:                -0.497
+REMARK  Name = Lactic acid dimer
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_11
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -16.945 -29.387  -7.903  0.00  0.00    -0.448 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -17.818 -30.341  -7.453  0.00  0.00    +0.336 C 
+ATOM      3  O   UNL     1     -18.101 -30.524  -6.276  0.00  0.00    -0.248 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -18.492 -32.590  -8.352  0.00  0.00    +0.049 C 
+ATOM      5  C   UNL     1     -18.416 -31.100  -8.645  0.00  0.00    +0.220 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1     -17.669 -30.934  -9.849  0.00  0.00    -0.381 OA
+ATOM      7  H   UNL     1     -17.319 -30.023  -9.827  0.00  0.00    +0.210 HD
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1     -16.492 -28.476  -6.889  0.00  0.00    +0.281 C 
+ATOM      9  C   UNL     1     -15.055 -28.852  -6.556  0.00  0.00    +0.064 C 
+BRANCH   8  10
+ATOM     10  C   UNL     1     -16.546 -27.034  -7.386  0.00  0.00    +0.346 C 
+ATOM     11  O   UNL     1     -16.629 -26.665  -8.547  0.00  0.00    -0.247 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1     -16.483 -26.129  -6.386  0.00  0.00    -0.478 OA
+ATOM     13  H   UNL     1     -17.164 -25.464  -6.625  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -4.759     12.733     14.264
+REMARK INTER + INTRA:          -6.647
+REMARK INTER:                  -6.419
+REMARK INTRA:                  -0.228
+REMARK UNBOUND:                -0.497
+REMARK  Name = Lactic acid dimer
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_11
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -23.597 -22.563 -15.926  0.00  0.00    -0.448 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -24.503 -23.577 -15.764  0.00  0.00    +0.336 C 
+ATOM      3  O   UNL     1     -24.317 -24.573 -15.077  0.00  0.00    -0.248 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -26.761 -24.418 -16.481  0.00  0.00    +0.049 C 
+ATOM      5  C   UNL     1     -25.793 -23.248 -16.528  0.00  0.00    +0.220 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1     -25.567 -22.929 -17.901  0.00  0.00    -0.381 OA
+ATOM      7  H   UNL     1     -25.205 -22.023 -17.912  0.00  0.00    +0.210 HD
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1     -23.365 -21.786 -14.741  0.00  0.00    +0.281 C 
+ATOM      9  C   UNL     1     -21.868 -21.514 -14.670  0.00  0.00    +0.064 C 
+BRANCH   8  10
+ATOM     10  C   UNL     1     -24.126 -20.465 -14.795  0.00  0.00    +0.346 C 
+ATOM     11  O   UNL     1     -24.604 -19.858 -13.849  0.00  0.00    -0.247 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1     -24.252 -19.979 -16.048  0.00  0.00    -0.478 OA
+ATOM     13  H   UNL     1     -23.416 -19.490 -16.198  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -4.745      1.467      2.452
+REMARK INTER + INTRA:          -6.629
+REMARK INTER:                  -6.301
+REMARK INTRA:                  -0.328
+REMARK UNBOUND:                -0.497
+REMARK  Name = Lactic acid dimer
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  O_11
+REMARK    4  A    between atoms: C_3  and  O_5
+REMARK    5  A    between atoms: O_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_6  and  C_8
+REMARK    8  A    between atoms: C_8  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1     -16.428 -29.463  -7.218  0.00  0.00    -0.448 OA
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -16.349 -28.117  -7.454  0.00  0.00    +0.336 C 
+ATOM      3  O   UNL     1     -16.471 -27.595  -8.554  0.00  0.00    -0.248 OA
+BRANCH   2   5
+ATOM      4  C   UNL     1     -15.413 -26.055  -6.363  0.00  0.00    +0.049 C 
+ATOM      5  C   UNL     1     -16.138 -27.369  -6.129  0.00  0.00    +0.220 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1     -15.383 -28.117  -5.177  0.00  0.00    -0.381 OA
+ATOM      7  H   UNL     1     -15.984 -28.286  -4.427  0.00  0.00    +0.210 HD
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1     -17.739 -29.921  -6.847  0.00  0.00    +0.281 C 
+ATOM      9  C   UNL     1     -18.185 -30.913  -7.912  0.00  0.00    +0.064 C 
+BRANCH   8  10
+ATOM     10  C   UNL     1     -17.713 -30.605  -5.483  0.00  0.00    +0.346 C 
+ATOM     11  O   UNL     1     -17.794 -30.061  -4.393  0.00  0.00    -0.247 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1     -17.580 -31.945  -5.568  0.00  0.00    -0.478 OA
+ATOM     13  H   UNL     1     -17.689 -32.135  -6.524  0.00  0.00    +0.295 HD
+ENDBRANCH  10  12
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+TORSDOF 6
+ENDMDL

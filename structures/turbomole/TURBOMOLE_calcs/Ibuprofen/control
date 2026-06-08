@@ -1,0 +1,84 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+$optimize
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+c  1-13                                                                        \
+   basis =c def2-TZVP                                                          \
+   jbas  =c def2-TZVP
+o  14-15                                                                       \
+   basis =o def2-TZVP                                                          \
+   jbas  =o def2-TZVP
+h  16-33                                                                       \
+   basis =h def2-TZVP                                                          \
+   jbas  =h def2-TZVP
+$basis    file=basis
+$scfmo    file=mos
+$closed shells
+ a       1-56                                   ( 2 )
+$scfiterlimit       30
+$thize     0.10000000E-04
+$thime        5
+$scfdamp   start=0.300  step=0.050  min=0.100
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$dft
+    functional   b3-lyp
+    gridsize   m4
+$scfconv   7
+$ricore     8000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=33
+   nbf(CAO)=648
+   nbf(AO)=573
+$last step     tm2molden
+$cosmo_out file=Ibuprofen.cosmo
+$moldenfile file=Ibuprofen.molden
+$scfiterlimit 500
+$scfdamp   start=0.700  step=0.050  min=0.100
+$xctype hybrid-GGA X= 0.20000 (not to be modified here)
+$last SCF energy change = -.21096821E-06
+$charge from ridft
+          0.000 (not to be modified here)
+$dipole from ridft
+  x    -0.41428642315375    y    -0.22524088981010    z    -0.52490889505740    a.u.
+   | dipole | =    1.7935143279  debye
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$orbital_max_rnorm 0.90524826729949E-04
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-656.5509044513    -2807.819278331     1261.118318636    -71.75611019039    -4.413814131142     966.3199795659
+$end

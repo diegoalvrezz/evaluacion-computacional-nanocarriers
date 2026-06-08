@@ -1,0 +1,86 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+$optimize
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+c  1-4,8,10                                                                    \
+   basis =c def2-TZVP                                                          \
+   jbas  =c def2-TZVP
+o  5-6                                                                         \
+   basis =o def2-TZVP                                                          \
+   jbas  =o def2-TZVP
+n  7,9,11-12                                                                   \
+   basis =n def2-TZVP                                                          \
+   jbas  =n def2-TZVP
+h  13-26                                                                       \
+   basis =h def2-TZVP                                                          \
+   jbas  =h def2-TZVP
+$basis    file=basis
+$scfmo   file=mos
+$closed shells
+ a       1-47                                   ( 2 )
+$scfiterlimit       30
+$thize     0.10000000E-04
+$thime        5
+$scfdamp   start=0.300  step=0.050  min=0.100
+$scfdump
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$dft
+    functional   b3-lyp
+    gridsize   m3
+$scfconv   7
+$ricore     5000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=26
+   nbf(CAO)=516
+   nbf(AO)=456
+$last step     tm2molden
+$cosmo_out file=Arginine.cosmo
+$moldenfile file=Arginine.molden
+$xctype hybrid-GGA X= 0.20000 (not to be modified here)
+$last SCF energy change = -.72782882E-07
+$charge from ridft
+          0.000 (not to be modified here)
+$dipole from ridft
+  x     1.10858174214560    y     0.05056072012131    z     0.27401489277448    a.u.
+   | dipole | =    2.9053994208  debye
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$orbital_max_rnorm 0.19244242970513E-04
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-606.4488701747    -2234.094016647     984.4341616046    -62.87867582167    -3.773853802684     709.8635144923
+$end

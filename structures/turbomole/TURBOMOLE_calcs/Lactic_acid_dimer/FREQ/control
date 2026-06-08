@@ -1,0 +1,101 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+c  1-3,6-8                                                                     \
+   basis =c def2-TZVP                                                          \
+   jbas  =c def2-TZVP
+o  4-5,9-11                                                                    \
+   basis =o def2-TZVP                                                          \
+   jbas  =o def2-TZVP
+h  12-21                                                                       \
+   basis =h def2-TZVP                                                          \
+   jbas  =h def2-TZVP
+$basis    file=basis
+$scfmo   file=mos
+$closed shells
+ a       1-43                                   ( 2 )
+$scfiterlimit       30
+$thize     0.10000000E-04
+$thime        5
+$scfdamp   start=0.300  step=0.050  min=0.100
+$scfdump
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$dft
+    functional   b3-lyp
+    gridsize   m3
+$scfconv   7
+$ricore     5000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=21
+   nbf(CAO)=456
+   nbf(AO)=401
+$last step     force
+$cosmo_out file=Lactic_acid_dimer.cosmo
+$moldenfile file=Lactic_acid_dimer.molden
+$xctype hybrid-GGA X= 0.20000 (not to be modified here)
+$last SCF energy change = -610.74316
+$charge from ridft
+          0.000 (not to be modified here)
+$dipole from force
+  x    -0.80794648793044    y     0.54403171859691    z     0.39333253404519    a.u.
+   | dipole | =    2.6700138713  debye
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$orbital_max_rnorm 0.95550570634786E-05
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-610.7431610478    -2152.539089987     941.8282788951    -60.37020699384    -3.514633663111     663.8524907009
+$dipgrad    file=dipgrad
+$hessian (projected)    file=hessian
+$vibrational normal modes    file=vib_normal_modes
+$vibrational reduced masses
+   6.5944664522   5.9632849969   5.0182741986   6.5433240632   7.2150662582
+   7.1974663304   3.7162245601   6.2369727831   6.4280002348  12.4412756722
+   3.8071719071   2.0922091802   1.4341965953   1.0679497509   3.2936465235
+   2.9189975539   1.3708053464   4.1854433013   4.2372839144   3.0673885934
+   6.0944576078   5.1776434987   2.3076496641   1.6423673810   4.1555130564
+   4.2596966538   3.8518000513   2.4851743731   3.9884811570   2.1544069485
+   2.3793109479   2.1113039175   2.1788069854   1.8202383733   2.6735309153
+   2.8820623613   2.8198646961   2.1233596402   3.5562918812   1.1824647968
+   1.4520306355   1.4275832986   1.3579778803   1.4281084348   1.4616735034
+   1.3953624779   1.3805371306   1.0527035747   1.0487398022   1.0520206302
+   1.0649191115  12.4195641158  10.3737715631   1.0807974673   1.0349043190
+   1.0355820645   1.0848029094   1.1025177659   1.1023520304   1.1026391082
+   1.1021480978   1.0643087988   1.0657072047
+$nvibro       63
+$vibrational spectrum    file=vibspectrum
+$end

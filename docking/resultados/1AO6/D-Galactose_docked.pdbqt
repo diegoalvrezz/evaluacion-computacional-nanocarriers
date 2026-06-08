@@ -1,0 +1,450 @@
+MODEL 1
+REMARK VINA RESULT:    -4.500      0.000      0.000
+REMARK INTER + INTRA:          -5.672
+REMARK INTER:                  -5.420
+REMARK INTRA:                  -0.251
+REMARK UNBOUND:                -0.251
+REMARK  Name = D-Galactose
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  O_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       8.349  20.414  10.007  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1       6.939  20.922   9.683  0.00  0.00    +0.177 C 
+ATOM      3  C   UNL     1       6.528  21.975  10.718  0.00  0.00    +0.179 C 
+ATOM      4  C   UNL     1       6.639  21.412  12.137  0.00  0.00    +0.201 C 
+ATOM      5  C   UNL     1       8.035  20.802  12.357  0.00  0.00    +0.279 C 
+ATOM      6  O   UNL     1       8.389  19.870  11.339  0.00  0.00    -0.341 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  O   UNL     1       9.014  21.826  12.416  0.00  0.00    -0.365 OA
+ATOM      8  H   UNL     1       8.735  22.460  11.732  0.00  0.00    +0.213 HD
+ENDBRANCH   5   7
+BRANCH   4   9
+ATOM      9  O   UNL     1       5.609  20.430  12.339  0.00  0.00    -0.384 OA
+ATOM     10  H   UNL     1       6.052  19.644  12.715  0.00  0.00    +0.210 HD
+ENDBRANCH   4   9
+BRANCH   3  11
+ATOM     11  O   UNL     1       5.166  22.369  10.455  0.00  0.00    -0.386 OA
+ATOM     12  H   UNL     1       4.699  22.351  11.311  0.00  0.00    +0.210 HD
+ENDBRANCH   3  11
+BRANCH   2  13
+ATOM     13  O   UNL     1       6.877  21.506   8.378  0.00  0.00    -0.386 OA
+ATOM     14  H   UNL     1       6.068  21.136   7.970  0.00  0.00    +0.210 HD
+ENDBRANCH   2  13
+BRANCH   1  15
+ATOM     15  C   UNL     1       8.778  19.314   9.027  0.00  0.00    +0.190 C 
+BRANCH  15  16
+ATOM     16  O   UNL     1       7.625  18.677   8.468  0.00  0.00    -0.392 OA
+ATOM     17  H   UNL     1       7.027  18.484   9.209  0.00  0.00    +0.210 HD
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.406      2.431      4.247
+REMARK INTER + INTRA:          -5.559
+REMARK INTER:                  -5.316
+REMARK INTRA:                  -0.243
+REMARK UNBOUND:                -0.251
+REMARK  Name = D-Galactose
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  O_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      10.386  18.804   9.040  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1      10.437  18.789  10.572  0.00  0.00    +0.177 C 
+ATOM      3  C   UNL     1       9.016  18.629  11.126  0.00  0.00    +0.179 C 
+ATOM      4  C   UNL     1       8.095  19.722  10.578  0.00  0.00    +0.201 C 
+ATOM      5  C   UNL     1       8.187  19.771   9.043  0.00  0.00    +0.279 C 
+ATOM      6  O   UNL     1       9.531  19.867   8.580  0.00  0.00    -0.341 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  O   UNL     1       7.577  18.623   8.478  0.00  0.00    -0.365 OA
+ATOM      8  H   UNL     1       8.322  18.022   8.300  0.00  0.00    +0.213 HD
+ENDBRANCH   5   7
+BRANCH   4   9
+ATOM      9  O   UNL     1       8.462  20.986  11.158  0.00  0.00    -0.384 OA
+ATOM     10  H   UNL     1       8.795  20.787  12.055  0.00  0.00    +0.210 HD
+ENDBRANCH   4   9
+BRANCH   3  11
+ATOM     11  O   UNL     1       9.073  18.715  12.565  0.00  0.00    -0.386 OA
+ATOM     12  H   UNL     1       9.999  18.919  12.796  0.00  0.00    +0.210 HD
+ENDBRANCH   3  11
+BRANCH   2  13
+ATOM     13  O   UNL     1      11.248  17.716  11.062  0.00  0.00    -0.386 OA
+ATOM     14  H   UNL     1      12.108  17.818  10.609  0.00  0.00    +0.210 HD
+ENDBRANCH   2  13
+BRANCH   1  15
+ATOM     15  C   UNL     1      11.783  19.020   8.444  0.00  0.00    +0.190 C 
+BRANCH  15  16
+ATOM     16  O   UNL     1      12.473  17.769   8.345  0.00  0.00    -0.392 OA
+ATOM     17  H   UNL     1      11.791  17.078   8.301  0.00  0.00    +0.210 HD
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.307      2.094      3.042
+REMARK INTER + INTRA:          -5.439
+REMARK INTER:                  -5.398
+REMARK INTRA:                  -0.041
+REMARK UNBOUND:                -0.251
+REMARK  Name = D-Galactose
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  O_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      10.463  19.189  10.437  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1       9.518  19.180   9.229  0.00  0.00    +0.177 C 
+ATOM      3  C   UNL     1       8.464  20.280   9.401  0.00  0.00    +0.179 C 
+ATOM      4  C   UNL     1       7.723  20.117  10.730  0.00  0.00    +0.201 C 
+ATOM      5  C   UNL     1       8.730  20.003  11.888  0.00  0.00    +0.279 C 
+ATOM      6  O   UNL     1       9.718  19.004  11.654  0.00  0.00    -0.341 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  O   UNL     1       9.368  21.251  12.107  0.00  0.00    -0.365 OA
+ATOM      8  H   UNL     1       8.814  21.889  11.624  0.00  0.00    +0.213 HD
+ENDBRANCH   5   7
+BRANCH   4   9
+ATOM      9  O   UNL     1       6.880  18.954  10.663  0.00  0.00    -0.384 OA
+ATOM     10  H   UNL     1       7.444  18.228  10.335  0.00  0.00    +0.210 HD
+ENDBRANCH   4   9
+BRANCH   3  11
+ATOM     11  O   UNL     1       7.528  20.192   8.306  0.00  0.00    -0.386 OA
+ATOM     12  H   UNL     1       6.784  19.643   8.618  0.00  0.00    +0.210 HD
+ENDBRANCH   3  11
+BRANCH   2  13
+ATOM     13  O   UNL     1      10.225  19.403   8.005  0.00  0.00    -0.386 OA
+ATOM     14  H   UNL     1      10.278  20.375   7.913  0.00  0.00    +0.210 HD
+ENDBRANCH   2  13
+BRANCH   1  15
+ATOM     15  C   UNL     1      11.501  18.064  10.333  0.00  0.00    +0.190 C 
+BRANCH  15  16
+ATOM     16  O   UNL     1      11.885  17.628  11.642  0.00  0.00    -0.392 OA
+ATOM     17  H   UNL     1      11.948  16.659  11.604  0.00  0.00    +0.210 HD
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.142      1.994      2.256
+REMARK INTER + INTRA:          -5.240
+REMARK INTER:                  -4.998
+REMARK INTRA:                  -0.242
+REMARK UNBOUND:                -0.251
+REMARK  Name = D-Galactose
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  O_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       9.240  19.530  10.001  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1       7.934  18.784   9.700  0.00  0.00    +0.177 C 
+ATOM      3  C   UNL     1       6.786  19.434  10.480  0.00  0.00    +0.179 C 
+ATOM      4  C   UNL     1       7.106  19.480  11.976  0.00  0.00    +0.201 C 
+ATOM      5  C   UNL     1       8.486  20.124  12.203  0.00  0.00    +0.279 C 
+ATOM      6  O   UNL     1       9.506  19.517  11.416  0.00  0.00    -0.341 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  O   UNL     1       8.433  21.511  11.914  0.00  0.00    -0.365 OA
+ATOM      8  H   UNL     1       8.051  21.553  11.020  0.00  0.00    +0.213 HD
+ENDBRANCH   5   7
+BRANCH   4   9
+ATOM      9  O   UNL     1       7.064  18.147  12.511  0.00  0.00    -0.384 OA
+ATOM     10  H   UNL     1       6.570  18.206  13.352  0.00  0.00    +0.210 HD
+ENDBRANCH   4   9
+BRANCH   3  11
+ATOM     11  O   UNL     1       5.588  18.661  10.260  0.00  0.00    -0.386 OA
+ATOM     12  H   UNL     1       5.491  18.071  11.031  0.00  0.00    +0.210 HD
+ENDBRANCH   3  11
+BRANCH   2  13
+ATOM     13  O   UNL     1       7.621  18.813   8.303  0.00  0.00    -0.386 OA
+ATOM     14  H   UNL     1       6.795  19.334   8.238  0.00  0.00    +0.210 HD
+ENDBRANCH   2  13
+BRANCH   1  15
+ATOM     15  C   UNL     1      10.428  18.875   9.283  0.00  0.00    +0.190 C 
+BRANCH  15  16
+ATOM     16  O   UNL     1      10.427  19.241   7.899  0.00  0.00    -0.392 OA
+ATOM     17  H   UNL     1      10.514  20.208   7.868  0.00  0.00    +0.210 HD
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.135      1.587      3.708
+REMARK INTER + INTRA:          -5.232
+REMARK INTER:                  -4.995
+REMARK INTRA:                  -0.238
+REMARK UNBOUND:                -0.251
+REMARK  Name = D-Galactose
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  O_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       7.498  20.424  10.848  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1       8.313  20.449   9.549  0.00  0.00    +0.177 C 
+ATOM      3  C   UNL     1       9.004  19.094   9.358  0.00  0.00    +0.179 C 
+ATOM      4  C   UNL     1       9.855  18.743  10.581  0.00  0.00    +0.201 C 
+ATOM      5  C   UNL     1       9.013  18.862  11.864  0.00  0.00    +0.279 C 
+ATOM      6  O   UNL     1       8.351  20.119  11.966  0.00  0.00    -0.341 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  O   UNL     1       8.052  17.820  11.918  0.00  0.00    -0.365 OA
+ATOM      8  H   UNL     1       7.511  18.037  12.698  0.00  0.00    +0.213 HD
+ENDBRANCH   5   7
+BRANCH   4   9
+ATOM      9  O   UNL     1      10.997  19.615  10.630  0.00  0.00    -0.384 OA
+ATOM     10  H   UNL     1      10.693  20.437  11.062  0.00  0.00    +0.210 HD
+ENDBRANCH   4   9
+BRANCH   3  11
+ATOM     11  O   UNL     1       9.842  19.169   8.186  0.00  0.00    -0.386 OA
+ATOM     12  H   UNL     1       9.785  20.086   7.859  0.00  0.00    +0.210 HD
+ENDBRANCH   3  11
+BRANCH   2  13
+ATOM     13  O   UNL     1       7.485  20.711   8.411  0.00  0.00    -0.386 OA
+ATOM     14  H   UNL     1       7.684  19.991   7.779  0.00  0.00    +0.210 HD
+ENDBRANCH   2  13
+BRANCH   1  15
+ATOM     15  C   UNL     1       6.834  21.784  11.108  0.00  0.00    +0.190 C 
+BRANCH  15  16
+ATOM     16  O   UNL     1       5.707  21.953  10.241  0.00  0.00    -0.392 OA
+ATOM     17  H   UNL     1       6.020  21.770   9.339  0.00  0.00    +0.210 HD
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.119      1.775      4.084
+REMARK INTER + INTRA:          -5.213
+REMARK INTER:                  -5.180
+REMARK INTRA:                  -0.032
+REMARK UNBOUND:                -0.251
+REMARK  Name = D-Galactose
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  O_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       8.876  20.316  11.528  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1       7.959  20.114  10.316  0.00  0.00    +0.177 C 
+ATOM      3  C   UNL     1       8.343  18.814   9.600  0.00  0.00    +0.179 C 
+ATOM      4  C   UNL     1       9.826  18.820   9.223  0.00  0.00    +0.201 C 
+ATOM      5  C   UNL     1      10.684  19.156  10.456  0.00  0.00    +0.279 C 
+ATOM      6  O   UNL     1      10.254  20.343  11.113  0.00  0.00    -0.341 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  O   UNL     1      10.664  18.077  11.376  0.00  0.00    -0.365 OA
+ATOM      8  H   UNL     1      10.044  17.440  10.980  0.00  0.00    +0.213 HD
+ENDBRANCH   5   7
+BRANCH   4   9
+ATOM      9  O   UNL     1      10.043  19.773   8.168  0.00  0.00    -0.384 OA
+ATOM     10  H   UNL     1      10.515  19.293   7.461  0.00  0.00    +0.210 HD
+ENDBRANCH   4   9
+BRANCH   3  11
+ATOM     11  O   UNL     1       7.537  18.691   8.410  0.00  0.00    -0.386 OA
+ATOM     12  H   UNL     1       7.636  17.772   8.098  0.00  0.00    +0.210 HD
+ENDBRANCH   3  11
+BRANCH   2  13
+ATOM     13  O   UNL     1       6.583  20.042  10.701  0.00  0.00    -0.386 OA
+ATOM     14  H   UNL     1       6.438  20.817  11.281  0.00  0.00    +0.210 HD
+ENDBRANCH   2  13
+BRANCH   1  15
+ATOM     15  C   UNL     1       8.563  21.638  12.242  0.00  0.00    +0.190 C 
+BRANCH  15  16
+ATOM     16  O   UNL     1       8.874  21.530  13.635  0.00  0.00    -0.392 OA
+ATOM     17  H   UNL     1       8.027  21.423  14.101  0.00  0.00    +0.210 HD
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -3.871      1.589      3.686
+REMARK INTER + INTRA:          -4.915
+REMARK INTER:                  -4.683
+REMARK INTRA:                  -0.232
+REMARK UNBOUND:                -0.251
+REMARK  Name = D-Galactose
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  O_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       6.049  20.162  10.404  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1       7.055  20.819  11.355  0.00  0.00    +0.177 C 
+ATOM      3  C   UNL     1       8.479  20.526  10.870  0.00  0.00    +0.179 C 
+ATOM      4  C   UNL     1       8.703  19.019  10.725  0.00  0.00    +0.201 C 
+ATOM      5  C   UNL     1       7.587  18.398   9.866  0.00  0.00    +0.279 C 
+ATOM      6  O   UNL     1       6.286  18.744  10.328  0.00  0.00    -0.341 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  O   UNL     1       7.728  18.803   8.514  0.00  0.00    -0.365 OA
+ATOM      8  H   UNL     1       7.386  19.714   8.503  0.00  0.00    +0.213 HD
+ENDBRANCH   5   7
+BRANCH   4   9
+ATOM      9  O   UNL     1       8.742  18.418  12.031  0.00  0.00    -0.384 OA
+ATOM     10  H   UNL     1       9.162  19.075  12.620  0.00  0.00    +0.210 HD
+ENDBRANCH   4   9
+BRANCH   3  11
+ATOM     11  O   UNL     1       9.411  21.067  11.829  0.00  0.00    -0.386 OA
+ATOM     12  H   UNL     1       8.905  21.682  12.393  0.00  0.00    +0.210 HD
+ENDBRANCH   3  11
+BRANCH   2  13
+ATOM     13  O   UNL     1       6.871  22.237  11.420  0.00  0.00    -0.386 OA
+ATOM     14  H   UNL     1       6.849  22.449  12.375  0.00  0.00    +0.210 HD
+ENDBRANCH   2  13
+BRANCH   1  15
+ATOM     15  C   UNL     1       4.608  20.383  10.886  0.00  0.00    +0.190 C 
+BRANCH  15  16
+ATOM     16  O   UNL     1       4.086  21.595  10.331  0.00  0.00    -0.392 OA
+ATOM     17  H   UNL     1       4.308  21.586   9.385  0.00  0.00    +0.210 HD
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.823      2.140      4.182
+REMARK INTER + INTRA:          -4.857
+REMARK INTER:                  -4.618
+REMARK INTRA:                  -0.238
+REMARK UNBOUND:                -0.251
+REMARK  Name = D-Galactose
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  O_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       8.215  18.856  11.957  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1       9.249  18.384  10.928  0.00  0.00    +0.177 C 
+ATOM      3  C   UNL     1       9.486  19.496   9.900  0.00  0.00    +0.179 C 
+ATOM      4  C   UNL     1       8.167  19.926   9.254  0.00  0.00    +0.201 C 
+ATOM      5  C   UNL     1       7.130  20.262  10.341  0.00  0.00    +0.279 C 
+ATOM      6  O   UNL     1       6.987  19.219  11.299  0.00  0.00    -0.341 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  O   UNL     1       7.487  21.463  11.004  0.00  0.00    -0.365 OA
+ATOM      8  H   UNL     1       6.853  22.119  10.666  0.00  0.00    +0.213 HD
+ENDBRANCH   5   7
+BRANCH   4   9
+ATOM      9  O   UNL     1       7.693  18.873   8.397  0.00  0.00    -0.384 OA
+ATOM     10  H   UNL     1       7.856  18.037   8.877  0.00  0.00    +0.210 HD
+ENDBRANCH   4   9
+BRANCH   3  11
+ATOM     11  O   UNL     1      10.385  18.999   8.888  0.00  0.00    -0.386 OA
+ATOM     12  H   UNL     1       9.997  18.170   8.550  0.00  0.00    +0.210 HD
+ENDBRANCH   3  11
+BRANCH   2  13
+ATOM     13  O   UNL     1      10.496  18.053  11.548  0.00  0.00    -0.386 OA
+ATOM     14  H   UNL     1      11.166  18.589  11.077  0.00  0.00    +0.210 HD
+ENDBRANCH   2  13
+BRANCH   1  15
+ATOM     15  C   UNL     1       7.905  17.749  12.975  0.00  0.00    +0.190 C 
+BRANCH  15  16
+ATOM     16  O   UNL     1       8.978  17.633  13.915  0.00  0.00    -0.392 OA
+ATOM     17  H   UNL     1       9.120  18.519  14.287  0.00  0.00    +0.210 HD
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.799      1.514      2.200
+REMARK INTER + INTRA:          -4.827
+REMARK INTER:                  -4.580
+REMARK INTRA:                  -0.247
+REMARK UNBOUND:                -0.251
+REMARK  Name = D-Galactose
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  O_12
+REMARK    3  A    between atoms: C_3  and  O_11
+REMARK    4  A    between atoms: C_4  and  O_10
+REMARK    5  A    between atoms: C_5  and  O_9
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       7.663  19.248  11.198  0.00  0.00    +0.178 C 
+ATOM      2  C   UNL     1       7.165  19.567   9.784  0.00  0.00    +0.177 C 
+ATOM      3  C   UNL     1       7.405  21.051   9.484  0.00  0.00    +0.179 C 
+ATOM      4  C   UNL     1       6.753  21.932  10.551  0.00  0.00    +0.201 C 
+ATOM      5  C   UNL     1       7.193  21.478  11.955  0.00  0.00    +0.279 C 
+ATOM      6  O   UNL     1       6.997  20.083  12.163  0.00  0.00    -0.341 OA
+ENDROOT
+BRANCH   5   7
+ATOM      7  O   UNL     1       8.559  21.797  12.167  0.00  0.00    -0.365 OA
+ATOM      8  H   UNL     1       8.554  22.753  12.348  0.00  0.00    +0.213 HD
+ENDBRANCH   5   7
+BRANCH   4   9
+ATOM      9  O   UNL     1       5.323  21.865  10.413  0.00  0.00    -0.384 OA
+ATOM     10  H   UNL     1       5.126  20.977  10.059  0.00  0.00    +0.210 HD
+ENDBRANCH   4   9
+BRANCH   3  11
+ATOM     11  O   UNL     1       6.843  21.354   8.191  0.00  0.00    -0.386 OA
+ATOM     12  H   UNL     1       6.224  20.630   7.978  0.00  0.00    +0.210 HD
+ENDBRANCH   3  11
+BRANCH   2  13
+ATOM     13  O   UNL     1       7.839  18.780   8.797  0.00  0.00    -0.386 OA
+ATOM     14  H   UNL     1       8.205  18.016   9.286  0.00  0.00    +0.210 HD
+ENDBRANCH   2  13
+BRANCH   1  15
+ATOM     15  C   UNL     1       7.389  17.782  11.562  0.00  0.00    +0.190 C 
+BRANCH  15  16
+ATOM     16  O   UNL     1       6.370  17.248  10.711  0.00  0.00    -0.392 OA
+ATOM     17  H   UNL     1       6.726  16.426  10.333  0.00  0.00    +0.210 HD
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 6
+ENDMDL

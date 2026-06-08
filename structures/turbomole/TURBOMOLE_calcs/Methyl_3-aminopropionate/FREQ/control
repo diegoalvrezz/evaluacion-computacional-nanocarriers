@@ -1,0 +1,101 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+c  1,3,5-6                                                                     \
+   basis =c def2-TZVP                                                          \
+   jbas  =c def2-TZVP
+o  2,4                                                                         \
+   basis =o def2-TZVP                                                          \
+   jbas  =o def2-TZVP
+n  7                                                                           \
+   basis =n def2-TZVP                                                          \
+   jbas  =n def2-TZVP
+h  8-16                                                                        \
+   basis =h def2-TZVP                                                          \
+   jbas  =h def2-TZVP
+$basis    file=basis
+$scfmo   file=mos
+$closed shells
+ a       1-28                                   ( 2 )
+$scfiterlimit       30
+$thize     0.10000000E-04
+$thime        5
+$scfdamp   start=0.300  step=0.050  min=0.100
+$scfdump
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$dft
+    functional   b3-lyp
+    gridsize   m3
+$scfconv   7
+$ricore     5000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=16
+   nbf(CAO)=306
+   nbf(AO)=271
+$last step     force
+$cosmo_out file=Methyl_3-aminopropionate.cosmo
+$moldenfile file=Methyl_3-aminopropionate.molden
+$xctype hybrid-GGA X= 0.20000 (not to be modified here)
+$last SCF energy change = -362.99451
+$charge from ridft
+          0.000 (not to be modified here)
+$dipole from force
+  x     0.00695857472096    y     0.59964734133325    z    -0.06616096220667    a.u.
+   | dipole | =    1.5335140924  debye
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$orbital_max_rnorm 0.23088511784087E-05
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-362.9945053394    -1110.836018160     476.1011599612    -37.39751101439    -2.235775291378     311.3736391649
+$dipgrad    file=dipgrad
+$hessian (projected)    file=hessian
+$vibrational normal modes    file=vib_normal_modes
+$vibrational reduced masses
+   5.8028359789   4.7599078244   5.3975196804   4.9741688540   5.8948914334
+   3.9743029154   2.1541395517   2.7867614822   1.1574453169   2.8923105389
+   3.0378947885   1.1378413656   3.9311556268   4.5747047331   3.9747675788
+   2.2687014435   4.3147250678   1.3051057085   1.3907327881   4.2460935996
+   2.6902598688   2.6432415097   3.2647723266   2.1131777623   1.4896707899
+   1.2853722658   2.0209481862   1.7380674104   1.4763771330   1.1035118446
+   1.6867693566   1.4867271841   1.0872677193   1.2141171275   1.0468256981
+   1.0493899856   1.0860191480   1.0892399479  11.1447107292   1.0740854283
+   1.0607737763   1.0299092037   1.0949748624   1.0935781501   1.1067017053
+   1.1060822720   1.0498176879   1.0925102848
+$nvibro       48
+$vibrational spectrum    file=vibspectrum
+$end

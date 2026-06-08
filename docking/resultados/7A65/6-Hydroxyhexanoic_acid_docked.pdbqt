@@ -1,0 +1,423 @@
+MODEL 1
+REMARK VINA RESULT:    -4.354      0.000      0.000
+REMARK INTER + INTRA:          -5.973
+REMARK INTER:                  -5.881
+REMARK INTRA:                  -0.092
+REMARK UNBOUND:                -0.092
+REMARK  Name = 6-Hydroxyhexanoic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     151.814 189.391 160.105  0.00  0.00    +0.011 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     150.475 190.049 159.752  0.00  0.00    +0.003 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     149.320 189.403 160.525  0.00  0.00    +0.028 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     147.973 189.592 159.835  0.00  0.00    +0.156 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     147.970 190.758 159.024  0.00  0.00    -0.395 OA
+ATOM      6  H   UNL     1     147.068 191.119 159.015  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     151.835 188.821 161.523  0.00  0.00    +0.120 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     153.108 188.083 161.845  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     153.641 187.955 162.933  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     153.649 187.520 160.746  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     154.281 186.861 161.103  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 7
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.264      1.167      5.255
+REMARK INTER + INTRA:          -5.851
+REMARK INTER:                  -5.790
+REMARK INTRA:                  -0.061
+REMARK UNBOUND:                -0.092
+REMARK  Name = 6-Hydroxyhexanoic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     150.330 189.726 160.513  0.00  0.00    +0.011 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     151.730 189.282 160.073  0.00  0.00    +0.003 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     152.155 187.998 160.794  0.00  0.00    +0.028 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     153.128 188.261 161.938  0.00  0.00    +0.156 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     154.366 188.764 161.455  0.00  0.00    -0.395 OA
+ATOM      6  H   UNL     1     154.623 188.243 160.676  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     149.499 190.284 159.358  0.00  0.00    +0.120 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     148.087 189.761 159.338  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     147.473 189.303 158.390  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     147.511 189.834 160.555  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     147.112 188.947 160.683  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 7
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.225     39.289     40.757
+REMARK INTER + INTRA:          -5.799
+REMARK INTER:                  -5.683
+REMARK INTRA:                  -0.115
+REMARK UNBOUND:                -0.092
+REMARK  Name = 6-Hydroxyhexanoic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     162.633 151.062 158.852  0.00  0.00    +0.011 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     161.473 151.357 159.809  0.00  0.00    +0.003 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     161.850 151.022 161.256  0.00  0.00    +0.028 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     162.975 151.903 161.789  0.00  0.00    +0.156 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     163.359 151.512 163.100  0.00  0.00    -0.395 OA
+ATOM      6  H   UNL     1     163.137 152.234 163.710  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     162.349 149.877 157.929  0.00  0.00    +0.120 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     163.181 148.663 158.250  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     164.365 148.488 158.023  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     162.455 147.712 158.870  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     162.390 148.028 159.796  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 7
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.203     10.059     10.796
+REMARK INTER + INTRA:          -5.768
+REMARK INTER:                  -5.683
+REMARK INTRA:                  -0.086
+REMARK UNBOUND:                -0.092
+REMARK  Name = 6-Hydroxyhexanoic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.612 187.040 159.935  0.00  0.00    +0.011 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     161.857 186.571 159.175  0.00  0.00    +0.003 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     161.507 185.479 158.159  0.00  0.00    +0.028 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     161.329 186.027 156.746  0.00  0.00    +0.156 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     160.458 185.205 155.981  0.00  0.00    -0.395 OA
+ATOM      6  H   UNL     1     159.780 185.773 155.579  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     160.602 186.579 161.393  0.00  0.00    +0.120 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     160.881 187.692 162.367  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     161.590 188.669 162.202  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     160.220 187.515 163.529  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     159.742 188.360 163.663  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 7
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.196     10.014     11.491
+REMARK INTER + INTRA:          -5.759
+REMARK INTER:                  -5.281
+REMARK INTRA:                  -0.478
+REMARK UNBOUND:                -0.092
+REMARK  Name = 6-Hydroxyhexanoic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.540 186.928 160.148  0.00  0.00    +0.011 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     161.775 186.509 159.344  0.00  0.00    +0.003 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     162.493 187.730 158.757  0.00  0.00    +0.028 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     163.725 188.131 159.564  0.00  0.00    +0.156 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     163.975 187.207 160.614  0.00  0.00    -0.395 OA
+ATOM      6  H   UNL     1     164.479 186.461 160.249  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     160.591 186.450 161.599  0.00  0.00    +0.120 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     160.990 187.535 162.565  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     161.941 188.292 162.486  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     160.136 187.616 163.605  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     159.648 188.451 163.447  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 7
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -4.158      9.749     11.030
+REMARK INTER + INTRA:          -5.708
+REMARK INTER:                  -5.229
+REMARK INTRA:                  -0.479
+REMARK UNBOUND:                -0.092
+REMARK  Name = 6-Hydroxyhexanoic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     162.898 187.592 161.874  0.00  0.00    +0.011 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     163.402 187.797 160.441  0.00  0.00    +0.003 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     162.418 187.214 159.421  0.00  0.00    +0.028 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     161.908 188.259 158.434  0.00  0.00    +0.156 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     161.090 189.223 159.082  0.00  0.00    -0.395 OA
+ATOM      6  H   UNL     1     161.244 190.085 158.661  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     161.510 186.954 161.926  0.00  0.00    +0.120 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     160.445 187.892 162.429  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     159.901 188.798 161.823  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     160.104 187.621 163.705  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     159.856 188.494 164.076  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 7
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -4.143      8.252      9.582
+REMARK INTER + INTRA:          -5.688
+REMARK INTER:                  -5.172
+REMARK INTRA:                  -0.516
+REMARK UNBOUND:                -0.092
+REMARK  Name = 6-Hydroxyhexanoic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.977 189.105 161.612  0.00  0.00    +0.011 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     161.345 189.524 160.280  0.00  0.00    +0.003 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     160.287 190.613 160.488  0.00  0.00    +0.028 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     158.864 190.090 160.316  0.00  0.00    +0.156 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     158.845 188.897 159.545  0.00  0.00    -0.395 OA
+ATOM      6  H   UNL     1     158.945 189.139 158.609  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     161.750 187.627 161.933  0.00  0.00    +0.120 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     160.328 187.318 162.323  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     159.462 186.802 161.639  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     160.071 187.676 163.597  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     159.126 187.935 163.585  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 7
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -4.124      8.856     11.196
+REMARK INTER + INTRA:          -5.662
+REMARK INTER:                  -5.200
+REMARK INTRA:                  -0.462
+REMARK UNBOUND:                -0.092
+REMARK  Name = 6-Hydroxyhexanoic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     161.496 187.629 162.588  0.00  0.00    +0.011 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     162.245 188.594 161.663  0.00  0.00    +0.003 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     163.474 187.922 161.041  0.00  0.00    +0.028 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     163.420 187.895 159.517  0.00  0.00    +0.156 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     162.750 186.734 159.047  0.00  0.00    -0.395 OA
+ATOM      6  H   UNL     1     163.366 186.233 158.486  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     160.665 186.602 161.821  0.00  0.00    +0.120 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     159.691 187.229 160.857  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     159.848 187.437 159.667  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     158.533 187.560 161.463  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     158.531 188.540 161.453  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 7
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -4.070      9.756     11.100
+REMARK INTER + INTRA:          -5.589
+REMARK INTER:                  -5.541
+REMARK INTRA:                  -0.048
+REMARK UNBOUND:                -0.092
+REMARK  Name = 6-Hydroxyhexanoic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_1  and  C_7
+REMARK    3  A    between atoms: C_2  and  C_3
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_4  and  O_6
+REMARK    6  A    between atoms: C_7  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     160.829 186.752 158.713  0.00  0.00    +0.011 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     161.104 186.374 160.172  0.00  0.00    +0.003 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1     160.203 187.166 161.128  0.00  0.00    +0.028 C 
+BRANCH   3   4
+ATOM      4  C   UNL     1     160.953 187.674 162.355  0.00  0.00    +0.156 C 
+BRANCH   4   5
+ATOM      5  O   UNL     1     160.128 187.644 163.511  0.00  0.00    -0.395 OA
+ATOM      6  H   UNL     1     160.288 186.806 163.976  0.00  0.00    +0.209 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   7
+ATOM      7  C   UNL     1     161.672 185.945 157.726  0.00  0.00    +0.120 C 
+BRANCH   7   8
+ATOM      8  C   UNL     1     161.205 186.079 156.300  0.00  0.00    +0.305 C 
+ATOM      9  O   UNL     1     161.504 186.943 155.495  0.00  0.00    -0.251 OA
+BRANCH   8  10
+ATOM     10  O   UNL     1     160.370 185.079 155.953  0.00  0.00    -0.481 OA
+ATOM     11  H   UNL     1     160.937 184.280 155.970  0.00  0.00    +0.295 HD
+ENDBRANCH   8  10
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 7
+ENDMDL

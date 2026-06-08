@@ -1,0 +1,121 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+c  1-7,10-13,16,20-22,24-25,27,30                                              \
+   basis =c def2-TZVP                                                          \
+   jbas  =c def2-TZVP
+o  8,14-15,17-18,28                                                            \
+   basis =o def2-TZVP                                                          \
+   jbas  =o def2-TZVP
+n  9,19,23,26,29,31-32                                                         \
+   basis =n def2-TZVP                                                          \
+   jbas  =n def2-TZVP
+h  33-51                                                                       \
+   basis =h def2-TZVP                                                          \
+   jbas  =h def2-TZVP
+$basis    file=basis
+$scfmo    file=mos
+$closed shells
+ a       1-115                                  ( 2 )
+$scfiterlimit       30
+$thize     0.10000000E-04
+$thime        5
+$scfdamp   start=0.300  step=0.050  min=0.100
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+$forceinit on
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$dft
+    functional   b3-lyp
+    gridsize   m4
+$scfconv   7
+$ricore     8000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=51
+   nbf(CAO)=1266
+   nbf(AO)=1106
+$last step     force
+$cosmo_out file=Folic_acid.cosmo
+$moldenfile file=Folic_acid.molden
+$xctype hybrid-GGA X= 0.20000 (not to be modified here)
+$last SCF energy change = -1569.9218
+$charge from ridft
+          0.000 (not to be modified here)
+$dipole from force
+  x     1.83033146361852    y    -0.28048846439378    z    -1.22716566875870    a.u.
+   | dipole | =    5.6463381604  debye
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$orbital_max_rnorm 0.14401037385772E-04
+$subenergy  Etot         E1                  Ej                Ex                 Ec                 En
+-1569.921799750    -8093.469062844     3699.653501321    -160.0890575975    -9.422866432980     2993.405685803
+$dipgrad    file=dipgrad
+$hessian (projected)    file=hessian
+$vibrational normal modes    file=vib_normal_modes
+$vibrational reduced masses
+   7.9979221833   8.4498152283   8.5460960720   8.4706352758   7.7858959082
+   8.2411397776   7.2950882924   7.9083666986   9.2834204204   9.6447585530
+  10.0784493322   6.4930864720   7.0984149182   6.4038960601   5.9946403014
+   4.9653197924   6.7088956953   6.1852536644   6.4779456682   5.6336307183
+   5.7417087308   6.7563709838   5.7163112589   5.9358876080   4.9921896465
+   4.4625033600   3.3079258577   4.6571426370   3.7403434569   3.9979906077
+   4.0514647881   1.1675901425   5.1342742569   4.5113900169   5.1912943036
+   3.4884011507   3.3292236443   3.4872857890   4.0604402702   3.9279760481
+   5.5798338979   1.5707850147   2.3889750738   1.7492287415   2.8806957492
+   1.5696513159   4.5427529552   3.5496895482   2.6301824926   3.7717490688
+   4.5180712182   2.2406507501   3.2349961434   2.3127451525   1.6741068917
+   2.3530010599   3.3426230932   3.3644748216   4.0818546185   4.0419736884
+   1.8717083955   3.4977320217   6.1087231233   3.5568121432   7.1034262807
+   6.0725342917   4.8095420102   2.9634792612   3.9002099496   1.2982669961
+   4.0773474773   2.0447132783  10.0576663612   5.3831944689   3.7476928208
+   4.3734346116   1.3455250041   1.8027207071   2.1393922570   3.4815542273
+   1.3645329806   2.1105284698   2.8406153668   2.8238887550   2.7359232738
+   3.7419244873   3.4199543366   2.9705495182   2.8161637337   1.6136217361
+   2.9975427549   1.9389288836   2.3314104483   2.6533555198   7.1849146711
+   1.2096599717   2.2689530176   1.2962535196   1.3125360738   1.6577950097
+   2.1829985611   2.9428297944   3.7846753981   1.3167035304   1.9934661970
+   1.5987051350   1.6832788572   1.8974384934   2.8985491134   1.8400187999
+   2.9495517189   2.2997732971   1.5966915472   1.4635496930   1.9888838952
+   2.5305922634   1.0779723940   1.1118111385   1.1805121149   3.7089329641
+   3.8636571303   1.7657893290   1.6474097797   2.7535556271   5.4158557992
+   6.1464036197   3.7861019292   1.6541402607   5.4529273289   2.8943164109
+   9.1305871370   9.5215981733   9.9019333289  10.0954489511   1.0699407554
+   1.0659867573   1.0672680309   1.0930972940   1.0975734432   1.0830232934
+   1.0933051556   1.0907763947   1.0865227554   1.0933444606   1.0867582167
+   1.0931807073   1.0721740210   1.0512584370   1.0753322600   1.0761790285
+   1.1026278752   1.0642991578   1.0641686810
+$nvibro      153
+$vibrational spectrum    file=vibspectrum
+$end

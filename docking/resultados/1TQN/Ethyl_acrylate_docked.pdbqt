@@ -1,0 +1,288 @@
+MODEL 1
+REMARK VINA RESULT:    -4.273      0.000      0.000
+REMARK INTER + INTRA:          -5.117
+REMARK INTER:                  -5.022
+REMARK INTRA:                  -0.094
+REMARK UNBOUND:                -0.094
+REMARK  Name = Ethyl acrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  O_3
+REMARK    3  A    between atoms: O_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -17.356 -30.431  -5.424  0.00  0.00    +0.331 C 
+ATOM      2  O   UNL     1     -17.583 -31.527  -5.914  0.00  0.00    -0.246 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -16.340 -29.516  -5.993  0.00  0.00    +0.084 C 
+ATOM      4  C   UNL     1     -15.712 -28.545  -5.317  0.00  0.00    +0.015 C 
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  O   UNL     1     -17.957 -29.896  -4.335  0.00  0.00    -0.462 OA
+BRANCH   5   7
+ATOM      6  C   UNL     1     -18.598 -30.041  -2.005  0.00  0.00    +0.048 C 
+ATOM      7  C   UNL     1     -18.219 -30.807  -3.258  0.00  0.00    +0.229 C 
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.211      1.000      1.024
+REMARK INTER + INTRA:          -5.044
+REMARK INTER:                  -4.935
+REMARK INTRA:                  -0.108
+REMARK UNBOUND:                -0.094
+REMARK  Name = Ethyl acrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  O_3
+REMARK    3  A    between atoms: O_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -17.460 -30.382  -5.949  0.00  0.00    +0.331 C 
+ATOM      2  O   UNL     1     -17.723 -30.608  -7.121  0.00  0.00    -0.246 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -16.443 -29.381  -5.555  0.00  0.00    +0.084 C 
+ATOM      4  C   UNL     1     -15.346 -29.077  -6.261  0.00  0.00    +0.015 C 
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  O   UNL     1     -18.020 -30.978  -4.870  0.00  0.00    -0.462 OA
+BRANCH   5   7
+ATOM      6  C   UNL     1     -18.367 -30.843  -2.478  0.00  0.00    +0.048 C 
+ATOM      7  C   UNL     1     -18.399 -30.100  -3.801  0.00  0.00    +0.229 C 
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.169      1.126      3.293
+REMARK INTER + INTRA:          -4.995
+REMARK INTER:                  -4.853
+REMARK INTRA:                  -0.142
+REMARK UNBOUND:                -0.094
+REMARK  Name = Ethyl acrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  O_3
+REMARK    3  A    between atoms: O_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -17.678 -30.637  -5.617  0.00  0.00    +0.331 C 
+ATOM      2  O   UNL     1     -17.676 -31.827  -5.894  0.00  0.00    -0.246 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -18.122 -30.145  -4.293  0.00  0.00    +0.084 C 
+ATOM      4  C   UNL     1     -18.212 -30.889  -3.183  0.00  0.00    +0.015 C 
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  O   UNL     1     -17.301 -29.621  -6.428  0.00  0.00    -0.462 OA
+BRANCH   5   7
+ATOM      6  C   UNL     1     -14.959 -29.016  -6.360  0.00  0.00    +0.048 C 
+ATOM      7  C   UNL     1     -16.358 -28.696  -5.870  0.00  0.00    +0.229 C 
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -4.152      1.589      2.145
+REMARK INTER + INTRA:          -4.974
+REMARK INTER:                  -4.887
+REMARK INTRA:                  -0.088
+REMARK UNBOUND:                -0.094
+REMARK  Name = Ethyl acrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  O_3
+REMARK    3  A    between atoms: O_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -16.880 -29.541  -7.139  0.00  0.00    +0.331 C 
+ATOM      2  O   UNL     1     -16.824 -29.303  -8.336  0.00  0.00    -0.246 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -15.752 -29.238  -6.229  0.00  0.00    +0.084 C 
+ATOM      4  C   UNL     1     -15.606 -28.104  -5.532  0.00  0.00    +0.015 C 
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  O   UNL     1     -17.922 -30.095  -6.476  0.00  0.00    -0.462 OA
+BRANCH   5   7
+ATOM      6  C   UNL     1     -18.155 -30.861  -4.192  0.00  0.00    +0.048 C 
+ATOM      7  C   UNL     1     -17.591 -31.155  -5.569  0.00  0.00    +0.229 C 
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -4.115      1.730      3.366
+REMARK INTER + INTRA:          -4.931
+REMARK INTER:                  -4.830
+REMARK INTRA:                  -0.101
+REMARK UNBOUND:                -0.094
+REMARK  Name = Ethyl acrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  O_3
+REMARK    3  A    between atoms: O_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -17.360 -30.345  -5.526  0.00  0.00    +0.331 C 
+ATOM      2  O   UNL     1     -17.766 -30.212  -4.381  0.00  0.00    -0.246 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -16.162 -29.629  -6.018  0.00  0.00    +0.084 C 
+ATOM      4  C   UNL     1     -15.648 -28.520  -5.472  0.00  0.00    +0.015 C 
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  O   UNL     1     -17.909 -31.123  -6.489  0.00  0.00    -0.462 OA
+BRANCH   5   7
+ATOM      6  C   UNL     1     -18.513 -31.540  -8.795  0.00  0.00    +0.048 C 
+ATOM      7  C   UNL     1     -18.038 -30.516  -7.781  0.00  0.00    +0.229 C 
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -3.950      2.460      3.334
+REMARK INTER + INTRA:          -4.737
+REMARK INTER:                  -4.642
+REMARK INTRA:                  -0.095
+REMARK UNBOUND:                -0.094
+REMARK  Name = Ethyl acrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  O_3
+REMARK    3  A    between atoms: O_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -15.286 -28.458  -6.731  0.00  0.00    +0.331 C 
+ATOM      2  O   UNL     1     -14.681 -28.317  -7.783  0.00  0.00    -0.246 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -15.747 -27.299  -5.933  0.00  0.00    +0.084 C 
+ATOM      4  C   UNL     1     -15.784 -26.032  -6.364  0.00  0.00    +0.015 C 
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  O   UNL     1     -15.616 -29.632  -6.143  0.00  0.00    -0.462 OA
+BRANCH   5   7
+ATOM      6  C   UNL     1     -17.448 -31.138  -5.656  0.00  0.00    +0.048 C 
+ATOM      7  C   UNL     1     -16.944 -29.709  -5.606  0.00  0.00    +0.229 C 
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -3.937      3.581      5.327
+REMARK INTER + INTRA:          -4.722
+REMARK INTER:                  -4.524
+REMARK INTRA:                  -0.198
+REMARK UNBOUND:                -0.094
+REMARK  Name = Ethyl acrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  O_3
+REMARK    3  A    between atoms: O_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -15.933 -26.829  -6.501  0.00  0.00    +0.331 C 
+ATOM      2  O   UNL     1     -15.384 -25.761  -6.277  0.00  0.00    -0.246 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -15.719 -28.014  -5.641  0.00  0.00    +0.084 C 
+ATOM      4  C   UNL     1     -15.688 -29.283  -6.068  0.00  0.00    +0.015 C 
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  O   UNL     1     -16.782 -27.099  -7.521  0.00  0.00    -0.462 OA
+BRANCH   5   7
+ATOM      6  C   UNL     1     -15.636 -27.879  -9.506  0.00  0.00    +0.048 C 
+ATOM      7  C   UNL     1     -16.329 -26.714  -8.827  0.00  0.00    +0.229 C 
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.885      2.553      3.643
+REMARK INTER + INTRA:          -4.661
+REMARK INTER:                  -4.527
+REMARK INTRA:                  -0.134
+REMARK UNBOUND:                -0.094
+REMARK  Name = Ethyl acrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  O_3
+REMARK    3  A    between atoms: O_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -16.671 -29.498  -7.117  0.00  0.00    +0.331 C 
+ATOM      2  O   UNL     1     -16.853 -29.249  -8.299  0.00  0.00    -0.246 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -17.706 -30.156  -6.288  0.00  0.00    +0.084 C 
+ATOM      4  C   UNL     1     -17.577 -31.351  -5.698  0.00  0.00    +0.015 C 
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  O   UNL     1     -15.555 -29.226  -6.400  0.00  0.00    -0.462 OA
+BRANCH   5   7
+ATOM      6  C   UNL     1     -15.687 -26.834  -6.054  0.00  0.00    +0.048 C 
+ATOM      7  C   UNL     1     -15.689 -28.204  -5.403  0.00  0.00    +0.229 C 
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.869      2.927      4.771
+REMARK INTER + INTRA:          -4.642
+REMARK INTER:                  -4.546
+REMARK INTRA:                  -0.095
+REMARK UNBOUND:                -0.094
+REMARK  Name = Ethyl acrylate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  O_3
+REMARK    3  A    between atoms: O_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -16.725 -29.188  -7.316  0.00  0.00    +0.331 C 
+ATOM      2  O   UNL     1     -17.550 -30.082  -7.425  0.00  0.00    -0.246 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   UNL     1     -15.667 -29.224  -6.281  0.00  0.00    +0.084 C 
+ATOM      4  C   UNL     1     -15.590 -28.401  -5.227  0.00  0.00    +0.015 C 
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  O   UNL     1     -16.643 -28.071  -8.076  0.00  0.00    -0.462 OA
+BRANCH   5   7
+ATOM      6  C   UNL     1     -15.725 -26.821  -9.934  0.00  0.00    +0.048 C 
+ATOM      7  C   UNL     1     -15.651 -28.093  -9.111  0.00  0.00    +0.229 C 
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+TORSDOF 3
+ENDMDL

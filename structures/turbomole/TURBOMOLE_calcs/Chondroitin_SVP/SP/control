@@ -1,0 +1,90 @@
+$title
+$symmetry c1
+$user-defined bonds    file=coord
+$coord    file=coord
+ internal   off
+ redundant  off
+ cartesian  on
+ global     off
+ basis      off
+$atoms
+c  1-2,5-8,10,12,20-24,26                                                      \
+   basis =c def2-SVP                                                           \
+   jbas  =c def2-SVP
+o  3,9,11,13-14,16-19,25,27-31,33-35                                           \
+   basis =o def2-SVP                                                           \
+   jbas  =o def2-SVP
+n  4                                                                           \
+   basis =n def2-SVP                                                           \
+   jbas  =n def2-SVP
+s  15,32                                                                       \
+   basis =s def2-SVP                                                           \
+   jbas  =s def2-SVP
+h  36-56                                                                       \
+   basis =h def2-SVP                                                           \
+   jbas  =h def2-SVP
+$basis    file=basis
+$alpha shells
+ a       1-144                                  ( 1 )
+$beta shells
+ a       1-143                                  ( 1 )
+$scfiterlimit       30
+$scfconv        7
+$thize     0.10000000E-04
+$thime        5
+$scfdamp   start=1.000  step=0.050  min=0.100
+$scfintunit
+ unit=30       size=0        file=twoint
+$scfdiis
+$maxcor    500 MiB  per_core
+$scforbitalshift  automatic=.1
+$drvopt
+   cartesian  on
+   basis      off
+   global     off
+   hessian    on
+   dipole     on
+   nuclear polarizability
+$interconversion  off
+   qconv=1.d-7
+   maxiter=25
+$coordinateupdate
+   dqmax=0.3
+   interpolate  on
+   statistics    5
+$forceupdate
+   ahlrichs numgeo=0  mingeo=3 maxgeo=4 modus=<g|dq> dynamic fail=0.3
+   threig=0.005  reseig=0.005  thrbig=3.0  scale=1.00  damping=0.0
+   diag=default
+$energy    file=energy
+$grad    file=gradient
+$forceapprox    file=forceapprox
+$ricore     4000
+$rij
+$jbas    file=auxbasis
+$rundimensions
+   natoms=56
+   nbf(CAO)=638
+   nbf(AO)=603
+$last step     ridft
+$charge from ridft
+         -0.000 (not to be modified here)
+$scfdamp   start=0.700  step=0.050  min=0.100
+$scfiterlimit 500
+$scfmo    file=mos
+$closed shells
+ a       1-144                                  ( 2 )
+$last SCF energy change = -2737.5295
+$dipole from ridft
+  x     3.94533960671485    y    -3.08950106131799    z     1.49962384669316    a.u.
+   | dipole | =   13.2950608215  debye
+$optinfo       file=optinfo
+$hessapprox   file=hessapprox
+$cosmo
+  epsilon=infinity
+$cosmo_out file=Chondroitin_SP.cosmo
+$scfconv 7
+$orbital_max_rnorm 0.96116780645147E-05
+$subenergy  Etot         E1                  Ej                Ex                 En
+-2737.529500001    -13870.22891620     0.000000000000     0.000000000000     5070.451181810
+$end

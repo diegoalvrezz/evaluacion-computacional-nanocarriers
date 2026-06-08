@@ -1,0 +1,441 @@
+MODEL 1
+REMARK VINA RESULT:    -4.133      0.000      0.000
+REMARK INTER + INTRA:          -5.454
+REMARK INTER:                  -4.857
+REMARK INTRA:                  -0.596
+REMARK UNBOUND:                -0.596
+REMARK  Name = Gemcitabine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_3  and  C_9
+REMARK    2  A    between atoms: C_11  and  O_16
+REMARK    3  A    between atoms: C_12  and  C_14
+REMARK    4  A    between atoms: C_14  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      12.822   9.383  21.723  0.00  0.00    +0.296 C 
+ATOM      2  C   UNL     1      13.637  10.640  22.083  0.00  0.00    +0.321 C 
+ATOM      3  C   UNL     1      13.047  11.726  21.196  0.00  0.00    +0.219 C 
+ATOM      4  C   UNL     1      12.391  10.957  20.057  0.00  0.00    +0.181 C 
+ATOM      5  O   UNL     1      11.910   9.731  20.645  0.00  0.00    -0.342 OA
+ATOM      6  F   UNL     1      13.518  11.004  23.384  0.00  0.00    -0.198 F 
+ATOM      7  F   UNL     1      14.961  10.497  21.836  0.00  0.00    -0.198 F 
+ENDROOT
+BRANCH   1  10
+ATOM      8  C   UNL     1      10.242   8.807  24.318  0.00  0.00    +0.061 A 
+ATOM      9  C   UNL     1      10.864   9.308  23.253  0.00  0.00    +0.097 A 
+ATOM     10  N   UNL     1      12.078   8.806  22.840  0.00  0.00    -0.267 N 
+ATOM     11  C   UNL     1      12.723   7.786  23.547  0.00  0.00    +0.352 A 
+ATOM     12  O   UNL     1      13.833   7.388  23.200  0.00  0.00    -0.244 OA
+ATOM     13  N   UNL     1      12.087   7.240  24.635  0.00  0.00    -0.178 NA
+ATOM     14  C   UNL     1      10.934   7.701  25.007  0.00  0.00    +0.123 A 
+ATOM     15  N   UNL     1      10.358   7.119  26.103  0.00  0.00    -0.343 N 
+ATOM     16  H   UNL     1       9.828   7.727  26.716  0.00  0.00    +0.144 HD
+ATOM     17  H   UNL     1      11.021   6.536  26.607  0.00  0.00    +0.144 HD
+ENDBRANCH   1  10
+BRANCH   3  18
+ATOM     18  O   UNL     1      13.977  12.714  20.755  0.00  0.00    -0.383 OA
+ATOM     19  H   UNL     1      14.834  12.494  21.176  0.00  0.00    +0.210 HD
+ENDBRANCH   3  18
+BRANCH   4  20
+ATOM     20  C   UNL     1      13.289  10.649  18.852  0.00  0.00    +0.190 C 
+BRANCH  20  21
+ATOM     21  O   UNL     1      13.682  11.844  18.192  0.00  0.00    -0.392 OA
+ATOM     22  H   UNL     1      13.084  12.552  18.495  0.00  0.00    +0.210 HD
+ENDBRANCH  20  21
+ENDBRANCH   4  20
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -4.080      3.180      5.759
+REMARK INTER + INTRA:          -5.392
+REMARK INTER:                  -4.796
+REMARK INTRA:                  -0.596
+REMARK UNBOUND:                -0.596
+REMARK  Name = Gemcitabine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_3  and  C_9
+REMARK    2  A    between atoms: C_11  and  O_16
+REMARK    3  A    between atoms: C_12  and  C_14
+REMARK    4  A    between atoms: C_14  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      13.521   9.996  21.963  0.00  0.00    +0.296 C 
+ATOM      2  C   UNL     1      12.222   9.297  21.519  0.00  0.00    +0.321 C 
+ATOM      3  C   UNL     1      11.326   9.374  22.746  0.00  0.00    +0.219 C 
+ATOM      4  C   UNL     1      12.298   9.567  23.902  0.00  0.00    +0.181 C 
+ATOM      5  O   UNL     1      13.384  10.350  23.367  0.00  0.00    -0.342 OA
+ATOM      6  F   UNL     1      11.611   9.909  20.473  0.00  0.00    -0.198 F 
+ATOM      7  F   UNL     1      12.417   8.006  21.157  0.00  0.00    -0.198 F 
+ENDROOT
+BRANCH   1  10
+ATOM      8  C   UNL     1      13.503  13.426  20.563  0.00  0.00    +0.061 A 
+ATOM      9  C   UNL     1      13.215  12.383  21.339  0.00  0.00    +0.097 A 
+ATOM     10  N   UNL     1      13.866  11.181  21.180  0.00  0.00    -0.267 N 
+ATOM     11  C   UNL     1      14.818  10.996  20.173  0.00  0.00    +0.352 A 
+ATOM     12  O   UNL     1      15.350   9.900  20.007  0.00  0.00    -0.244 OA
+ATOM     13  N   UNL     1      15.146  12.066  19.377  0.00  0.00    -0.178 NA
+ATOM     14  C   UNL     1      14.546  13.203  19.545  0.00  0.00    +0.123 A 
+ATOM     15  N   UNL     1      14.913  14.226  18.714  0.00  0.00    -0.343 N 
+ATOM     16  H   UNL     1      14.182  14.866  18.430  0.00  0.00    +0.144 HD
+ATOM     17  H   UNL     1      15.466  13.889  17.931  0.00  0.00    +0.144 HD
+ENDBRANCH   1  10
+BRANCH   3  18
+ATOM     18  O   UNL     1      10.447   8.264  22.920  0.00  0.00    -0.383 OA
+ATOM     19  H   UNL     1       9.669   8.602  23.413  0.00  0.00    +0.210 HD
+ENDBRANCH   3  18
+BRANCH   4  20
+ATOM     20  C   UNL     1      12.838   8.283  24.544  0.00  0.00    +0.190 C 
+BRANCH  20  21
+ATOM     21  O   UNL     1      11.854   7.674  25.368  0.00  0.00    -0.392 OA
+ATOM     22  H   UNL     1      10.999   8.087  25.152  0.00  0.00    +0.210 HD
+ENDBRANCH  20  21
+ENDBRANCH   4  20
+TORSDOF 4
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -4.050      2.532      5.649
+REMARK INTER + INTRA:          -5.356
+REMARK INTER:                  -4.742
+REMARK INTRA:                  -0.615
+REMARK UNBOUND:                -0.596
+REMARK  Name = Gemcitabine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_3  and  C_9
+REMARK    2  A    between atoms: C_11  and  O_16
+REMARK    3  A    between atoms: C_12  and  C_14
+REMARK    4  A    between atoms: C_14  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      12.446  10.343  22.169  0.00  0.00    +0.296 C 
+ATOM      2  C   UNL     1      13.563   9.966  23.162  0.00  0.00    +0.321 C 
+ATOM      3  C   UNL     1      13.222   8.543  23.575  0.00  0.00    +0.219 C 
+ATOM      4  C   UNL     1      11.734   8.418  23.275  0.00  0.00    +0.181 C 
+ATOM      5  O   UNL     1      11.504   9.238  22.112  0.00  0.00    -0.342 OA
+ATOM      6  F   UNL     1      14.803   9.993  22.613  0.00  0.00    -0.198 F 
+ATOM      7  F   UNL     1      13.598  10.777  24.247  0.00  0.00    -0.198 F 
+ENDROOT
+BRANCH   1  10
+ATOM      8  C   UNL     1      13.622  10.020  18.671  0.00  0.00    +0.061 A 
+ATOM      9  C   UNL     1      13.124   9.703  19.865  0.00  0.00    +0.097 A 
+ATOM     10  N   UNL     1      12.919  10.668  20.825  0.00  0.00    -0.267 N 
+ATOM     11  C   UNL     1      13.267  12.004  20.602  0.00  0.00    +0.352 A 
+ATOM     12  O   UNL     1      13.132  12.843  21.489  0.00  0.00    -0.244 OA
+ATOM     13  N   UNL     1      13.760  12.355  19.369  0.00  0.00    -0.178 NA
+ATOM     14  C   UNL     1      13.931  11.447  18.460  0.00  0.00    +0.123 A 
+ATOM     15  N   UNL     1      14.433  11.861  17.257  0.00  0.00    -0.343 N 
+ATOM     16  H   UNL     1      15.059  11.223  16.781  0.00  0.00    +0.144 HD
+ATOM     17  H   UNL     1      14.805  12.805  17.314  0.00  0.00    +0.144 HD
+ENDBRANCH   1  10
+BRANCH   3  18
+ATOM     18  O   UNL     1      13.562   8.208  24.919  0.00  0.00    -0.383 OA
+ATOM     19  H   UNL     1      14.155   8.920  25.240  0.00  0.00    +0.210 HD
+ENDBRANCH   3  18
+BRANCH   4  20
+ATOM     20  C   UNL     1      10.786   8.831  24.408  0.00  0.00    +0.190 C 
+BRANCH  20  21
+ATOM     21  O   UNL     1      10.721   7.823  25.409  0.00  0.00    -0.392 OA
+ATOM     22  H   UNL     1      11.291   7.088  25.117  0.00  0.00    +0.210 HD
+ENDBRANCH  20  21
+ENDBRANCH   4  20
+TORSDOF 4
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -3.978      3.055      4.616
+REMARK INTER + INTRA:          -5.273
+REMARK INTER:                  -4.678
+REMARK INTRA:                  -0.594
+REMARK UNBOUND:                -0.596
+REMARK  Name = Gemcitabine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_3  and  C_9
+REMARK    2  A    between atoms: C_11  and  O_16
+REMARK    3  A    between atoms: C_12  and  C_14
+REMARK    4  A    between atoms: C_14  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      11.168   7.577  24.788  0.00  0.00    +0.296 C 
+ATOM      2  C   UNL     1      10.862   8.816  23.924  0.00  0.00    +0.321 C 
+ATOM      3  C   UNL     1      12.118   8.995  23.083  0.00  0.00    +0.219 C 
+ATOM      4  C   UNL     1      13.198   8.269  23.872  0.00  0.00    +0.181 C 
+ATOM      5  O   UNL     1      12.532   7.159  24.509  0.00  0.00    -0.342 OA
+ATOM      6  F   UNL     1       9.791   8.653  23.108  0.00  0.00    -0.198 F 
+ATOM      7  F   UNL     1      10.627   9.927  24.663  0.00  0.00    -0.198 F 
+ENDROOT
+BRANCH   1  10
+ATOM      8  C   UNL     1       9.435   4.668  23.284  0.00  0.00    +0.061 A 
+ATOM      9  C   UNL     1      10.328   5.636  23.481  0.00  0.00    +0.097 A 
+ATOM     10  N   UNL     1      10.250   6.458  24.582  0.00  0.00    -0.267 N 
+ATOM     11  C   UNL     1       9.210   6.338  25.509  0.00  0.00    +0.352 A 
+ATOM     12  O   UNL     1       9.122   7.116  26.456  0.00  0.00    -0.244 OA
+ATOM     13  N   UNL     1       8.293   5.330  25.337  0.00  0.00    -0.178 NA
+ATOM     14  C   UNL     1       8.382   4.545  24.309  0.00  0.00    +0.123 A 
+ATOM     15  N   UNL     1       7.433   3.567  24.192  0.00  0.00    -0.343 N 
+ATOM     16  H   UNL     1       7.131   3.336  23.254  0.00  0.00    +0.144 HD
+ATOM     17  H   UNL     1       6.654   3.727  24.826  0.00  0.00    +0.144 HD
+ENDBRANCH   1  10
+BRANCH   3  18
+ATOM     18  O   UNL     1      12.449  10.348  22.776  0.00  0.00    -0.383 OA
+ATOM     19  H   UNL     1      13.190  10.313  22.136  0.00  0.00    +0.210 HD
+ENDBRANCH   3  18
+BRANCH   4  20
+ATOM     20  C   UNL     1      13.942   9.109  24.919  0.00  0.00    +0.190 C 
+BRANCH  20  21
+ATOM     21  O   UNL     1      14.996   9.851  24.319  0.00  0.00    -0.392 OA
+ATOM     22  H   UNL     1      15.435  10.355  25.028  0.00  0.00    +0.210 HD
+ENDBRANCH  20  21
+ENDBRANCH   4  20
+TORSDOF 4
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -3.951      2.128      2.766
+REMARK INTER + INTRA:          -5.241
+REMARK INTER:                  -4.624
+REMARK INTRA:                  -0.616
+REMARK UNBOUND:                -0.596
+REMARK  Name = Gemcitabine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_3  and  C_9
+REMARK    2  A    between atoms: C_11  and  O_16
+REMARK    3  A    between atoms: C_12  and  C_14
+REMARK    4  A    between atoms: C_14  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      11.717   9.916  22.375  0.00  0.00    +0.296 C 
+ATOM      2  C   UNL     1      11.383   9.412  20.958  0.00  0.00    +0.321 C 
+ATOM      3  C   UNL     1      12.633   9.731  20.152  0.00  0.00    +0.219 C 
+ATOM      4  C   UNL     1      13.315  10.836  20.947  0.00  0.00    +0.181 C 
+ATOM      5  O   UNL     1      13.024  10.552  22.330  0.00  0.00    -0.342 OA
+ATOM      6  F   UNL     1      11.137   8.079  20.904  0.00  0.00    -0.198 F 
+ATOM      7  F   UNL     1      10.305  10.031  20.421  0.00  0.00    -0.198 F 
+ENDROOT
+BRANCH   1  10
+ATOM      8  C   UNL     1      12.675   7.018  24.474  0.00  0.00    +0.061 A 
+ATOM      9  C   UNL     1      12.746   7.998  23.576  0.00  0.00    +0.097 A 
+ATOM     10  N   UNL     1      11.702   8.878  23.403  0.00  0.00    -0.267 N 
+ATOM     11  C   UNL     1      10.513   8.749  24.129  0.00  0.00    +0.352 A 
+ATOM     12  O   UNL     1       9.568   9.507  23.923  0.00  0.00    -0.244 OA
+ATOM     13  N   UNL     1      10.429   7.758  25.077  0.00  0.00    -0.178 NA
+ATOM     14  C   UNL     1      11.423   6.946  25.251  0.00  0.00    +0.123 A 
+ATOM     15  N   UNL     1      11.272   5.977  26.205  0.00  0.00    -0.343 N 
+ATOM     16  H   UNL     1      11.697   5.078  26.012  0.00  0.00    +0.144 HD
+ATOM     17  H   UNL     1      10.305   5.897  26.505  0.00  0.00    +0.144 HD
+ENDBRANCH   1  10
+BRANCH   3  18
+ATOM     18  O   UNL     1      12.398  10.073  18.786  0.00  0.00    -0.383 OA
+ATOM     19  H   UNL     1      13.269  10.318  18.409  0.00  0.00    +0.210 HD
+ENDBRANCH   3  18
+BRANCH   4  20
+ATOM     20  C   UNL     1      12.890  12.269  20.601  0.00  0.00    +0.190 C 
+BRANCH  20  21
+ATOM     21  O   UNL     1      13.533  12.717  19.415  0.00  0.00    -0.392 OA
+ATOM     22  H   UNL     1      14.192  13.386  19.678  0.00  0.00    +0.210 HD
+ENDBRANCH  20  21
+ENDBRANCH   4  20
+TORSDOF 4
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -3.910      4.231      6.770
+REMARK INTER + INTRA:          -5.192
+REMARK INTER:                  -5.182
+REMARK INTRA:                  -0.010
+REMARK UNBOUND:                -0.596
+REMARK  Name = Gemcitabine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_3  and  C_9
+REMARK    2  A    between atoms: C_11  and  O_16
+REMARK    3  A    between atoms: C_12  and  C_14
+REMARK    4  A    between atoms: C_14  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      14.353  11.895  19.879  0.00  0.00    +0.296 C 
+ATOM      2  C   UNL     1      12.912  11.619  20.352  0.00  0.00    +0.321 C 
+ATOM      3  C   UNL     1      13.091  10.988  21.724  0.00  0.00    +0.219 C 
+ATOM      4  C   UNL     1      14.514  10.446  21.699  0.00  0.00    +0.181 C 
+ATOM      5  O   UNL     1      15.264  11.367  20.881  0.00  0.00    -0.342 OA
+ATOM      6  F   UNL     1      12.158  12.741  20.464  0.00  0.00    -0.198 F 
+ATOM      7  F   UNL     1      12.241  10.777  19.530  0.00  0.00    -0.198 F 
+ENDROOT
+BRANCH   1  10
+ATOM      8  C   UNL     1      14.378  15.590  20.137  0.00  0.00    +0.061 A 
+ATOM      9  C   UNL     1      14.152  14.310  20.428  0.00  0.00    +0.097 A 
+ATOM     10  N   UNL     1      14.646  13.304  19.630  0.00  0.00    -0.267 N 
+ATOM     11  C   UNL     1      15.362  13.587  18.462  0.00  0.00    +0.352 A 
+ATOM     12  O   UNL     1      15.747  12.678  17.729  0.00  0.00    -0.244 OA
+ATOM     13  N   UNL     1      15.626  14.899  18.156  0.00  0.00    -0.178 NA
+ATOM     14  C   UNL     1      15.177  15.843  18.923  0.00  0.00    +0.123 A 
+ATOM     15  N   UNL     1      15.467  17.129  18.558  0.00  0.00    -0.343 N 
+ATOM     16  H   UNL     1      14.757  17.826  18.743  0.00  0.00    +0.144 HD
+ATOM     17  H   UNL     1      15.823  17.174  17.607  0.00  0.00    +0.144 HD
+ENDBRANCH   1  10
+BRANCH   3  18
+ATOM     18  O   UNL     1      12.114  10.008  22.069  0.00  0.00    -0.383 OA
+ATOM     19  H   UNL     1      12.016  10.046  23.044  0.00  0.00    +0.210 HD
+ENDBRANCH   3  18
+BRANCH   4  20
+ATOM     20  C   UNL     1      14.676   9.016  21.169  0.00  0.00    +0.190 C 
+BRANCH  20  21
+ATOM     21  O   UNL     1      14.254   8.064  22.137  0.00  0.00    -0.392 OA
+ATOM     22  H   UNL     1      13.295   7.937  22.019  0.00  0.00    +0.210 HD
+ENDBRANCH  20  21
+ENDBRANCH   4  20
+TORSDOF 4
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -3.891      2.941      4.497
+REMARK INTER + INTRA:          -5.169
+REMARK INTER:                  -4.741
+REMARK INTRA:                  -0.429
+REMARK UNBOUND:                -0.596
+REMARK  Name = Gemcitabine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_3  and  C_9
+REMARK    2  A    between atoms: C_11  and  O_16
+REMARK    3  A    between atoms: C_12  and  C_14
+REMARK    4  A    between atoms: C_14  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      10.949   8.279  24.547  0.00  0.00    +0.296 C 
+ATOM      2  C   UNL     1      10.770   8.130  23.024  0.00  0.00    +0.321 C 
+ATOM      3  C   UNL     1      12.193   8.043  22.494  0.00  0.00    +0.219 C 
+ATOM      4  C   UNL     1      13.035   8.688  23.586  0.00  0.00    +0.181 C 
+ATOM      5  O   UNL     1      12.374   8.363  24.826  0.00  0.00    -0.342 OA
+ATOM      6  F   UNL     1      10.086   7.014  22.669  0.00  0.00    -0.198 F 
+ATOM      7  F   UNL     1      10.122   9.181  22.466  0.00  0.00    -0.198 F 
+ENDROOT
+BRANCH   1  10
+ATOM      8  C   UNL     1      10.382   5.014  26.202  0.00  0.00    +0.061 A 
+ATOM      9  C   UNL     1      10.984   6.001  25.541  0.00  0.00    +0.097 A 
+ATOM     10  N   UNL     1      10.348   7.204  25.332  0.00  0.00    -0.267 N 
+ATOM     11  C   UNL     1       9.035   7.419  25.765  0.00  0.00    +0.352 A 
+ATOM     12  O   UNL     1       8.461   8.478  25.521  0.00  0.00    -0.244 OA
+ATOM     13  N   UNL     1       8.406   6.421  26.469  0.00  0.00    -0.178 NA
+ATOM     14  C   UNL     1       9.017   5.298  26.681  0.00  0.00    +0.123 A 
+ATOM     15  N   UNL     1       8.332   4.343  27.382  0.00  0.00    -0.343 N 
+ATOM     16  H   UNL     1       8.487   3.380  27.110  0.00  0.00    +0.144 HD
+ATOM     17  H   UNL     1       7.345   4.574  27.459  0.00  0.00    +0.144 HD
+ENDBRANCH   1  10
+BRANCH   3  18
+ATOM     18  O   UNL     1      12.392   8.622  21.205  0.00  0.00    -0.383 OA
+ATOM     19  H   UNL     1      11.675   9.280  21.084  0.00  0.00    +0.210 HD
+ENDBRANCH   3  18
+BRANCH   4  20
+ATOM     20  C   UNL     1      13.229  10.206  23.474  0.00  0.00    +0.190 C 
+BRANCH  20  21
+ATOM     21  O   UNL     1      13.290  10.807  24.761  0.00  0.00    -0.392 OA
+ATOM     22  H   UNL     1      13.388  11.767  24.627  0.00  0.00    +0.210 HD
+ENDBRANCH  20  21
+ENDBRANCH   4  20
+TORSDOF 4
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -3.883      2.942      5.696
+REMARK INTER + INTRA:          -5.160
+REMARK INTER:                  -4.545
+REMARK INTRA:                  -0.615
+REMARK UNBOUND:                -0.596
+REMARK  Name = Gemcitabine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_3  and  C_9
+REMARK    2  A    between atoms: C_11  and  O_16
+REMARK    3  A    between atoms: C_12  and  C_14
+REMARK    4  A    between atoms: C_14  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      12.283   8.678  22.246  0.00  0.00    +0.296 C 
+ATOM      2  C   UNL     1      10.756   8.714  22.446  0.00  0.00    +0.321 C 
+ATOM      3  C   UNL     1      10.587   9.059  23.918  0.00  0.00    +0.219 C 
+ATOM      4  C   UNL     1      11.911   8.650  24.548  0.00  0.00    +0.181 C 
+ATOM      5  O   UNL     1      12.911   8.896  23.539  0.00  0.00    -0.342 OA
+ATOM      6  F   UNL     1      10.135   9.651  21.687  0.00  0.00    -0.198 F 
+ATOM      7  F   UNL     1      10.162   7.529  22.168  0.00  0.00    -0.198 F 
+ENDROOT
+BRANCH   1  10
+ATOM      8  C   UNL     1      13.391  11.846  20.676  0.00  0.00    +0.061 A 
+ATOM      9  C   UNL     1      12.998  10.969  21.599  0.00  0.00    +0.097 A 
+ATOM     10  N   UNL     1      12.787   9.648  21.276  0.00  0.00    -0.267 N 
+ATOM     11  C   UNL     1      12.932   9.186  19.964  0.00  0.00    +0.352 A 
+ATOM     12  O   UNL     1      12.685   8.016  19.681  0.00  0.00    -0.244 OA
+ATOM     13  N   UNL     1      13.359  10.069  19.002  0.00  0.00    -0.178 NA
+ATOM     14  C   UNL     1      13.577  11.308  19.315  0.00  0.00    +0.123 A 
+ATOM     15  N   UNL     1      13.993  12.137  18.310  0.00  0.00    -0.343 N 
+ATOM     16  H   UNL     1      13.657  13.092  18.339  0.00  0.00    +0.144 HD
+ATOM     17  H   UNL     1      13.870  11.706  17.398  0.00  0.00    +0.144 HD
+ENDBRANCH   1  10
+BRANCH   3  18
+ATOM     18  O   UNL     1       9.450   8.469  24.548  0.00  0.00    -0.383 OA
+ATOM     19  H   UNL     1       8.672   8.990  24.256  0.00  0.00    +0.210 HD
+ENDBRANCH   3  18
+BRANCH   4  20
+ATOM     20  C   UNL     1      12.000   7.198  25.037  0.00  0.00    +0.190 C 
+BRANCH  20  21
+ATOM     21  O   UNL     1      11.178   6.996  26.179  0.00  0.00    -0.392 OA
+ATOM     22  H   UNL     1      10.258   7.166  25.908  0.00  0.00    +0.210 HD
+ENDBRANCH  20  21
+ENDBRANCH   4  20
+TORSDOF 4
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -3.840      2.764      5.813
+REMARK INTER + INTRA:          -5.110
+REMARK INTER:                  -4.909
+REMARK INTRA:                  -0.201
+REMARK UNBOUND:                -0.596
+REMARK  Name = Gemcitabine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_3  and  C_9
+REMARK    2  A    between atoms: C_11  and  O_16
+REMARK    3  A    between atoms: C_12  and  C_14
+REMARK    4  A    between atoms: C_14  and  O_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      10.908   8.444  22.674  0.00  0.00    +0.296 C 
+ATOM      2  C   UNL     1      10.580   8.773  24.144  0.00  0.00    +0.321 C 
+ATOM      3  C   UNL     1      11.130   7.585  24.917  0.00  0.00    +0.219 C 
+ATOM      4  C   UNL     1      11.203   6.471  23.882  0.00  0.00    +0.181 C 
+ATOM      5  O   UNL     1      11.514   7.123  22.634  0.00  0.00    -0.342 OA
+ATOM      6  F   UNL     1      11.168   9.913  24.585  0.00  0.00    -0.198 F 
+ATOM      7  F   UNL     1       9.250   8.907  24.367  0.00  0.00    -0.198 F 
+ENDROOT
+BRANCH   1  10
+ATOM      8  C   UNL     1      13.693  10.796  22.010  0.00  0.00    +0.061 A 
+ATOM      9  C   UNL     1      12.951   9.859  22.597  0.00  0.00    +0.097 A 
+ATOM     10  N   UNL     1      11.783   9.416  22.021  0.00  0.00    -0.267 N 
+ATOM     11  C   UNL     1      11.308   9.963  20.824  0.00  0.00    +0.352 A 
+ATOM     12  O   UNL     1      10.233   9.597  20.351  0.00  0.00    -0.244 OA
+ATOM     13  N   UNL     1      12.069  10.914  20.191  0.00  0.00    -0.178 NA
+ATOM     14  C   UNL     1      13.180  11.313  20.727  0.00  0.00    +0.123 A 
+ATOM     15  N   UNL     1      13.887  12.268  20.050  0.00  0.00    -0.343 N 
+ATOM     16  H   UNL     1      14.378  12.954  20.611  0.00  0.00    +0.144 HD
+ATOM     17  H   UNL     1      13.330  12.691  19.313  0.00  0.00    +0.144 HD
+ENDBRANCH   1  10
+BRANCH   3  18
+ATOM     18  O   UNL     1      10.390   7.231  26.084  0.00  0.00    -0.383 OA
+ATOM     19  H   UNL     1      10.505   7.969  26.719  0.00  0.00    +0.210 HD
+ENDBRANCH   3  18
+BRANCH   4  20
+ATOM     20  C   UNL     1       9.940   5.615  23.730  0.00  0.00    +0.190 C 
+BRANCH  20  21
+ATOM     21  O   UNL     1       9.813   4.699  24.810  0.00  0.00    -0.392 OA
+ATOM     22  H   UNL     1       9.281   3.948  24.492  0.00  0.00    +0.210 HD
+ENDBRANCH  20  21
+ENDBRANCH   4  20
+TORSDOF 4
+ENDMDL
