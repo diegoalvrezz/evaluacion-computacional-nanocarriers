@@ -1,192 +1,136 @@
-<p align="center">
-  <img src="codigo/logo.png" width="550">
-</p>
+# Computational Evaluation of Polymeric Nanoparticles and Dendrimers as Drug Delivery Systems
 
+**TFM — Máster Universitario en Ingeniería Biomédica**  
+Universidad de Burgos · Curso académico 2025–2026
 
-# MammaScope — Breast Cancer Concordance Analysis Demo
-
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Project](https://img.shields.io/badge/Project-Bachelor%20Thesis-blueviolet)
-
-Public demo of **MammaScope**, a Streamlit-based software tool for integrating and comparing immunohistochemistry (IHC) and MammaTyper molecular profiling in breast cancer.
-
-
+**Autor:** Diego Vallina Álvarez  
+**Directores:** Prof. Santiago Aparicio Martínez · Prof. Pedro Ángel Marcos Villa  
+**Grupo:** Química-Física Computacional · Departamento de Química, UBU
 
 ---
 
-## System Workflow
+## Descripción
 
-The following diagram summarizes the main processing pipeline of the demo application, from file upload to result generation.
+Plataforma computacional para la evaluación sistemática de 58 moléculas representativas de nanopartículas poliméricas y dendrímeros frente a seis proteínas de barrera biológica que determinan la biodistribución y el metabolismo de los fármacos:
 
-```mermaid
-flowchart LR
-    A[User / Researcher] --> B[Streamlit Demo Interface]
+| PDB  | Proteína   | Función                          |
+|------|------------|----------------------------------|
+| 7A65 | P-gp/MDR1  | Bomba de expulsión de fármacos   |
+| 1TQN | CYP3A4     | Metabolismo hepático             |
+| 1CX8 | TfR1       | Targeting tumoral (endocitosis)  |
+| 4LRH | FRα        | Targeting tumoral (folato)       |
+| 1LYZ | Lisozima   | Biocompatibilidad tisular        |
+| 1AO6 | HSA        | Transporte plasmático            |
 
-    B --> C1[Upload IHC Excel file<br/>PatWin data]
-    B --> C2[Upload MammaTyper PDF report]
+---
 
-    C1 --> D1[Validate and preprocess<br/>IHC data]
-    C2 --> D2[Parse PDF and extract<br/>molecular biomarkers]
+## Metodología
 
-    D1 --> E[Integrated data model]
-    D2 --> E
+1. **Cálculos DFT** (TURBOMOLE 7.8.1, B3LYP-D4/def2-TZVP) — optimización de geometrías y perfiles sigma COSMO-RS para las 58 moléculas en clúster HPC CENITS
+2. **Docking molecular** (AutoDock Vina 1.2.5) — 342 cálculos sistemáticos
+3. **Análisis de interacciones** (PLIP 2025) — 708 contactos no covalentes en 15 complejos
+4. **Descriptores moleculares** (RDKit, Mordred) — 2908 características por molécula
+5. **Propiedades ADMET** (SwissADME) — 49 propiedades farmacocinéticas
+6. **Modelos ML** (scikit-learn) — regresión de afinidad (RF: R²=0.817 en P-gp), ITI y clasificador (AUC=0.983)
+7. **Herramienta web** (Streamlit) — recomendación de carrier óptimo a partir de SMILES
 
-    E --> F[Subtype comparison engine]
+---
 
-    F --> G1[Concordant cases]
-    F --> G2[Discordant cases]
+## Estructura del repositorio
 
-    G1 --> H[Structured results]
-    G2 --> H
-
-    H --> I[Interactive visualization<br/>in Streamlit]
-    H --> J[Exportable outputs<br/>reports / tables]
+```
+├── app/                    # Aplicación Streamlit + modelos entrenados
+│   ├── app.py
+│   └── models/             # Modelos RF serializados (.joblib)
+├── data/                   # Datasets y descriptores
+│   ├── base_molecular_pubchem.csv
+│   ├── dataset_ML.csv
+│   ├── descriptores_2D.csv
+│   ├── descriptores_3D_mordred.csv
+│   ├── docking_energias.csv
+│   ├── sigma_profiles.csv
+│   ├── admet_swissadme.csv
+│   ├── plip_parsed.csv
+│   └── admet_raw/          # CSVs originales de SwissADME por tanda
+├── docking/                # Archivos de docking
+│   ├── receptores/         # PDB de las 6 proteínas
+│   ├── ligandos/           # PDBQT de las 58 moléculas
+│   ├── resultados/         # Poses de docking (.pdbqt)
+│   ├── plip_inputs/        # PDB combinados proteína+ligando para PLIP
+│   └── plip_resultados/    # Imágenes y XMLs de PLIP
+├── docs/                   # Memoria y anexos del TFM
+│   ├── memoria.pdf
+│   ├── anexos.pdf
+│   ├── memoria.qmd
+│   ├── anexos.qmd
+│   └── qmd/                # Capítulos en formato Quarto
+├── results/                # Resultados y figuras
+│   ├── figures/            # Todas las figuras del TFM
+│   ├── ml_results/         # CSVs de resultados ML
+│   └── models/             # Modelos entrenados
+├── scripts/                # Scripts Python del proyecto
+│   ├── calcular_descriptores_2D.py
+│   ├── calcular_fingerprints.py
+│   ├── extraer_sigma_profiles.py
+│   ├── combinar_descriptores.py
+│   ├── lanzar_docking.py
+│   ├── extraer_docking_energias.py
+│   ├── modelos_ML_v2.py
+│   ├── preparar_plip.py
+│   └── graficas_pro.py
+└── structures/             # Estructuras moleculares
+    ├── xyz/                # Geometrías DFT optimizadas (.xyz)
+    ├── sdf/                # Estructuras 3D (.sdf)
+    ├── molden/             # Archivos de visualización (.molden)
+    └── turbomole/          # Cálculos TURBOMOLE completos
 ```
 
 ---
 
-# Live Demo
+## Resultados principales
 
-Try the application online:
+| Métrica | Valor |
+|---------|-------|
+| Moléculas con DFT completo | 58/58 |
+| Dockings válidos | 342/348 |
+| R² Random Forest (P-gp) | 0.817 |
+| R² Random Forest (TfR1) | 0.753 |
+| AUC clasificador | 0.983 |
+| Interacciones PLIP | 708 |
 
-https://mammascope-demo.streamlit.app/
-
-The demo includes **simulated and anonymized example files** so the full workflow can be tested without using real clinical data.
-
----
-
-# Overview
-
-Breast cancer molecular subtyping is essential for guiding therapeutic decisions. In routine clinical practice, classification is commonly performed using **immunohistochemistry (IHC)** by evaluating biomarkers such as:
-
-- ER (Estrogen Receptor)
-- PR (Progesterone Receptor)
-- HER2
-- Ki-67
-
-However, IHC presents limitations related to **inter-observer variability and subjective interpretation**, particularly for Ki-67.
-
-The **MammaTyper® assay**, based on RT-qPCR technology, quantifies the expression of the genes:
-
-- ESR1
-- PGR
-- ERBB2
-- MKI67
-
-This provides a **quantitative and reproducible molecular classification**.
-
-This project develops a software tool that **automates the integration and comparison of results between both methods**, facilitating the analysis of diagnostic concordance.
+**Top candidatos ITI:** Triethylene glycol (100), Tetraethylenepentamine (87.3), Pentaethylenehexamine (85.0), Chitotriose (84.7), Chitobiose (82.7)
 
 ---
 
-# Key Features
-
-The system provides the following functionality:
-
-- Import of **IHC results from Excel files (PatWin)**
-- Import of **MammaTyper PDF reports**
-- Automatic **biomarker extraction**
-- Integration of results into a structured dataset
-- Identification of **concordances and discordances**
-- Automatic **report generation**
-- Export of processed results
-
-The application is implemented using **Python and Streamlit**, providing a lightweight interface suitable for clinical environments.
-
----
-
-# Running the Demo Locally
-
-Clone the repository:
+## Uso de la aplicación Streamlit
 
 ```bash
-git clone https://github.com/diegoalvrezz/MammaScope-Demo.git
-cd MammaScope-Demo
+conda activate streamlit-env
+cd app
+streamlit run app.py
 ```
 
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application:
-
-```bash
-streamlit run demo_app/demo_app.py
-```
-
-The application will open automatically in your browser.
+La app se abre en `http://localhost:8501`. Introduce el SMILES de cualquier molécula para obtener su perfil de afinidad, ITI y recomendación de carrier.
 
 ---
 
-# Demo Files
-
-Example anonymized files are included in:
+## Dependencias principales
 
 ```
-demo_app/demo_files
-```
-
-These files allow users to test the complete workflow without requiring real hospital data.
-
----
-
-# Repository Structure
-
-```
-MammaScope-Demo
-│
-├── codigo/                 core processing modules
-│
-├── demo_app/               Streamlit demo application
-│   ├── demo_app.py
-│   ├── ajustes.py
-│   ├── extraccion.py
-│   ├── informes.py
-│   ├── discordancia.py
-│   ├── db.py
-│   ├── auth.py
-│   ├── vista_historico.py
-│   ├── stats_biomarcadores.py
-│   └── demo_files/
-│
-├── requirements.txt
-├── README.md
-└── LICENSE
+rdkit, mordred, scikit-learn, shap, pandas, numpy
+matplotlib, seaborn, streamlit, py3Dmol, stmol, joblib
 ```
 
 ---
 
-# Clinical Data Disclaimer
+## Cita
 
-This repository **does not contain real clinical data**.
+Si utilizas este trabajo, por favor cita:
 
-All files included in the demo are:
-
-- simulated  
-- anonymized  
-- intended only for demonstration purposes  
-
-The full application is designed to operate with **previously anonymized data within a hospital environment**.
+> Vallina Álvarez, D. (2026). *Evaluación computacional de nanopartículas poliméricas y dendrímeros como sistemas de liberación de fármacos*. TFM, Universidad de Burgos.
 
 ---
 
-# Author
+## Licencia
 
-**Diego Vallina Álvarez**
-
-Health Engineering Degree  
-University of Burgos  
-
-Bachelor’s Thesis developed in collaboration with the **Hospital Universitario de Burgos (HUBU)**.
-
----
-
-# License
-
-This project is distributed under the **MIT License**.
-
-See the `LICENSE` file for details.
+MIT License — libre uso con atribución.
