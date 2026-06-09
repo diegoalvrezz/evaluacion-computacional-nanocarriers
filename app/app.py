@@ -30,7 +30,7 @@ except ImportError:
     DRAW_AVAILABLE = False
 
 import py3Dmol
-from stmol import showmol
+import streamlit.components.v1 as components
 
 # ── Rutas ─────────────────────────────────────────────────────
 BASE_DIR   = Path(__file__).parent
@@ -221,25 +221,28 @@ def find_most_similar(mol, df_base):
 
 # ── Visualización 3D ──────────────────────────────────────────
 def show_3d_molecule(mol, style="stick"):
-    # Genera coordenadas 3D y muestra la molécula con py3Dmol
-    mol_h = Chem.AddHs(mol)
-    AllChem.EmbedMolecule(mol_h, AllChem.ETKDGv3())
-    AllChem.MMFFOptimizeMolecule(mol_h)
-    mol_block = Chem.MolToMolBlock(mol_h)
+    # Genera coordenadas 3D y muestra la molécula con py3Dmol via HTML
+    try:
+        mol_h = Chem.AddHs(mol)
+        AllChem.EmbedMolecule(mol_h, AllChem.ETKDGv3())
+        AllChem.MMFFOptimizeMolecule(mol_h)
+        mol_block = Chem.MolToMolBlock(mol_h)
 
-    viewer = py3Dmol.view(width=400, height=350)
-    viewer.addModel(mol_block, "mol")
-    if style == "stick":
-        viewer.setStyle({"stick": {"colorscheme": "default"}})
-    elif style == "sphere":
-        viewer.setStyle({"sphere": {"colorscheme": "default", "scale": 0.3},
-                         "stick":  {"colorscheme": "default", "radius": 0.1}})
-    elif style == "surface":
-        viewer.setStyle({"stick": {}})
-        viewer.addSurface(py3Dmol.VDW, {"opacity": 0.7, "colorscheme": "default"})
-    viewer.setBackgroundColor("white")
-    viewer.zoomTo()
-    showmol(viewer, height=350, width=400)
+        viewer = py3Dmol.view(width=400, height=350)
+        viewer.addModel(mol_block, "mol")
+        if style == "stick":
+            viewer.setStyle({"stick": {}})
+        elif style == "sphere":
+            viewer.setStyle({"sphere": {"scale": 0.3}, "stick": {"radius": 0.1}})
+        elif style == "surface":
+            viewer.setStyle({"stick": {}})
+            viewer.addSurface(py3Dmol.VDW, {"opacity": 0.7})
+        viewer.setBackgroundColor("white")
+        viewer.zoomTo()
+        html_str = viewer._make_html()
+        components.html(html_str, height=350, width=400)
+    except Exception as e:
+        st.info(f"No se pudo generar la estructura 3D: {e}")
 
 # ── Gráficas ──────────────────────────────────────────────────
 def make_radar(dg_dict, mol_name):
