@@ -636,7 +636,7 @@ with tab1:
                 mol_sim = Chem.MolFromSmiles(sim_smi)
                 if mol_sim:
                     if DRAW_AVAILABLE:
-                    try:
+                        try:
                         from rdkit.Chem import rdDepictor
                         rdDepictor.Compute2DCoords(mol_sim)
                         drawer = rdMolDraw2D.MolDraw2DSVG(180, 140)
