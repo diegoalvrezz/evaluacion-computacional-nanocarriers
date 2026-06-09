@@ -34,8 +34,13 @@ import streamlit.components.v1 as components
 
 # ── Rutas ─────────────────────────────────────────────────────
 BASE_DIR   = Path(__file__).parent
-MODELS_DIR = BASE_DIR / "resultados_ML" / "models"
+MODELS_DIR = BASE_DIR / "models"
 DATA_DIR   = BASE_DIR
+# En Streamlit Cloud los datos están en la carpeta app/
+# Si no existen ahí, busca en el directorio padre
+import os
+if not (BASE_DIR / "dataset_ML.csv").exists():
+    DATA_DIR = BASE_DIR.parent / "data"
 
 # ── Constantes ────────────────────────────────────────────────
 PROT_NAMES = ["P-gp MDR1", "CYP3A4", "TfR1", "FRα", "Lisozima", "HSA"]

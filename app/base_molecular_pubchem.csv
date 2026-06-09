@@ -1,0 +1,61 @@
+grupo,nombre_entrada,iupac_name,smiles_pubchem,cid,status
+monomeros_degradacion,L-Lactic acid,(2S)-2-hydroxypropanoic acid,CC(C(=O)O)O,107689,ok
+monomeros_degradacion,D-Lactic acid,(2R)-2-hydroxypropanoic acid,CC(C(=O)O)O,61503,ok
+monomeros_degradacion,Glycolic acid,2-hydroxyacetic acid,C(C(=O)O)O,757,ok
+monomeros_degradacion,Succinic acid,butanedioic acid,C(CC(=O)O)C(=O)O,1110,ok
+monomeros_degradacion,Glutaric acid,pentanedioic acid,C(CC(=O)O)CC(=O)O,743,ok
+monomeros_degradacion,Adipic acid,hexanedioic acid,C(CCC(=O)O)CC(=O)O,196,ok
+monomeros_degradacion,6-Hydroxyhexanoic acid,6-hydroxyhexanoic acid,C(CCC(=O)O)CCO,14490,ok
+monomeros_degradacion,6-Hydroxycaproic acid,6-hydroxyhexanoic acid,C(CCC(=O)O)CCO,14490,ok
+monomeros_degradacion,epsilon-Caprolactone,oxepan-2-one,C1CCC(=O)OCC1,10401,ok
+monomeros_degradacion,Glucosamine,"(3R,4R,5S,6R)-3-amino-6-(hydroxymethyl)oxane-2,4,5-triol",C(C1C(C(C(C(O1)O)N)O)O)O,439213,ok
+monomeros_degradacion,N-Acetylglucosamine,"N-[(2R,3R,4S,5R)-3,4,5,6-tetrahydroxy-1-oxohexan-2-yl]acetamide",CC(=O)NC(C=O)C(C(C(CO)O)O)O,1738118,ok
+monomeros_degradacion,Ethylenediamine,"ethane-1,2-diamine",C(CN)N,3301,ok
+monomeros_degradacion,Methyl acrylate,methyl prop-2-enoate,COC(=O)C=C,7294,ok
+monomeros_degradacion,L-Lactide,"(3S,6S)-3,6-dimethyl-1,4-dioxane-2,5-dione",CC1C(=O)OC(C(=O)O1)C,107983,ok
+monomeros_degradacion,Glycolide,"1,4-dioxane-2,5-dione",C1C(=O)OCC(=O)O1,65432,ok
+oligomeros_unidades,Diethylenetriamine,"N'-(2-aminoethyl)ethane-1,2-diamine",C(CNCCN)N,8111,ok
+oligomeros_unidades,Triethylenetetramine,"N'-[2-(2-aminoethylamino)ethyl]ethane-1,2-diamine",C(CNCCNCCN)N,5565,ok
+oligomeros_unidades,Tetraethylenepentamine,"N'-[2-[2-(2-aminoethylamino)ethylamino]ethyl]ethane-1,2-diamine",C(CNCCNCCNCCN)N,8197,ok
+oligomeros_unidades,Pentaethylenehexamine,"N'-[2-[2-[2-(2-aminoethylamino)ethylamino]ethylamino]ethyl]ethane-1,2-diamine",C(CNCCNCCNCCNCCN)N,19990,ok
+oligomeros_unidades,Tris(2-aminoethyl)amine,"N',N'-bis(2-aminoethyl)ethane-1,2-diamine",C(CN(CCN)CCN)N,77731,ok
+oligomeros_unidades,"N,N'-Bis(2-aminoethyl)ethylenediamine","N'-[2-(2-aminoethylamino)ethyl]ethane-1,2-diamine",C(CNCCNCCN)N,5565,ok
+oligomeros_unidades,Methylamine,methanamine,CN,6329,ok
+oligomeros_unidades,Ammonia,azane,N,222,ok
+oligomeros_unidades,2-Aminoethanol,2-aminoethanol,C(CO)N,700,ok
+oligomeros_unidades,2-(2-Aminoethoxy)ethanol,2-(2-aminoethoxy)ethanol,C(COCCO)N,13578,ok
+oligomeros_unidades,Bis(2-aminoethyl) ether,2-(2-aminoethoxy)ethanamine,C(COCCN)N,75982,ok
+oligomeros_unidades,Methyl 3-aminopropionate,methyl 3-aminopropanoate,COC(=O)CCN,192794,ok
+oligomeros_unidades,Ethyl acrylate,ethyl prop-2-enoate,CCOC(=O)C=C,8821,ok
+oligomeros_unidades,Methyl methacrylate,methyl 2-methylprop-2-enoate,CC(=C)C(=O)OC,6658,ok
+oligomeros_unidades,Acrylic acid,prop-2-enoic acid,C=CC(=O)O,6581,ok
+oligomeros_unidades,Lactic acid dimer,2-(2-hydroxypropanoyloxy)propanoic acid,CC(C(=O)OC(C)C(=O)O)O,69241,ok
+oligomeros_unidades,Lactic acid trimer,2-[2-(2-hydroxypropanoyloxy)propanoyloxy]propanoic acid,CC(C(=O)OC(C)C(=O)OC(C)C(=O)O)O,21304333,ok
+oligomeros_unidades,Diglycolic acid,2-(carboxymethoxy)acetic acid,C(C(=O)O)OCC(=O)O,8088,ok
+oligomeros_unidades,Chitobiose,"(2R,3R,4S,5R)-2-amino-4-[(2S,3R,4R,5S,6R)-3-amino-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,5,6-trihydroxyhexanal",C(C1C(C(C(C(O1)OC(C(CO)O)C(C(C=O)N)O)N)O)O)O,122158,ok
+oligomeros_unidades,Chitotriose,"(2R,3R,4S,5R)-2-amino-4-[(2S,3R,4R,5S,6R)-3-amino-5-[(2S,3R,4R,5S,6R)-3-amino-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4-hydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,5,6-trihydroxyhexanal",C(C1C(C(C(C(O1)OC2C(OC(C(C2O)N)OC(C(CO)O)C(C(C=O)N)O)CO)N)O)O)O,121978,ok
+farmacos_modelo,Doxorubicin,"(7S,9S)-7-[(2R,4S,5S,6S)-4-amino-5-hydroxy-6-methyloxan-2-yl]oxy-6,9,11-trihydroxy-9-(2-hydroxyacetyl)-4-methoxy-8,10-dihydro-7H-tetracene-5,12-dione",CC1C(C(CC(O1)OC2CC(CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)CO)O)N)O,31703,ok
+farmacos_modelo,Paclitaxel,"[(1S,2S,3R,4S,7R,9S,10S,12R,15S)-4,12-diacetyloxy-15-[(2R,3S)-3-benzamido-2-hydroxy-3-phenylpropanoyl]oxy-1,9-dihydroxy-10,14,17,17-tetramethyl-11-oxo-6-oxatetracyclo[11.3.1.03,10.04,7]heptadec-13-en-2-yl] benzoate",CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C,36314,ok
+farmacos_modelo,5-Fluorouracil,"5-fluoro-1H-pyrimidine-2,4-dione",C1=C(C(=O)NC(=O)N1)F,3385,ok
+farmacos_modelo,Methotrexate,"(2S)-2-[[4-[(2,4-diaminopteridin-6-yl)methyl-methylamino]benzoyl]amino]pentanedioic acid",CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O,126941,ok
+farmacos_modelo,Curcumin,"(1E,6E)-1,7-bis(4-hydroxy-3-methoxyphenyl)hepta-1,6-diene-3,5-dione",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC(=C(C=C2)O)OC)O,969516,ok
+farmacos_modelo,Cisplatin,azane;dichloroplatinum,N.N.Cl[Pt]Cl,5460033,ok
+farmacos_modelo,Gemcitabine,"4-amino-1-[(2R,4R,5R)-3,3-difluoro-4-hydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidin-2-one",C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)(F)F,60750,ok
+farmacos_modelo,Sirolimus,"(1R,9S,12S,15R,16E,18R,19R,21R,23S,24E,26E,28E,30S,32S,35R)-1,18-dihydroxy-12-[(2R)-1-[(1S,3R,4R)-4-hydroxy-3-methoxycyclohexyl]propan-2-yl]-19,30-dimethoxy-15,17,21,23,29,35-hexamethyl-11,36-dioxa-4-azatricyclo[30.3.1.04,9]hexatriaconta-16,24,26,28-tetraene-2,3,10,14,20-pentone",CC1CCC2CC(C(=CC=CC=CC(CC(C(=O)C(C(C(=CC(C(=O)CC(OC(=O)C3CCCCN3C(=O)C(=O)C1(O2)O)C(C)CC4CCC(C(C4)OC)O)C)C)O)OC)C)C)C)OC,5284616,ok
+farmacos_modelo,Dexamethasone,"(8S,9R,10S,11S,13S,14S,16R,17R)-9-fluoro-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13,16-trimethyl-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-3-one",CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C,5743,ok
+farmacos_modelo,Ibuprofen,2-[4-(2-methylpropyl)phenyl]propanoic acid,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,3672,ok
+ligandos_targeting,Folic acid,(2S)-2-[[4-[(2-amino-4-oxo-3H-pteridin-6-yl)methylamino]benzoyl]amino]pentanedioic acid,C1=CC(=CC=C1C(=O)NC(CCC(=O)O)C(=O)O)NCC2=CN=C3C(=N2)C(=O)NC(=N3)N,135398658,ok
+ligandos_targeting,Biotin,"5-[(3aS,4S,6aR)-2-oxo-1,3,3a,4,6,6a-hexahydrothieno[3,4-d]imidazol-4-yl]pentanoic acid",C1C2C(C(S1)CCCCC(=O)O)NC(=O)N2,171548,ok
+ligandos_targeting,D-Mannose,"(3S,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol",C(C1C(C(C(C(O1)O)O)O)O)O,18950,ok
+ligandos_targeting,D-Galactose,"(3R,4S,5R,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol",C(C1C(C(C(C(O1)O)O)O)O)O,6036,ok
+ligandos_targeting,N-Acetylneuraminic acid,"(4S,5R,6R)-5-acetamido-2,4-dihydroxy-6-[(1R,2R)-1,2,3-trihydroxypropyl]oxane-2-carboxylic acid",CC(=O)NC1C(CC(OC1C(C(CO)O)O)(C(=O)O)O)O,439197,ok
+ligandos_targeting,Glucuronic acid,"(2S,3S,4S,5R)-3,4,5,6-tetrahydroxyoxane-2-carboxylic acid",C1(C(C(OC(C1O)O)C(=O)O)O)O,94715,ok
+ligandos_targeting,Glucosamine-6-sulfate,"(5-amino-3,4,6-trihydroxyoxan-2-yl)methyl hydrogen sulfate",C(C1C(C(C(C(O1)O)N)O)O)OS(=O)(=O)O,453620,ok
+ligandos_targeting,Chondroitin sulfate disaccharide,"[(2R,3R,4R,5R,6R)-5-acetamido-4-[(2R,3R,4S,5S,6S)-6-carboxy-4,5-dihydroxy-3-sulfonatooxyoxan-2-yl]oxy-6-hydroxy-2-(hydroxymethyl)oxan-3-yl] sulfate",CC(=O)NC1C(C(C(OC1O)CO)OS(=O)(=O)[O-])OC2C(C(C(C(O2)C(=O)O)O)O)OS(=O)(=O)[O-],146037056,ok
+ligandos_targeting,Arginylglycylaspartic acid,(2S)-2-[[2-[[(2S)-2-amino-5-(diaminomethylideneamino)pentanoyl]amino]acetyl]amino]butanedioic acid,C(CC(C(=O)NCC(=O)NC(CC(=O)O)C(=O)O)N)CN=C(N)N,104802,ok
+ligandos_targeting,Asparagine,"(2S)-2,4-diamino-4-oxobutanoic acid",C(C(C(=O)O)N)C(=O)N,6267,ok
+ligandos_targeting,Arginine,(2S)-2-amino-5-(diaminomethylideneamino)pentanoic acid,C(CC(C(=O)O)N)CN=C(N)N,6322,ok
+ligandos_targeting,Aspartic acid,(2S)-2-aminobutanedioic acid,C(C(C(=O)O)N)C(=O)O,5960,ok
+ligandos_targeting,4-Aminobenzoic acid,4-aminobenzoic acid,C1=CC(=CC=C1C(=O)O)N,978,ok
+ligandos_targeting,"2,2'-Iminodiethanol",2-(2-hydroxyethylamino)ethanol,C(CO)NCCO,8113,ok
+ligandos_targeting,Triethylene glycol,2-[2-(2-hydroxyethoxy)ethoxy]ethanol,C(COCCOCCO)O,8172,ok
