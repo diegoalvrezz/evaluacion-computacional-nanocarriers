@@ -22,9 +22,9 @@ from rdkit.Chem import Descriptors, rdMolDescriptors, AllChem
 from rdkit.Chem import rdFingerprintGenerator
 from rdkit import DataStructs
 
-# Draw se importa de forma segura para entornos sin display
+# Draw via SVG - funciona sin display en Streamlit Cloud
 try:
-    from rdkit.Chem import Draw
+    from rdkit.Chem.Draw import rdMolDraw2D
     DRAW_AVAILABLE = True
 except ImportError:
     DRAW_AVAILABLE = False
@@ -583,8 +583,16 @@ with tab1:
             with col_2d:
                 st.markdown("**Estructura 2D**")
                 if DRAW_AVAILABLE:
-                    img = Draw.MolToImage(mol_preview, size=(220, 180))
-                    st.image(img)
+                    try:
+                        from rdkit.Chem import rdDepictor
+                        rdDepictor.Compute2DCoords(mol_preview)
+                        drawer = rdMolDraw2D.MolDraw2DSVG(220, 180)
+                        drawer.DrawMolecule(mol_preview)
+                        drawer.FinishDrawing()
+                        svg = drawer.GetDrawingText()
+                        st.image(svg.encode(), use_container_width=False)
+                    except Exception:
+                        st.info("Estructura 2D no disponible.")
                 else:
                     st.info("Visualización 2D no disponible en este entorno.")
 
@@ -628,8 +636,16 @@ with tab1:
                 mol_sim = Chem.MolFromSmiles(sim_smi)
                 if mol_sim:
                     if DRAW_AVAILABLE:
-                        img_sim = Draw.MolToImage(mol_sim, size=(180, 140))
-                        st.image(img_sim, caption=sim_name)
+                    try:
+                        from rdkit.Chem import rdDepictor
+                        rdDepictor.Compute2DCoords(mol_sim)
+                        drawer = rdMolDraw2D.MolDraw2DSVG(180, 140)
+                        drawer.DrawMolecule(mol_sim)
+                        drawer.FinishDrawing()
+                        svg_sim = drawer.GetDrawingText()
+                        st.image(svg_sim.encode(), caption=sim_name)
+                    except Exception:
+                        pass
         else:
             st.error("SMILES no valido.")
             smiles_input = ""
