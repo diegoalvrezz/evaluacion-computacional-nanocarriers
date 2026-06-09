@@ -1,6 +1,4 @@
-```{=latex}
 \capitulo{6}{Líneas de trabajo futuro}
-```
 
 El trabajo más evidente es ampliar el dataset. Con 200 a 500 moléculas,
 incluyendo generaciones superiores de PAMAM (G3-G5) y más variedad de
@@ -10,20 +8,28 @@ aprendizaje profundo como redes neuronales de grafos (GNN), que trabajan
 directamente con la estructura molecular en lugar de con descriptores
 numéricos calculados a mano.
 
-La validación experimental es el paso que más valor daría a las predicciones.
-Ensayos de inhibición de P-gp, estudios de captación celular mediada por TfR1
-o experimentos de biodistribución en animales permitirían comparar las
-energías de unión predichas con datos reales. Con esos datos también se
-podrían ajustar los pesos del ITI de forma empírica, en lugar de definirlos
-con criterio experto.
+La validación experimental es el paso que más valor daría a las
+predicciones. Ensayos de inhibición de P-gp, estudios de captación
+celular mediada por TfR1 o experimentos de biodistribución en animales
+permitirían comparar las energías de unión predichas con datos reales.
+Con esos datos también se podrían ajustar los pesos del ITI de forma
+empírica, en lugar de definirlos con criterio experto, es decir,
+asignados manualmente en función del conocimiento farmacológico sobre
+el papel de cada proteína, sin ajuste sobre datos experimentales reales.
 
-En cuanto al docking, aplicar métodos más precisos como FEP o MM-GBSA a los
-candidatos top del ITI daría una caracterización energética más fiable. Estos
-métodos son mucho más lentos que AutoDock Vina, pero para un conjunto reducido
+En cuanto al docking, aplicar métodos más precisos como FEP
+(\textit{Free Energy Perturbation}, perturbación de energía libre) o
+MM-GBSA (\textit{Molecular Mechanics Generalized Born Surface Area},
+mecánica molecular con modelo de solvatación implícita) a los candidatos
+top del ITI daría una caracterización energética más fiable. A diferencia
+de AutoDock Vina, que estima la afinidad mediante una función de scoring
+rápida, estos métodos calculan la energía libre de unión considerando
+explícitamente la flexibilidad del receptor y los efectos del disolvente,
+a costa de un coste computacional mucho mayor. Para un conjunto reducido
 de candidatos son abordables.
 
-La herramienta Streamlit tiene margen de mejora. Añadir un módulo de dibujo
-de estructuras moleculares directamente en el navegador, exportación de
-informes en PDF y conexión con bases de datos como PubChem o ChEMBL haría
-que fuera más útil para investigadores que no quieren trabajar con SMILES
-a mano.
+La herramienta Streamlit tiene margen de mejora. Añadir un módulo de
+dibujo de estructuras moleculares directamente en el navegador,
+exportación de informes en PDF y conexión con bases de datos como
+PubChem o ChEMBL haría que fuera más útil para investigadores que no
+estén familiarizados con códigos SMILES.

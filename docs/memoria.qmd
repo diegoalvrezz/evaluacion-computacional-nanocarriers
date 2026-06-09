@@ -51,7 +51,7 @@ y modelos predictivos de eficiencia de transporte}
 Área de Química Física, Unidad de Investigación Consolidada 305 ---
 Análisis y Simulación Molecular de Fluidos, Universidad de Burgos.
 
-\noindent D. \nombreTutorb, profesor del Departamento de Química,
+\noindent D. \nombreTutorb, profesor del Departamento de Física,
 Área de Física Aplicada, Universidad de Burgos.
 
 \bigskip
@@ -115,24 +115,24 @@ targeting frente a seis proteínas de barrera clave: P-glicoproteína
 (P-gp/MDR1), CYP3A4, receptor de transferrina (TfR1), receptor de
 folato alfa (FR$\alpha$), lisozima y albúmina sérica humana (HSA).
 
-La metodología combina: (i) optimización de geometrías moleculares
-mediante DFT (B3LYP-D4/def2-TZVP) y cálculo de perfiles sigma
-COSMO-RS en clúster HPC; (ii) acoplamiento molecular sistemático con
-AutoDock Vina~1.2.5 (342 dockings) y análisis de interacciones
-proteína-ligando con PLIP~2025; (iii) cálculo de 2908 descriptores
-moleculares (2D, 3D, fingerprints y perfiles de polaridad superficial)
-y propiedades ADMET con SwissADME; y (iv) tres modelos de aprendizaje
-automático: regresión de afinidad por proteína (Random Forest,
-R$^2$ hasta 0.817 para P-gp), un Índice de Eficiencia de Transporte
-(ITI) y un clasificador favorable/desfavorable (AUC\,=\,0.983).
-El análisis SHAP revela que la complejidad topológica (BertzCT) es
-el descriptor con mayor poder predictivo. Los resultados identifican
-Triethylene glycol (PEG), ramas PAMAM de baja generación y oligómeros
-de quitosano como los candidatos más favorables para drug delivery,
-validado estructuralmente por PLIP y farmacocinéticamente por ADMET.
-El trabajo incluye una herramienta web interactiva (Streamlit) para
-la recomendación de carrier óptimo a partir del SMILES de una nueva
-molécula.
+La metodología combina: (i) optimización de las geometrías y
+propiedades electrónicas estimadas con cálculos de mecánica cuántica;
+(ii) estudio de las interacciones proteína-ligando mediante docking
+molecular; (iii) cálculo de 2908 descriptores moleculares (2D, 3D,
+fingerprints y perfiles de polaridad superficial) y propiedades ADMET
+con SwissADME; y (iv) tres modelos de aprendizaje automático:
+regresión de afinidad por proteína (Random Forest, R$^2$ hasta 0.817
+para P-gp), un Índice de Eficiencia de Transporte (ITI) y un
+clasificador favorable/desfavorable (AUC\,=\,0.983).
+El análisis SHAP, que permite discernir las contribuciones principales
+para la afinidad con la proteína, revela que la complejidad topológica
+(BertzCT) es el descriptor con mayor poder predictivo. Los resultados
+identifican Triethylene glycol (PEG), ramas PAMAM de baja generación
+y oligómeros de quitosano como los candidatos más favorables para
+drug delivery, validado estructuralmente por PLIP y
+farmacocinéticamente por ADMET. El trabajo incluye una herramienta
+web interactiva (Streamlit) para la recomendación de carrier óptimo
+a partir del SMILES de una nueva molécula.
 \end{abstract}
 
 \renewcommand*\abstractname{Descriptores}
@@ -149,10 +149,10 @@ P-glicoproteína, receptor de transferrina, receptor de folato
 \renewcommand*\abstractname{Abstract}
 \begin{abstract}
 Polymeric nanoparticle- and dendrimer-based drug delivery systems
-represent one of the most promising strategies in nanomedicine. Their
-transport efficiency fundamentally depends on how their molecular
-building blocks interact with the biological barrier proteins that
-govern biodistribution, metabolism and cellular uptake.
+represent one of the most promising strategies in nanomedicine.
+Their transport efficiency fundamentally depends on how their
+molecular building blocks interact with the biological barrier
+proteins that govern biodistribution, metabolism and cellular uptake.
 
 This work presents an integrated computational platform for the
 systematic evaluation of 58 representative molecules --- monomers,
@@ -161,21 +161,23 @@ against six key barrier proteins: P-glycoprotein (P-gp/MDR1),
 CYP3A4, transferrin receptor (TfR1), folate receptor alpha
 (FR$\alpha$), lysozyme and human serum albumin (HSA).
 
-The methodology combines: (i) molecular geometry optimization by DFT
-(B3LYP-D4/def2-TZVP) and COSMO-RS sigma-profile calculation on HPC;
-(ii) systematic molecular docking with AutoDock Vina~1.2.5 (342
-dockings) and protein-ligand interaction analysis with PLIP~2025;
-(iii) 2908 molecular descriptors (2D, 3D, fingerprints, surface
-polarity profiles) and ADMET properties with SwissADME; and (iv)
-three machine learning models: affinity regression per protein
-(Random Forest, R$^2$ up to 0.817 for P-gp), a Transport Efficiency
-Index (TEI), and a favorable/unfavorable classifier (AUC\,=\,0.983).
-SHAP analysis identifies topological complexity (BertzCT) as the most
-predictive descriptor. Triethylene glycol (PEG), low-generation PAMAM
-branches and chitosan oligomers emerge as the most favorable
-candidates, structurally validated by PLIP and
-pharmacokinetically confirmed by ADMET. An interactive Streamlit
-web tool for optimal carrier recommendation is also provided.
+The methodology combines: (i) optimization of molecular geometries
+and electronic properties estimated with quantum mechanical
+calculations; (ii) study of protein--ligand interactions by molecular
+docking; (iii) calculation of 2908 molecular descriptors (2D, 3D,
+fingerprints, surface polarity profiles) and ADMET properties with
+SwissADME; and (iv) three machine learning models: affinity
+regression per protein (Random Forest, R$^2$ up to 0.817 for P-gp),
+a Transport Efficiency Index (TEI), and a favorable/unfavorable
+classifier (AUC\,=\,0.983). SHAP analysis, which quantifies the
+individual contribution of each molecular descriptor to the predicted
+affinity for each protein, identifies topological complexity
+(BertzCT) as the most predictive descriptor. Triethylene glycol
+(PEG), low-generation PAMAM branches and chitosan oligomers emerge
+as the most favorable candidates, structurally validated by PLIP and
+pharmacokinetically confirmed by ADMET. An interactive Streamlit web
+tool for optimal carrier recommendation from the SMILES of a new
+molecule is also provided.
 \end{abstract}
 
 \renewcommand*\abstractname{Keywords}

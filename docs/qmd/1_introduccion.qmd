@@ -1,47 +1,47 @@
-```{=latex}
 \capitulo{1}{Introducción}
-```
 
 Las enfermedades oncológicas, inflamatorias y neurológicas son un problema
 clínico de primera magnitud. Los sistemas de liberación de fármacos (DDS,
 del inglés \textit{Drug Delivery Systems}) ofrecen una solución concreta:
 encapsular el principio activo, protegerlo de la degradación y liberarlo
-donde hace falta. Las nanopartículas poliméricas basadas en PLGA, PLA o
+donde hace falta. Las nanopartículas poliméricas basadas en poli(ácido
+láctico-\textit{co}-glicólico) (PLGA), poli(ácido láctico) (PLA) o
 policaprolactona llevan décadas en desarrollo clínico, y los dendrímeros
-PAMAM, que son moléculas muy ramificadas con cavidades internas para cargar
-fármacos, representan una alternativa complementaria [@danhier2012;
-@kesharwani2018].
+de poliamidoamina (PAMAM), que son moléculas muy ramificadas con cavidades
+internas para cargar fármacos, representan una alternativa complementaria
+[@danhier2012; @kesharwani2018].
 
-El problema es que llegar al tejido diana no depende solo del nanocarrier.
-Hay un conjunto de proteínas que determinan qué le pasa a cualquier molécula
-que entra en el organismo. La P-glicoproteína (P-gp/MDR1) expulsa los
-fármacos que reconoce como sustratos, lo que causa resistencia a la
-quimioterapia [@waghray2018]. El CYP3A4 los metaboliza en el hígado antes
-de que lleguen al tumor, y es responsable del metabolismo de más del 50\,\%
-de los fármacos clínicos [@zanger2013]. El receptor de transferrina (TfR1)
-y el receptor de folato (FR$\alpha$) están sobreexpresados en las células
-tumorales y se pueden usar como puerta de entrada para llevar nanopartículas
-específicamente al tumor. La lisozima es un indicador de compatibilidad
-tisular. Y la albúmina sérica (HSA) transporta los fármacos en sangre y
-determina cuánto tiempo circulan.
+Existen un cierto conjunto de proteínas que determinan qué le pasa a
+cualquier molécula que entra en el organismo. La P-glicoproteína
+(P-gp/MDR1) expulsa los fármacos que reconoce como sustratos, lo que
+causa resistencia a la quimioterapia [@waghray2018]. El CYP3A4 los
+metaboliza en el hígado antes de que lleguen al tumor, y es responsable
+del metabolismo de más del 50\,\% de los fármacos clínicos [@zanger2013].
+El receptor de transferrina (TfR1) y el receptor de folato (FR$\alpha$)
+están sobreexpresados en las células tumorales y se pueden usar como
+puerta de entrada para llevar nanopartículas específicamente al tumor.
+La lisozima es un indicador de compatibilidad tisular. Y la albúmina
+sérica (HSA) transporta los fármacos en sangre y determina cuánto
+tiempo circulan.
 
-Evaluar experimentalmente cómo interacciona cada componente de un DDS con
-estas seis proteínas es inviable a gran escala. El docking computacional,
-que simula cómo una molécula pequeña se une a una proteína, permite cribar
-cientos de moléculas antes de tocar un tubo de ensayo [@trott2010]. Los
-estudios existentes tienen limitaciones claras: se centran en una proteína,
-trabajan con conjuntos pequeños de moléculas, y ninguno integra cálculos
-cuánticos de estructura electrónica para obtener geometrías precisas como
-punto de partida [@maingi2012].
+Evaluar experimentalmente cómo interacciona cada componente de un DDS
+con estas seis proteínas es inviable a gran escala. El docking
+computacional, que simula cómo una molécula pequeña se une a una
+proteína, permite cribar cientos de moléculas antes de tocar un tubo
+de ensayo [@trott2010]. Los estudios existentes tienen limitaciones
+claras: se centran en una proteína, trabajan con conjuntos pequeños de
+moléculas, y ninguno integra cálculos mecanocuánticos de estructura
+electrónica para obtener geometrías precisas y propiedades como punto
+de partida [@maingi2012].
 
-Este trabajo construye una plataforma computacional para evaluar 58 moléculas
-representativas de nanopartículas poliméricas y dendrímeros frente a esas
-seis proteínas. Los objetivos concretos son: obtener geometrías moleculares
-precisas mediante cálculos DFT y perfiles de polaridad superficial
-(COSMO-RS) en clúster HPC; realizar docking sistemático con AutoDock
-Vina 1.2.5 y analizar las interacciones estructurales con PLIP 2025;
-calcular 2908 descriptores moleculares y propiedades ADMET con SwissADME;
-entrenar modelos de aprendizaje automático para predecir la afinidad de
-unión y clasificar moléculas para drug delivery; e implementar una
-herramienta web (Streamlit) que recomiende el carrier más adecuado para
-una molécula nueva.
+Este trabajo construye una plataforma computacional para evaluar 58
+moléculas representativas de nanopartículas poliméricas y dendrímeros
+frente a las seis proteínas descritas anteriormente. Los objetivos
+concretos son: obtener geometrías moleculares precisas y propiedades
+electrónicas mediante cálculos DFT y perfiles de polaridad superficial
+(COSMO-RS); realizar docking sistemático y analizar las interacciones
+estructurales con PLIP 2025; calcular descriptores moleculares y
+propiedades ADMET; entrenar modelos de aprendizaje automático para
+predecir la afinidad de unión y clasificar moléculas para drug
+delivery; e implementar una herramienta web que recomiende el carrier
+más adecuado para una molécula nueva.
