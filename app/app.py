@@ -565,10 +565,10 @@ with tab1:
             with col_2d:
                 st.markdown("**Estructura 2D**")
                 if DRAW_AVAILABLE:
-                img = Draw.MolToImage(mol_preview, size=(220, 180))
-                st.image(img)
-            else:
-                st.info("Visualización 2D no disponible en este entorno.")
+                    img = Draw.MolToImage(mol_preview, size=(220, 180))
+                    st.image(img)
+                else:
+                    st.info("Visualización 2D no disponible en este entorno.")
 
             with col_3d:
                 st.markdown("**Estructura 3D interactiva**")
