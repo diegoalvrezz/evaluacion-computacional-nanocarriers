@@ -15,11 +15,11 @@ tabla siguiente resume las cinco familias de descriptores.
 \toprule
 \textbf{Familia} & \textbf{Herramienta} & \textbf{Dimensión} \\
 \midrule
-Descriptores 2D           & RDKit \cite{rdkit}              &   38 \\
-Perfiles sigma COSMO-RS   & TURBOMOLE \cite{turbomole}      &  100 \\
-Fingerprints Morgan/ECFP4 & RDKit \cite{rdkit}              & 2048 \\
-MACCS keys                & RDKit \cite{rdkit}              &  167 \\
-Descriptores 3D Mordred   & Mordred \cite{moriwaki2018}     & 555$^*$ \\
+Descriptores 2D           & RDKit               &   38 \\
+Perfiles sigma COSMO-RS   & TURBOMOLE     &  100 \\
+Fingerprints Morgan/ECFP4 & RDKit               & 2048 \\
+MACCS keys                & RDKit               &  167 \\
+Descriptores 3D Mordred   & Mordred      & 555$^*$ \\
 \midrule
 \textbf{Total}            &                                 & \textbf{2908} \\
 \bottomrule
