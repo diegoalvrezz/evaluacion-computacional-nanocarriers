@@ -30,9 +30,9 @@ try:
     from rdkit.Chem import rdDepictor
     DRAW_AVAILABLE = True
 except Exception:
-    DRAW_AVAILABLE = False  # Desactivado en version cloud
+    DRAW_AVAILABLE = False
 
-
+import streamlit.components.v1 as components
 
 # ── Rutas ─────────────────────────────────────────────────────
 BASE_DIR   = Path(__file__).parent
@@ -238,7 +238,7 @@ def find_most_similar(mol, df_base):
 
 # ── Visualización 3D ──────────────────────────────────────────
 def show_3d_molecule(mol, style="stick"):
-    st.caption("Visualización 3D no disponible en entorno cloud.")
+    st.caption("Visualizacion 3D disponible solo en ejecucion local.")
 
 # ── Gráficas ──────────────────────────────────────────────────
 def make_radar(dg_dict, mol_name):
@@ -571,7 +571,13 @@ with tab1:
                     st.caption(f"2D no disponible: {e}")
 
             with col_3d:
-                st.caption("3D no disponible en cloud.")
+                st.markdown("**Estructura 3D interactiva**")
+                style_3d = st.selectbox("Estilo:",
+                    ["stick", "sphere", "surface"], key="style_preview")
+                try:
+                    show_3d_molecule(mol_preview, style=style_3d)
+                except Exception:
+                    st.info("No se pudo generar la estructura 3D.")
 
             with col_props:
                 st.markdown("**Propiedades**")
