@@ -93,7 +93,17 @@ def load_models():
 @st.cache_data
 def load_dataset():
     df     = pd.read_csv(DATA_DIR / "dataset_ML.csv")
-    df_iti = pd.read_csv(DATA_DIR / "resultados_ML" / "modelo2_ITI_corregido.csv")
+    # Buscar el CSV del ITI en varias rutas posibles
+    iti_paths = [
+        BASE_DIR / "modelo2_ITI_corregido.csv",
+        DATA_DIR / "modelo2_ITI_corregido.csv",
+        DATA_DIR / "resultados_ML" / "modelo2_ITI_corregido.csv",
+    ]
+    iti_path = next((p for p in iti_paths if p.exists()), None)
+    if iti_path is None:
+        st.error("No se encontró modelo2_ITI_corregido.csv")
+        st.stop()
+    df_iti = pd.read_csv(iti_path)
     df     = df.merge(df_iti[["nombre", "ITI_score"]], on="nombre", how="left")
     df["grupo_label"] = df["grupo"].map(GRUPO_LABELS).fillna(df["grupo"])
     return df
