@@ -22,11 +22,14 @@ from rdkit.Chem import Descriptors, rdMolDescriptors, AllChem
 from rdkit.Chem import rdFingerprintGenerator
 from rdkit import DataStructs
 
-# Draw via SVG - funciona sin display en Streamlit Cloud
+# Imagen 2D via PIL/Agg sin necesidad de display
 try:
-    from rdkit.Chem.Draw import rdMolDraw2D
+    import matplotlib
+    matplotlib.use('Agg')
+    from rdkit.Chem import Draw
+    from rdkit.Chem import rdDepictor
     DRAW_AVAILABLE = True
-except ImportError:
+except Exception:
     DRAW_AVAILABLE = False
 
 import py3Dmol
@@ -242,22 +245,27 @@ def show_3d_molecule(mol, style="stick"):
         AllChem.EmbedMolecule(mol_h, AllChem.ETKDGv3())
         AllChem.MMFFOptimizeMolecule(mol_h)
         mol_block = Chem.MolToMolBlock(mol_h)
-
-        viewer = py3Dmol.view(width=400, height=350)
-        viewer.addModel(mol_block, "mol")
+        mol_block_js = mol_block.replace("\n", "\\n").replace("'", "\'")
         if style == "stick":
-            viewer.setStyle({"stick": {}})
+            style_js = '{"stick": {}}'
         elif style == "sphere":
-            viewer.setStyle({"sphere": {"scale": 0.3}, "stick": {"radius": 0.1}})
-        elif style == "surface":
-            viewer.setStyle({"stick": {}})
-            viewer.addSurface(py3Dmol.VDW, {"opacity": 0.7})
-        viewer.setBackgroundColor("white")
-        viewer.zoomTo()
-        html_str = viewer._make_html()
-        components.html(html_str, height=350, width=400)
+            style_js = '{"sphere": {"scale": 0.3}, "stick": {"radius": 0.1}}'
+        else:
+            style_js = '{"stick": {}}'
+        html_3d = f"""
+        <div id="viewer" style="width:400px;height:350px;position:relative;"></div>
+        <script src="https://3dmol.org/build/3Dmol-min.js"></script>
+        <script>
+        let viewer = $3Dmol.createViewer("viewer", {{backgroundColor: "white"}});
+        viewer.addModel('{mol_block_js}', 'mol');
+        viewer.setStyle({{}}, {style_js});
+        viewer.zoomTo();
+        viewer.render();
+        </script>
+        """
+        components.html(html_3d, height=370, width=420)
     except Exception as e:
-        st.info(f"No se pudo generar la estructura 3D: {e}")
+        st.info(f"3D no disponible: {e}")
 
 # ── Gráficas ──────────────────────────────────────────────────
 def make_radar(dg_dict, mol_name):
@@ -582,19 +590,12 @@ with tab1:
 
             with col_2d:
                 st.markdown("**Estructura 2D**")
-                if DRAW_AVAILABLE:
-                    try:
-                        from rdkit.Chem import rdDepictor
-                        rdDepictor.Compute2DCoords(mol_preview)
-                        drawer = rdMolDraw2D.MolDraw2DSVG(220, 180)
-                        drawer.DrawMolecule(mol_preview)
-                        drawer.FinishDrawing()
-                        svg = drawer.GetDrawingText()
-                        st.image(svg.encode(), use_container_width=False)
-                    except Exception:
-                        st.info("Estructura 2D no disponible.")
-                else:
-                    st.info("Visualización 2D no disponible en este entorno.")
+                try:
+                    rdDepictor.Compute2DCoords(mol_preview)
+                    img2d = Draw.MolToImage(mol_preview, size=(220, 180))
+                    st.image(img2d)
+                except Exception as e:
+                    st.caption(f"2D no disponible: {e}")
 
             with col_3d:
                 st.markdown("**Estructura 3D interactiva**")
