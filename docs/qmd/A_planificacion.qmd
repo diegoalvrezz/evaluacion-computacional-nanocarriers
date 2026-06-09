@@ -47,10 +47,11 @@ Fase 7 & Semanas 13--16 & Implementación de la herramienta Streamlit.
 
 ### Infraestructura computacional
 
-Los cálculos cuánticos y de docking se ejecutaron en el clúster HPC CENITS
-(Centro Nacional de Información y Tecnología de Salud, Sevilla), con acceso
-por SSH y gestión de colas con SLURM. El equipo local fue un MacBook Air M2
-con 16 GB de RAM, usado para el análisis de datos, las figuras y la redacción.
+Los cálculos cuánticos y de docking se ejecutaron en el clúster HPC del
+Centro Extremeño de Investigación, Innovación Tecnológica y
+Supercomputación (CENITS), con acceso por SSH y gestión de colas con
+SLURM. El equipo local fue un MacBook Air M1 con 16\,GB de RAM, usado
+para el análisis de datos, las figuras y la redacción.
 
 \begin{table}[!h]
 \centering
@@ -66,7 +67,7 @@ RAM por nodo & 31 GB \\
 Gestor de colas & SLURM \\
 Tiempo de cómputo DFT & $\sim$3 semanas acumuladas \\
 Tiempo de cómputo docking & $\sim$4 días acumulados \\
-Equipo local & MacBook Air M2, 16 GB RAM \\
+Equipo local & MacBook Air M1, 16 GB RAM \\
 \bottomrule
 \end{tabular}
 \end{table}
