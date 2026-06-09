@@ -572,8 +572,6 @@ with tab1:
 
             with col_3d:
                 st.caption("3D no disponible en cloud.")
-                except Exception:
-                    st.info("No se pudo generar la estructura 3D.")
 
             with col_props:
                 st.markdown("**Propiedades**")
