@@ -637,15 +637,15 @@ with tab1:
                 if mol_sim:
                     if DRAW_AVAILABLE:
                         try:
-                        from rdkit.Chem import rdDepictor
-                        rdDepictor.Compute2DCoords(mol_sim)
-                        drawer = rdMolDraw2D.MolDraw2DSVG(180, 140)
-                        drawer.DrawMolecule(mol_sim)
-                        drawer.FinishDrawing()
-                        svg_sim = drawer.GetDrawingText()
-                        st.image(svg_sim.encode(), caption=sim_name)
-                    except Exception:
-                        pass
+                            from rdkit.Chem import rdDepictor
+                            rdDepictor.Compute2DCoords(mol_sim)
+                            drawer = rdMolDraw2D.MolDraw2DSVG(180, 140)
+                            drawer.DrawMolecule(mol_sim)
+                            drawer.FinishDrawing()
+                            svg_sim = drawer.GetDrawingText()
+                            st.image(svg_sim.encode(), caption=sim_name)
+                        except Exception:
+                            pass
         else:
             st.error("SMILES no valido.")
             smiles_input = ""
