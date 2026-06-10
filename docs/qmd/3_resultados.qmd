@@ -16,7 +16,7 @@ apolar. Los resultados mostraron patrones claros por grupo: la doxorrubicina
 (fármaco modelo) presenta una distribución ancha que se extiende por toda
 la región polar, mientras que el ácido láctico (monómero de degradación)
 concentra su densidad cerca de $\sigma \approx 0$
-(figura~\ref{fig:sigma_profiles_contraste.png}).
+(figura \ref{fig:sigma_profiles_contraste.png}).
 
 ```{=latex}
 \imagen{sigma_profiles_contraste.png}{Perfiles sigma COSMO-RS de la
@@ -28,7 +28,7 @@ láctico.}{1.0}
 
 ## Acoplamiento molecular
 
-La figura~\ref{fig:heatmap_docking.png} muestra la matriz de afinidad completa,
+La figura \ref{fig:heatmap_docking.png} muestra la matriz de afinidad completa,
 en la que cada celda representa la energía de unión $\Delta G$ (kcal/mol)
 de la pose más favorable (modo 1) obtenida por AutoDock Vina para un par
 molécula-proteína determinado: valores más negativos indican mayor afinidad
@@ -52,14 +52,14 @@ kcal/mol) para las 57 moléculas frente a las 6 proteínas. Verde oscuro = alta
 afinidad, rojo = baja afinidad.}{1.0}
 ```
 
-El mapa de correlaciones (figura~\ref{fig:correlacion_proteinas.png}), que
+El mapa de correlaciones (figura \ref{fig:correlacion_proteinas.png}), que
 permite identificar si las moléculas que se unen bien a una proteína
 tienden también a unirse bien a las demás, muestra que P-gp, TfR1,
 FR$\alpha$ y HSA están muy correlacionadas entre sí (correlación de
 Pearson $r$ entre 0,90 y 0,95). La correlación más baja es entre CYP3A4
 y Lisozima ($r = 0{,}73$), lo que tiene sentido dado que sus mecanismos de
 reconocimiento son distintos. La figura de dispersión $\Delta G$ frente a
-peso molecular (figura~\ref{fig:scatter_docking_MW.png}), que permite
+peso molecular (figura \ref{fig:scatter_docking_MW.png}), que permite
 conocer en qué medida el tamaño molecular determina la afinidad de unión,
 confirma la tendencia general: las moléculas más grandes se unen con mayor
 afinidad a todas las proteínas debido a la existencia de más sitios de
@@ -80,7 +80,7 @@ molecular para las seis proteínas, coloreado por grupo molecular.}{1.0}
 ## Análisis de interacciones proteína-ligando (PLIP)
 
 El análisis de los 15 complejos generó 708 contactos no covalentes en total
-(figura~\ref{fig:plip_interacciones_pro.png}). FR$\alpha$, el receptor de
+(figura \ref{fig:plip_interacciones_pro.png}). FR$\alpha$, el receptor de
 folato que se sobreexpresa en tumores de ovario y mama, concentra la mayor
 parte: 515 contactos, de los que 340 son puentes de hidrógeno. Los residuos
 SER174 (67 contactos) y ARG103 (64) son los más implicados; ambos son
@@ -128,7 +128,7 @@ FR$\alpha$ y el resto. El modelo entrena sobre esos 200 descriptores
 seleccionados mediante un pipeline independiente por proteína.
 
 Random Forest fue el modelo más preciso para la mayoría de los casos,
-con la excepción de HSA (figura~\ref{fig:r2_por_proteina.png}).
+con la excepción de HSA (figura \ref{fig:r2_por_proteina.png}).
 R$^2 = 0{,}817$ en P-gp (MAE = $0{,}426$ kcal/mol), $0{,}753$ en TfR1 y
 $0{,}712$ en Lisozima superan el umbral de $0{,}7$ que se considera
 aceptable para modelos cuantitativos de actividad. En CYP3A4 ($0{,}62$),
@@ -138,7 +138,7 @@ FR$\alpha$ ($0{,}53$) y HSA ($0{,}65$) el rendimiento es más modesto. Con
 competitivo en TfR1 (R$^2 = 0{,}742$) y P-gp ($0{,}746$).
 
 Los puntos con mayor error de predicción en la figura de predicción
-vs.\ real (figura~\ref{fig:predicted_vs_real.png}) son Paclitaxel y
+vs.\ real (figura \ref{fig:predicted_vs_real.png}) son Paclitaxel y
 Condroitín sulfato disacárido en P-gp, que se utiliza para modelar
 interacciones con glicosaminoglicanos en la superficie celular,
 probablemente porque su complejidad estructural está fuera del rango
@@ -164,7 +164,7 @@ afinidad por P-gp (expulsión) y CYP3A4 (metabolismo), y premia la afinidad
 por TfR1 y FR$\alpha$ (entrada en células tumorales), HSA (transporte en
 sangre) y lisozima (compatibilidad con tejidos).
 
-El ranking (figura~\ref{fig:iti_top20.png}) lo encabeza Triethylene glycol
+El ranking (figura \ref{fig:iti_top20.png}) lo encabeza Triethylene glycol
 (PEG, ITI\,=\,100), seguido de Tetraethylenepentamine ($87{,}3$),
 Pentaethylenehexamine ($85{,}0$), Chitotriose ($84{,}7$), Chitobiose
 ($82{,}7$), D-Galactose ($81{,}7$) y D-Mannose ($81{,}7$). Los fármacos
@@ -175,11 +175,11 @@ modelo quedan al final del dataset porque tienen alta afinidad por P-gp.
 por grupo molecular.}{0.95}
 ```
 
-La distribución por grupos (figura~\ref{fig:distribucion_ITI_grupos.png})
+La distribución por grupos (figura \ref{fig:distribucion_ITI_grupos.png})
 muestra qué ligandos de targeting y oligómeros tienen medianas de los
 valores ITI alrededor de 70--72, los monómeros de degradación en torno
 a 60, y los fármacos modelo cerca de 42 con alta variabilidad. Las
-figuras~\ref{fig:radar_top8_parte1.png} y~\ref{fig:radar_top8_parte2.png},
+figuras \ref{fig:radar_top8_parte1.png} y \ref{fig:radar_top8_parte2.png},
 que representan el perfil de afinidad de las ocho moléculas con mayor
 ITI en forma de diagrama radar, ilustran el patrón de Triethylene glycol:
 radio pequeño en P-gp y CYP3A4, moderado en TfR1 y FR$\alpha$.
@@ -202,7 +202,7 @@ del ranking ITI.}{1.0}
 ## Clasificador y valores SHAP
 
 Las curvas ROC con bandas de confianza se muestran en la
-figura~\ref{fig:curva_ROC.png}. Un AUC cercano a 1 significa que el modelo
+figura \ref{fig:curva_ROC.png}. Un AUC cercano a 1 significa que el modelo
 separa casi perfectamente moléculas favorables de desfavorables.
 Gradient Boosting obtuvo AUC-ROC = $0{,}983$, Accuracy = $0{,}965$ y
 F1 = $0{,}966$, donde el AUC-ROC mide la capacidad discriminativa del
@@ -215,7 +215,7 @@ Accuracy = $0{,}896$.
 
 El análisis SHAP muestra qué descriptores moleculares son los más
 importantes para predecir la afinidad por P-gp
-(figura~\ref{fig:shap_importancia.png}). BertzCT, que mide la complejidad
+(figura \ref{fig:shap_importancia.png}). BertzCT, que mide la complejidad
 topológica de una molécula cuantificando el número de caminos distintos
 en su grafo molecular --- representación abstracta de la estructura
 química en la que los átomos son nodos y los enlaces son aristas ---,
@@ -242,7 +242,7 @@ principales según SHAP para el modelo de P-gp MDR1.}{0.85}
 
 ## Propiedades ADMET
 
-El análisis ADMET con SwissADME (figura~\ref{fig:admet_completo.png}) mide
+El análisis ADMET con SwissADME (figura \ref{fig:admet_completo.png}) mide
 propiedades farmacológicas clave: qué porcentaje de moléculas de cada
 grupo se absorbe bien en el intestino (GI absorption), cuántas son
 expulsadas por P-gp, y qué índice de biodisponibilidad oral tienen.
